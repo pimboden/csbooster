@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="CommandByActivity">
+        <value><![CDATA[Am aktivisten]]></value>
+    </data>
+    <data name="CommandByComments">
+        <value><![CDATA[Am meisten kommentiert]]></value>
+    </data>
+    <data name="CommandByDate">
+        <value><![CDATA[Am neusten]]></value>
+    </data>
+    <data name="CommandByLinks">
+        <value><![CDATA[Am meisten verlinkt]]></value>
+    </data>
+    <data name="CommandByRatings">
+        <value><![CDATA[Am besten bewertet]]></value>
+    </data>
+    <data name="CommandByVisits">
+        <value><![CDATA[Am meisten besucht]]></value>
+    </data>
+  <data name="CommandContent">
+    <value><![CDATA[Inhalte hinzufügen]]></value>
+  </data>
+    <data name="CommandeShowOverview">
+        <value><![CDATA[Übersicht zeigen]]></value>
+    </data>
+  <data name="CommandLayout">
+    <value><![CDATA[Layout auswählen]]></value>
+  </data>
+    <data name="CommandLogin">
+        <value><![CDATA[Anmelden]]></value>
+    </data>
+    <data name="CommandNaviHelp">
+        <value><![CDATA[Hilfe]]></value>
+    </data>
+    <data name="CommandNaviLogin">
+        <value><![CDATA[Anmelden]]></value>
+    </data>
+    <data name="CommandNaviLogout">
+        <value><![CDATA[abmelden]]></value>
+    </data>
+    <data name="CommandNaviProfile">
+        <value><![CDATA[Meine Profilseite]]></value>
+    </data>
+    <data name="CommandNaviRegister">
+        <value><![CDATA[Registrieren]]></value>
+    </data>
+    <data name="CommandOpenIDLogin">
+        <value><![CDATA[OpenID Login]]></value>
+    </data>
+  <data name="CommandPageDraftToPublic">
+    <value><![CDATA[Status von 'Entwurf' auf <b>Publiziert</b> setzen]]></value>
+  </data>
+  <data name="CommandPageMyContent">
+    <value><![CDATA[Inhalte verwalten]]></value>
+  </data>
+  <data name="CommandPagePublicToDraft">
+    <value><![CDATA[Status von 'Publiziert' auf <b>Entwurf</b> setzen]]></value>
+  </data>
+    <data name="CommandPasswordForget">
+        <value><![CDATA[Passwort vergessen?]]></value>
+    </data>
+    <data name="CommandSetDefault">
+        <value><![CDATA[Zurücksetzen]]></value>
+    </data>
+    <data name="CommandShowOriginal">
+        <value><![CDATA[Orginal laden]]></value>
+    </data>
+  <data name="CommandSiteAdmin">
+    <value><![CDATA[Site Administration]]></value>
+  </data>
+  <data name="CommandStyle">
+    <value><![CDATA[Style anpassen]]></value>
+  </data>
+  <data name="CommandTabNewPage">
+    <value><![CDATA[Neue Seite hinzufügen]]></value>
+  </data>
+  <data name="CommandTheme">
+    <value><![CDATA[Theme auswählen]]></value>
+  </data>
+    <data name="CommandWathIsIt">
+        <value><![CDATA[Was ist das?]]></value>
+    </data>
+  <data name="CommandWidgets">
+    <value><![CDATA[Funktionen hinzufügen]]></value>
+  </data>
+    <data name="LabelAdminLinkActivities">
+        <value><![CDATA[Aktivitäten]]></value>
+    </data>
+    <data name="LabelAdminLinkAlerts">
+        <value><![CDATA[Alerts]]></value>
+    </data>
+    <data name="LabelAdminLinkBoard">
+        <value><![CDATA[Board]]></value>
+    </data>
+    <data name="LabelAdminLinkComments">
+        <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="LabelAdminLinkContent">
+        <value><![CDATA[Inhalte]]></value>
+    </data>
+    <data name="LabelAdminLinkFavorites">
+        <value><![CDATA[Favoriten]]></value>
+    </data>
+    <data name="LabelAdminLinkFriends">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="LabelAdminLinkMembership">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="LabelAdminLinkMessages">
+        <value><![CDATA[Nachrichten]]></value>
+    </data>
+    <data name="LabelAdminLinkProfile">
+        <value><![CDATA[Profil-Einstellungen]]></value>
+    </data>
+    <data name="LabelAdminLinkProfileEdit">
+        <value><![CDATA[Profilseite editieren]]></value>
+    </data>
+    <data name="LabelAdminLinkProfileShow">
+        <value><![CDATA[Profilseite anzeigen]]></value>
+    </data>
+  <data name="labelbackgroundcolor">
+    <value><![CDATA[Hintergrundfarbe]]></value>
+  </data>
+  <data name="labelbackgroundimage">
+    <value><![CDATA[Hintergrundbild]]></value>
+  </data>
+  <data name="labelborder">
+    <value><![CDATA[Rahmen]]></value>
+  </data>
+  <data name="LabelChooseObjects">
+    <value><![CDATA[Objekte auswählen]]></value>
+  </data>
+  <data name="LabelChoosePicture">
+        <value><![CDATA[Fotos auswählen]]></value>
+  </data>
+  <data name="LabelChooseVideo">
+    <value><![CDATA[Videos auswählen]]></value>
+  </data>
+  <data name="LabelCopyright">
+    <value><![CDATA[Urheberrechte]]></value>
+  </data>
+  <data name="labeleditstyle">
+    <value><![CDATA[Style editieren]]></value>
+  </data>
+    <data name="LabelFacebookConnect">
+        <value><![CDATA[]]></value>
+    </data>
+  <data name="labelhorizontal">
+    <value><![CDATA[Horizontal]]></value>
+  </data>
+  <data name="labellinestyledashed">
+    <value><![CDATA[Gestrichelt]]></value>
+  </data>
+  <data name="labellinestylesolid">
+    <value><![CDATA[Durchgezogen]]></value>
+  </data>
+  <data name="labellinkcolor">
+    <value><![CDATA[Linkfarbe]]></value>
+  </data>
+  <data name="LabelLoadTemplate">
+    <value><![CDATA[Vorlage laden]]></value>
+  </data>
+    <data name="LabelOverviewNotFoundPart1">
+        <value><![CDATA[Keine]]></value>
+    </data>
+    <data name="LabelOverviewNotFoundPart2">
+        <value><![CDATA[gefunden]]></value>
+    </data>
+    <data name="LabelRatingNotRated">
+        <value><![CDATA[Keine Bewertungen]]></value>
+    </data>
+    <data name="LabelRatingRatedPlural">
+        <value><![CDATA[Bewertungen]]></value>
+    </data>
+    <data name="LabelRatingRatedSingular">
+        <value><![CDATA[Bewertung]]></value>
+    </data>
+  <data name="LabelRelatedObjects">
+    <value><![CDATA[Zugewiesene Objekte]]></value>
+  </data>
+  <data name="LabelRelatedPicture">
+        <value><![CDATA[Ausgewählte Fotos]]></value>
+  </data>
+  <data name="LabelRelatedVideo">
+    <value><![CDATA[Ausgewählte Videos]]></value>
+  </data>
+  <data name="labelrepetition">
+    <value><![CDATA[Wiederholung]]></value>
+  </data>
+  <data name="LabelSaveTemplate">
+    <value><![CDATA[Vorlage speichern]]></value>
+  </data>
+  <data name="LabelSettings">
+    <value><![CDATA[Toolbar]]></value>
+  </data>
+  <data name="LabelTagSuggestions">
+    <value><![CDATA[Tags]]></value>
+  </data>
+  <data name="labeltextcolor">
+    <value><![CDATA[Textfarbe]]></value>
+  </data>
+  <data name="labelvertical">
+    <value><![CDATA[Vertikal]]></value>
+  </data>
+  <data name="LabelWidgetFixed">
+    <value><![CDATA[Fixiert]]></value>
+  </data>
+  <data name="LabelWidgetHeadingNo">
+    <value><![CDATA[keiner]]></value>
+  </data>
+  <data name="labelwidgetheadingtag">
+    <value><![CDATA[Heading Tag]]></value>
+  </data>
+  <data name="LabelWidgetOutputTemplates">
+    <value><![CDATA[Vorlagen]]></value>
+  </data>
+  <data name="LabelWidgetVisibilityRoles">
+    <value><![CDATA[Sichtbarkeit für]]></value>
+  </data>
+  <data name="LableDetailComment">
+    <value><![CDATA[Kommentar]]></value>
+  </data>
+  <data name="LableDetailComments">
+    <value><![CDATA[Kommentare]]></value>
+  </data>
+  <data name="LableDetailCreateDate">
+    <value><![CDATA[Erstellung]]></value>
+  </data>
+  <data name="LableDetailEndDate">
+    <value><![CDATA[End-Datum]]></value>
+  </data>
+  <data name="LableDetailNoComments">
+    <value><![CDATA[Keine Kommentare]]></value>
+  </data>
+  <data name="LableDetailNone">
+    <value><![CDATA[Keine]]></value>
+  </data>
+  <data name="LableDetailNoRatings">
+    <value><![CDATA[Keine Bewertungen]]></value>
+  </data>
+  <data name="LableDetailNoVisits">
+    <value><![CDATA[Keine Besuche]]></value>
+  </data>
+  <data name="LableDetailRating">
+    <value><![CDATA[Bewertung]]></value>
+  </data>
+  <data name="LableDetailRatings">
+    <value><![CDATA[Bewertungen]]></value>
+  </data>
+  <data name="LableDetailStartDate">
+    <value><![CDATA[Start-Datum]]></value>
+  </data>
+  <data name="LableDetailTags">
+    <value><![CDATA[Tags]]></value>
+  </data>
+  <data name="LableDetailVisit">
+    <value><![CDATA[Besuch]]></value>
+  </data>
+  <data name="LableDetailVisits">
+    <value><![CDATA[Besuche]]></value>
+  </data>
+    <data name="LableEdit">
+        <value><![CDATA[bearbeiten]]></value>
+    </data>
+    <data name="LableEditMyFavorites">
+        <value><![CDATA[meine Favoriten verwalten]]></value>
+    </data>
+  <data name="LableFormCode">
+    <value><![CDATA[Sicherheitscode]]></value>
+  </data>
+  <data name="LableFormEnterCode">
+    <value><![CDATA[Code eingeben]]></value>
+  </data>
+  <data name="LableFormSaveAddress">
+    <value><![CDATA[Möchten Sie die Adresse speichern]]></value>
+  </data>
+  <data name="LableFriendVisibility">
+    <value><![CDATA[Freigabe]]></value>
+  </data>
+    <data name="LableInfoCard">
+        <value><![CDATA[Info Card]]></value>
+    </data>
+    <data name="LableLogin">
+        <value><![CDATA[Benutzername]]></value>
+    </data>
+    <data name="LableMailToAll">
+        <value><![CDATA[Mail an alle]]></value>
+    </data>
+    <data name="LableMyFavorites">
+        <value><![CDATA[Meine Favoriten]]></value>
+    </data>
+    <data name="LableOpenID">
+        <value><![CDATA[OpenID]]></value>
+    </data>
+    <data name="LableOwnersAndMembers">
+        <value><![CDATA[Mitglieder / Eigentümer]]></value>
+    </data>
+    <data name="LablePassword">
+        <value><![CDATA[Passwort]]></value>
+    </data>
+  <data name="LableProfile">
+    <value><![CDATA[Mein Profil]]></value>
+  </data>
+    <data name="LableRemeberMeNextTime">
+        <value><![CDATA[Angemeldet bleiben]]></value>
+    </data>
+  <data name="LableSearchCity">
+    <value><![CDATA[Ort]]></value>
+  </data>
+  <data name="LableSearchCountry">
+    <value><![CDATA[Land]]></value>
+  </data>
+  <data name="LableSearchRegion">
+    <value><![CDATA[Umkreis]]></value>
+  </data>
+  <data name="LableSearchSearch">
+    <value><![CDATA[Suchbegriff]]></value>
+  </data>
+  <data name="LableStyleBody">
+    <value><![CDATA[Body]]></value>
+  </data>
+  <data name="LableStyleColor">
+    <value><![CDATA[Farbe]]></value>
+  </data>
+    <data name="LableStyleCurrentCommunity">
+        <value><![CDATA[Layout / Style]]></value>
+    </data>
+  <data name="LableStyleFooter">
+    <value><![CDATA[Fusszeile]]></value>
+  </data>
+  <data name="LableStyleHeader">
+    <value><![CDATA[Kopfzeile]]></value>
+  </data>
+  <data name="LableStyleHeight">
+    <value><![CDATA[Höhe in Pixel]]></value>
+  </data>
+  <data name="LableStyleHori">
+    <value><![CDATA[Horizontal]]></value>
+  </data>
+  <data name="LableStylePicture">
+    <value><![CDATA[Bild]]></value>
+  </data>
+  <data name="LableStyleRepeat">
+    <value><![CDATA[Wiederholung]]></value>
+  </data>
+  <data name="LableStyleVerti">
+    <value><![CDATA[Vertikal]]></value>
+  </data>
+  <data name="LableTaggingCategory">
+    <value><![CDATA[Kategorie]]></value>
+  </data>
+  <data name="LableTaggingFree">
+    <value><![CDATA[Freies Tag]]></value>
+  </data>
+  <data name="LableTaggingSubCategory">
+    <value><![CDATA[Unterkategorie]]></value>
+  </data>
+  <data name="LableVisibility">
+    <value><![CDATA[Privatsphäre]]></value>
+  </data>
+  <data name="LableVisibilityManaged0">
+    <value><![CDATA[Neue Inhalte werden automatisch freigeschaltet]]></value>
+  </data>
+  <data name="LableVisibilityManaged1">
+    <value><![CDATA[Neue Inhalte müsssen manuell freigeschaltet werden]]></value>
+  </data>
+  <data name="LableVisibilityRelease">
+    <value><![CDATA[Freigabe]]></value>
+  </data>
+  <data name="LableVisibilityRole">
+    <value><![CDATA[Sichtbarkeit für]]></value>
+  </data>
+  <data name="LableVisibilityStatus">
+    <value><![CDATA[Status]]></value>
+  </data>
+  <data name="LableVisibilityVisibility0">
+    <value><![CDATA[Inhalte sind für alle sichtbar]]></value>
+  </data>
+  <data name="LableVisibilityVisibility1">
+    <value><![CDATA[Inhalte sind nur für mich oder meine Freunde sichtbar]]></value>
+  </data>
+  <data name="LableVisibilityVisibility2">
+    <value><![CDATA[Inhalte weden nicht aufgelistet]]></value>
+  </data>
+  <data name="LableWidgetGroup0">
+    <value><![CDATA[Info]]></value>
+  </data>
+  <data name="LableWidgetGroup1">
+    <value><![CDATA[Details]]></value>
+  </data>
+  <data name="LableWidgetGroup2">
+    <value><![CDATA[Übersichten]]></value>
+  </data>
+  <data name="LableWidgetGroup3">
+    <value><![CDATA[Andere]]></value>
+  </data>
+  <data name="LableWidgetMessages">
+    <value><![CDATA[Mitteilungen]]></value>
+  </data>
+  <data name="LableWidgetProperties">
+    <value><![CDATA[Widget-Einstellungen]]></value>
+  </data>
+  <data name="LableWidgetTitle">
+    <value><![CDATA[Ziehen (drag and drop) Sie die gewünschten Widgets in die Platzhalter auf der Seite]]></value>
+  </data>
+    <data name="LinkOriginalOwner">
+        <value><![CDATA[Orginal von]]></value>
+    </data>
+    <data name="MessageClickerNoCommunity">
+        <value><![CDATA[Sie haben noch keine Community gegründet.]]></value>
+    </data>
+    <data name="MessageClickerNoFriends">
+        <value><![CDATA[Sie haben noch keine Freunde.]]></value>
+    </data>
+    <data name="MessageClickerNoMembership">
+        <value><![CDATA[Diese Community hat noch keine Mitglieder.]]></value>
+    </data>
+    <data name="MessageClickerNotMember">
+        <value><![CDATA[Sie sind noch in keiner Community Mitglied.]]></value>
+    </data>
+    <data name="MessageClickerNoVisits">
+        <value><![CDATA[Noch kein Benutzer hat diese Community besucht.]]></value>
+    </data>
+  <data name="MessageFormCodeMust">
+    <value><![CDATA[Bitte die angezeigten Zeichen eingeben.]]></value>
+  </data>
+  <data name="MessageFormCodeWrong">
+    <value><![CDATA[Der Sicherheitscode war falsch]]></value>
+  </data>
+  <data name="MessageFormSent">
+    <value><![CDATA[Danke! Ihre Eingaben wurden übermittelt.]]></value>
+  </data>
+    <data name="MessageInfoCardMissing">
+        <value><![CDATA[Keine Information Card gesendet!]]></value>
+    </data>
+    <data name="MessageLoginNotSuccess">
+        <value><![CDATA[<div style="color: red;font-weight: bold;">Anmeldung fehlgeschlagen!</div>]]></value>
+    </data>
+    <data name="MessageNoInfoCard">
+        <value><![CDATA[Ihr Browser/System unterstützt keine Info Cards!]]></value>
+    </data>
+    <data name="MessageNotAuthenticated">
+        <value><![CDATA[Sie sind nicht angemeldet]]></value>
+    </data>
+    <data name="MessageNotLoad">
+        <value><![CDATA[{0} kann nicht geladen werden!]]></value>
+    </data>
+    <data name="MessageOpenIDLoginCancel">
+        <value><![CDATA[Anmeldung mit OpenID abgebrochen!]]></value>
+    </data>
+    <data name="MessageOpenIDLoginNotSuccess">
+        <value><![CDATA[Anmeldung mit OpenID fehlgeschlagen!]]></value>
+    </data>
+    <data name="MessageOpenIDMissing">
+        <value><![CDATA[Keine OpenID angegeben!]]></value>
+    </data>
+    <data name="MessageOpenIDNoDataReceived">
+        <value><![CDATA[Ihr OpenID Provider lieferte die Email Adresse und Nickname nicht zurück!]]></value>
+    </data>
+  <data name="MessageStyleNoColor">
+    <value><![CDATA[Keine Farbe ausgewählt]]></value>
+  </data>
+  <data name="MessageStyleNotSave">
+    <value><![CDATA[<span class='updateProgress'>Style konnte nicht gespeichert werden</span>]]></value>
+  </data>
+  <data name="MessageStyleSave">
+    <value><![CDATA[<span class='updateProgress'>Style gespeichert</span>]]></value>
+  </data>
+  <data name="MessageTabDeletePageConfirm">
+    <value><![CDATA[Soll diese Seite wirklich gelöscht werden?]]></value>
+  </data>
+  <data name="MessageVisibilityTransmit">
+    <value><![CDATA[Sichbarkeit wird vererbt]]></value>
+  </data>
+    <data name="SharedUserPlural">
+        <value><![CDATA[teilnehmende Benutzer]]></value>
+    </data>
+    <data name="SharedUserSingular">
+        <value><![CDATA[teilnehmender Benutzer]]></value>
+    </data>
+  <data name="TextFormFields">
+    <value><![CDATA[Felder]]></value>
+  </data>
+  <data name="TextFormOptions">
+    <value><![CDATA[Optionen]]></value>
+  </data>
+  <data name="TextFriendType1">
+    <value><![CDATA[Familie]]></value>
+  </data>
+  <data name="TextFriendType128">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TextFriendType16">
+    <value><![CDATA[Sonstige]]></value>
+  </data>
+  <data name="TextFriendType2">
+    <value><![CDATA[Arbeit]]></value>
+  </data>
+  <data name="TextFriendType256">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TextFriendType32">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TextFriendType4">
+    <value><![CDATA[Schule]]></value>
+  </data>
+  <data name="TextFriendType512">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TextFriendType64">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TextFriendType8">
+    <value><![CDATA[Freizeit]]></value>
+  </data>
+  <data name="TextTabUnnamed">
+    <value><![CDATA[Unbenannt]]></value>
+  </data>
+  <data name="textwidgetpreviewcontent">
+    <value><![CDATA[Inhalt<br/>Text text text<br/><a href="javascript:void(0)">Link link link</a>]]></value>
+  </data>
+  <data name="textwidgetpreviewfooter">
+    <value><![CDATA[&nbsp;]]></value>
+  </data>
+  <data name="textwidgetpreviewtitle">
+    <value><![CDATA[Kopfzeile]]></value>
+  </data>
+  <data name="TitleCopyright">
+    <value><![CDATA[Urheberrechte]]></value>
+  </data>
+  <data name="TitleCustomizeContent">
+    <value><![CDATA[Funktionen und Inhalte hinzufügen]]></value>
+  </data>
+  <data name="TitleCustomizeStyle">
+    <value><![CDATA[Layout und Style anpassen]]></value>
+  </data>
+  <data name="TitleDetail">
+    <value><![CDATA[Details]]></value>
+  </data>
+  <data name="TitleLayoutSelect">
+    <value><![CDATA[Wähle ein Layout aus]]></value>
+  </data>
+  <data name="TitlePanelContent">
+    <value><![CDATA[Inhalt]]></value>
+  </data>
+  <data name="TitlePanelEditStyle">
+    <value><![CDATA[Style editieren]]></value>
+  </data>
+  <data name="TitlePanelFooter">
+    <value><![CDATA[Fusszeile]]></value>
+  </data>
+  <data name="TitlePanelHeader">
+    <value><![CDATA[Header]]></value>
+  </data>
+  <data name="titlepreview">
+    <value><![CDATA[Vorschau]]></value>
+  </data>
+    <data name="TitleProfileSettings">
+        <value><![CDATA[Profil-Einstellungen]]></value>
+    </data>
+    <data name="TitleRating">
+        <value><![CDATA[Bewerten]]></value>
+    </data>
+  <data name="TitleSettings">
+    <value><![CDATA[Einstellungen]]></value>
+  </data>
+  <data name="TitleStyle">
+    <value><![CDATA[Gestalten Sie diese Seite nach Ihren Wünschen]]></value>
+  </data>
+  <data name="TitleStyleSelectPicture">
+    <value><![CDATA[Bild auswählen]]></value>
+  </data>
+  <data name="TitleTagging">
+    <value><![CDATA[Tagging]]></value>
+  </data>
+  <data name="TitleTemplates">
+    <value><![CDATA[Vorlagen]]></value>
+  </data>
+  <data name="TitleThemeSelect">
+    <value><![CDATA[Wähle ein Thema aus]]></value>
+  </data>
+  <data name="TitleVisibility">
+    <value><![CDATA[Sichtbarkeit]]></value>
+  </data>
+  <data name="TitleWidgetDesign">
+    <value><![CDATA[Design]]></value>
+  </data>
+  <data name="TitleWidgetOutput">
+    <value><![CDATA[Ausgabe]]></value>
+  </data>
+  <data name="TitleWidgetSettings">
+    <value><![CDATA[Einstellungen]]></value>
+  </data>
+  <data name="tooltipbackgroundcolor">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="tooltipbackgroundimage">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="tooltipborder">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipChooseObjects">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipChoosePicture">
+        <value><![CDATA[Ziehen Sie die gewünschten Fotos in die untere Box]]></value>
+  </data>
+  <data name="TooltipChooseVideo">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipCopyright">
+    <value><![CDATA[Hinweis zu der weiteren Verwendung (keine Funktion)]]></value>
+  </data>
+  <data name="TooltipFriendVisibility">
+    <value><![CDATA[Freigabe für Freunde]]></value>
+  </data>
+  <data name="TooltipIsFavorite">
+    <value><![CDATA[aus meiner Favoritenliste entfernen]]></value>
+  </data>
+  <data name="TooltipIsNotFavorite">
+    <value><![CDATA[zu meiner Favoritenliste hinzufügen]]></value>
+  </data>
+  <data name="tooltiplinkcolor">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="tooltiploadtemplate">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipLoginForFavorites">
+    <value><![CDATA[Melden Sie sich an um Favoriten zu erstellen]]></value>
+  </data>
+  <data name="TooltipNavigationEdit">
+    <value><![CDATA[Navigationen anpassen]]></value>
+  </data>
+  <data name="TooltipRelatedObjects">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipRelatedPicture">
+        <value><![CDATA[Ordnen Sie die Fotos um oder entfernen Sie Fotos]]></value>
+    </data>
+    <data name="TooltipRelatedVideo">
+        <value><![CDATA[]]></value>
+  </data>
+  <data name="tooltiprepetition">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="tooltipsavetemplate">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipTabDeletePage">
+    <value><![CDATA[Seite löschen]]></value>
+  </data>
+  <data name="TooltipTabEditTitle">
+    <value><![CDATA[Titel ändern]]></value>
+  </data>
+  <data name="TooltipTabSaveTitle">
+    <value><![CDATA[Titel speichern]]></value>
+  </data>
+  <data name="TooltipTagSuggestions">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="tooltiptextcolor">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipVisibility">
+    <value><![CDATA[Hier wird die Sichtbarkeit der Inhalte eingstellt.]]></value>
+  </data>
+  <data name="TooltipVisibilityRelease">
+    <value><![CDATA[Hier wird eingestellt, ob die Inhalte automatisch freigegeben werden.]]></value>
+  </data>
+  <data name="TooltipVisibilityRole">
+    <value><![CDATA[Hier werden die Rollen ausgewählt, welche die Inhalte betrachten dürfen.]]></value>
+  </data>
+  <data name="TooltipVisibilityStatus">
+    <value><![CDATA[Hier wird der Status eingestellt.]]></value>
+  </data>
+  <data name="TooltipWidgetFixed">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="Tooltipwidgetheadingtag">
+    <value><![CDATA[Heading Tag mit welchem der Titel umschlossen wird]]></value>
+  </data>
+  <data name="TooltipWidgetOutputTemplates">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipWidgetVisibilityRoles">
+    <value><![CDATA[]]></value>
+  </data>
+    <data name="ToottipRatingAllreadyVoted">
+        <value><![CDATA[Diesen Inhalte haben Sie schon bewertet]]></value>
+  </data>
+    <data name="ToottipRatingIsAnonymous">
+        <value><![CDATA[Melden Sie sich an, um diesen Inhalt zu bewerten]]></value>
+    </data>
+    <data name="ToottipRatingMyOwn">
+        <value><![CDATA[Ihre eigenen Inhalte können Sie nicht bewerten]]></value>
+    </data>
+    <data name="ToottipRatingValue">
+        <value><![CDATA[Eine {0} geben]]></value>
+    </data>
+    <data name="CommandLoadMore">
+        <value><![CDATA[Weitere {0}]]></value>
+    </data>
+</root>

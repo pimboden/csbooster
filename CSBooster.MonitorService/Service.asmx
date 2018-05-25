@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="Service.asmx.cs" Class="_4screen.CSB.MonitorService.Service" %>

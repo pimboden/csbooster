@@ -1,0 +1,334 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACB74BEB-A75F-4427-B183-CE7D49F149F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_4screen.CSB.DataAccess</RootNamespace>
+    <AssemblyName>CSBooster.DataAccess</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug + Copy|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SubSonic, Version=2.1.0.0, Culture=neutral, PublicKeyToken=eadb47849839a332, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\SubSonic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Background\BackgroundJobs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Comment.cs" />
+    <Compile Include="Business\Community.cs" />
+    <Compile Include="Business\MainTags.cs" />
+    <Compile Include="Business\CountryNames.cs" />
+    <Compile Include="Business\DataObjectPollAnswer.cs" />
+    <Compile Include="Business\DataObjectPollQuestion.cs" />
+    <Compile Include="Business\GroupByInfo.cs" />
+    <Compile Include="Business\QuickParametersTag.cs" />
+    <Compile Include="Business\DataObjectFriend.cs" />
+    <Compile Include="Business\DataObjectProfileCommunity.cs" />
+    <Compile Include="Business\MembershipParams.cs" />
+    <Compile Include="Business\ConvertQueue.cs" />
+    <Compile Include="Business\Link.cs" />
+    <Compile Include="Business\MediaSyndicationFeed.cs" />
+    <Compile Include="Business\MediaSyndicationItem.cs" />
+    <Compile Include="Business\Navigation.cs" />
+    <Compile Include="Business\Partners.cs" />
+    <Compile Include="Business\PhotoNote.cs" />
+    <Compile Include="Business\PhotoNotes.cs" />
+    <Compile Include="Business\QuickParametersFriends.cs" />
+    <Compile Include="Business\QuickParametersUser.cs" />
+    <Compile Include="Business\Linq\Shop.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shop.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\StyleSettings.cs" />
+    <Compile Include="Business\SubSonic\AllStructs.cs" />
+    <Compile Include="Business\SubSonic\AspnetMembership.cs" />
+    <Compile Include="Business\SubSonic\AspnetMembershipController.cs" />
+    <Compile Include="Business\SubSonic\HirelCommunityUserCur.cs" />
+    <Compile Include="Business\SubSonic\HirelCommunityUserCurController.cs" />
+    <Compile Include="Business\SubSonic\HitblCampaignsCmp.cs" />
+    <Compile Include="Business\SubSonic\HitblCampaignsCmpController.cs" />
+    <Compile Include="Business\SubSonic\HitblCommunityCty.cs" />
+    <Compile Include="Business\SubSonic\HitblCommunityCtyController.cs" />
+    <Compile Include="Business\SubSonic\HitblCountryNameCou.cs" />
+    <Compile Include="Business\SubSonic\HitblCountryNameCouController.cs" />
+    <Compile Include="Business\SubSonic\HitblEventTypeEvt.cs" />
+    <Compile Include="Business\SubSonic\HitblEventTypeEvtController.cs" />
+    <Compile Include="Business\SubSonic\HitblMainMan.cs" />
+    <Compile Include="Business\SubSonic\HitblMainManController.cs" />
+    <Compile Include="Business\SubSonic\HitblPagePag.cs" />
+    <Compile Include="Business\SubSonic\HitblPagePagController.cs" />
+    <Compile Include="Business\SubSonic\HitblUserSettingsUst.cs" />
+    <Compile Include="Business\SubSonic\HitblUserSettingsUstController.cs" />
+    <Compile Include="Business\SubSonic\HitblWidgetInstanceIn.cs" />
+    <Compile Include="Business\SubSonic\HitblWidgetInstanceInController.cs" />
+    <Compile Include="Business\SubSonic\HitblWidgetInstanceTextWit.cs" />
+    <Compile Include="Business\SubSonic\HitblWidgetInstanceTextWitController.cs" />
+    <Compile Include="Business\SubSonic\HitblWidgetTemplatesWtp.cs" />
+    <Compile Include="Business\SubSonic\HitblWidgetTemplatesWtpController.cs" />
+    <Compile Include="Business\SubSonic\StoredProcedures.cs" />
+    <Compile Include="Business\SubSonic\VwAspnetMembershipUser.cs" />
+    <Compile Include="Business\UserActivityList.cs" />
+    <Compile Include="Business\UserActivityParameters.cs" />
+    <Compile Include="Business\LoggedinUserHandler.cs" />
+    <Compile Include="Business\Members.cs" />
+    <Compile Include="Business\PagesConfig.cs" />
+    <Compile Include="Business\DataObjectGeneric.cs" />
+    <Compile Include="Business\Partner.cs" />
+    <Compile Include="Business\DataObjectList.cs" />
+    <Compile Include="Business\QuickParameters.cs" />
+    <Compile Include="Business\DataObjectDocument.cs" />
+    <Compile Include="Business\DataObjectPage.cs" />
+    <Compile Include="Business\FriendHandler.cs" />
+    <Compile Include="Business\Message.cs" />
+    <Compile Include="Business\Messages.cs" />
+    <Compile Include="Business\ObjectComment.cs" />
+    <Compile Include="Business\ObjectComments.cs" />
+    <Compile Include="Business\DataObjectPinboardSearch.cs" />
+    <Compile Include="Business\DataObjectPinboardOffer.cs" />
+    <Compile Include="Business\DataObjectNews.cs" />
+    <Compile Include="Business\Help.cs" />
+    <Compile Include="Business\InfoObjects.cs" />
+    <Compile Include="Business\Engine\AdWordFilterJob.cs" />
+    <Compile Include="Business\Engine\AdWordHelper.cs" />
+    <Compile Include="Business\Engine\Dialog.cs" />
+    <Compile Include="Business\Engine\DialogEngine.cs" />
+    <Compile Include="Business\Engine\FilterEngine.cs" />
+    <Compile Include="Business\Engine\RssEngine.cs" />
+    <Compile Include="Business\EventArtists.cs" />
+    <Compile Include="Business\EventLocations.cs" />
+    <Compile Include="Business\MessageGroup.cs" />
+    <Compile Include="Business\DataObjectEvent.cs" />
+    <Compile Include="Business\DataObjectFolder.cs" />
+    <Compile Include="Business\MonitoringLog.cs" />
+    <Compile Include="Business\DataObjectSlideShow.cs" />
+    <Compile Include="Business\DataObjectForum.cs" />
+    <Compile Include="Business\DataObjectForumTopicItem.cs" />
+    <Compile Include="Business\DataObjectForumTopic.cs" />
+    <Compile Include="Business\DataObjectTag.cs" />
+    <Compile Include="Business\DataAccessConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\DataObjectArticle.cs" />
+    <Compile Include="Business\DataObjectAudio.cs" />
+    <Compile Include="Business\DataObjectCommunity.cs" />
+    <Compile Include="Business\DataObjects.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\DataObjectUser.cs" />
+    <Compile Include="Business\DataObject.cs" />
+    <Compile Include="Business\DataObjectPicture.cs" />
+    <Compile Include="Business\DataObjectVideo.cs" />
+    <Compile Include="Business\Rating.cs" />
+    <Compile Include="Business\RelationParams.cs" />
+    <Compile Include="Business\Statistics.cs" />
+    <Compile Include="Business\UserActivities.cs" />
+    <Compile Include="Business\UserCommunitySetup.cs" />
+    <Compile Include="Business\UserDataInfo.cs" />
+    <Compile Include="Business\Utils.cs" />
+    <Compile Include="Business\ViewLogParams.cs" />
+    <Compile Include="Business\XmlHelper.cs" />
+    <Compile Include="Data\BackgroundJobs.cs" />
+    <Compile Include="Data\Comment.cs" />
+    <Compile Include="Data\ConvertQueue.cs" />
+    <Compile Include="Data\MainTags.cs" />
+    <Compile Include="Data\CountryNames.cs" />
+    <Compile Include="Data\DataObjectPollAnswer.cs" />
+    <Compile Include="Data\DataObjectPollQuestion.cs" />
+    <Compile Include="Data\DataObjectFriend.cs" />
+    <Compile Include="Data\DataObjectProfileCommunity.cs" />
+    <Compile Include="Data\DataObjectPinboardOffer.cs" />
+    <Compile Include="Data\DataObjectPinboardSearch.cs" />
+    <Compile Include="Data\DataObjectSlideShow.cs" />
+    <Compile Include="Data\DataObjectTag.cs" />
+    <Compile Include="Data\DataObjectUser.cs" />
+    <Compile Include="Data\DataObjectVideo.cs" />
+    <Compile Include="Data\DataObjectArticle.cs" />
+    <Compile Include="Data\DataObjectAudio.cs" />
+    <Compile Include="Data\DataObjectCommunity.cs" />
+    <Compile Include="Data\DataObjectDocument.cs" />
+    <Compile Include="Data\DataObjectEvent.cs" />
+    <Compile Include="Data\DataObjectFolder.cs" />
+    <Compile Include="Data\DataObjectForum.cs" />
+    <Compile Include="Data\DataObjectForumTopic.cs" />
+    <Compile Include="Data\DataObjectForumTopicItem.cs" />
+    <Compile Include="Data\DataObjectGeneric.cs" />
+    <Compile Include="Data\DataObjectNews.cs" />
+    <Compile Include="Data\DataObjectPage.cs" />
+    <Compile Include="Data\CSBooster.DataAccess.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSBooster.DataAccess.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\CSBooster.DataAccessMRS.cs" />
+    <Compile Include="Data\DataObjectPicture.cs" />
+    <Compile Include="Data\FriendHanlder.cs" />
+    <Compile Include="Data\Help.cs" />
+    <Compile Include="Data\InfoObjects.cs" />
+    <Compile Include="Data\Engine\AdWordFilter.cs" />
+    <Compile Include="Data\Engine\AdWordFilterJob.cs" />
+    <Compile Include="Data\Engine\AdWordHelper.cs" />
+    <Compile Include="Data\Engine\BadWordFilter.cs" />
+    <Compile Include="Data\Engine\BadWordHelper.cs" />
+    <Compile Include="Data\Engine\Dialog.cs" />
+    <Compile Include="Data\Engine\DialogEngine.cs" />
+    <Compile Include="Data\Engine\Enumerations.cs" />
+    <Compile Include="Data\Engine\FilterEngine.cs" />
+    <Compile Include="Data\Engine\FilterEngineConfig.cs" />
+    <Compile Include="Data\Engine\FilterObject.cs" />
+    <Compile Include="Data\Engine\FilterObjectProperty.cs" />
+    <Compile Include="Data\Engine\IWordFilter.cs" />
+    <Compile Include="Data\Engine\RssEngineConfig.cs" />
+    <Compile Include="Data\Engine\RssItemConfig.cs" />
+    <Compile Include="Data\Engine\SqlConnectionHelper.cs" />
+    <Compile Include="Data\EventArtist.cs" />
+    <Compile Include="Data\EventArtists.cs" />
+    <Compile Include="Data\EventLocation.cs" />
+    <Compile Include="Data\EventLocations.cs" />
+    <Compile Include="Data\MessageGroup.cs" />
+    <Compile Include="Data\MonitoringLog.cs" />
+    <Compile Include="Data\QuickCacheHandler.cs" />
+    <Compile Include="Data\QuickObjectBackground.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataObject.cs" />
+    <Compile Include="Data\DataObjects.cs" />
+    <Compile Include="Data\QuickObjectsHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\SqlHelper.cs" />
+    <Compile Include="Data\Statistics.cs" />
+    <Compile Include="Data\UserActivities.cs" />
+    <Compile Include="IDataObjectFilter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Business\StyleSettingsWidget.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\CSBooster.DataAccess.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CSBooster.DataAccess.designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Business\Linq\Shop.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Shop.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\CSBooster.DataAccess.dbml.layout">
+      <DependentUpon>CSBooster.DataAccess.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Business\Linq\Shop.dbml.layout">
+      <DependentUpon>Shop.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSBooster.Common\CSBooster.Common.csproj">
+      <Project>{A9F54D96-06CF-4975-93CE-92F0831A088D}</Project>
+      <Name>CSBooster.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Extensions\CSBooster.Extensions.csproj">
+      <Project>{646EEB60-9C19-49CE-B048-E2CE35C13469}</Project>
+      <Name>CSBooster.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.GeoTagging\CSBooster.GeoTagging.csproj">
+      <Project>{594D08EA-B92E-4228-B132-2D2421D9021B}</Project>
+      <Name>CSBooster.GeoTagging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Notification\CSBooster.Notification.csproj">
+      <Project>{C42BAB9E-B2FA-4CCD-8839-77AC9DA8FFE8}</Project>
+      <Name>CSBooster.Notification</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

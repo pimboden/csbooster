@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <!-- Thumbnails -->
+    <actionProfile ID="ExtraSmallCroppedJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##\P\XS</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\XS</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>12</quality>
+        <action ID="resizetomin">
+            <interpolation>bicubic</interpolation>
+            <width>60</width>
+            <height>60</height>
+        </action>
+        <action ID="crop">
+            <bestFit>true</bestFit>
+            <bestFitWidth>60</bestFitWidth>
+            <bestFitHeight>60</bestFitHeight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="ExtraSmallJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##\P\XS</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\XS</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>12</quality>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>60</maxwidth>
+            <maxheight>60</maxheight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="SmallCroppedJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/S</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\S</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>12</quality>
+        <action ID="resizetomin">
+            <interpolation>bicubic</interpolation>
+            <width>120</width>
+            <height>120</height>
+        </action>
+        <action ID="crop">
+            <bestFit>true</bestFit>
+            <bestFitWidth>120</bestFitWidth>
+            <bestFitHeight>120</bestFitHeight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="SmallJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/S</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\S</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>12</quality>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>120</maxwidth>
+            <maxheight>120</maxheight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="MediumJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/M</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\M</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>8</quality>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>294</maxwidth>
+            <maxheight>294</maxheight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="BgSmallJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/BG/S</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\BG\S</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>12</quality>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>60</maxwidth>
+            <maxheight>60</maxheight>
+        </action>
+    </actionProfile>
+
+    <!-- Large -->
+    <actionProfile ID="LargeJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/L</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\L</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>4</quality>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>700</maxwidth>
+            <maxheight>700</maxheight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="LargeGif">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/L</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\L</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>gif</format>
+        <resolution>72</resolution>
+        <quality>0</quality>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>700</maxwidth>
+            <maxheight>700</maxheight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="LargePng">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/L</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\L</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>png</format>
+        <resolution>72</resolution>
+        <quality>0</quality>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>700</maxwidth>
+            <maxheight>700</maxheight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="BgLargeJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/BG/L</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\BG\L</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>4</quality>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>980</maxwidth>
+            <maxheight>0</maxheight>
+        </action>
+    </actionProfile>
+
+    <!-- Crop -->
+    <actionProfile ID="CropJpg">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/L</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\L</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>jpg</format>
+        <resolution>72</resolution>
+        <quality>4</quality>
+        <action ID="crop">
+            <bestFit>true</bestFit>
+            <bestFitWidth>100</bestFitWidth>
+            <bestFitHeight>200</bestFitHeight>
+            <left>50</left>
+            <right>50</right>
+            <top>50</top>
+            <bottom>50</bottom>
+        </action>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>570</maxwidth>
+            <maxheight>0</maxheight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="CropGif">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/L</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\L</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>gif</format>
+        <resolution>72</resolution>
+        <quality>0</quality>
+        <action ID="crop">
+            <bestFit>true</bestFit>
+            <bestFitWidth>100</bestFitWidth>
+            <bestFitHeight>200</bestFitHeight>
+            <left>50</left>
+            <right>50</right>
+            <top>50</top>
+            <bottom>50</bottom>
+        </action>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>570</maxwidth>
+            <maxheight>0</maxheight>
+        </action>
+    </actionProfile>
+    <actionProfile ID="CropPng">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/L</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\L</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format>png</format>
+        <resolution>72</resolution>
+        <quality>0</quality>
+        <action ID="crop">
+            <bestFit>true</bestFit>
+            <bestFitWidth>100</bestFitWidth>
+            <bestFitHeight>200</bestFitHeight>
+            <left>50</left>
+            <right>50</right>
+            <top>50</top>
+            <bottom>50</bottom>
+        </action>
+        <action ID="resizetomax">
+            <interpolation>bicubic</interpolation>
+            <maxwidth>570</maxwidth>
+            <maxheight>0</maxheight>
+        </action>
+    </actionProfile>
+
+    <!-- Crop Check & Copy Archive -->
+    <actionProfile ID="CopyMedia">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>true</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/A</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\A</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format></format>
+        <resolution>72</resolution>
+        <quality>0</quality>
+        <action ID="onlinecroparea">
+            <maxVisualCropWidth>530</maxVisualCropWidth>
+            <cropWidth>0</cropWidth>
+            <cropHeight>0</cropHeight>
+        </action>
+    </actionProfile>
+
+    <!-- Copy Archive -->
+    <actionProfile ID="CopyArchive">
+        <ApplicationURL></ApplicationURL>
+        <autoSave>false</autoSave>
+        <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/A</VirtualOutPath>
+        <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\A</fileOutPath>
+        <fileNamePreExtension></fileNamePreExtension>
+        <fileNamePostExtension></fileNamePostExtension>
+        <format></format>
+        <resolution>0</resolution>
+        <quality>0</quality>
+    </actionProfile>
+</root>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CSBooster.Widget">
+  <DataContextMoniker Name="/CSBooster_WidgetDataContext" />
+  <nestedChildShapes>
+    <classShape Id="08590c68-4149-4862-b6b1-86cf93df8786" absoluteBounds="0.75, 1, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/CSBooster_WidgetDataContext/hitbl_WidgetInstance_IN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb624863-0396-49e6-a3a3-0b1185776c97" absoluteBounds="0.765, 1.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9cf88bd5-2636-4d9d-9f87-fe1b970df936" absoluteBounds="3.5, 2, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/CSBooster_WidgetDataContext/hitbl_WidgetInstanceText_WIT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="37ac8b90-7a4d-45ad-b5c5-d5ec2d513cbb" absoluteBounds="3.515, 2.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.69314697265625); (3.5 : 2.69314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CSBooster_WidgetDataContext/hitbl_WidgetInstance_IN/hitbl_WidgetInstance_IN_hitbl_WidgetInstanceText_WIT" />
+      <nodes>
+        <classShapeMoniker Id="08590c68-4149-4862-b6b1-86cf93df8786" />
+        <classShapeMoniker Id="9cf88bd5-2636-4d9d-9f87-fe1b970df936" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

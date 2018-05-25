@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="LabelAllowAnonymous">
+        <value><![CDATA[Anonyme Kommentare]]></value>
+    </data>
+    <data name="LabelAllowAnonymousComments">
+        <value><![CDATA[Anonyme Kommentare  zulassen]]></value>
+    </data>
+    <data name="LabelComment">
+        <value><![CDATA[Ihren Kommentar]]></value>
+    </data>
+    <data name="LabelEmail">
+        <value><![CDATA[Email]]></value>
+    </data>
+    <data name="LabelIP">
+        <value><![CDATA[IP Adresse]]></value>
+    </data>
+    <data name="LabelName">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="MessageRadCaptcha">
+        <value><![CDATA[Seite ungültig. Captcha Fehler]]></value>
+    </data>
+    <data name="MessageUsernameNeeded">
+        <value><![CDATA[Bitte geben Sie Ihren Namen ein]]></value>
+    </data>
+    <data name="MessageUsernameWrongChar">
+        <value><![CDATA[Ungültiger Namen]]></value>
+    </data>
+    <data name="MessageValidEmail">
+        <value><![CDATA[Bitte geben Sie Ihre Email an]]></value>
+    </data>
+    <data name="MsgNoComments">
+        <value><![CDATA[Noch keine Kommentare]]></value>
+    </data>
+    <data name="showinput">
+        <value><![CDATA[Kommentar hinzufügen]]></value>
+    </data>
+    <data name="TitleComments">
+        <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="TooltipAllowAnonymous">
+        <value><![CDATA[Checkbox anclicken falls Kommentare von nicht eingeloggte Benutzer erwünscht sind.]]></value>
+    </data>
+    <data name="TooltipComment">
+        <value><![CDATA[Bitte Kommentar abgeben.]]></value>
+    </data>
+    <data name="TooltipComments">
+        <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="TooltipEmail">
+        <value><![CDATA[Email wird weder weitergegeben noch angezeigt.]]></value>
+    </data>
+    <data name="TooltipIP">
+        <value><![CDATA[Ihre IP Addresse wurde ermittelt und wird gespeichert.]]></value>
+    </data>
+    <data name="TooltipName">
+        <value><![CDATA[Dieser Name wird im Kommetar gezeigt]]></value>
+    </data>
+    <data name="MessageCommentNeeded">
+        <value><![CDATA[Bitte geben Sie einen Kommentar ein]]></value>
+    </data>
+</root>

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AddNewPageTab">
+    <value><![CDATA[Seite hinzufügen]]></value>
+  </data>
+    <data name="ButtonSave">
+    <value><![CDATA[Speichern]]></value>
+  </data>
+    <data name="CreateSurvey">
+    <value><![CDATA[Test / Wettbewerb hinzufügen]]></value>
+  </data>
+    <data name="DefaultPageName">
+    <value><![CDATA[Seite]]></value>
+  </data>
+    <data name="FromPoints">
+    <value><![CDATA[Punkte ab]]></value>
+  </data>
+    <data name="LabelSurveyAddTestResults">
+    <value><![CDATA[Hinzufügen]]></value>
+  </data>
+    <data name="LabelSurveyFooterText">
+    <value><![CDATA[Fusstext]]></value>
+  </data>
+    <data name="LabelSurveyGreenPoint">
+    <value><![CDATA[Punkte Grün]]></value>
+  </data>
+    <data name="LabelSurveyHeaderText">
+    <value><![CDATA[Kopftext]]></value>
+  </data>
+    <data name="LabelSurveyInfoTitle">
+    <value><![CDATA[Name]]></value>
+  </data>
+    <data name="LabelSurveyPageInfoDescription">
+    <value><![CDATA[Seitenbeschreibung]]></value>
+  </data>
+    <data name="LabelSurveyPageInfoTitle">
+    <value><![CDATA[Seitenname]]></value>
+  </data>
+    <data name="LabelSurveyRedPoint">
+    <value><![CDATA[Punkte Rot]]></value>
+  </data>
+    <data name="LabelSurveyTestResults">
+    <value><![CDATA[Testauswertungen]]></value>
+  </data>
+    <data name="LabelSurveyYellowPoint">
+    <value><![CDATA[Punkte Gelb]]></value>
+  </data>
+    <data name="RFVTitleErrorMessage">
+    <value><![CDATA[Name ist zwingend]]></value>
+  </data>
+    <data name="Survey">
+    <value><![CDATA[Test / Wettbewerb]]></value>
+  </data>
+    <data name="Surveys">
+    <value><![CDATA[Tests / Wettbewerbe]]></value>
+  </data>
+    <data name="TestauswertungText">
+    <value><![CDATA[Testauswertungstext]]></value>
+  </data>
+    <data name="TitleStep01">
+    <value><![CDATA[Texte]]></value>
+  </data>
+    <data name="TitleStep02">
+    <value><![CDATA[Punkte]]></value>
+  </data>
+    <data name="TitleStepEdit">
+    <value><![CDATA[Konfiguration]]></value>
+  </data>
+    <data name="TitleStepFinish">
+    <value><![CDATA[Fertig]]></value>
+  </data>
+    <data name="TitleStepTagging">
+    <value><![CDATA[Tagging]]></value>
+  </data>
+    <data name="TitleSurveyCreate">
+    <value><![CDATA[Test / Wettbewerb hinzufügen]]></value>
+  </data>
+    <data name="TitleSurveyEdit">
+    <value><![CDATA[Test / Wettbewerb bearbeiten]]></value>
+  </data>
+    <data name="TooltipSurveyFooterText">
+    <value><![CDATA[Fusstext]]></value>
+  </data>
+    <data name="TooltipSurveyGreenPoint">
+    <value><![CDATA[Punkte Grün]]></value>
+  </data>
+    <data name="TooltipSurveyHeaderText">
+    <value><![CDATA[Kopftext]]></value>
+  </data>
+    <data name="TooltipSurveyInfoTitle">
+    <value><![CDATA[Der Name darf höchstens 100 Zeichen lang sein. HTML ist nicht erlaubt]]></value>
+  </data>
+    <data name="TooltipSurveyPageInfoDescription">
+    <value><![CDATA[Seitenbeschreibung]]></value>
+  </data>
+    <data name="TooltipSurveyPageInfoTitle">
+    <value><![CDATA[Seitenname]]></value>
+  </data>
+    <data name="TooltipSurveyRedPoint">
+    <value><![CDATA[Punkte Rot]]></value>
+  </data>
+    <data name="TooltipSurveyTestResults">
+    <value><![CDATA[Texte die nach dem Test angezeigt werden sollen, je nach Punkte]]></value>
+  </data>
+    <data name="TooltipSurveyYellowPoint">
+    <value><![CDATA[Punkte Gelb]]></value>
+  </data>
+    <data name="ToPoints">
+    <value><![CDATA[Punkte bis]]></value>
+  </data>
+    <data name="DefaultQuestionText">
+    <value><![CDATA[Frage {0}]]></value>
+  </data>
+    <data name="DeletePage">
+    <value><![CDATA[Seite Löschen]]></value>
+  </data>
+    <data name="LabelSurveyAddQuestion">
+    <value><![CDATA[Frage hinzufügen]]></value>
+  </data>
+    <data name="LabelSurveyAnswerType">
+    <value><![CDATA[Antwort(en) - Typ]]></value>
+  </data>
+    <data name="LabelSurveyQuestion">
+    <value><![CDATA[Frage]]></value>
+  </data>
+    <data name="StartPageName">
+    <value><![CDATA[Startseite]]></value>
+  </data>
+    <data name="TabAddNewPage">
+    <value><![CDATA[Seite hinzufügen]]></value>
+  </data>
+    <data name="TitleStep03">
+    <value><![CDATA[Seiten u. Fragen]]></value>
+  </data>
+    <data name="AnswerTextarea">
+    <value><![CDATA[Textarea wird für die Antwort ausgegeben]]></value>
+  </data>
+    <data name="AnswerTextbox">
+    <value><![CDATA[Textbox wird für die Antwort ausgegeben]]></value>
+  </data>
+    <data name="ButtonCancel">
+    <value><![CDATA[Abbrechen]]></value>
+  </data>
+    <data name="LabelSurveyAddAnswer">
+    <value><![CDATA[Antwort hinzufügen]]></value>
+  </data>
+    <data name="LabelSurveyAnswers">
+    <value><![CDATA[Antworten]]></value>
+  </data>
+    <data name="LabelSurveyAnswerWeigth">
+    <value><![CDATA[Punkte]]></value>
+  </data>
+    <data name="MultipleChoiceMultipleAnswers">
+    <value><![CDATA[Mehrere Antworten / Mehrere möglich]]></value>
+  </data>
+    <data name="MultipleChoiceOnlyOneAnswer">
+    <value><![CDATA[Mehrere Antworten / Nur eine möglich]]></value>
+  </data>
+    <data name="NoAnswers">
+    <value><![CDATA[Frage ohne Antworten]]></value>
+  </data>
+    <data name="NotSelected">
+    <value><![CDATA[Keine ausgewählt]]></value>
+  </data>
+    <data name="SingleTextbox">
+    <value><![CDATA[Eine Zeile Text]]></value>
+  </data>
+    <data name="Textarea">
+    <value><![CDATA[Mehrere Zeilen]]></value>
+  </data>
+    <data name="SurveyFinishButtonText">
+    <value><![CDATA[Test auswerten]]></value>
+  </data>
+    <data name="DefaultTestResult">
+    <value><![CDATA[Danke für das Antowrten des Gesunheitstests {0}]]></value>
+  </data>
+    <data name="GoToTestLinkText">
+    <value><![CDATA[Wiederholen]]></value>
+  </data>
+    <data name="TestNoLongerAvailable">
+    <value><![CDATA[Nicht mehr verfügbar]]></value>
+  </data>
+    <data name="DefaultContestResult">
+    <value><![CDATA[Danke für die Teilnahme am Wettbewerb {0}]]></value>
+  </data>
+    <data name="FormBemerkungen">
+    <value><![CDATA[Bemerkungrn]]></value>
+  </data>
+    <data name="FormContestSubject">
+    <value><![CDATA[Webewerb Teilnahme {0}]]></value>
+  </data>
+    <data name="FormSurveySubject">
+    <value><![CDATA[Test beantwortet {0}]]></value>
+  </data>
+    <data name="InvalidMailAddress">
+    <value><![CDATA[Email ist ungültig]]></value>
+  </data>
+    <data name="LabelActiveFrom">
+    <value><![CDATA[Aktiv vom]]></value>
+  </data>
+    <data name="LabelActiveTo">
+    <value><![CDATA[Aktiv bis]]></value>
+  </data>
+    <data name="LabelSendMailTo">
+    <value><![CDATA[Mail an]]></value>
+  </data>
+    <data name="LabelSurveyIsContest">
+    <value><![CDATA[Ist dieser Test ein Wettbewerb?]]></value>
+  </data>
+    <data name="LabelSurveyShowForm">
+    <value><![CDATA[Adresse Formular anzeigen]]></value>
+  </data>
+    <data name="SurveyFinishButtonTextContest">
+    <value><![CDATA[Teilnehmen]]></value>
+  </data>
+    <data name="TitleStep015">
+    <value><![CDATA[Erw. Angaben]]></value>
+  </data>
+    <data name="TooltipSendMailTo">
+    <value><![CDATA[Kann llergelassen werdeb <Br/>Benutzer bekommt immer ein Mail <BR/>Antowrten werden immer in der Datenbank gespeichert]]></value>
+  </data>
+    <data name="TooltipSurveyIsContest">
+    <value><![CDATA[Ein Test kann acuh als Wettbewerb definiert werden definiert werden]]></value>
+  </data>
+    <data name="TooltipSurveyShowForm">
+    <value><![CDATA[Soll ein Formular zur abrfage des Benutzers Adresse angezeigt werden]]></value>
+  </data>
+</root>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidget">
+        <value><![CDATA[Statistiken]]></value>
+    </data>
+    <data name="TooltipWidget">
+        <value><![CDATA[Statistiken]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelSelectType">
+        <value><![CDATA[Statistik auswählen]]></value>
+    </data>
+    <data name="TooltipSelectType">
+        <value><![CDATA[Art der Statistik definieren]]></value>
+    </data>
+    <data name="LabelGroup">
+        <value><![CDATA[gruppieren nach]]></value>
+    </data>
+    <data name="TooltipGroup">
+        <value><![CDATA[Art der Gruppierung definieren]]></value>
+    </data>
+    <data name="LabelTime">
+        <value><![CDATA[Zeitraum]]></value>
+    </data>
+    <data name="TooltipTime">
+        <value><![CDATA[Zeitraum für welchen die Statistik ausgewertet werden soll]]></value>
+    </data>
+
+
+</root>

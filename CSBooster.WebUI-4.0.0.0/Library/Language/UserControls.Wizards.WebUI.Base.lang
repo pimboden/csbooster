@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="CommandAddLink">
+    <value><![CDATA[Link hinzufügen]]></value>
+  </data>
+  <data name="CommandEventAdd">
+    <value><![CDATA[Location hinzufügen]]></value>
+  </data>
+  <data name="CommandPollAddAnswer">
+    <value><![CDATA[Hinzufügen]]></value>
+  </data>
+  <data name="CommandPollDelAnswer">
+    <value><![CDATA[Entfernen]]></value>
+  </data>
+  <data name="CommandPollVote">
+    <value><![CDATA[Abstimmen]]></value>
+  </data>
+  <data name="ErrorMessageAccessDenied">
+    <value><![CDATA[Fehlende Berechtigungen für die Community '%1']]></value>
+  </data>
+  <data name="ErrorMessageInvalidCharacters">
+    <value><![CDATA[Unerlaubte Zeichen]]></value>
+  </data>
+  <data name="ErrorMessageRequired">
+    <value><![CDATA[Eingabe ist zwingend]]></value>
+  </data>
+  <data name="LabelAlbum">
+    <value><![CDATA[Album]]></value>
+  </data>
+  <data name="LabelArticle">
+    <value><![CDATA[Artikel]]></value>
+  </data>
+  <data name="LabelArtist">
+    <value><![CDATA[Interpret]]></value>
+  </data>
+  <data name="LabelAuthor">
+    <value><![CDATA[Autor]]></value>
+  </data>
+  <data name="LabelCommunityPermalink">
+    <value><![CDATA[Permalink]]></value>
+  </data>
+  <data name="LabelCommunityPermalinkExists">
+    <value><![CDATA[Eine Community mit diesem Namen ist bereits vorhanden]]></value>
+  </data>
+  <data name="LabelCopyright">
+    <value><![CDATA[Urheberrechte]]></value>
+  </data>
+  <data name="LabelCreateGroup">
+    <value><![CDATA[Gruppe gründen]]></value>
+  </data>
+  <data name="LabelCreatePage">
+    <value><![CDATA[Seite erstellen]]></value>
+  </data>
+  <data name="LabelCtyGroups">
+    <value><![CDATA[Gruppenerstellung]]></value>
+  </data>
+  <data name="LabelCtyUpload">
+    <value><![CDATA[Inhalte hochladen]]></value>
+  </data>
+  <data name="LabelDescription">
+    <value><![CDATA[Beschreibung]]></value>
+  </data>
+  <data name="LabelEffect">
+    <value><![CDATA[Übergangseffekt]]></value>
+  </data>
+  <data name="LabelEvent">
+    <value><![CDATA[Event]]></value>
+  </data>
+  <data name="LabelEventAdd">
+    <value><![CDATA[Location hinzufügen]]></value>
+  </data>
+  <data name="LabelEventAgePrice">
+    <value><![CDATA[Alter/Preis]]></value>
+  </data>
+  <data name="LabelEventDateTime">
+        <value><![CDATA[Start/Ende/Zeit]]></value>
+  </data>
+  <data name="LabelEventSelect">
+    <value><![CDATA[Location auswählen]]></value>
+  </data>
+  <data name="LabelEventType">
+    <value><![CDATA[Art des Events]]></value>
+  </data>
+  <data name="LabelExpirationDate">
+    <value><![CDATA[Gültig bis]]></value>
+  </data>
+    <data name="LabelExternalId">
+        <value><![CDATA[Externe Id]]></value>
+    </data>
+  <data name="LabelFolder">
+    <value><![CDATA[Album]]></value>
+  </data>
+  <data name="LabelForumCharied">
+    <value><![CDATA[Moderiert]]></value>
+  </data>
+  <data name="LabelForumTopicCreation">
+    <value><![CDATA[Thema erstellen]]></value>
+  </data>
+  <data name="LabelForumUserVisibliity">
+    <value><![CDATA[Benutzergruppen]]></value>
+  </data>
+  <data name="LabelGenericXml">
+    <value><![CDATA[XML]]></value>
+  </data>
+  <data name="LabelGenericXsl">
+    <value><![CDATA[XSLT Url]]></value>
+  </data>
+  <data name="LabelGenre">
+    <value><![CDATA[Genre]]></value>
+  </data>
+  <data name="LabelGeotagging">
+    <value><![CDATA[Geotagging]]></value>
+  </data>
+  <data name="LabelLocationType">
+    <value><![CDATA[Art der Location]]></value>
+  </data>
+  <data name="LabelMemberAccess">
+    <value><![CDATA[Mitgliederzugriff]]></value>
+  </data>
+  <data name="LabelModerated">
+    <value><![CDATA[Moderiert]]></value>
+  </data>
+  <data name="LabelNews">
+    <value><![CDATA[News]]></value>
+  </data>
+  <data name="LabelNewsDate">
+    <value><![CDATA[Start-/End-Datum]]></value>
+  </data>
+  <data name="LabelNewsLinks">
+    <value><![CDATA[Links]]></value>
+  </data>
+  <data name="LabelNewsLinksTitle">
+    <value><![CDATA[Titel]]></value>
+  </data>
+  <data name="LabelNewsLinksURL">
+    <value><![CDATA[URL]]></value>
+  </data>
+  <data name="LabelNewsPicturesUpload">
+    <value><![CDATA[Photos hochladen]]></value>
+  </data>
+  <data name="LabelNewsReference">
+    <value><![CDATA[Orginal URL]]></value>
+  </data>
+  <data name="LabelPagePermalinkExists">
+    <value><![CDATA[Eine Community oder Seite mit diesem Namen ist bereits vorhanden]]></value>
+  </data>
+  <data name="LabelPageType">
+    <value><![CDATA[Seiten-Typ]]></value>
+  </data>
+  <data name="LabelPicture">
+    <value><![CDATA[Bild]]></value>
+  </data>
+  <data name="LabelPollAnonymous">
+    <value><![CDATA[Kann Anonym abgestimmt werden]]></value>
+  </data>
+  <data name="LabelPollAnswerCount">
+    <value><![CDATA[Art der Totalanzeige]]></value>
+  </data>
+  <data name="LabelPollAnswers">
+    <value><![CDATA[Antworten]]></value>
+  </data>
+  <data name="LabelPollDescription">
+    <value><![CDATA[Beschreibung]]></value>
+  </data>
+  <data name="LabelPollDuration">
+    <value><![CDATA[Abstimmung offen]]></value>
+  </data>
+  <data name="LabelPollFalse">
+    <value><![CDATA[Antwort wenn falsch]]></value>
+  </data>
+  <data name="LabelPollIsRight">
+    <value><![CDATA[Markieren als 'Richtig']]></value>
+  </data>
+  <data name="LabelPollLayout">
+    <value><![CDATA[Ausgabeformat]]></value>
+  </data>
+  <data name="LabelPollPartially">
+    <value><![CDATA[Antwort wenn teilweise richtig]]></value>
+  </data>
+  <data name="LabelPollQuestion">
+    <value><![CDATA[Umfragetext]]></value>
+  </data>
+  <data name="LabelPollRight">
+    <value><![CDATA[Antwort wenn richtig]]></value>
+  </data>
+  <data name="LabelPollShowResult">
+    <value><![CDATA[Anzeigen der Ergebnisse]]></value>
+  </data>
+  <data name="LabelPollStart">
+    <value><![CDATA[Start- und Endedatum]]></value>
+  </data>
+  <data name="LabelPollTitle">
+    <value><![CDATA[Titel]]></value>
+  </data>
+  <data name="LabelPollType">
+    <value><![CDATA[Umfrageart]]></value>
+  </data>
+  <data name="LabelPrice">
+    <value><![CDATA[Preis]]></value>
+  </data>
+  <data name="LabelQuestion">
+    <value><![CDATA[Umfragetext]]></value>
+  </data>
+  <data name="LabelSlideshow">
+    <value><![CDATA[Bildgallerie]]></value>
+  </data>
+  <data name="LabelTagwords">
+    <value><![CDATA[Tagwords]]></value>
+  </data>
+  <data name="LabelTitle">
+    <value><![CDATA[Titel]]></value>
+  </data>
+  <data name="LabelTopicItemCreation">
+    <value><![CDATA[Artikel erfassen]]></value>
+  </data>
+  <data name="LabelUploadPicture">
+    <value><![CDATA[Photos hochladen]]></value>
+  </data>
+  <data name="LabelUploadVideo">
+    <value><![CDATA[Videos hochladen]]></value>
+  </data>
+  <data name="LabelVersion">
+    <value><![CDATA[Version]]></value>
+  </data>
+  <data name="LabelVideoPreview">
+    <value><![CDATA[Vorschaubild]]></value>
+  </data>
+  <data name="LabelVisibility">
+    <value><![CDATA[Sichtbarkeit]]></value>
+  </data>
+    <data name="LabelWebsite">
+        <value><![CDATA[Link]]></value>
+    </data>
+  <data name="LableEffectFadeFast">
+    <value><![CDATA[Überblendung schnell]]></value>
+  </data>
+  <data name="LableEffectFadeMedium">
+    <value><![CDATA[Überblendung mittel]]></value>
+  </data>
+  <data name="LableEffectFadeSlow">
+    <value><![CDATA[Überblendung langsam]]></value>
+  </data>
+  <data name="LableEffectNone">
+    <value><![CDATA[Kein Übergangseffekt]]></value>
+  </data>
+  <data name="LableEffectScrollDown">
+    <value><![CDATA[Verschieben nach unten]]></value>
+  </data>
+  <data name="LableEffectScrollLeft">
+    <value><![CDATA[Verschieben nach links]]></value>
+  </data>
+  <data name="LableEffectScrollRight">
+    <value><![CDATA[Verschieben nach rechts]]></value>
+  </data>
+  <data name="LableEffectScrollTop">
+    <value><![CDATA[Verschieben nach oben]]></value>
+  </data>
+  <data name="LableForumRights0">
+    <value><![CDATA[Ersteller / Besitzer]]></value>
+  </data>
+  <data name="LableForumRights1">
+    <value><![CDATA[Alle Mitglieder]]></value>
+  </data>
+  <data name="LableForumRights2">
+    <value><![CDATA[Alle angemeldeten Benutzer]]></value>
+  </data>
+  <data name="MessageCreateCommunitySuccess">
+    <value><![CDATA[<b>Community erfolgreich gegründet</b><br/><br/><a {0} >Gehe zu '{1}'</a>]]></value>
+  </data>
+  <data name="MessageCreatePageSuccess">
+    <value><![CDATA[<b>Seite erfolgreich erstellt</b><br/><br/><a {0} >Gehe zu '{1}'</a>]]></value>
+  </data>
+  <data name="MessageGoBack">
+    <value><![CDATA[Gehe zurück zur vorherigen Seite]]></value>
+  </data>
+  <data name="MessageGoTo">
+    <value><![CDATA[Gehe zu '{0}']]></value>
+  </data>
+  <data name="MessageGoToMyContent">
+    <value><![CDATA[Gehe zu 'Meine {0}']]></value>
+  </data>
+  <data name="MessageGoToProfile">
+    <value><![CDATA[Gehe zu meiner Profilseite]]></value>
+  </data>
+  <data name="MessagePollQuestion">
+    <value><![CDATA[Es muss ein Umfragetext eingegeben werden!]]></value>
+  </data>
+  <data name="MessagePollReadOnly">
+    <value><![CDATA[Keine Änderungen mehr möglich, da bereits abgestimmt wurde!]]></value>
+  </data>
+  <data name="MessagePollThank">
+    <value><![CDATA[Ihre Antwort wurde registriert. Danke!]]></value>
+  </data>
+  <data name="MessagePollTitle">
+        <value><![CDATA[Bitte geben Sie einen Titel ein]]></value>
+  </data>
+  <data name="MessageQuestion">
+        <value><![CDATA[Bitte geben Sie einen Umfragetext ein]]></value>
+  </data>
+  <data name="MessageSaveError">
+        <value><![CDATA[Beim Speichern ist ein Fehler aufgetreten]]></value>
+  </data>
+  <data name="MessageTitle">
+        <value><![CDATA[Bitte geben Sie einen Titel ein]]></value>
+  </data>
+  <data name="MessageUploadCommunity">
+    <value><![CDATA[Die {0} wurden in die Community '{1}' hochgeladen.]]></value>
+  </data>
+  <data name="MessageUploadProfile">
+    <value><![CDATA[Die {0} wurden in das Profil hochgeladen.]]></value>
+  </data>
+  <data name="QuestionPollLayout_Bar">
+    <value><![CDATA[Balken]]></value>
+  </data>
+  <data name="QuestionPollLayout_Pie">
+    <value><![CDATA[Kuchen]]></value>
+  </data>
+  <data name="QuestionPollShowAnswerCount_None">
+    <value><![CDATA[Keine Total-Angaben ]]></value>
+  </data>
+  <data name="QuestionPollShowAnswerCount_Number">
+    <value><![CDATA[Anzeige Anzahl ]]></value>
+  </data>
+  <data name="QuestionPollShowAnswerCount_Percent">
+    <value><![CDATA[Anzeige Anzahl %]]></value>
+  </data>
+  <data name="QuestionPollShowResult_ShowChartAfterVoting">
+    <value><![CDATA[Anzeigen Grafik erst nach dem Abstimmen]]></value>
+  </data>
+  <data name="QuestionPollShowResult_ShowChartAlways">
+    <value><![CDATA[Anzeigen Grafik immer]]></value>
+  </data>
+  <data name="QuestionPollShowResult_ShowChartNever">
+    <value><![CDATA[Anzeigen Grafik nie]]></value>
+  </data>
+  <data name="QuestionPollType_MultiAnswer">
+    <value><![CDATA[Mehrere Antworten möglich]]></value>
+  </data>
+  <data name="QuestionPollType_SingleAnswer">
+    <value><![CDATA[Nur eine Antwort möglich]]></value>
+  </data>
+  <data name="RelationTitlePicture">
+        <value><![CDATA[Fotos]]></value>
+  </data>
+  <data name="TitleArticleEdit">
+    <value><![CDATA[Artikel bearbeiten]]></value>
+  </data>
+  <data name="TitleArticleUpload">
+    <value><![CDATA[Artikel schreiben]]></value>
+  </data>
+  <data name="TitleAudioEdit">
+    <value><![CDATA[Musik bearbeiten]]></value>
+  </data>
+  <data name="TitleAudioUpload">
+    <value><![CDATA[Musik hochladen]]></value>
+  </data>
+  <data name="TitleCommunityCreate">
+    <value><![CDATA[Community-Gründung]]></value>
+  </data>
+  <data name="TitleCommunityEdit">
+    <value><![CDATA[Community bearbeiten]]></value>
+  </data>
+  <data name="TitleCopyright">
+    <value><![CDATA[Urheberrechte]]></value>
+  </data>
+  <data name="TitleCtyGroups">
+    <value><![CDATA[Gruppen]]></value>
+  </data>
+  <data name="TitleCtyUpload">
+    <value><![CDATA[Inhalte hochladen]]></value>
+  </data>
+  <data name="TitleDocumentEdit">
+    <value><![CDATA[Dokumente bearbeiten]]></value>
+  </data>
+  <data name="TitleDocumentUpload">
+    <value><![CDATA[Dokumente hochladen]]></value>
+  </data>
+  <data name="TitleEventEdit">
+    <value><![CDATA[Event bearbeiten]]></value>
+  </data>
+  <data name="TitleEventUpload">
+    <value><![CDATA[Event erfassen]]></value>
+  </data>
+  <data name="TitleFolderEdit">
+    <value><![CDATA[Album bearbeiten]]></value>
+  </data>
+  <data name="TitleFolderUpload">
+    <value><![CDATA[Album erstellen]]></value>
+  </data>
+  <data name="TitleForumEdit">
+    <value><![CDATA[Forum bearbeiten]]></value>
+  </data>
+  <data name="TitleForumTopicEdit">
+    <value><![CDATA[Forum Thema bearbeiten]]></value>
+  </data>
+  <data name="TitleForumUpload">
+    <value><![CDATA[Forum erstellen]]></value>
+  </data>
+  <data name="TitleGenericEdit">
+    <value><![CDATA[Generischer Inhalt ändern]]></value>
+  </data>
+  <data name="TitleGenericUpload">
+    <value><![CDATA[Generischer Inhalt erstellen]]></value>
+  </data>
+  <data name="TitleGeotagging">
+    <value><![CDATA[Geotagging]]></value>
+  </data>
+  <data name="TitleNewsEdit">
+    <value><![CDATA[News bearbeiten]]></value>
+  </data>
+  <data name="TitleNewsUpload">
+    <value><![CDATA[News schreiben]]></value>
+  </data>
+  <data name="TitlePageCreate">
+    <value><![CDATA[Seite erstellen]]></value>
+  </data>
+  <data name="TitlePageEdit">
+    <value><![CDATA[Seite bearbeiten]]></value>
+  </data>
+  <data name="TitlePictureEdit">
+    <value><![CDATA[Photo bearbeiten]]></value>
+  </data>
+  <data name="TitlePictureUpload">
+    <value><![CDATA[Photos hochladen]]></value>
+  </data>
+  <data name="TitlePictureUploadSingular">
+    <value><![CDATA[Photo hochladen]]></value>
+  </data>
+  <data name="TitlePinboardOfferEdit">
+    <value><![CDATA[Angebot bearbeiten]]></value>
+  </data>
+  <data name="TitlePinboardOfferUpload">
+    <value><![CDATA[Angebot erstellen]]></value>
+  </data>
+  <data name="TitlePinboardSearchEdit">
+    <value><![CDATA[Gesuch bearbeiten]]></value>
+  </data>
+  <data name="TitlePinboardSearchUpload">
+    <value><![CDATA[Gesuch erstellen]]></value>
+  </data>
+  <data name="TitlePollQuestionsEdit">
+    <value><![CDATA[Umfrage bearbeiten]]></value>
+  </data>
+  <data name="TitlePollQuestionsEdit">
+    <value><![CDATA[Umfrage bearbeiten]]></value>
+  </data>
+  <data name="TitlePollQuestionsUpload">
+    <value><![CDATA[Umfrage erfassen]]></value>
+  </data>
+  <data name="TitlePollQuestionsUpload">
+    <value><![CDATA[Umfrage erfassen]]></value>
+  </data>
+  <data name="TitleSlideshowEdit">
+    <value><![CDATA[Bildgallerie bearbeiten]]></value>
+  </data>
+  <data name="TitleSlideshowUpload">
+    <value><![CDATA[Bildgallerie erstellen]]></value>
+  </data>
+  <data name="TitleStepAddPictures">
+    <value><![CDATA[Photos zuordnen]]></value>
+  </data>
+  <data name="TitleStepAddVideos">
+    <value><![CDATA[Videos zuordnen]]></value>
+  </data>
+  <data name="TitleStepCreate">
+    <value><![CDATA[Erstellen]]></value>
+  </data>
+  <data name="TitleStepEdit">
+    <value><![CDATA[Bearbeiten]]></value>
+  </data>
+  <data name="TitleStepFinish">
+    <value><![CDATA[Fertig]]></value>
+  </data>
+  <data name="TitleStepRegistration">
+    <value><![CDATA[Anmeldung]]></value>
+  </data>
+  <data name="TitleStepTagging">
+    <value><![CDATA[Tagging & Sichtbarkeit]]></value>
+  </data>
+  <data name="TitleStepUpload">
+    <value><![CDATA[Hochladen]]></value>
+  </data>
+  <data name="TitleStepWrite">
+    <value><![CDATA[Schreiben]]></value>
+  </data>
+  <data name="TitleTagging">
+    <value><![CDATA[Tagging]]></value>
+  </data>
+  <data name="TitleUserRegistration">
+    <value><![CDATA[Benutzer-Registration]]></value>
+  </data>
+  <data name="TitleVideoEdit">
+    <value><![CDATA[Videos bearbeiten]]></value>
+  </data>
+  <data name="TitleVideoUpload">
+    <value><![CDATA[Videos hochladen]]></value>
+  </data>
+  <data name="TitleVisibility">
+    <value><![CDATA[Sichtbarkeit]]></value>
+  </data>
+  <data name="TooltipAlbum">
+    <value><![CDATA[Das Album auf dem der Song zu finden ist.]]></value>
+  </data>
+  <data name="TooltipArticle">
+    <value><![CDATA[Im Beitrag können über die Toolbar auch Photos eingefügt werden.]]></value>
+  </data>
+  <data name="TooltipArtist">
+    <value><![CDATA[Der Interpret des Songs.]]></value>
+  </data>
+  <data name="TooltipAuthor">
+    <value><![CDATA[Autor des Dokuments]]></value>
+  </data>
+  <data name="TooltipCommunityPermalink">
+    <value><![CDATA[Erlaubte Zeichen a-Z, 0-9, _<br/>höchstens 50 Zeichen lang]]></value>
+  </data>
+  <data name="TooltipCopyright">
+    <value><![CDATA[Hinweis zur weiteren Verwendung (keine Funktion)]]></value>
+  </data>
+  <data name="TooltipCtyGroups">
+    <value><![CDATA[Wer darf eine neue Gruppen erstellen?]]></value>
+  </data>
+  <data name="TooltipCtyUpload">
+    <value><![CDATA[Wer darf Inhalte hochladen?]]></value>
+  </data>
+    <data name="TooltipDateRequired">
+        <value><![CDATA[Bitten geben Sie den Event Start und das Ende ein]]></value>
+    </data>
+  <data name="TooltipDescription">
+    <value><![CDATA[HTML ist nicht erlaubt.]]></value>
+  </data>
+  <data name="TooltipEffect">
+        <value><![CDATA[Hier wird der Übergangseffekt zwischen den Fotos eingestellt.]]></value>
+    </data>
+    <data name="TooltipEndDateBeforeStartDate">
+        <value><![CDATA[Der Event Start muss vor dem Event Ende sein]]></value>
+  </data>
+  <data name="TooltipEvent">
+    <value><![CDATA[Event-Beschreibung]]></value>
+  </data>
+  <data name="TooltipEventAdd">
+    <value><![CDATA[Wählen Sie eine Location aus]]></value>
+  </data>
+  <data name="TooltipEventAgePrice">
+    <value><![CDATA[Geben Sie das minimale Alter und den Preis ein]]></value>
+  </data>
+  <data name="TooltipEventDateTime">
+    <value><![CDATA[Geben Sie zeitliche Details des Events an]]></value>
+  </data>
+  <data name="TooltipEventSelect">
+    <value><![CDATA[Wählen Sie einen Location aus]]></value>
+  </data>
+  <data name="TooltipEventType">
+    <value><![CDATA[Wählen Sie die Art des Events aus]]></value>
+  </data>
+    <data name="TooltipEventTypeRequired">
+        <value><![CDATA[Bitten wählen Sie die Art des Events aus]]></value>
+    </data>
+    <data name="TooltipExternalId">
+        <value><![CDATA[]]></value>
+    </data>
+  <data name="TooltipForumCharied">
+    <value><![CDATA[Sichtbarkeit Moderiert]]></value>
+  </data>
+  <data name="TooltipForumTopicCreation">
+    <value><![CDATA[Welche Benutzer dürfen ein neues Thema eröffnen]]></value>
+  </data>
+  <data name="TooltipForumUserVisibliity">
+    <value><![CDATA[Sichtbarkeit Benutzergruppen]]></value>
+  </data>
+  <data name="TooltipGenericXml">
+    <value><![CDATA[Hier wird das XML eingegeben]]></value>
+  </data>
+  <data name="TooltipGenericXsl">
+    <value><![CDATA[Hier wird eine Url von einem XSLT eingegeben]]></value>
+  </data>
+  <data name="TooltipGenre">
+    <value><![CDATA[Das Genre auf das der Song zutrifft.]]></value>
+  </data>
+  <data name="TooltipGeotagging">
+    <value><![CDATA[Beim Geotagging werden raumbezogene Inhalte mit einer Koordinate versehen.]]></value>
+  </data>
+  <data name="TooltipLocationType">
+    <value><![CDATA[Wählen Sie die Art der Location aus]]></value>
+  </data>
+    <data name="TooltipLocationTypeRequired">
+        <value><![CDATA[Bitten wählen Sie die Art der Location aus]]></value>
+    </data>
+  <data name="TooltipMemberAccess">
+    <value><![CDATA[Hier wird der Schreibzugriff für Mitglieder aktiviert.]]></value>
+  </data>
+  <data name="TooltipModerated">
+    <value><![CDATA[Hier wird eingestellt ob die Artikel zuerst freigegeben werden müssen]]></value>
+  </data>
+  <data name="TooltipNews">
+    <value><![CDATA[Hier werden die News erfasst]]></value>
+  </data>
+  <data name="TooltipNewsDate">
+    <value><![CDATA[Hier wird der Zeitraum festgelegt, in welchem die News angezeigt werden]]></value>
+  </data>
+  <data name="TooltipNewsLinkRemove">
+    <value><![CDATA[Link entfernen]]></value>
+  </data>
+  <data name="TooltipNewsLinks">
+    <value><![CDATA[Hier können weiterführende Links erfasst werden]]></value>
+  </data>
+  <data name="TooltipNewsPicturesUpload">
+        <value><![CDATA[Lade hier Fotos hoch, welche unten noch nicht aufgelistet sind]]></value>
+  </data>
+  <data name="TooltipNewsReference">
+    <value><![CDATA[Hier wird die Original URL der News erfasst]]></value>
+  </data>
+  <data name="TooltipPageType">
+    <value><![CDATA[Hier wird festgelegt, ob die Seite als Detail-, Übersicht- oder als normale Seite dienen soll]]></value>
+  </data>
+  <data name="TooltipPollQuestion">
+    <value><![CDATA[Der Umfragetext darf höchstens 500 Zeichen lang sein. HTML ist nicht erlaubt.]]></value>
+  </data>
+  <data name="TooltipPollStart">
+    <value><![CDATA[In diesem Zeitraum kann abgestimmt werden.]]></value>
+  </data>
+  <data name="TooltipPollTitle">
+    <value><![CDATA[Der Titel darf höchstens 100 Zeichen lang sein. HTML ist nicht erlaubt.]]></value>
+  </data>
+  <data name="TooltipQuestion">
+    <value><![CDATA[Der Umfragetext darf höchstens 500 Zeichen lang sein. HTML ist nicht erlaubt.]]></value>
+  </data>
+  <data name="TooltipQuestionStart">
+    <value><![CDATA[In diesem Zeitraum kann abgestimmt werden.]]></value>
+  </data>
+  <data name="TooltipTagwords">
+    <value><![CDATA[Tagwords werden verwendet um einen Inhalt zu beschreiben. Als Trennzeichen dienen Leerzeichen, Komma, Semikolon, | und ¦]]></value>
+  </data>
+  <data name="TooltipTitle">
+    <value><![CDATA[Der Titel darf höchstens 100 Zeichen lang sein. HTML ist nicht erlaubt.]]></value>
+  </data>
+  <data name="TooltipTopicItemCreation">
+    <value><![CDATA[Wer darf Artikel erfassen]]></value>
+  </data>
+  <data name="TooltipUploadPicture">
+    <value><![CDATA[]]></value>
+  </data>
+    <data name="TooltipUploadVideo">
+        <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipVersion">
+    <value><![CDATA[Version des Dokuments]]></value>
+  </data>
+  <data name="TooltipVideoPreview">
+    <value><![CDATA[Hier wird festgelegt, nach wieviel Sekunden das Vorschaubild generiert werden soll.]]></value>
+  </data>
+    <data name="TooltipWebsite">
+        <value><![CDATA[Geben Sie hier einen gültige URL ein (z.B. http://www.mysg.ch)]]></value>
+    </data>
+    <data name="MessageValidUrl">
+        <value><![CDATA[Bitte geben Sie eine gültige URL ein]]></value>
+    </data>
+</root>

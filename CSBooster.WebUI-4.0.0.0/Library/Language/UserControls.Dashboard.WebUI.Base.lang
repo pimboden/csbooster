@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <data name="CommandNewMessage">
+        <value><![CDATA[Neue Nachricht]]></value>
+    </data>
+    <data name="CommandInbox">
+        <value><![CDATA[Eingang ({0} neue)]]></value>
+    </data>
+    <data name="TitleInbox">
+        <value><![CDATA[Eingang]]></value>
+    </data>
+    <data name="CommandOutbox">
+        <value><![CDATA[Ausgang]]></value>
+    </data>
+    <data name="TitleAlerts">
+        <value><![CDATA[Benachrichtigungen]]></value>
+    </data>
+    <data name="TitleOutbox">
+        <value><![CDATA[Ausgang]]></value>
+    </data>
+    <data name="CommandMarked">
+        <value><![CDATA[Markierte]]></value>
+    </data>
+    <data name="TitleMarked">
+        <value><![CDATA[Markierte]]></value>
+    </data>
+    <data name="LableMarked">
+        <value><![CDATA[Markiert]]></value>
+    </data>
+    <data name="TitleFriends">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="TitleFriendsRequestsSent">
+        <value><![CDATA[Meine Anfragen]]></value>
+    </data>
+    <data name="TitleFriendsRequestsReceived">
+        <value><![CDATA[Erhaltene Anfragen]]></value>
+    </data>
+    <data name="TitleBlockedUsers">
+        <value><![CDATA[Gesperrte Benutzer]]></value>
+    </data>
+    <data name="CommandAddFavorites">
+        <value><![CDATA[Favorit hinzufügen]]></value>
+    </data>
+    <data name="MessageNoFavorites">
+        <value><![CDATA[Keine Favoriten]]></value>
+    </data>
+    <data name="TitleSettingsAdvanced">
+        <value><![CDATA[Einstellungen]]></value>
+    </data>
+    <data name="TitleCommentsPosted">
+        <value><![CDATA[Meine Kommentare]]></value>
+    </data>
+    <data name="TitleCommentsReceived">
+        <value><![CDATA[Erhaltene Kommentare]]></value>
+    </data>
+    <data name="CommandMyCommunityMembers">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="TitleMyCommunityMembers">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="MessageNoCommunityMembers">
+        <value><![CDATA[Keine Mitgliedschaften]]></value>
+    </data>
+    <data name="TitleSettingsBasic">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="CommandMyCommunityInvitations">
+        <value><![CDATA[Einladungen]]></value>
+    </data>
+    <data name="LableNoTitle">
+        <value><![CDATA[Kein Titel]]></value>
+    </data>
+    <data name="LableTitle">
+        <value><![CDATA[Titel]]></value>
+    </data>
+    <data name="TitleInvitation">
+        <value><![CDATA[Einladungen]]></value>
+    </data>
+    <data name="TextInvitationSingular">
+        <value><![CDATA[Einladung]]></value>
+    </data>
+    <data name="TextInvitationPlural">
+        <value><![CDATA[Einladungen]]></value>
+    </data>
+    <data name="TextInvitationPlural">
+        <value><![CDATA[Einladungen]]></value>
+    </data>
+    <data name="LableCratedBy">
+        <value><![CDATA[Gegründet von]]></value>
+    </data>
+    <data name="TitleSettingsInterests">
+        <value><![CDATA[Interessen]]></value>
+    </data>
+    <data name="TitleSettingsAlerts">
+        <value><![CDATA[Benachrichtigungen Einstellungen]]></value>
+    </data>
+    <data name="MessageNoMessage">
+        <value><![CDATA[Keine Nachrichten]]></value>
+    </data>
+    <data name="CommandClassification">
+        <value><![CDATA[Klassifizierung]]></value>
+    </data>
+    <data name="CommandGroupCreation">
+        <value><![CDATA[Gruppen-Gründung]]></value>
+    </data>
+    <data name="TitleMySurveyHistory">
+        <value><![CDATA[Meine Tests]]></value>
+    </data>
+    <data name="TitleAlert">
+        <value><![CDATA[Benachrichtigung]]></value>
+    </data>
+    <data name="MessageNoAlerts">
+        <value><![CDATA[Keine Benachrichtigungen]]></value>
+    </data>
+    <data name="LableAlertSingular">
+        <value><![CDATA[Benachrichtigung]]></value>
+    </data>
+    <data name="LableAlertPlural">
+        <value><![CDATA[Benachrichtigungen]]></value>
+    </data>
+    <data name="TextAction">
+        <value><![CDATA[Aktionen]]></value>
+    </data>
+    <data name="TextDeleteSelected">
+        <value><![CDATA[Selektierte löschen]]></value>
+    </data>
+    <data name="TextSelectedToggle">
+        <value><![CDATA[Markierung umkehren]]></value>
+    </data>
+    <data name="TextSelectedMoveTo">
+        <value><![CDATA[Verschieben nach ...]]></value>
+    </data>
+    <data name="LableSearchOptions">
+        <value><![CDATA[Suchoptionen]]></value>
+    </data>
+    <data name="LableFrom">
+        <value><![CDATA[Von]]></value>
+    </data>
+    <data name="LableSubject">
+        <value><![CDATA[Betreff]]></value>
+    </data>
+    <data name="LableMessage">
+        <value><![CDATA[Nachricht]]></value>
+    </data>
+    <data name="LableMessageFrom">
+        <value><![CDATA[Nachricht von]]></value>
+    </data>
+    <data name="LableMessageTo">
+        <value><![CDATA[Nachricht an]]></value>
+    </data>
+    <data name="LableDateFrom">
+        <value><![CDATA[Datum von]]></value>
+    </data>
+    <data name="LableMessageSingular">
+        <value><![CDATA[Nachricht]]></value>
+    </data>
+    <data name="LableMessagePlural">
+        <value><![CDATA[Nachrichten]]></value>
+    </data>
+    <data name="TooltipMessageFrom">
+        <value><![CDATA[Von wem möchten Sie Nachrichten erhalten?]]></value>
+    </data>
+    <data name="LableMessageByNew">
+        <value><![CDATA[Email]]></value>
+    </data>
+    <data name="TooltipMessageByNew">
+        <value><![CDATA[Möchten Sie per Email benachrichtigt werden, wenn Sie eine neue Nachricht erhalten?]]></value>
+    </data>
+    <data name="LableDateTo">
+        <value><![CDATA[Datum bis]]></value>
+    </data>
+    <data name="LableUnread">
+        <value><![CDATA[Ungelesen]]></value>
+    </data>
+    <data name="LableTo">
+        <value><![CDATA[An]]></value>
+    </data>
+    <data name="LableAction">
+        <value><![CDATA[Aktion]]></value>
+    </data>
+    <data name="LableState">
+        <value><![CDATA[Status]]></value>
+    </data>
+    <data name="LableSelectAll">
+        <value><![CDATA[Alle auswählen]]></value>
+    </data>
+    <data name="LableName">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="LableBlockedUserSingular">
+        <value><![CDATA[Gesperrter Benutzer]]></value>
+    </data>
+    <data name="LableBlockedUserPlural">
+        <value><![CDATA[Gesperrte Benutzer]]></value>
+    </data>
+    <data name="MessageBlockedUsers">
+        <value><![CDATA[Keine gesperrten Benutzer]]></value>
+    </data>
+    <data name="LableUnblock">
+        <value><![CDATA[Sperrung aufheben]]></value>
+    </data>
+    <data name="LableBlock">
+        <value><![CDATA[Sperren]]></value>
+    </data>
+    <data name="LabelManage">
+        <value><![CDATA[Verwalten]]></value>
+    </data>
+    <data name="LabelManageMembers">
+        <value><![CDATA[Mitglieder verwalten]]></value>
+    </data>
+    <data name="LabelNewMsgToMembers">
+        <value><![CDATA[Neue Nachricht an alle Mitglieder]]></value>
+    </data>
+    <data name="ProfileDataVisibility">
+        <value><![CDATA[Profildaten-Sichtbarkeit]]></value>
+    </data>
+    <data name="TooltipProfileDataVisibility">
+        <value><![CDATA[Profildaten-Sichtbarkeit]]></value>
+    </data>
+    <data name="TooltipActivateBirthdayInfo">
+        <value><![CDATA[Geburtstagsinfo aktivieren]]></value>
+    </data>
+    <data name="TooltipDeactivateBirthdayInfo">
+        <value><![CDATA[Geburtstagsinfo deaktivieren]]></value>
+    </data>
+    <data name="CommandSendMessage">
+        <value><![CDATA[Nachricht senden]]></value>
+    </data>
+    <data name="CommandAnswerMessage">
+        <value><![CDATA[Nachricht beantworten]]></value>
+    </data>
+    <data name="CommandForwardMessage">
+        <value><![CDATA[Nachricht weiterleiten]]></value>
+    </data>
+    <data name="TooltipRemoveFromFriends">
+        <value><![CDATA[Freundschaft aufheben]]></value>
+    </data>
+    <data name="TooltipDeleteRequest">
+        <value><![CDATA[Anfrage löschen]]></value>
+    </data>
+    <data name="LableRequestSingular">
+        <value><![CDATA[Anfrage]]></value>
+    </data>
+    <data name="LableRequestPlural">
+        <value><![CDATA[Anfragen]]></value>
+    </data>
+    <data name="CommandRequestAccept">
+        <value><![CDATA[Annehmen]]></value>
+    </data>
+    <data name="CommandRequestDeny">
+        <value><![CDATA[Ablehnen]]></value>
+    </data>
+    <data name="TitleRequestAccept">
+        <value><![CDATA[Freundschaftsanfrage annehmen]]></value>
+    </data>
+    <data name="TitleRequestDeny">
+        <value><![CDATA[Freundschaftsanfrage ablehnen]]></value>
+    </data>
+    <data name="LableFriendSingular">
+        <value><![CDATA[Freund]]></value>
+    </data>
+    <data name="LableFriendPlural">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="LableName">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="LableFriendship">
+        <value><![CDATA[Freundschaft]]></value>
+    </data>
+    <data name="MessageNoFriend">
+        <value><![CDATA[Keine Freunde]]></value>
+    </data>
+    <data name="TextFriendshipChandeType">
+        <value><![CDATA[Freundschaft ändern in ...]]></value>
+    </data>
+    <data name="TextFriendshipType0">
+        <value><![CDATA[Familie]]></value>
+    </data>
+    <data name="TextFriendshipType1">
+        <value><![CDATA[Freund]]></value>
+    </data>
+    <data name="TextFriendshipType2">
+        <value><![CDATA[Kamerad]]></value>
+    </data>
+    <data name="TextFriendshipType3">
+        <value><![CDATA[Schulfreunde]]></value>
+    </data>
+    <data name="TextFriendshipType4">
+        <value><![CDATA[Arbeitskollege]]></value>
+    </data>
+    <data name="TextFriendshipType5">
+        <value><![CDATA[Bekanntschaft]]></value>
+    </data>
+    <data name="TooltipUnselectMarked">
+        <value><![CDATA[Markierung aufheben]]></value>
+    </data>
+    <data name="TooltipMark">
+        <value><![CDATA[Markieren]]></value>
+    </data>
+    <data name="LableMessageGroup">
+        <value><![CDATA[Ordner]]></value>
+    </data>
+    <data name="LableMessageGroupName">
+        <value><![CDATA[Ordnername]]></value>
+    </data>
+    <data name="CommandMessageGroupAdd">
+        <value><![CDATA[Ordner erstellen]]></value>
+    </data>
+    <data name="TooltipMessageGroupAdd">
+        <value><![CDATA[Neuen Ordner erstellen]]></value>
+    </data>
+    <data name="TooltipMessageGroupDelGroup">
+        <value><![CDATA[Ordner mit allen Nachrichten löschen]]></value>
+    </data>
+    <data name="CommandListView">
+        <value><![CDATA[Listenansicht]]></value>
+    </data>
+    <data name="CommandAlternateView">
+        <value><![CDATA[Alternativansicht]]></value>
+    </data>
+    <data name="LableContentSingular">
+        <value><![CDATA[Inhalt]]></value>
+    </data>
+    <data name="LableContentPlural">
+        <value><![CDATA[Inhalte]]></value>
+    </data>
+    <data name="TooltipManagedCommunity">
+        <value><![CDATA[Managed Community - Inhalte werden von Community-Administratoren freigegeben]]></value>
+    </data>
+    <data name="TooltipCommunityError">
+        <value><![CDATA[Fehlerhafte Community - Melden sie dieses Problem dem Site-Administrator]]></value>
+    </data>
+    <data name="LablePrivate">
+        <value><![CDATA[Privat]]></value>
+    </data>
+    <data name="LablePublic">
+        <value><![CDATA[Öffentlich]]></value>
+    </data>
+    <data name="LableCommunityPrivate">
+        <value><![CDATA[Inhalt ist nur für mich sichtbar]]></value>
+    </data>
+    <data name="LableCommunityPublic">
+        <value><![CDATA[Inhalt ist für alle sichtbar]]></value>
+    </data>
+    <data name="TextObjectHasGEO">
+        <value><![CDATA[besitzt Geokoordinaten]]></value>
+    </data>
+    <data name="TextObjectEdit">
+        <value><![CDATA[bearbeiten]]></value>
+    </data>
+    <data name="TextObjectDelete">
+        <value><![CDATA[löschen]]></value>
+    </data>
+    <data name="TooltipShowStatePublishToDraft">
+        <value><![CDATA[Status von 'Publiziert' auf <b>Entwurf</b> setzen]]></value>
+    </data>
+    <data name="TooltipShowStateDraftToPublish">
+        <value><![CDATA[Status von 'Entwurf' auf <b>Publiziertt</b> setzen]]></value>
+    </data>
+    <data name="TitleMemberEdit">
+        <value><![CDATA[Mitglieder bearbeiten]]></value>
+    </data>
+    <data name="TitleMessageToAllMembers">
+        <value><![CDATA[Nachricht an alle Mitglieder senden]]></value>
+    </data>
+    <data name="TooltipCreator">
+        <value><![CDATA[Ersteller]]></value>
+    </data>
+    <data name="TooltipSavePlace">
+        <value><![CDATA[Speicherort]]></value>
+    </data>
+    <data name="LableObjectType">
+        <value><![CDATA[Typ]]></value>
+    </data>
+    <data name="LableContentType">
+        <value><![CDATA[Welche Inhalte]]></value>
+    </data>
+    <data name="LableInCommunities">
+        <value><![CDATA[In Communities]]></value>
+    </data>
+    <data name="LabelMyContent">
+        <value><![CDATA[Meine Inhalte]]></value>
+    </data>
+    <data name="LabelMyContentInMycommunity">
+        <value><![CDATA[Inhalte meiner Communities]]></value>
+    </data>
+    <data name="LabelPages">
+        <value><![CDATA[Seiten]]></value>
+    </data>
+    <data name="LabelAll">
+        <value><![CDATA[Alle]]></value>
+    </data>
+    <data name="LabelMyProfile">
+        <value><![CDATA[Mein Profil]]></value>
+    </data>
+    <data name="TitleFavorites">
+        <value><![CDATA[Favoriten]]></value>
+    </data>
+    <data name="LableFavoritesSingular">
+        <value><![CDATA[Favorit]]></value>
+    </data>
+    <data name="LableFavoritesPlural">
+        <value><![CDATA[Favoriten]]></value>
+    </data>
+    <data name="TooltipFavoritEdit">
+        <value><![CDATA[Favorit bearbeiten]]></value>
+    </data>
+    <data name="TooltipFavoritDelete">
+        <value><![CDATA[Favorit bearbeiten]]></value>
+    </data>
+    <data name="CommandFavoritManage">
+        <value><![CDATA[Favoriten verwalten]]></value>
+    </data>
+    <data name="TextFavoritDeleteConfirm">
+        <value><![CDATA[Soll dieser Favoritenlink wirklich gelöscht werden?]]></value>
+    </data>
+    <data name="LableInfo">
+        <value><![CDATA[Info]]></value>
+    </data>
+    <data name="CommandMembershipRelease">
+        <value><![CDATA[Austreten]]></value>
+    </data>
+    <data name="MySentMessages">
+        <value><![CDATA[Meine gesendeten Nachrichten]]></value>
+    </data>
+    <data name="WriteMessage">
+        <value><![CDATA[Neue Nachricht verfassen]]></value>
+    </data>
+    <data name="ShowMyFriends">
+        <value><![CDATA[Meine Freunde anzeigen]]></value>
+    </data>
+    <data name="MyOpenFrienRequests">
+        <value><![CDATA[Meine offenen Anfragen]]></value>
+    </data>
+    <data name="LabelTest">
+        <value><![CDATA[Tests]]></value>
+    </data>
+    <data name="LabelComments">
+        <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="ShowMyTest">
+        <value><![CDATA[Meine Tests anzeigen]]></value>
+    </data>
+    <data name="TitleManageContent">
+        <value><![CDATA[Inhalte verwalten]]></value>
+    </data>
+    <data name="MyMemberships">
+        <value><![CDATA[Meine Mitgliedschaften]]></value>
+    </data>
+    <data name="MyInvitations">
+        <value><![CDATA[Meine Einladungen]]></value>
+    </data>
+    <data name="ShowAlerts">
+        <value><![CDATA[Benachrichtigungen anzeigen]]></value>
+    </data>
+    <data name="LabelAlerts">
+        <value><![CDATA[Benachrichtigungen]]></value>
+    </data>
+    <data name="LabelActivities">
+        <value><![CDATA[Aktivitäten]]></value>
+    </data>
+    <data name="ShowActivities">
+        <value><![CDATA[Aktivitäten anzeigen]]></value>
+    </data>
+    <data name="CommandProfile1">
+        <value><![CDATA[Mein Bild, Meine Daten, usw.]]></value>
+    </data>
+    <data name="CommandMyInterests">
+        <value><![CDATA[Meine Interessen]]></value>
+    </data>
+    <data name="CommandProfile2">
+        <value><![CDATA[Passwort ändern, Profil löschen, usw.]]></value>
+    </data>
+    <data name="TitleCreateCommunity">
+        <value><![CDATA[Community erstellen]]></value>
+    </data>
+    <data name="TitleCreatePage">
+        <value><![CDATA[Seite erstellen]]></value>
+    </data>
+    <data name="TitleProfileDelete">
+        <value><![CDATA[Profil löschen]]></value>
+    </data>
+    <data name="LableInfoToFriend">
+        <value><![CDATA[Benachrichtigung]]></value>
+    </data>
+    <data name="TooltipInfoToFriend">
+        <value><![CDATA[Automatische Nachricht an meine Freunde versenden.]]></value>
+    </data>
+    <data name="LablePasswort">
+        <value><![CDATA[Passwort eingeben]]></value>
+    </data>
+    <data name="TooltipProfileDelete">
+        <value><![CDATA[Geben Sie Ihr Passwort ein, falls das Konto gelöscht werden soll]]></value>
+    </data>
+    <data name="CommandProfileDelete">
+        <value><![CDATA[Profil löschen]]></value>
+    </data>
+    <data name="MessageProfileDeletePassword">
+        <value><![CDATA[Passwort ist ungültig!]]></value>
+    </data>
+    <data name="MessageProfileDeleteError">
+        <value><![CDATA[Konto konnte nicht gelöscht werden!]]></value>
+    </data>
+    <data name="TextProfileDeleteSubject">
+        <value><![CDATA[Neue Nachricht von einem Freund]]></value>
+    </data>
+    <data name="TitleInfoCard">
+        <value><![CDATA[Info Card]]></value>
+    </data>
+    <data name="LableInfoCard">
+        <value><![CDATA[Aktuelle Info Card]]></value>
+    </data>
+    <data name="TooltipInfoCard">
+        <value><![CDATA[Aktuelle Info Card]]></value>
+    </data>
+    <data name="CommandInfoCardRemove">
+        <value><![CDATA[Entfernen]]></value>
+    </data>
+    <data name="LableInfoCardNew">
+        <value><![CDATA[Neue Info Card]]></value>
+    </data>
+    <data name="TooltipInfoCardNew">
+        <value><![CDATA[Neue Info Card]]></value>
+    </data>
+    <data name="MessageNoInfoCard">
+        <value><![CDATA[Ihr System unterstützt keine Info Cards!]]></value>
+    </data>
+    <data name="CommandInfoCardConfirm">
+        <value><![CDATA[Bestätigen]]></value>
+    </data>
+    <data name="MessageInfoCardNone">
+        <value><![CDATA[Keine]]></value>
+    </data>
+    <data name="MessageInfoCardConfirmed">
+        <value><![CDATA[Die Info Card wurde bestätigt!]]></value>
+    </data>
+    <data name="MessageInfoCardNorConfirmed">
+        <value><![CDATA[Die Info Card konnte nicht bestätigt werden!]]></value>
+    </data>
+    <data name="MessageInfoCardDeleted">
+        <value><![CDATA[Die Info Card wurde entfernt!]]></value>
+    </data>
+    <data name="LableAlertsCommon">
+        <value><![CDATA[Allgemeine Alerts]]></value>
+    </data>
+    <data name="LableAlertsMyObjects">
+        <value><![CDATA[Meine Inhalte]]></value>
+    </data>
+    <data name="LableAlertsForeignObjects">
+        <value><![CDATA[Fremde Inhalte]]></value>
+    </data>
+    <data name="TooltipAlertsCommon">
+        <value><![CDATA[Benachrichtigungen von Inhalten, welche die definierten Bedingungen erfüllen]]></value>
+    </data>
+    <data name="TooltipAlertsMyObjects">
+        <value><![CDATA[Benachrichtigungen von eigenen Inhalten]]></value>
+    </data>
+    <data name="TooltipAlertsForeignObjects">
+        <value><![CDATA[Benachrichtigungen von fremden Inhalten]]></value>
+    </data>
+    <data name="TextAlertsFromObjects">
+        <value><![CDATA[Inhalten von]]></value>
+    </data>
+    <data name="TextAlertsFromCommunity">
+        <value><![CDATA[aus Community]]></value>
+    </data>
+    <data name="CommandAlertsDelete">
+        <value><![CDATA[Löschen]]></value>
+    </data>
+    <data name="TextAlertsChangeObject">
+        <value><![CDATA[Editiert]]></value>
+    </data>
+    <data name="TextAlertsComment">
+        <value><![CDATA[Neuer Kommentar]]></value>
+    </data>
+    <data name="TextAlertsNewMember">
+        <value><![CDATA[Neues Mitglied]]></value>
+    </data>
+    <data name="TextAlertsNewObject">
+        <value><![CDATA[Inhalten hinzugefügt]]></value>
+    </data>
+    <data name="TextAlertsNewTopicItem">
+        <value><![CDATA[Neuer Forumeintrag]]></value>
+    </data>
+    <data name="TextAlertsNotDefined">
+        <value><![CDATA[Nicht definiert]]></value>
+    </data>
+    <data name="TextAlertsRate">
+        <value><![CDATA[Neue Bewertung]]></value>
+    </data>
+    <data name="TextAlertsNewPhotoNote">
+        <value><![CDATA[Bild-Notiz hinzugefügt]]></value>
+    </data>
+    <data name="TextAlertsImmediately">
+        <value><![CDATA[Sofort]]></value>
+    </data>
+    <data name="TextAlertsDaily">
+        <value><![CDATA[Täglich]]></value>
+    </data>
+    <data name="TextAlertsWeekly">
+        <value><![CDATA[Wöchentlich]]></value>
+    </data>
+    <data name="TextAlertsMonthly">
+        <value><![CDATA[Monatlich]]></value>
+    </data>
+    <data name="TextAlertsCSBMessage">
+        <value><![CDATA[Nachricht]]></value>
+    </data>
+    <data name="TextAlertsEMail">
+        <value><![CDATA[E-Mail]]></value>
+    </data>
+    <data name="TextAlertsNone">
+        <value><![CDATA[Keine]]></value>
+    </data>
+    <data name="TitleOpenId">
+        <value><![CDATA[OpenID]]></value>
+    </data>
+    <data name="LableOpenId">
+        <value><![CDATA[Aktuelle OpenID]]></value>
+    </data>
+    <data name="TooltipOpenId">
+        <value><![CDATA[Aktuelle OpenID]]></value>
+    </data>
+    <data name="CommandOpenIdRemove">
+        <value><![CDATA[Entfernen]]></value>
+    </data>
+    <data name="LableOpenIdNew">
+        <value><![CDATA[Neue OpenID]]></value>
+    </data>
+    <data name="TooltipOpenIdNew">
+        <value><![CDATA[Neue OpenID]]></value>
+    </data>
+    <data name="CommandOpenIdConfirm">
+        <value><![CDATA[Bestätigen]]></value>
+    </data>
+    <data name="MessageOpenIdConfirmed">
+        <value><![CDATA[Die OpenID wurde bestätigt!]]></value>
+    </data>
+    <data name="MessageOpenIdNotConfirmed">
+        <value><![CDATA[Die OpenID konnte nicht bestätigt werden!]]></value>
+    </data>
+    <data name="MessageOpenIdCanceled">
+        <value><![CDATA[Die OpenID-Bestätigung wurde abgebrochen!]]></value>
+    </data>
+    <data name="MessageOpenIdNone">
+        <value><![CDATA[Keine]]></value>
+    </data>
+    <data name="MessageOpenIdRemoved">
+        <value><![CDATA[Die OpenID wurde entfernt!]]></value>
+    </data>
+    <data name="TitlePermalink">
+        <value><![CDATA[Link]]></value>
+    </data>
+    <data name="LablePermalink">
+        <value><![CDATA[Link]]></value>
+    </data>
+    <data name="TooltipPermalink">
+        <value><![CDATA[Der Link auf Ihr Profil]]></value>
+    </data>
+    <data name="CommandPermalinkSend">
+        <value><![CDATA[Permalink senden]]></value>
+    </data>
+    <data name="TitleAds">
+        <value><![CDATA[Werbung]]></value>
+    </data>
+    <data name="LableAds">
+        <value><![CDATA[Werbungen]]></value>
+    </data>
+    <data name="TooltipAds">
+        <value><![CDATA[Ich möchte am Textwerbungs-Programm partizipieren und entsprechend profitieren, wenn meine Inhalte beliebt sind.]]></value>
+    </data>
+    <data name="TitleLanguage">
+        <value><![CDATA[Sprache]]></value>
+    </data>
+    <data name="LableLanguage">
+        <value><![CDATA[Sprache]]></value>
+    </data>
+    <data name="TooltipLanguage">
+        <value><![CDATA[Ich möchte diese Webseite in folgender Sprache anzeigen]]></value>
+    </data>
+    <data name="TextBrowserLanguage">
+        <value><![CDATA[Browser-Sprache]]></value>
+    </data>
+    <data name="CommandSave">
+        <value><![CDATA[Speichern]]></value>
+    </data>
+    <data name="TitlePoints">
+        <value><![CDATA[Punkte]]></value>
+    </data>
+    <data name="LablePoints">
+        <value><![CDATA[Aktueller Stand]]></value>
+    </data>
+    <data name="TooltipPoints">
+        <value><![CDATA[Aktueller Stand]]></value>
+    </data>
+    <data name="LablePointsGreen">
+        <value><![CDATA[Grün]]></value>
+    </data>
+    <data name="TooltipPointsGreen">
+        <value><![CDATA[Aktueller Stand]]></value>
+    </data>
+    <data name="LablePointsRed">
+        <value><![CDATA[Rot]]></value>
+    </data>
+    <data name="TooltipPointsRed">
+        <value><![CDATA[Aktueller Stand]]></value>
+    </data>
+    <data name="TitleMarkedMessages">
+        <value><![CDATA[Markierte Nachrichten]]></value>
+    </data>
+    <data name="TextReceivedMessagesNoUnread">
+        <value><![CDATA[Keine neuen Nachrichten]]></value>
+    </data>
+    <data name="TextReceivedMessages1Unread">
+        <value><![CDATA[1 neue Nachricht]]></value>
+    </data>
+    <data name="TextReceivedMessagesXUnread">
+        <value><![CDATA[{0} neue Nachrichten]]></value>
+    </data>
+    <data name="MembershipAndOnwers">
+        <value><![CDATA[Mitglieder/Besitzer]]></value>
+    </data>
+    <data name="TextFriendRequestNoUnread">
+        <value><![CDATA[Keine neuen Kontaktanfragen]]></value>
+    </data>
+    <data name="TextFriendRequest1Unread">
+        <value><![CDATA[1 neue Kontaktanfrage]]></value>
+    </data>
+    <data name="TextFriendRequestXUnread">
+        <value><![CDATA[{0} neue Kontaktanfragen]]></value>
+    </data>
+    <data name="TextCommentNoNew">
+        <value><![CDATA[Keine neuen Kommentare]]></value>
+    </data>
+    <data name="TextComment1New">
+        <value><![CDATA[1 neuer Kommentar]]></value>
+    </data>
+    <data name="TextCommentXNew">
+        <value><![CDATA[{0} neue Kommentare]]></value>
+    </data>
+    <data name="LabelFriends">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="MessageNoRequest">
+        <value><![CDATA[Keine Anfragen]]></value>
+    </data>
+    <data name="MessageNoTextInvitation">
+        <value><![CDATA[Keine Einladungen]]></value>
+    </data>
+    <data name="LabelTags">
+        <value><![CDATA[Tags]]></value>
+    </data>
+    <data name="TitleDashboard">
+        <value><![CDATA[Dashboard]]></value>
+    </data>
+    <data name="TitlePersonalStatistics">
+        <value><![CDATA[Ihre persöhnlichen Statistiken]]></value>
+    </data>
+    <data name="TitleProfileVisitors">
+        <value><![CDATA[Besucher ihres Profils]]></value>
+    </data>
+    <data name="TitleUserActivities">
+        <value><![CDATA[Benutzer-Aktivitäten]]></value>
+    </data>
+    <data name="lableaddtext">
+        <value><![CDATA[Ich sage...]]></value>
+    </data>
+</root>

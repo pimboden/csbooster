@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidget">
+        <value><![CDATA[IFrame]]></value>
+    </data>
+    <data name="TooltipWidget">
+        <value><![CDATA[ermöglicht die Integration von Fremdinhalten]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelUrl">
+        <value><![CDATA[Adresse (URL)]]></value>
+    </data>
+    <data name="TooltipUrl">
+        <value><![CDATA[Die Web-Adresse/URL welche gelanden werden soll]]></value>
+    </data>
+    <data name="LabelShowFrame">
+      <value><![CDATA[Rahmen zeigen?]]></value>
+    </data>
+    <data name="TooltipShowFrame">
+      <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelHeight">
+      <value><![CDATA[Höhe (in Pixel)]]></value>
+    </data>
+    <data name="TooltipHeight">
+      <value><![CDATA[]]></value>
+    </data>
+</root>

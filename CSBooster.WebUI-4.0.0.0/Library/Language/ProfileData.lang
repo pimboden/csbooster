@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <data name="MyProfile">
+        <value><![CDATA[Mein Profil]]></value>
+    </data>
+    <data name="PrivateData">
+        <value><![CDATA[Persönliche Daten]]></value>
+    </data>
+    <data name="Information">
+        <value><![CDATA[Information]]></value>
+    </data>
+    <data name="VisibilityAll">
+        <value><![CDATA[Sichtbarkeit<br/>für allel]]></value>
+    </data>
+    <data name="VisibilityFriend">
+        <value><![CDATA[Sichtbarkeit<br/>für diesen Freund]]></value>
+    </data>
+    <data name="LableTitle">
+        <value><![CDATA[Anrede]]></value>
+    </data>
+    <data name="TitleAddress">
+        <value><![CDATA[Adresse]]></value>
+    </data>
+    <data name="FirstName">
+        <value><![CDATA[Vorname]]></value>
+    </data>
+    <data name="Name">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="Nickname">
+        <value><![CDATA[Benutzername]]></value>
+    </data>
+    <data name="Sex">
+        <value><![CDATA[Geschlecht]]></value>
+    </data>
+    <data name="Birthday">
+        <value><![CDATA[Geburtstag]]></value>
+    </data>
+    <data name="Age">
+        <value><![CDATA[Alter]]></value>
+    </data>
+    <data name="Street">
+        <value><![CDATA[Strasse / Nr]]></value>
+    </data>
+    <data name="Zip">
+        <value><![CDATA[PLZ]]></value>
+    </data>
+    <data name="City">
+        <value><![CDATA[Ort]]></value>
+    </data>
+    <data name="Country">
+        <value><![CDATA[Land]]></value>
+    </data>
+    <data name="Language">
+        <value><![CDATA[Sprache]]></value>
+    </data>
+    <data name="Status">
+        <value><![CDATA[Beziehung]]></value>
+    </data>
+    <data name="AttractedTo">
+        <value><![CDATA[Neigung]]></value>
+    </data>
+    <data name="CommunicationData">
+        <value><![CDATA[Kommunikation]]></value>
+    </data>
+    <data name="OtherData">
+        <value><![CDATA[Diverse]]></value>
+    </data>
+    <data name="Mobile">
+        <value><![CDATA[Handynummer]]></value>
+    </data>
+    <data name="Phone">
+        <value><![CDATA[Festnetz]]></value>
+    </data>
+    <data name="MSN">
+        <value><![CDATA[MSN]]></value>
+    </data>
+    <data name="Yahoo">
+        <value><![CDATA[Yahoo]]></value>
+    </data>
+    <data name="Skype">
+        <value><![CDATA[Skype]]></value>
+    </data>
+    <data name="ICQ">
+        <value><![CDATA[ICQ]]></value>
+    </data>
+    <data name="AIM">
+        <value><![CDATA[AIM]]></value>
+    </data>
+    <data name="Homepage">
+        <value><![CDATA[Homepage]]></value>
+    </data>
+    <data name="Blog">
+        <value><![CDATA[Blog]]></value>
+    </data>
+    <data name="OtherData">
+        <value><![CDATA[Diverse]]></value>
+    </data>
+    <data name="EyeColor">
+        <value><![CDATA[Augenfarbe]]></value>
+    </data>
+    <data name="HairColor">
+        <value><![CDATA[Haarfarbe]]></value>
+    </data>
+    <data name="BodyHeight">
+        <value><![CDATA[Grösse]]></value>
+    </data>
+    <data name="BodyWeight">
+        <value><![CDATA[Gewicht]]></value>
+    </data>
+    <data name="OtherData">
+        <value><![CDATA[Diverse]]></value>
+    </data>
+
+    <data name="LableInfoStart">
+        <value><![CDATA[Ich bin]]></value>
+    </data>
+    <data name="LableInfoAnd">
+        <value><![CDATA[und]]></value>
+    </data>
+    <data name="LableInfoStartLang">
+        <value><![CDATA[Ich spreche]]></value>
+    </data>
+    <data name="TooltipLang">
+        <value><![CDATA[Geben Sie hier Ihre bevorzugte Sprache an]]></value>
+    </data>
+    <data name="LableInfoAndLang">
+        <value><![CDATA[und spreche]]></value>
+    </data>
+    <data name="LableInfoAge">
+        <value><![CDATA[Jahre alt]]></value>
+    </data>
+    <data name="LableInfoStartCity">
+        <value><![CDATA[Ich lebe in]]></value>
+    </data>
+    <data name="LableInfoStartCityExt">
+        <value><![CDATA[der]]></value>
+    </data>
+    <data name="LableInfoContryCH">
+        <value><![CDATA[Schweiz]]></value>
+    </data>
+    <data name="LableInfoContryDE">
+        <value><![CDATA[Deutschland]]></value>
+    </data>
+    <data name="LableInfoContryAT">
+        <value><![CDATA[&Ouml;sterreich]]></value>
+    </data>
+    <data name="LableInfoCommunication">
+        <value><![CDATA[Ich kommuniziere mittels]]></value>
+    </data>
+    <data name="LableInfoHomepage">
+        <value><![CDATA[Meine Homepage]]></value>
+    </data>
+    <data name="LableInfoBlog">
+        <value><![CDATA[Mein Blog]]></value>
+    </data>
+    <data name="LableInfoBeruf">
+        <value><![CDATA[Ich bin]]></value>
+    </data>
+    <data name="LableBeruf">
+        <value><![CDATA[Beruf]]></value>
+    </data>
+    <data name="LableInfoMotto">
+        <value><![CDATA[Mein Motto ist]]></value>
+    </data>
+    <data name="LableMotto">
+        <value><![CDATA[Mein Lebensmotto]]></value>
+    </data>
+    <data name="LableInfoTelentSigular">
+        <value><![CDATA[Mein Talent ist]]></value>
+    </data>
+    <data name="LableInfoTelentPlural">
+        <value><![CDATA[Meine Talente sind]]></value>
+    </data>
+    <data name="LableInfoInterstSigular">
+        <value><![CDATA[Meine sonstiges Interesse ist]]></value>
+    </data>
+    <data name="LableInfoInterstPlural">
+        <value><![CDATA[Meine sonstigen Interessen sind]]></value>
+    </data>
+    <data name="LableInfoMemberSince">
+        <value><![CDATA[Mitglied seit]]></value>
+    </data>
+    <data name="LabelInfoVisits">
+        <value><![CDATA[Besuche]]></value>
+    </data>
+    <data name="LabelInfoCreated">
+        <value><![CDATA[Erstellung]]></value>
+    </data>
+    <data name="LabelInfoTagSingular">
+        <value><![CDATA[Tag]]></value>
+    </data>
+    <data name="LabelInfoTagPlural">
+        <value><![CDATA[Tags]]></value>
+    </data>
+    <data name="TitleOnline">
+        <value><![CDATA[Online]]></value>
+    </data>
+    <data name="TextIsOnline">
+        <value><![CDATA[gerade online]]></value>
+    </data>
+    <data name="TextAll">
+        <value><![CDATA[alle]]></value>
+    </data>
+    <data name="TitleUserPicture">
+        <value><![CDATA[Benutzerbild]]></value>
+    </data>
+    <data name="TextWithPicture">
+        <value><![CDATA[nur mit Bild]]></value>
+    </data>
+    <data name="TextAgeRange1">
+        <value><![CDATA[bis 16 Jahre]]></value>
+    </data>
+    <data name="TextAgeRange2">
+        <value><![CDATA[17 bis 20 Jahre]]></value>
+    </data>
+    <data name="TextAgeRange3">
+        <value><![CDATA[21 bis 25 Jahre]]></value>
+    </data>
+    <data name="TextAgeRange4">
+        <value><![CDATA[26 bis 30 Jahre]]></value>
+    </data>
+    <data name="TextAgeRange5">
+        <value><![CDATA[31 bis 40 Jahre]]></value>
+    </data>
+    <data name="TextAgeRange6">
+        <value><![CDATA[41 bis 50 Jahre]]></value>
+    </data>
+    <data name="TextAgeRange7">
+        <value><![CDATA[über 50 Jahre]]></value>
+    </data>
+    <data name="TitleDistanceRange">
+        <value><![CDATA[Umkreis von PLZ]]></value>
+    </data>
+    <data name="TextDistanceRange1">
+        <value><![CDATA[bis 1 km]]></value>
+    </data>
+    <data name="TextDistanceRange2">
+        <value><![CDATA[bis 5 km]]></value>
+    </data>
+    <data name="TextDistanceRange3">
+        <value><![CDATA[bis 10 km]]></value>
+    </data>
+    <data name="TextDistanceRange4">
+        <value><![CDATA[bis 25 km]]></value>
+    </data>
+    <data name="TextDistanceRange5">
+        <value><![CDATA[bis 50 km]]></value>
+    </data>
+    <data name="TextDistanceRange6">
+        <value><![CDATA[bis 100 km]]></value>
+    </data>
+    <data name="TitleRegion">
+        <value><![CDATA[Kanton]]></value>
+    </data>
+    <data name="TextRegionAG">
+        <value><![CDATA[Aargau]]></value>
+    </data>
+    <data name="TextRegionAR">
+        <value><![CDATA[Appenzell AR]]></value>
+    </data>
+    <data name="TextRegionAI">
+        <value><![CDATA[Appenzell AI]]></value>
+    </data>
+    <data name="TextRegionBL">
+        <value><![CDATA[Baselland]]></value>
+    </data>
+    <data name="TextRegionBS">
+        <value><![CDATA[Baselstadt]]></value>
+    </data>
+    <data name="TextRegionBE">
+        <value><![CDATA[Bern]]></value>
+    </data>
+    <data name="TextRegionFR">
+        <value><![CDATA[Freiburg]]></value>
+    </data>
+    <data name="TextRegionGE">
+        <value><![CDATA[Genf]]></value>
+    </data>
+    <data name="TextRegionGL">
+        <value><![CDATA[Glarus]]></value>
+    </data>
+    <data name="TextRegionGB">
+        <value><![CDATA[Graubünden]]></value>
+    </data>
+    <data name="TextRegionJU">
+        <value><![CDATA[Jura]]></value>
+    </data>
+    <data name="TextRegionLU">
+        <value><![CDATA[Luzern]]></value>
+    </data>
+    <data name="TextRegionNE">
+        <value><![CDATA[Neuenburg]]></value>
+    </data>
+    <data name="TextRegionNW">
+        <value><![CDATA[Nidwalden]]></value>
+    </data>
+    <data name="TextRegionOW">
+        <value><![CDATA[Obwalden]]></value>
+    </data>
+    <data name="TextRegionSH">
+        <value><![CDATA[Schaffhausen]]></value>
+    </data>
+    <data name="TextRegionSZ">
+        <value><![CDATA[Schwyz]]></value>
+    </data>
+    <data name="TextRegionSO">
+        <value><![CDATA[Solothurn]]></value>
+    </data>
+    <data name="TextRegionSG">
+        <value><![CDATA[St.Gallen]]></value>
+    </data>
+    <data name="TextRegionTI">
+        <value><![CDATA[Tessin]]></value>
+    </data>
+    <data name="TextRegionUR">
+        <value><![CDATA[Uri]]></value>
+    </data>
+    <data name="TextRegionVD">
+        <value><![CDATA[Waadt]]></value>
+    </data>
+    <data name="TextRegionAG">
+        <value><![CDATA[Aargau]]></value>
+    </data>
+    <data name="TextRegionVS">
+        <value><![CDATA[Wallis]]></value>
+    </data>
+    <data name="TextRegionZG">
+        <value><![CDATA[Zug]]></value>
+    </data>
+    <data name="TextRegionZH">
+        <value><![CDATA[Zürich]]></value>
+    </data>
+    <data name="TooltipUploadPicture">
+        <value><![CDATA[Laden Sie hier Ihr Profilbild hoch]]></value>
+    </data>
+    <data name="CommandRemovePicture">
+        <value><![CDATA[Bild entfernen]]></value>
+    </data>
+    <data name="CommandUploadPicture">
+        <value><![CDATA[Bild hochladen]]></value>
+    </data>
+    <data name="LableColors">
+        <value><![CDATA[Profilfarben]]></value>
+    </data>
+    <data name="TooltipColors">
+        <value><![CDATA[Wählen Sie hier Ihre Profilfarben aus]]></value>
+    </data>
+    <data name="TitleNames">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="LableShow">
+        <value><![CDATA[Anzeigen]]></value>
+    </data>
+    <data name="TooltipShow">
+        <value><![CDATA[Sollen die Informationen öffentlich angezeigt werden?]]></value>
+    </data>
+    <data name="TitleData">
+        <value><![CDATA[Daten]]></value>
+    </data>
+    <data name="TitleProperties">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="TitlePassword">
+        <value><![CDATA[Passwort]]></value>
+    </data>
+    <data name="CommandPasswordChange">
+        <value><![CDATA[Passwort ändern]]></value>
+    </data>
+    <data name="TitleEmail">
+        <value><![CDATA[Email]]></value>
+    </data>
+    <data name="LableEmail">
+        <value><![CDATA[Email-Adresse]]></value>
+    </data>
+    <data name="TitlePhone">
+        <value><![CDATA[Telefon]]></value>
+    </data>
+    <data name="LablePhone">
+        <value><![CDATA[Telefon]]></value>
+    </data>
+    <data name="LableMobile">
+        <value><![CDATA[Handy]]></value>
+    </data>
+    <data name="TitleMessenger">
+        <value><![CDATA[Messenger]]></value>
+    </data>
+    <data name="LableMSN">
+        <value><![CDATA[MSN]]></value>
+    </data>
+    <data name="LableYahoo">
+        <value><![CDATA[Yahoo]]></value>
+    </data>
+    <data name="LableSkype">
+        <value><![CDATA[Skype]]></value>
+    </data>
+    <data name="LableICQ">
+        <value><![CDATA[ICQ]]></value>
+    </data>
+    <data name="LableAIM">
+        <value><![CDATA[AIM]]></value>
+    </data>
+    <data name="TooltipMSN">
+        <value><![CDATA[Geben Sie hier Ihren Microsoft Messenger Namen an]]></value>
+    </data>
+    <data name="TooltipYahoo">
+        <value><![CDATA[Geben Sie hier Ihren Yahoo Messenger Namen an]]></value>
+    </data>
+    <data name="TooltipSkype">
+        <value><![CDATA[Geben Sie hier Ihren Skype Namen an]]></value>
+    </data>
+    <data name="TooltipICQ">
+        <value><![CDATA[Geben Sie hier Ihre ICQ Nummer an]]></value>
+    </data>
+    <data name="TooltipAIM">
+        <value><![CDATA[Geben Sie hier Ihren AOL Instant Messenger Namen an]]></value>
+    </data>
+    <data name="TitleWeb">
+        <value><![CDATA[Web]]></value>
+    </data>
+    <data name="LableHomepage">
+        <value><![CDATA[Homepage]]></value>
+    </data>
+    <data name="LableBlog">
+        <value><![CDATA[Blog]]></value>
+    </data>
+    <data name="MessageEmailSave">
+        <value><![CDATA[Blog]]></value>
+    </data>
+    <data name="LableSelect">
+        <value><![CDATA[Auswählen]]></value>
+    </data>
+    <data name="LableIntresst">
+        <value><![CDATA[Interessen]]></value>
+    </data>
+    <data name="SexMale">
+        <value><![CDATA[männlich]]></value>
+    </data>
+    <data name="SexFemale">
+        <value><![CDATA[weiblich]]></value>
+    </data>
+    <data name="TitleUserInfo">
+        <value><![CDATA[Allgemeine Informationen]]></value>
+    </data>
+    <data name="LablePicture">
+        <value><![CDATA[Profilbild]]></value>
+    </data>
+    <data name="LabelAge">
+        <value><![CDATA[Alter]]></value>
+    </data>
+    <data name="TextYears">
+        <value><![CDATA[Jahre]]></value>
+    </data>
+</root>

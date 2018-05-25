@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleLoginSSO">
+        <value><![CDATA[Login APIs]]></value>
+    </data>
+    <data name="TooltipLoginSSO">
+        <value><![CDATA[Single-Sign-On Login Systeme]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+</root>

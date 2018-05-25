@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="CreateHTMLContent">
+    <value><![CDATA[HTML Inhalt hinzufügen]]></value>
+  </data>
+    <data name="HTMLContentPlural">
+    <value><![CDATA[HTML Inhalte]]></value>
+  </data>
+    <data name="HTMLContentSingular">
+    <value><![CDATA[HTML Inhalt]]></value>
+  </data>
+    <data name="HTMLContent_Step010">
+    <value><![CDATA[HTML Inhalt]]></value>
+  </data>
+    <data name="LabelContent">
+    <value><![CDATA[Text]]></value>
+  </data>
+    <data name="LabelDateTimeFrom">
+    <value><![CDATA[sichtbar ab]]></value>
+  </data>
+    <data name="LabelDateTimeTo">
+    <value><![CDATA[sichtbar bis]]></value>
+  </data>
+    <data name="LabelTitle">
+    <value><![CDATA[Titel]]></value>
+  </data>
+    <data name="MessageTitle">
+    <value><![CDATA[Titel ist zwingend]]></value>
+  </data>
+    <data name="TitleHTMLContentEdit">
+    <value><![CDATA[HTML Inhalt bearbeiten]]></value>
+  </data>
+    <data name="TitleHTMLContentUpload">
+    <value><![CDATA[HTML Inhalt hinzufügen]]></value>
+  </data>
+    <data name="TitleStepFinish">
+    <value><![CDATA[Fertig]]></value>
+  </data>
+    <data name="TitleStepTagging">
+    <value><![CDATA[Tagging]]></value>
+  </data>
+    <data name="TooltipDateTimeFrom">
+    <value><![CDATA[Datum ab wann dieser Inhalt angezeigt werden soll]]></value>
+  </data>
+    <data name="TooltipDateTimeTo">
+    <value><![CDATA[Datums biss wann dieser Inhalt sichbar sein muss]]></value>
+  </data>
+    <data name="TooltipLabelContent">
+    <value><![CDATA[Text]]></value>
+  </data>
+    <data name="TooltipTitle">
+    <value><![CDATA[Der Sendungsname darf höchstens 100 Zeichen lang sein. HTML ist nicht erlaubt.]]></value>
+  </data>
+</root>

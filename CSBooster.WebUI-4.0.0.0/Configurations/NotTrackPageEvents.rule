@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <exclude url="/default.aspx" event="VIEW" roles="ANONYMOUS,BASIC" />
+  <!--<exclude url="/testing/*.*" event="Load" roles="ANONYMOUS,BASIC" />
+  <exclude url="/testing2/*.*" event="*" roles="ANONYMOUS,BASIC" />
+  -->
+</root>

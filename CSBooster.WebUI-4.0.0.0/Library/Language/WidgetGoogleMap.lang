@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="CommandShowMap">
+    <value><![CDATA[Karte anzeigen]]></value>
+  </data>
+  <data name="EnumMapNavigationNone">
+    <value><![CDATA[Keine]]></value>
+  </data>
+  <data name="EnumMapNavigationNormal">
+    <value><![CDATA[Normal]]></value>
+  </data>
+  <data name="EnumMapNavigationSmall">
+    <value><![CDATA[Klein]]></value>
+  </data>
+  <data name="EnumMapStyleAerial">
+    <value><![CDATA[Luftaufnahmen]]></value>
+  </data>
+  <data name="EnumMapStyleHybrid">
+    <value><![CDATA[Hybrid]]></value>
+  </data>
+  <data name="EnumMapStyleRoad">
+    <value><![CDATA[Strassenkarte]]></value>
+  </data>
+  <data name="ErrorMessageNotNumeric">
+    <value><![CDATA[Bitte geben sie gültige Koordinaten ein]]></value>
+  </data>
+  <data name="LabelFar">
+    <value><![CDATA[Weiter entfernt]]></value>
+  </data>
+  <data name="LabelLongLat">
+    <value><![CDATA[Länge/Breite]]></value>
+  </data>
+  <data name="LabelNavigation">
+    <value><![CDATA[Navigation]]></value>
+  </data>
+  <data name="LabelNear">
+    <value><![CDATA[Näher]]></value>
+  </data>
+  <data name="LabelPreset">
+    <value><![CDATA[Voreinstellungen]]></value>
+  </data>
+  <data name="LabelStyle">
+    <value><![CDATA[Stil]]></value>
+  </data>
+  <data name="LabelUrl">
+    <value><![CDATA[Url gesteuert]]></value>
+  </data>
+  <data name="LabelZoom">
+    <value><![CDATA[Zoom]]></value>
+  </data>
+  <data name="TitleWidget">
+    <value><![CDATA[Karte]]></value>
+  </data>
+  <data name="TitleWidgetSettings">
+    <value><![CDATA[Karte]]></value>
+  </data>
+  <data name="TooltipLongLat">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipNavigation">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipPreset">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipStyle">
+    <value><![CDATA[Wählen Sie einen Stil aus]]></value>
+  </data>
+  <data name="TooltipUrl">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipWidget">
+    <value><![CDATA[Zeigt Objekte auf einer Karte an]]></value>
+  </data>
+  <data name="TooltipZoom">
+    <value><![CDATA[]]></value>
+  </data>
+</root>

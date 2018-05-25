@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CSBooster" Class="CSBooster_ExtensionsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=4SAPPL02\SQL2005;Initial Catalog=CSBooster;Persist Security Info=True;User ID=CSBooster_User" SettingsObjectName="_4screen.CSB.Extensions.Properties.Settings" SettingsPropertyName="CSBoosterConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.hisp_WebServicesLog_Insert" Method="hisp_WebServicesLog_Insert">
+    <Parameter Name="WSE_IP" Parameter="wSE_IP" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="USR_ID" Parameter="uSR_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="PAR_ID" Parameter="pAR_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="OBJ_ID" Parameter="oBJ_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="WSE_StartDate" Parameter="wSE_StartDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="WSE_EndDate" Parameter="wSE_EndDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="WSE_ServiceType" Parameter="wSE_ServiceType" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="WSE_SerivceName" Parameter="wSE_SerivceName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="WSE_Method" Parameter="wSE_Method" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="WSE_Parameters" Parameter="wSE_Parameters" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="WSE_Result" Parameter="wSE_Result" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="WSE_GeoService" Parameter="wSE_GeoService" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="WSE_FilesToDownload" Parameter="wSE_FilesToDownload" Type="System.Int32" DbType="Int" />
+    <Parameter Name="WSE_FilesDownloaded" Parameter="wSE_FilesDownloaded" Type="System.Int32" DbType="Int" />
+    <Parameter Name="WSE_Message" Parameter="wSE_Message" Type="System.String" DbType="VarChar(500)" />
+    <Parameter Name="WSE_ExtendedMessage" Parameter="wSE_ExtendedMessage" Type="System.String" DbType="VarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

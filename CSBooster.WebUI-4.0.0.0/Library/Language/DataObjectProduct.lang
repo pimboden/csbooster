@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="CreateProduct">
+    <value><![CDATA[Produkt hinzufügen]]></value>
+  </data>
+    <data name="LabelAbstract">
+    <value><![CDATA[Kurzbeschrieb]]></value>
+  </data>
+    <data name="LabelAddToCart">
+    <value><![CDATA[In den Warenkorb]]></value>
+  </data>
+    <data name="LabelDesc">
+    <value><![CDATA[Beschreibung]]></value>
+  </data>
+    <data name="LabelPorto">
+    <value><![CDATA[Porto]]></value>
+  </data>
+    <data name="LabelPrice1">
+    <value><![CDATA[Preis]]></value>
+  </data>
+    <data name="LabelPrice2">
+    <value><![CDATA[Spezialpreis]]></value>
+  </data>
+    <data name="LabelPrice3">
+    <value><![CDATA[Preis 3]]></value>
+  </data>
+    <data name="LabelRef">
+    <value><![CDATA[Referenz]]></value>
+  </data>
+    <data name="LabelTitle">
+    <value><![CDATA[Name]]></value>
+  </data>
+    <data name="MessageTitle">
+    <value><![CDATA[Produktname ist zwingend]]></value>
+  </data>
+    <data name="O2O_RelationTitle">
+    <value><![CDATA[Produkt Photos]]></value>
+  </data>
+    <data name="Product">
+    <value><![CDATA[Produkt]]></value>
+  </data>
+    <data name="Products">
+    <value><![CDATA[Produkte]]></value>
+  </data>
+    <data name="TitleProductEdit">
+    <value><![CDATA[Produkt bearbeiten]]></value>
+  </data>
+    <data name="TitleProductUpload">
+    <value><![CDATA[Produkt erstellen]]></value>
+  </data>
+    <data name="TitleStepAddPictures">
+    <value><![CDATA[Photos]]></value>
+  </data>
+    <data name="TitleStepEdit">
+    <value><![CDATA[Editieren]]></value>
+  </data>
+    <data name="TitleStepFinish">
+    <value><![CDATA[Fertig]]></value>
+  </data>
+    <data name="TitleStepTagging">
+    <value><![CDATA[Tagging]]></value>
+  </data>
+    <data name="TitleStepUpload">
+    <value><![CDATA[Erstellen]]></value>
+  </data>
+    <data name="TooltipAbstract">
+    <value><![CDATA[Kurzbeschrieb des Produktes. HTML ist nicht  erlaubt]]></value>
+  </data>
+    <data name="TooltipAddToCart">
+    <value><![CDATA[In den Warenkorb]]></value>
+  </data>
+    <data name="TooltipDesc">
+    <value><![CDATA[Produktbeschreibung]]></value>
+  </data>
+    <data name="TooltipPorto">
+    <value><![CDATA[Portogebühren dieses Produkts]]></value>
+  </data>
+    <data name="TooltipPrice1">
+    <value><![CDATA[Preis für den Produkt]]></value>
+  </data>
+    <data name="TooltipPrice2">
+    <value><![CDATA[Wenn 0 oder kein Preis angegeben, wird dieser auch nicht erscheinen]]></value>
+  </data>
+    <data name="TooltipPrice3">
+    <value><![CDATA[Wenn 0 oder kein Preis angegeben, wird dieser auch nicht erscheinen]]></value>
+  </data>
+    <data name="TooltipRef">
+    <value><![CDATA[Referenz nummer des Produkts]]></value>
+  </data>
+    <data name="TooltipTitle">
+    <value><![CDATA[Der Name darf höchstens 100 Zeichen lang sein. HTML ist nicht erlaubt]]></value>
+  </data>
+</root>

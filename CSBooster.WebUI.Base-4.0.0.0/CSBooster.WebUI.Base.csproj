@@ -1,0 +1,1888 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42E4B14D-2ED8-465F-9238-6A9C5D5C7950}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_4screen.CSB.WebUI</RootNamespace>
+    <AssemblyName>CSBooster.WebUI.Base</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug + Copy|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="4screen.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\4screen.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="4screen.WebControls, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\4screen.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Affirma.ThreeSharp, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Affirma.ThreeSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Affirma.ThreeSharp.Wrapper, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Affirma.ThreeSharp.Wrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControlToolkit, Version=3.0.11119.25533, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Anders.Web.Controls, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Anders.Web.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="BuildVsi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\BuildVsi.dll</HintPath>
+    </Reference>
+    <Reference Include="CookComputing.XmlRpcV2, Version=2.3.2.0, Culture=neutral, PublicKeyToken=a7d6e17aa302004d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\CookComputing.XmlRpcV2.dll</HintPath>
+    </Reference>
+    <Reference Include="CSBooster.GeoTagging, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\CSBooster.GeoTagging.dll</HintPath>
+    </Reference>
+    <Reference Include="Element-IT.PowUpload, Version=1.3.0.0, Culture=neutral, PublicKeyToken=0f5ecb088372736c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Element-IT.PowUpload.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtremeSwank.OpenId, Version=4.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\ExtremeSwank.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Bmp, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Bmp.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Cmp, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Cmp.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Gif, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Gif.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Img, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Img.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Pcx, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Pcx.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Png, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Png.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Tif, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Tif.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Wmf, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Wmf.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Color, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.Color.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Effects, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.Effects.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.SpecialEffects, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.SpecialEffects.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Utilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="MSCaptcha, Version=1.0.2832.11804, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\MSCaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Show_Net, Version=1.3.3.0, Culture=neutral, PublicKeyToken=a24f0e4ecff66e91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\obout_Show_Net.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenFlashChartLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\OpenFlashChartLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib, Version=0.4.0.0, Culture=neutral, PublicKeyToken=fbebc9694da332b7">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SubSonic, Version=2.1.0.0, Culture=neutral, PublicKeyToken=eadb47849839a332, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\SubSonic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\System.Web.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="taglib-sharp, Version=2.0.3.0, Culture=neutral, PublicKeyToken=db62eba44689b5b0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\taglib-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2008.3.1105.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\CheckBoxListRequiredFieldValidator.cs" />
+    <Compile Include="Code\Interfaces\IViewHandler.cs" />
+    <Compile Include="Code\Interfaces\ISearchable.cs" />
+    <Compile Include="Code\Interfaces\IShiftable.cs" />
+    <Compile Include="Code\Interfaces\ITagHandler.cs" />
+    <Compile Include="Code\Interfaces\ITagLocationSearchBox.cs" />
+    <Compile Include="Code\Interfaces\IUser.cs" />
+    <Compile Include="Code\ProfileQuestionsControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMap.aspx.cs">
+      <DependentUpon>GoogleMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoogleMap.aspx.designer.cs">
+      <DependentUpon>GoogleMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\AddLocation.aspx.cs">
+      <DependentUpon>AddLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\AddLocation.aspx.designer.cs">
+      <DependentUpon>AddLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\LinkFacebookAccount.aspx.cs">
+      <DependentUpon>LinkFacebookAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\LinkFacebookAccount.aspx.designer.cs">
+      <DependentUpon>LinkFacebookAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\ForumTopicItemComment.aspx.cs">
+      <DependentUpon>ForumTopicItemComment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\ForumTopicItemComment.aspx.designer.cs">
+      <DependentUpon>ForumTopicItemComment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\HtmlContent.aspx.cs">
+      <DependentUpon>HtmlContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\HtmlContent.aspx.designer.cs">
+      <DependentUpon>HtmlContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\UserRegistration.aspx.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\UserRegistration.aspx.designer.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentRelatedBox.ascx.cs">
+      <DependentUpon>MyContentRelatedBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentRelatedBox.ascx.designer.cs">
+      <DependentUpon>MyContentRelatedBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DetailPager.ascx.cs">
+      <DependentUpon>DetailPager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\DetailPager.ascx.designer.cs">
+      <DependentUpon>DetailPager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ObjectTagHandlerSuggestions.ascx.cs">
+      <DependentUpon>ObjectTagHandlerSuggestions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ObjectTagHandlerSuggestions.ascx.designer.cs">
+      <DependentUpon>ObjectTagHandlerSuggestions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\AlertPreview.ascx.cs">
+      <DependentUpon>AlertPreview.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\AlertPreview.ascx.designer.cs">
+      <DependentUpon>AlertPreview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Alerts.ascx.cs">
+      <DependentUpon>Alerts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Alerts.ascx.designer.cs">
+      <DependentUpon>Alerts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\BlockedUsers.ascx.cs">
+      <DependentUpon>BlockedUsers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\BlockedUsers.ascx.designer.cs">
+      <DependentUpon>BlockedUsers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\BlockedUsersActions.ascx.cs">
+      <DependentUpon>BlockedUsersActions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\BlockedUsersActions.ascx.designer.cs">
+      <DependentUpon>BlockedUsersActions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\CommentPreview.ascx.cs">
+      <DependentUpon>CommentPreview.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\CommentPreview.ascx.designer.cs">
+      <DependentUpon>CommentPreview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Comments.ascx.cs">
+      <DependentUpon>Comments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Comments.ascx.designer.cs">
+      <DependentUpon>Comments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Dashboard.ascx.cs">
+      <DependentUpon>Dashboard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Dashboard.ascx.designer.cs">
+      <DependentUpon>Dashboard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\FriendActions.ascx.cs">
+      <DependentUpon>FriendActions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\FriendActions.ascx.designer.cs">
+      <DependentUpon>FriendActions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Friends.ascx.cs">
+      <DependentUpon>Friends.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Friends.ascx.designer.cs">
+      <DependentUpon>Friends.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ManageContent.ascx.cs">
+      <DependentUpon>ManageContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ManageContent.ascx.designer.cs">
+      <DependentUpon>ManageContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MessageActions.ascx.cs">
+      <DependentUpon>MessageActions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MessageActions.ascx.designer.cs">
+      <DependentUpon>MessageActions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MessageGroup.ascx.cs">
+      <DependentUpon>MessageGroup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MessageGroup.ascx.designer.cs">
+      <DependentUpon>MessageGroup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MessagePreview.ascx.cs">
+      <DependentUpon>MessagePreview.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MessagePreview.ascx.designer.cs">
+      <DependentUpon>MessagePreview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Msgbox.ascx.cs">
+      <DependentUpon>Msgbox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Msgbox.ascx.designer.cs">
+      <DependentUpon>Msgbox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyCommInvitations.ascx.cs">
+      <DependentUpon>MyCommInvitations.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyCommInvitations.ascx.designer.cs">
+      <DependentUpon>MyCommInvitations.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContent.ascx.cs">
+      <DependentUpon>MyContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContent.ascx.designer.cs">
+      <DependentUpon>MyContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentItemRow.ascx.cs">
+      <DependentUpon>MyContentItemRow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentItemRow.ascx.designer.cs">
+      <DependentUpon>MyContentItemRow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentSearch.ascx.cs">
+      <DependentUpon>MyContentSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentSearch.ascx.designer.cs">
+      <DependentUpon>MyContentSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentSelectionBox.ascx.cs">
+      <DependentUpon>MyContentSelectionBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentSelectionBox.ascx.designer.cs">
+      <DependentUpon>MyContentSelectionBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentWidgetBox.ascx.cs">
+      <DependentUpon>MyContentWidgetBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyContentWidgetBox.ascx.designer.cs">
+      <DependentUpon>MyContentWidgetBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyFavorites.ascx.cs">
+      <DependentUpon>MyFavorites.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyFavorites.ascx.designer.cs">
+      <DependentUpon>MyFavorites.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyMemberships.ascx.cs">
+      <DependentUpon>MyMemberships.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\MyMemberships.ascx.designer.cs">
+      <DependentUpon>MyMemberships.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileBasisInfo.ascx.cs">
+      <DependentUpon>ProfileBasisInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileBasisInfo.ascx.designer.cs">
+      <DependentUpon>ProfileBasisInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileChangePassword.ascx.cs">
+      <DependentUpon>ProfileChangePassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileChangePassword.ascx.designer.cs">
+      <DependentUpon>ProfileChangePassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileCommunication.ascx.cs">
+      <DependentUpon>ProfileCommunication.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileCommunication.ascx.designer.cs">
+      <DependentUpon>ProfileCommunication.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileDeleteCommunity.ascx.cs">
+      <DependentUpon>ProfileDeleteCommunity.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileDeleteCommunity.ascx.designer.cs">
+      <DependentUpon>ProfileDeleteCommunity.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileInfoCard.ascx.cs">
+      <DependentUpon>ProfileInfoCard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileInfoCard.ascx.designer.cs">
+      <DependentUpon>ProfileInfoCard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileInterestTopic.ascx.cs">
+      <DependentUpon>ProfileInterestTopic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileInterestTopic.ascx.designer.cs">
+      <DependentUpon>ProfileInterestTopic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileIntresse.ascx.cs">
+      <DependentUpon>ProfileIntresse.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileIntresse.ascx.designer.cs">
+      <DependentUpon>ProfileIntresse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileMessages.ascx.cs">
+      <DependentUpon>ProfileMessages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileMessages.ascx.designer.cs">
+      <DependentUpon>ProfileMessages.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileNotification.ascx.cs">
+      <DependentUpon>ProfileNotification.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileNotification.ascx.designer.cs">
+      <DependentUpon>ProfileNotification.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileOpenID.ascx.cs">
+      <DependentUpon>ProfileOpenID.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileOpenID.ascx.designer.cs">
+      <DependentUpon>ProfileOpenID.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfilePermalink.ascx.cs">
+      <DependentUpon>ProfilePermalink.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfilePermalink.ascx.designer.cs">
+      <DependentUpon>ProfilePermalink.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileShowAds.ascx.cs">
+      <DependentUpon>ProfileShowAds.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileShowAds.ascx.designer.cs">
+      <DependentUpon>ProfileShowAds.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileTalente.ascx.cs">
+      <DependentUpon>ProfileTalente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileTalente.ascx.designer.cs">
+      <DependentUpon>ProfileTalente.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileUILanguage.ascx.cs">
+      <DependentUpon>ProfileUILanguage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileUILanguage.ascx.designer.cs">
+      <DependentUpon>ProfileUILanguage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileUserPoints.ascx.cs">
+      <DependentUpon>ProfileUserPoints.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\ProfileUserPoints.ascx.designer.cs">
+      <DependentUpon>ProfileUserPoints.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Requests.ascx.cs">
+      <DependentUpon>Requests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\Requests.ascx.designer.cs">
+      <DependentUpon>Requests.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\ActivateUser.aspx.cs">
+      <DependentUpon>ActivateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other\ActivateUser.aspx.designer.cs">
+      <DependentUpon>ActivateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\AdCampaignRedirecter.aspx.cs">
+      <DependentUpon>AdCampaignRedirecter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other\AdCampaignRedirecter.aspx.designer.cs">
+      <DependentUpon>AdCampaignRedirecter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\ChartHandler.ashx.cs">
+      <DependentUpon>ChartHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\Logout.ashx.cs">
+      <DependentUpon>Logout.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\RssFeed.aspx.cs">
+      <DependentUpon>RssFeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other\RssFeed.aspx.designer.cs">
+      <DependentUpon>RssFeed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\VideoFeed.ashx.cs">
+      <DependentUpon>VideoFeed.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\Wizard.aspx.cs">
+      <DependentUpon>Wizard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other\Wizard.aspx.designer.cs">
+      <DependentUpon>Wizard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\CommunityMemberOwner.aspx.cs">
+      <DependentUpon>CommunityMemberOwner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\CommunityMemberOwner.aspx.designer.cs">
+      <DependentUpon>CommunityMemberOwner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\CropImage.aspx.cs">
+      <DependentUpon>CropImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\CropImage.aspx.designer.cs">
+      <DependentUpon>CropImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\DeleteObject.aspx.cs">
+      <DependentUpon>DeleteObject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\DeleteObject.aspx.designer.cs">
+      <DependentUpon>DeleteObject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\DetailMap.aspx.cs">
+      <DependentUpon>DetailMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\DetailMap.aspx.designer.cs">
+      <DependentUpon>DetailMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\FriendRequest.aspx.cs">
+      <DependentUpon>FriendRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\FriendRequest.aspx.designer.cs">
+      <DependentUpon>FriendRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\Message.aspx.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\Message.aspx.designer.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\MessageSend.aspx.cs">
+      <DependentUpon>MessageSend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\MessageSend.aspx.designer.cs">
+      <DependentUpon>MessageSend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\Notifications.aspx.cs">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\Notifications.aspx.designer.cs">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\ObjectLinking.aspx.cs">
+      <DependentUpon>ObjectLinking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\ObjectLinking.aspx.designer.cs">
+      <DependentUpon>ObjectLinking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\Participate.aspx.cs">
+      <DependentUpon>Participate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\Participate.aspx.designer.cs">
+      <DependentUpon>Participate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\PasswordChange.aspx.cs">
+      <DependentUpon>PasswordChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\PasswordChange.aspx.designer.cs">
+      <DependentUpon>PasswordChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\PasswordRecover.aspx.cs">
+      <DependentUpon>PasswordRecover.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\PasswordRecover.aspx.designer.cs">
+      <DependentUpon>PasswordRecover.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\PictureUploadGallery.aspx.cs">
+      <DependentUpon>PictureUploadGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\PictureUploadGallery.aspx.designer.cs">
+      <DependentUpon>PictureUploadGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\PlaceOnMap.aspx.cs">
+      <DependentUpon>PlaceOnMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\PlaceOnMap.aspx.designer.cs">
+      <DependentUpon>PlaceOnMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\ProfileFriendSetting.aspx.cs">
+      <DependentUpon>ProfileFriendSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\ProfileFriendSetting.aspx.designer.cs">
+      <DependentUpon>ProfileFriendSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\SimplePictureUploadGallery.aspx.cs">
+      <DependentUpon>SimplePictureUploadGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\SimplePictureUploadGallery.aspx.designer.cs">
+      <DependentUpon>SimplePictureUploadGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\SinglePictureUpload.aspx.cs">
+      <DependentUpon>SinglePictureUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\SinglePictureUpload.aspx.designer.cs">
+      <DependentUpon>SinglePictureUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\UserControls\Notification.ascx.cs">
+      <DependentUpon>Notification.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\UserControls\Notification.ascx.designer.cs">
+      <DependentUpon>Notification.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\UserControls\ObjectLinking.ascx.cs">
+      <DependentUpon>ObjectLinking.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\UserControls\ObjectLinking.ascx.designer.cs">
+      <DependentUpon>ObjectLinking.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\UserControls\ProfileFriendSetting.ascx.cs">
+      <DependentUpon>ProfileFriendSetting.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\UserControls\ProfileFriendSetting.ascx.designer.cs">
+      <DependentUpon>ProfileFriendSetting.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\WidgetSettings.aspx.cs">
+      <DependentUpon>WidgetSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\WidgetSettings.aspx.designer.cs">
+      <DependentUpon>WidgetSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Static\AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Static\AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Static\DoS.aspx.cs">
+      <DependentUpon>DoS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Static\DoS.aspx.designer.cs">
+      <DependentUpon>DoS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Static\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Static\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Static\ObjectNotFound.aspx.cs">
+      <DependentUpon>ObjectNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Static\ObjectNotFound.aspx.designer.cs">
+      <DependentUpon>ObjectNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\BreadCrumb.ascx.cs">
+      <DependentUpon>BreadCrumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\BreadCrumb.ascx.designer.cs">
+      <DependentUpon>BreadCrumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabStyles.ascx.cs">
+      <DependentUpon>CustomizationBarTabStyles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabStyles.ascx.designer.cs">
+      <DependentUpon>CustomizationBarTabStyles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CntEdit.ascx.cs">
+      <DependentUpon>CntEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CntEdit.ascx.designer.cs">
+      <DependentUpon>CntEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabContent.ascx.cs">
+      <DependentUpon>CustomizationBarTabContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabContent.ascx.designer.cs">
+      <DependentUpon>CustomizationBarTabContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarContent.ascx.cs">
+      <DependentUpon>CustomizationBarContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarContent.ascx.designer.cs">
+      <DependentUpon>CustomizationBarContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SettingsAdvanced.ascx.cs">
+      <DependentUpon>SettingsAdvanced.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SettingsAdvanced.ascx.designer.cs">
+      <DependentUpon>SettingsAdvanced.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SettingsAlerts.ascx.cs">
+      <DependentUpon>SettingsAlerts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SettingsAlerts.ascx.designer.cs">
+      <DependentUpon>SettingsAlerts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SettingsBasic.ascx.cs">
+      <DependentUpon>SettingsBasic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SettingsBasic.ascx.designer.cs">
+      <DependentUpon>SettingsBasic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SettingsInterests.ascx.cs">
+      <DependentUpon>SettingsInterests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SettingsInterests.ascx.designer.cs">
+      <DependentUpon>SettingsInterests.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GoogleMap.ascx.cs">
+      <DependentUpon>GoogleMap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GoogleMap.ascx.designer.cs">
+      <DependentUpon>GoogleMap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LanguageChanger.ascx.cs">
+      <DependentUpon>LanguageChanger.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\LanguageChanger.ascx.designer.cs">
+      <DependentUpon>LanguageChanger.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ObjectSetFavorite.ascx.cs">
+      <DependentUpon>ObjectSetFavorite.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ObjectSetFavorite.ascx.designer.cs">
+      <DependentUpon>ObjectSetFavorite.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Form.ascx.cs">
+      <DependentUpon>Form.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Form.ascx.designer.cs">
+      <DependentUpon>Form.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Copyrights.ascx.cs">
+      <DependentUpon>Copyrights.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Copyrights.ascx.designer.cs">
+      <DependentUpon>Copyrights.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarStyle.ascx.cs">
+      <DependentUpon>CustomizationBarStyle.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarStyle.ascx.designer.cs">
+      <DependentUpon>CustomizationBarStyle.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FlashDetector.ascx.cs">
+      <DependentUpon>FlashDetector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\FlashDetector.ascx.designer.cs">
+      <DependentUpon>FlashDetector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\HTMLContent.ascx.cs">
+      <DependentUpon>HTMLContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\HTMLContent.ascx.designer.cs">
+      <DependentUpon>HTMLContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabLayout.ascx.cs">
+      <DependentUpon>CustomizationBarTabLayout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabLayout.ascx.designer.cs">
+      <DependentUpon>CustomizationBarTabLayout.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Navigation.ascx.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Navigation.ascx.designer.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ObjectDetailsSmall.ascx.cs">
+      <DependentUpon>ObjectDetailsSmall.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ObjectDetailsSmall.ascx.designer.cs">
+      <DependentUpon>ObjectDetailsSmall.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ObjectsToObjectRelator.ascx.cs">
+      <DependentUpon>ObjectsToObjectRelator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ObjectsToObjectRelator.ascx.designer.cs">
+      <DependentUpon>ObjectsToObjectRelator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ObjectTagHandler.ascx.cs">
+      <DependentUpon>ObjectTagHandler.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ObjectTagHandler.ascx.designer.cs">
+      <DependentUpon>ObjectTagHandler.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ObjectTagHandlerSelector.ascx.cs">
+      <DependentUpon>ObjectTagHandlerSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ObjectTagHandlerSelector.ascx.designer.cs">
+      <DependentUpon>ObjectTagHandlerSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ObjectTagHandlerSimple.ascx.cs">
+      <DependentUpon>ObjectTagHandlerSimple.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ObjectTagHandlerSimple.ascx.designer.cs">
+      <DependentUpon>ObjectTagHandlerSimple.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ObjectViewHandler.ascx.cs">
+      <DependentUpon>ObjectViewHandler.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ObjectViewHandler.ascx.designer.cs">
+      <DependentUpon>ObjectViewHandler.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OutputTemplates.ascx.cs">
+      <DependentUpon>OutputTemplates.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\OutputTemplates.ascx.designer.cs">
+      <DependentUpon>OutputTemplates.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PageEdit.ascx.cs">
+      <DependentUpon>PageEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\PageEdit.ascx.designer.cs">
+      <DependentUpon>PageEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Pager.ascx.cs">
+      <DependentUpon>Pager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Pager.ascx.designer.cs">
+      <DependentUpon>Pager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QuickSearch.ascx.cs">
+      <DependentUpon>QuickSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuickSearch.ascx.designer.cs">
+      <DependentUpon>QuickSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Reloader.ascx.cs">
+      <DependentUpon>Reloader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Reloader.ascx.designer.cs">
+      <DependentUpon>Reloader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Repeaters\DataObjectLists.ascx.cs">
+      <DependentUpon>DataObjectLists.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Repeaters\DataObjectLists.ascx.designer.cs">
+      <DependentUpon>DataObjectLists.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Repeaters\TelerikRotator.ascx.cs">
+      <DependentUpon>TelerikRotator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Repeaters\TelerikRotator.ascx.designer.cs">
+      <DependentUpon>TelerikRotator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Shifter.ascx.cs">
+      <DependentUpon>Shifter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Shifter.ascx.designer.cs">
+      <DependentUpon>Shifter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StyleSettings.ascx.cs">
+      <DependentUpon>StyleSettings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\StyleSettings.ascx.designer.cs">
+      <DependentUpon>StyleSettings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StyleSettingsWidget.ascx.cs">
+      <DependentUpon>StyleSettingsWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\StyleSettingsWidget.ascx.designer.cs">
+      <DependentUpon>StyleSettingsWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TagLocationSearchBoxCompact.ascx.cs">
+      <DependentUpon>TagLocationSearchBoxCompact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\TagLocationSearchBoxCompact.ascx.designer.cs">
+      <DependentUpon>TagLocationSearchBoxCompact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\LoginSSO.ascx.cs">
+      <DependentUpon>LoginSSO.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\LoginSSO.ascx.designer.cs">
+      <DependentUpon>LoginSSO.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\InfoObject.ascx.cs">
+      <DependentUpon>InfoObject.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\InfoObject.ascx.designer.cs">
+      <DependentUpon>InfoObject.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\Registration.ascx.cs">
+      <DependentUpon>Registration.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\Registration.ascx.designer.cs">
+      <DependentUpon>Registration.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputForumTopic.ascx.cs">
+      <DependentUpon>SmallOutputForumTopic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputForumTopic.ascx.designer.cs">
+      <DependentUpon>SmallOutputForumTopic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPictureWithNotes.ascx.cs">
+      <DependentUpon>DetailsPictureWithNotes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPictureWithNotes.ascx.designer.cs">
+      <DependentUpon>DetailsPictureWithNotes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsArticle.ascx.cs">
+      <DependentUpon>DetailsArticle.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsArticle.ascx.designer.cs">
+      <DependentUpon>DetailsArticle.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsAudio.ascx.cs">
+      <DependentUpon>DetailsAudio.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsAudio.ascx.designer.cs">
+      <DependentUpon>DetailsAudio.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\ObjectVotingTelerik.ascx.cs">
+      <DependentUpon>ObjectVotingTelerik.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\ObjectVotingTelerik.ascx.designer.cs">
+      <DependentUpon>ObjectVotingTelerik.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputComment.ascx.cs">
+      <DependentUpon>SmallOutputComment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputComment.ascx.designer.cs">
+      <DependentUpon>SmallOutputComment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputLocation2.ascx.cs">
+      <DependentUpon>SmallOutputLocation2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputLocation2.ascx.designer.cs">
+      <DependentUpon>SmallOutputLocation2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputPicture.ascx.cs">
+      <DependentUpon>SmallOutputPicture.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputPicture.ascx.designer.cs">
+      <DependentUpon>SmallOutputPicture.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsLocation.ascx.cs">
+      <DependentUpon>DetailsLocation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsLocation.ascx.designer.cs">
+      <DependentUpon>DetailsLocation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputLocation.ascx.cs">
+      <DependentUpon>SmallOutputLocation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputLocation.ascx.designer.cs">
+      <DependentUpon>SmallOutputLocation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputEvent.ascx.cs">
+      <DependentUpon>SmallOutputEvent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputEvent.ascx.designer.cs">
+      <DependentUpon>SmallOutputEvent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SearchResultDefault.ascx.cs">
+      <DependentUpon>SearchResultDefault.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SearchResultDefault.ascx.designer.cs">
+      <DependentUpon>SearchResultDefault.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SearchResultForumTopicItem.ascx.cs">
+      <DependentUpon>SearchResultForumTopicItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SearchResultForumTopicItem.ascx.designer.cs">
+      <DependentUpon>SearchResultForumTopicItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsDocument.ascx.cs">
+      <DependentUpon>DetailsDocument.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsDocument.ascx.designer.cs">
+      <DependentUpon>DetailsDocument.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsEvent.ascx.cs">
+      <DependentUpon>DetailsEvent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsEvent.ascx.designer.cs">
+      <DependentUpon>DetailsEvent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsFolder.ascx.cs">
+      <DependentUpon>DetailsFolder.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsFolder.ascx.designer.cs">
+      <DependentUpon>DetailsFolder.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsForum.ascx.cs">
+      <DependentUpon>DetailsForum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsForum.ascx.designer.cs">
+      <DependentUpon>DetailsForum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsForumTopic.ascx.cs">
+      <DependentUpon>DetailsForumTopic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsForumTopic.ascx.designer.cs">
+      <DependentUpon>DetailsForumTopic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsGeneric.ascx.cs">
+      <DependentUpon>DetailsGeneric.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsGeneric.ascx.designer.cs">
+      <DependentUpon>DetailsGeneric.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsNews.ascx.cs">
+      <DependentUpon>DetailsNews.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsNews.ascx.designer.cs">
+      <DependentUpon>DetailsNews.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\ObjectDetailsForSelect.ascx.cs">
+      <DependentUpon>ObjectDetailsForSelect.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\ObjectDetailsForSelect.ascx.designer.cs">
+      <DependentUpon>ObjectDetailsForSelect.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\EmbedCode.ascx.cs">
+      <DependentUpon>EmbedCode.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\EmbedCode.ascx.designer.cs">
+      <DependentUpon>EmbedCode.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\ObjectDetailsSiblings.ascx.cs">
+      <DependentUpon>ObjectDetailsSiblings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\ObjectDetailsSiblings.ascx.designer.cs">
+      <DependentUpon>ObjectDetailsSiblings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\ObjectVoting.ascx.cs">
+      <DependentUpon>ObjectVoting.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\ObjectVoting.ascx.designer.cs">
+      <DependentUpon>ObjectVoting.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\Permalink.ascx.cs">
+      <DependentUpon>Permalink.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\Permalink.ascx.designer.cs">
+      <DependentUpon>Permalink.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsObject.ascx.cs">
+      <DependentUpon>DetailsObject.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsObject.ascx.designer.cs">
+      <DependentUpon>DetailsObject.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPicture.ascx.cs">
+      <DependentUpon>DetailsPicture.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPicture.ascx.designer.cs">
+      <DependentUpon>DetailsPicture.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPinboardOffer.ascx.cs">
+      <DependentUpon>DetailsPinboardOffer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPinboardOffer.ascx.designer.cs">
+      <DependentUpon>DetailsPinboardOffer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPinboardSearch.ascx.cs">
+      <DependentUpon>DetailsPinboardSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPinboardSearch.ascx.designer.cs">
+      <DependentUpon>DetailsPinboardSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPollQuestion.ascx.cs">
+      <DependentUpon>DetailsPollQuestion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsPollQuestion.ascx.designer.cs">
+      <DependentUpon>DetailsPollQuestion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\Sharing.ascx.cs">
+      <DependentUpon>Sharing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\Sharing.ascx.designer.cs">
+      <DependentUpon>Sharing.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsSlideShow.ascx.cs">
+      <DependentUpon>DetailsSlideShow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsSlideShow.ascx.designer.cs">
+      <DependentUpon>DetailsSlideShow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputCommunity.ascx.cs">
+      <DependentUpon>SmallOutputCommunity.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputCommunity.ascx.designer.cs">
+      <DependentUpon>SmallOutputCommunity.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputObject.ascx.cs">
+      <DependentUpon>SmallOutputObject.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputObject.ascx.designer.cs">
+      <DependentUpon>SmallOutputObject.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputObject2.ascx.cs">
+      <DependentUpon>SmallOutputObject2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputObject2.ascx.designer.cs">
+      <DependentUpon>SmallOutputObject2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputUser.ascx.cs">
+      <DependentUpon>SmallOutputUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputUser.ascx.designer.cs">
+      <DependentUpon>SmallOutputUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputUser2.ascx.cs">
+      <DependentUpon>SmallOutputUser2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputUser2.ascx.designer.cs">
+      <DependentUpon>SmallOutputUser2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabStyle.ascx.cs">
+      <DependentUpon>CustomizationBarTabStyle.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabStyle.ascx.designer.cs">
+      <DependentUpon>CustomizationBarTabStyle.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TabBar.ascx.cs">
+      <DependentUpon>TabBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\TabBar.ascx.designer.cs">
+      <DependentUpon>TabBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputVideo.ascx.cs">
+      <DependentUpon>SmallOutputVideo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputVideo.ascx.designer.cs">
+      <DependentUpon>SmallOutputVideo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\InfoUser.ascx.cs">
+      <DependentUpon>InfoUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\InfoUser.ascx.designer.cs">
+      <DependentUpon>InfoUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\UserShortInfo.ascx.cs">
+      <DependentUpon>UserShortInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\UserShortInfo.ascx.designer.cs">
+      <DependentUpon>UserShortInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsVideo.ascx.cs">
+      <DependentUpon>DetailsVideo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsVideo.ascx.designer.cs">
+      <DependentUpon>DetailsVideo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabTheme.ascx.cs">
+      <DependentUpon>CustomizationBarTabTheme.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabTheme.ascx.designer.cs">
+      <DependentUpon>CustomizationBarTabTheme.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ReceiverSelector.ascx.cs">
+      <DependentUpon>ReceiverSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ReceiverSelector.ascx.designer.cs">
+      <DependentUpon>ReceiverSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WidgetContainer.ascx.cs">
+      <DependentUpon>WidgetContainer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WidgetContainer.ascx.designer.cs">
+      <DependentUpon>WidgetContainer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WidgetSettings.ascx.cs">
+      <DependentUpon>WidgetSettings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WidgetSettings.ascx.designer.cs">
+      <DependentUpon>WidgetSettings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabWidgets.ascx.cs">
+      <DependentUpon>CustomizationBarTabWidgets.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomizationBarTabWidgets.ascx.designer.cs">
+      <DependentUpon>CustomizationBarTabWidgets.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WidgetTitleSettings.ascx.cs">
+      <DependentUpon>WidgetTitleSettings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WidgetTitleSettings.ascx.designer.cs">
+      <DependentUpon>WidgetTitleSettings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\ObjectRelations.ascx.cs">
+      <DependentUpon>ObjectRelations.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\ObjectRelations.ascx.designer.cs">
+      <DependentUpon>ObjectRelations.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Article.ascx.cs">
+      <DependentUpon>Article.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Article.ascx.designer.cs">
+      <DependentUpon>Article.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Audio.ascx.cs">
+      <DependentUpon>Audio.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Audio.ascx.designer.cs">
+      <DependentUpon>Audio.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Community.ascx.cs">
+      <DependentUpon>Community.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Community.ascx.designer.cs">
+      <DependentUpon>Community.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Location.ascx.cs">
+      <DependentUpon>Location.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Location.ascx.designer.cs">
+      <DependentUpon>Location.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\ForumTopic.ascx.cs">
+      <DependentUpon>ForumTopic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\ForumTopic.ascx.designer.cs">
+      <DependentUpon>ForumTopic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Document.ascx.cs">
+      <DependentUpon>Document.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Document.ascx.designer.cs">
+      <DependentUpon>Document.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Event.ascx.cs">
+      <DependentUpon>Event.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Event.ascx.designer.cs">
+      <DependentUpon>Event.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\FileUpload.ascx.cs">
+      <DependentUpon>FileUpload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\FileUpload.ascx.designer.cs">
+      <DependentUpon>FileUpload.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Finish.ascx.cs">
+      <DependentUpon>Finish.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Finish.ascx.designer.cs">
+      <DependentUpon>Finish.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Folder.ascx.cs">
+      <DependentUpon>Folder.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Folder.ascx.designer.cs">
+      <DependentUpon>Folder.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Forum.ascx.cs">
+      <DependentUpon>Forum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Forum.ascx.designer.cs">
+      <DependentUpon>Forum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Generic.ascx.cs">
+      <DependentUpon>Generic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Generic.ascx.designer.cs">
+      <DependentUpon>Generic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\MultipleObjects.ascx.cs">
+      <DependentUpon>MultipleObjects.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\MultipleObjects.ascx.designer.cs">
+      <DependentUpon>MultipleObjects.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\News.ascx.cs">
+      <DependentUpon>News.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\News.ascx.designer.cs">
+      <DependentUpon>News.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Helpers\NewsLinks.ascx.cs">
+      <DependentUpon>NewsLinks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Helpers\NewsLinks.ascx.designer.cs">
+      <DependentUpon>NewsLinks.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Page.ascx.cs">
+      <DependentUpon>Page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Page.ascx.designer.cs">
+      <DependentUpon>Page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Picture.ascx.cs">
+      <DependentUpon>Picture.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Picture.ascx.designer.cs">
+      <DependentUpon>Picture.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\PinboardOffer.ascx.cs">
+      <DependentUpon>PinboardOffer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\PinboardOffer.ascx.designer.cs">
+      <DependentUpon>PinboardOffer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\PinboardSearch.ascx.cs">
+      <DependentUpon>PinboardSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\PinboardSearch.ascx.designer.cs">
+      <DependentUpon>PinboardSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\PollQuestion.ascx.cs">
+      <DependentUpon>PollQuestion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\PollQuestion.ascx.designer.cs">
+      <DependentUpon>PollQuestion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Slideshow.ascx.cs">
+      <DependentUpon>Slideshow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Slideshow.ascx.designer.cs">
+      <DependentUpon>Slideshow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Tagging.ascx.cs">
+      <DependentUpon>Tagging.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Tagging.ascx.designer.cs">
+      <DependentUpon>Tagging.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Video.ascx.cs">
+      <DependentUpon>Video.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Video.ascx.designer.cs">
+      <DependentUpon>Video.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Wizard.ascx.cs">
+      <DependentUpon>Wizard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\Wizard.ascx.designer.cs">
+      <DependentUpon>Wizard.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UserControls\Dashboard\AlertPreview.ascx" />
+    <Content Include="UserControls\Dashboard\Alerts.ascx" />
+    <Content Include="UserControls\Dashboard\BlockedUsers.ascx" />
+    <Content Include="UserControls\Dashboard\BlockedUsersActions.ascx" />
+    <Content Include="UserControls\Dashboard\CommentPreview.ascx" />
+    <Content Include="UserControls\Dashboard\Comments.ascx" />
+    <Content Include="UserControls\Dashboard\FriendActions.ascx" />
+    <Content Include="UserControls\Dashboard\Friends.ascx" />
+    <Content Include="UserControls\Dashboard\MessageActions.ascx" />
+    <Content Include="UserControls\Dashboard\MessageGroup.ascx" />
+    <Content Include="UserControls\Dashboard\MessagePreview.ascx" />
+    <Content Include="UserControls\Dashboard\Msgbox.ascx" />
+    <Content Include="UserControls\Dashboard\MyCommInvitations.ascx" />
+    <Content Include="UserControls\Dashboard\MyContent.ascx" />
+    <Content Include="UserControls\Dashboard\MyContentSearch.ascx" />
+    <Content Include="UserControls\Dashboard\MyFavorites.ascx" />
+    <Content Include="UserControls\Dashboard\MyMemberships.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileBasisInfo.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileChangePassword.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileCommunication.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileDeleteCommunity.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileInfoCard.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileInterestTopic.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileIntresse.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileMessages.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileNotification.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileOpenID.ascx" />
+    <Content Include="UserControls\Dashboard\ProfilePermalink.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileShowAds.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileTalente.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileUILanguage.ascx" />
+    <Content Include="UserControls\Dashboard\ProfileUserPoints.ascx" />
+    <Content Include="UserControls\Dashboard\Requests.ascx" />
+    <Content Include="Pages\Other\ActivateUser.aspx" />
+    <Content Include="Pages\Other\AdCampaignRedirecter.aspx" />
+    <Content Include="Pages\Other\RssFeed.aspx" />
+    <Content Include="Pages\Other\Wizard.aspx" />
+    <Content Include="Services\ProxyAsync.asmx" />
+    <Content Include="Services\GoogleMapServices.asmx" />
+    <Content Include="Services\WidgetService.asmx" />
+    <Content Include="UserControls\ObjectDetailsSmall.ascx" />
+    <Content Include="UserControls\Pager.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputUser2.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSBooster.Common-4.0.0.0\CSBooster.Common.csproj">
+      <Project>{A9F54D96-06CF-4975-93CE-92F0831A088D}</Project>
+      <Name>CSBooster.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.CustomDragDrop-4.0.0.0\CSBooster.CustomDragDrop.csproj">
+      <Project>{2528E045-5DA5-45BC-9FF9-9741C3DCBE89}</Project>
+      <Name>CSBooster.CustomDragDrop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.DataAccess-4.0.0.0\CSBooster.DataAccess.csproj">
+      <Project>{ACB74BEB-A75F-4427-B183-CE7D49F149F4}</Project>
+      <Name>CSBooster.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Extensions-4.0.0.0\CSBooster.Extensions.csproj">
+      <Project>{646EEB60-9C19-49CE-B048-E2CE35C13469}</Project>
+      <Name>CSBooster.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.ImageHandler\CSBooster.ImageHandler.csproj">
+      <Project>{5778DC99-B340-4E56-8E85-5D489ECC2066}</Project>
+      <Name>CSBooster.ImageHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Notification-4.0.0.0\CSBooster.Notification.csproj">
+      <Project>{C42BAB9E-B2FA-4CCD-8839-77AC9DA8FFE8}</Project>
+      <Name>CSBooster.Notification</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Widgets-4.0.0.0\CSBooster.Widgets.csproj">
+      <Project>{C41F77A8-318D-440D-B97D-E32734AA0FDC}</Project>
+      <Name>CSBooster.Widgets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Pages\Other\Scripts.ashx" />
+    <Content Include="Pages\Popups\CommunityMemberOwner.aspx" />
+    <Content Include="Pages\Popups\CropImage.aspx" />
+    <Content Include="Pages\Popups\DeleteObject.aspx" />
+    <Content Include="Pages\Popups\DetailMap.aspx" />
+    <Content Include="Pages\Popups\FriendRequest.aspx" />
+    <Content Include="Pages\Popups\Message.aspx" />
+    <Content Include="Pages\Popups\MessageSend.aspx" />
+    <Content Include="Pages\Popups\Notifications.aspx" />
+    <Content Include="Pages\Popups\ObjectLinking.aspx" />
+    <Content Include="Pages\Popups\Participate.aspx" />
+    <Content Include="Pages\Popups\PasswordChange.aspx" />
+    <Content Include="Pages\Popups\PasswordRecover.aspx" />
+    <Content Include="Pages\Popups\PictureUploadGallery.aspx" />
+    <Content Include="Pages\Popups\PlaceOnMap.aspx" />
+    <Content Include="Pages\Popups\ProfileFriendSetting.aspx" />
+    <Content Include="Pages\Popups\SimplePictureUploadGallery.aspx" />
+    <Content Include="Pages\Popups\SinglePictureUpload.aspx" />
+    <Content Include="Pages\Popups\UserControls\Notification.ascx" />
+    <Content Include="Pages\Popups\UserControls\ObjectLinking.ascx" />
+    <Content Include="Pages\Popups\UserControls\ProfileFriendSetting.ascx" />
+    <Content Include="Pages\Static\AccessDenied.aspx" />
+    <Content Include="Pages\Static\DoS.aspx" />
+    <Content Include="Pages\Static\Error.aspx" />
+    <Content Include="Pages\Static\ObjectNotFound.aspx" />
+    <Content Include="UserControls\CustomizationBarTabStyles.ascx" />
+    <Content Include="UserControls\Copyrights.ascx" />
+    <Content Include="UserControls\CustomizationBarStyle.ascx" />
+    <Content Include="UserControls\FlashDetector.ascx" />
+    <Content Include="UserControls\HTMLContent.ascx" />
+    <Content Include="UserControls\CustomizationBarTabLayout.ascx" />
+    <Content Include="UserControls\Navigation.ascx" />
+    <Content Include="UserControls\ObjectsToObjectRelator.ascx" />
+    <Content Include="UserControls\ObjectTagHandler.ascx" />
+    <Content Include="UserControls\ObjectTagHandlerSimple.ascx" />
+    <Content Include="UserControls\ObjectViewHandler.ascx" />
+    <Content Include="UserControls\CustomizationBarTabStyle.ascx" />
+    <Content Include="UserControls\TabBar.ascx" />
+    <Content Include="UserControls\CustomizationBarTabTheme.ascx" />
+    <Content Include="UserControls\WidgetContainer.ascx" />
+    <Content Include="UserControls\CustomizationBarTabWidgets.ascx" />
+    <Content Include="UserControls\Wizards\ObjectRelations.ascx" />
+    <Content Include="UserControls\Wizards\Article.ascx" />
+    <Content Include="UserControls\Wizards\Audio.ascx" />
+    <Content Include="UserControls\Wizards\Community.ascx" />
+    <Content Include="UserControls\Wizards\Document.ascx" />
+    <Content Include="UserControls\Wizards\Event.ascx" />
+    <Content Include="UserControls\Wizards\FileUpload.ascx" />
+    <Content Include="UserControls\Wizards\Finish.ascx" />
+    <Content Include="UserControls\Wizards\Folder.ascx" />
+    <Content Include="UserControls\Wizards\Forum.ascx" />
+    <Content Include="UserControls\Wizards\Generic.ascx" />
+    <Content Include="UserControls\Wizards\MultipleObjects.ascx" />
+    <Content Include="UserControls\Wizards\News.ascx" />
+    <Content Include="UserControls\Wizards\Page.ascx" />
+    <Content Include="UserControls\Wizards\Picture.ascx" />
+    <Content Include="UserControls\Wizards\PinboardOffer.ascx" />
+    <Content Include="UserControls\Wizards\PinboardSearch.ascx" />
+    <Content Include="UserControls\Wizards\Slideshow.ascx" />
+    <Content Include="UserControls\Wizards\Tagging.ascx" />
+    <Content Include="UserControls\Wizards\Video.ascx" />
+    <Content Include="UserControls\Wizards\Wizard.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UserControls\Dashboard\MyContentItemBox.ascx" />
+    <Content Include="UserControls\Dashboard\MyContentItemRow.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pages\Other\VideoFeed.ashx" />
+    <Content Include="UserControls\BreadCrumb.ascx" />
+    <Content Include="UserControls\Form.ascx" />
+    <Content Include="UserControls\PageEdit.ascx" />
+    <Content Include="UserControls\Wizards\Helpers\NewsLinks.ascx" />
+    <Content Include="UserControls\Wizards\PollQuestion.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UserControls\ObjectTagHandlerSelector.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UserControls\Wizards\ForumTopic.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library\Scripts\AC_OETags.js" />
+    <Content Include="Library\Scripts\BrowserDetection.js" />
+    <Content Include="Library\Scripts\common.js" />
+    <Content Include="Library\Scripts\DragResize.js" />
+    <Content Include="Library\Scripts\FlashPlayer\ElementITMultiPowUpload1.7.swf" />
+    <Content Include="Library\Scripts\FlashPlayer\open-flash-chart.swf" />
+    <Content Include="Library\Scripts\FlashPlayer\player.swf" />
+    <Content Include="Library\Scripts\FlashPlayer\snel.swf" />
+    <Content Include="Library\Scripts\FlashPlayer\swfobject.js" />
+    <Content Include="Library\Scripts\FlashPlayer\swfobject2.js" />
+    <Content Include="Library\Scripts\ImageAnnotation.js" />
+    <Content Include="Library\Scripts\InformationCards.js" />
+    <Content Include="Library\Scripts\jquery.js" />
+    <Content Include="Library\Scripts\jquery.ui.js" />
+    <Content Include="Library\Scripts\PhotoNotes.js" />
+    <Content Include="Pages\Other\ChartHandler.ashx" />
+    <Content Include="Pages\Other\Login.aspx" />
+    <Content Include="Pages\Popups\WidgetSettings.aspx" />
+    <Content Include="UserControls\CntEdit.ascx" />
+    <Content Include="UserControls\ObjectSetFavorite.ascx" />
+    <Content Include="UserControls\OutputTemplates.ascx" />
+    <Content Include="UserControls\Repeaters\DataObjectLists.ascx" />
+    <Content Include="UserControls\StyleSettings.ascx" />
+    <Content Include="UserControls\StyleSettingsWidget.ascx" />
+    <Content Include="UserControls\TagLocationSearchBoxCompact.ascx" />
+    <Content Include="UserControls\Templates\DetailsArticle.ascx" />
+    <Content Include="UserControls\Templates\DetailsAudio.ascx" />
+    <Content Include="UserControls\Templates\DetailsDocument.ascx" />
+    <Content Include="UserControls\Templates\DetailsEvent.ascx" />
+    <Content Include="UserControls\Templates\DetailsFolder.ascx" />
+    <Content Include="UserControls\Templates\DetailsForum.ascx" />
+    <Content Include="UserControls\Templates\DetailsForumTopic.ascx" />
+    <Content Include="UserControls\Templates\DetailsGeneric.ascx" />
+    <Content Include="UserControls\Templates\DetailsNews.ascx" />
+    <Content Include="UserControls\Templates\ObjectDetailsForSelect.ascx" />
+    <Content Include="UserControls\Templates\EmbedCode.ascx" />
+    <Content Include="UserControls\Templates\Login.ascx" />
+    <Content Include="UserControls\Templates\ObjectDetailsSiblings.ascx" />
+    <Content Include="UserControls\Templates\ObjectVoting.ascx" />
+    <Content Include="UserControls\Templates\Permalink.ascx" />
+    <Content Include="UserControls\Templates\DetailsObject.ascx" />
+    <Content Include="UserControls\Templates\DetailsPicture.ascx" />
+    <Content Include="UserControls\Templates\DetailsPinboardOffer.ascx" />
+    <Content Include="UserControls\Templates\DetailsPinboardSearch.ascx" />
+    <Content Include="UserControls\Templates\DetailsPollQuestion.ascx" />
+    <Content Include="UserControls\Templates\Sharing.ascx" />
+    <Content Include="UserControls\Templates\DetailsSlideShow.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputCommunity.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputObject.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputObject2.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputUser.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputVideo.ascx" />
+    <Content Include="UserControls\Templates\UserShortInfo.ascx" />
+    <Content Include="UserControls\Templates\DetailsVideo.ascx" />
+    <Content Include="UserControls\WidgetSettings.ascx" />
+    <Content Include="UserControls\WidgetTitleSettings.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UserControls\Dashboard\MyContentSelectionBox.ascx" />
+    <Content Include="UserControls\Dashboard\MyContentWidgetBox.ascx" />
+    <Content Include="UserControls\CustomizationBarTabContent.ascx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="GoogleMap.aspx" />
+    <Content Include="Pages\Other\Logout.ashx" />
+    <Content Include="Pages\Popups\AddLocation.aspx" />
+    <Content Include="Pages\Popups\LinkFacebookAccount.aspx" />
+    <Content Include="Pages\Popups\Feedback.aspx" />
+    <Content Include="Pages\Popups\ForumTopicItemComment.aspx" />
+    <Content Include="Pages\Popups\HtmlContent.aspx" />
+    <Content Include="Pages\Popups\UserRegistration.aspx" />
+    <Content Include="UserControls\Dashboard\MyContentRelatedBox.ascx" />
+    <Content Include="UserControls\DetailPager.ascx" />
+    <Content Include="UserControls\ObjectTagHandlerSuggestions.ascx" />
+    <Content Include="UserControls\CustomizationBarContent.ascx" />
+    <Content Include="UserControls\Dashboard\Dashboard.ascx" />
+    <Content Include="UserControls\Dashboard\ManageContent.ascx" />
+    <Content Include="UserControls\Dashboard\SettingsAdvanced.ascx" />
+    <Content Include="UserControls\Dashboard\SettingsAlerts.ascx" />
+    <Content Include="UserControls\Dashboard\SettingsBasic.ascx" />
+    <Content Include="UserControls\Dashboard\SettingsInterests.ascx" />
+    <Content Include="UserControls\GoogleMap.ascx" />
+    <Content Include="UserControls\LanguageChanger.ascx" />
+    <Content Include="UserControls\QuickSearch.ascx" />
+    <Content Include="UserControls\Reloader.ascx" />
+    <Content Include="UserControls\Repeaters\TelerikRotator.ascx" />
+    <Content Include="UserControls\Shifter.ascx" />
+    <Content Include="UserControls\Templates\LoginSSO.ascx" />
+    <Content Include="UserControls\Templates\InfoObject.ascx" />
+    <Content Include="UserControls\Templates\Registration.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputForumTopic.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputLocation2.ascx" />
+    <Content Include="UserControls\Templates\DetailsPictureWithNotes.ascx" />
+    <Content Include="UserControls\Templates\ObjectVotingTelerik.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputComment.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputPicture.ascx" />
+    <Content Include="UserControls\Templates\DetailsLocation.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputLocation.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputEvent.ascx" />
+    <Content Include="UserControls\Templates\SearchResultDefault.ascx" />
+    <Content Include="UserControls\Templates\SearchResultForumTopicItem.ascx" />
+    <Content Include="UserControls\ReceiverSelector.ascx" />
+    <Content Include="UserControls\Templates\InfoUser.ascx" />
+    <Content Include="UserControls\Wizards\Location.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57513</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>perl.exe "$(SolutionDir)Other\copy_base.pl" "--solution_dir=$(SolutionDir)\" "--project_dir=$(ProjectDir)\" "--target_path=$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

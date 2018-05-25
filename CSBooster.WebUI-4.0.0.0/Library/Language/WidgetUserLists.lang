@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidgetNewUsers">
+        <value><![CDATA[Benutzer (Neueste)]]></value>
+    </data>
+    <data name="TooltipWidgetNewUsers">
+        <value><![CDATA[zeigt die zuletzt registrierten Benutzer]]></value>
+    </data>
+    <data name="TextNewUsersSingular">
+        <value><![CDATA[Benutzer]]></value>
+    </data>
+    <data name="TextNewUsersPlural">
+        <value><![CDATA[Benutzer]]></value>
+    </data>    
+    <data name="TitleWidgetMyFriends">
+        <value><![CDATA[Meine Freunde]]></value>
+    </data>
+    <data name="TooltipWidgetMyFriends">
+        <value><![CDATA[zeigt meine Freunde an]]></value>
+    </data>
+    <data name="TextMyFriendsSingular">
+        <value><![CDATA[Freund]]></value>
+    </data>
+    <data name="TextMyFriendsPlural">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="TitleWidgetCommunityMembers">
+        <value><![CDATA[Mitglieder]]></value>
+    </data>
+    <data name="TooltipWidgetCommunityMembers">
+        <value><![CDATA[zeigt die Mitglieder einer Community an]]></value>
+    </data>
+    <data name="TextCommunityMembersSingular">
+        <value><![CDATA[Mitglied]]></value>
+    </data>
+    <data name="TextCommunityMembersPlural">
+        <value><![CDATA[Mitglieder]]></value>
+    </data>
+    <data name="TitleWidgetLastVisitors">
+        <value><![CDATA[Letzte Besucher]]></value>
+    </data>
+    <data name="TooltipWidgetLastVisitors">
+        <value><![CDATA[zeigt die letzten Besucher an]]></value>
+    </data>
+    <data name="TextLastVisitorsSingular">
+        <value><![CDATA[Besucher]]></value>
+    </data>
+    <data name="TextLastVisitorsPlural">
+        <value><![CDATA[Besucher]]></value>
+    </data>
+    <data name="TitleWidgetOnlineUsers">
+        <value><![CDATA[Benutzer (Online)]]></value>
+    </data>
+    <data name="TooltipWidgetOnlineUsers">
+        <value><![CDATA[zeigt die aktuell angemeldeten Benutzer an]]></value>
+    </data>
+    <data name="TextOnlineUsersSingular">
+        <value><![CDATA[Benutzer]]></value>
+    </data>
+    <data name="TextOnlineUsersPlural">
+        <value><![CDATA[Benutzer]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelUserCount">
+        <value><![CDATA[wieviele zeigen]]></value>
+    </data>
+    <data name="TooltipUserCount">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelPager">
+        <value><![CDATA[Pager]]></value>
+    </data>
+    <data name="TooltipPager">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelPagerTop">
+        <value><![CDATA[Pager oben anzeigen]]></value>
+    </data>
+    <data name="LabelPagerBottom">
+        <value><![CDATA[Pager unten anzeigen]]></value>
+    </data>
+</root>

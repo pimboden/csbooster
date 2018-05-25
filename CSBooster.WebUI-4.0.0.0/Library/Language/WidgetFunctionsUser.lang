@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleFunctionsUser">
+        <value><![CDATA[Benutzer-Funktionen]]></value>
+    </data>
+    <data name="TitleFunctionsCommunity">
+        <value><![CDATA[Community-Funktionen]]></value>
+    </data>
+    <data name="TitleFunctionsObject">
+        <value><![CDATA[Inhalts-Funktionen]]></value>
+    </data>
+    <data name="TooltipFunctionsUser">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TitleWidgetDesign">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelVisibility">
+        <value><![CDATA[was zeigen]]></value>
+    </data>
+    <data name="TooltipVisibility">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelMessage">
+        <value><![CDATA[Nachrichten]]></value>
+    </data>
+    <data name="LabelFriends">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="LabelMembership">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="LabelNotifications">
+        <value><![CDATA[Benachrichtigungen]]></value>
+    </data>
+    <data name="LabelFavorites">
+        <value><![CDATA[Favoriten]]></value>
+    </data>
+    <data name="LabeMap">
+        <value><![CDATA[Karten-Link]]></value>
+    </data>
+</root>

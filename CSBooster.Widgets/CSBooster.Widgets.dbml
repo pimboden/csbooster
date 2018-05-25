@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CSBooster.V20" Class="CSBooster_WidgetDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="ConnectionString" ConnectionString="Data Source=4SAPPL02\SQL2005;Initial Catalog=CSBooster.V20;Integrated Security=True" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.hitbl_WidgetInstance_INS" Member="hitbl_WidgetInstance_INs">
+    <Type Name="hitbl_WidgetInstance_IN">
+      <Column Name="INS_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WDG_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="INS_PAG_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="INS_ColumnNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="INS_OrderNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="INS_XmlStateData" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="INS_CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="INS_LastUpdate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="INS_Expanded" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="WTP_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="INS_IsFixed" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="INS_HideIfNoContent" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="INS_ViewRoles" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="hitbl_WidgetInstance_IN_hitbl_WidgetInstanceText_WIT" Member="hitbl_WidgetInstanceText_WITs" ThisKey="INS_ID" OtherKey="INS_ID" Type="hitbl_WidgetInstanceText_WIT" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_WidgetInstanceText_WIT" Member="hitbl_WidgetInstanceText_WITs">
+    <Type Name="hitbl_WidgetInstanceText_WIT">
+      <Column Name="INS_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WIT_LangCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WIT_Title" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Association Name="hitbl_WidgetInstance_IN_hitbl_WidgetInstanceText_WIT" Member="hitbl_WidgetInstance_IN" ThisKey="INS_ID" OtherKey="INS_ID" Type="hitbl_WidgetInstance_IN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.hisp_Widget_LoadInstanceData" Method="hisp_Widget_LoadInstanceData">
+    <Parameter Name="INS_ID" Parameter="iNS_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="hisp_Widget_LoadInstanceDataResult">
+      <Column Name="INS_XmlStateData" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Community_IsUserMember" Method="hisp_Community_IsUserMember">
+    <Parameter Name="CommunityId" Parameter="communityId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="hisp_Community_IsUserMemberResult">
+      <Column Name="CTY_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="USR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CUR_IsOwner" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CUR_Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUR_InsertedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="USR_ID_InvitedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Widget_SaveInstanceData" Method="hisp_Widget_SaveInstanceData">
+    <Parameter Name="INS_ID" Parameter="iNS_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="INS_XmlStateData" Parameter="iNS_XmlStateData" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Widget_GetDetailWidgetPages" Method="hisp_Widget_GetDetailWidgetPages">
+    <Parameter Name="WidgetId" Parameter="widgetId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="XmlStateData" Parameter="xmlStateData" Type="System.String" DbType="NVarChar(255)" />
+    <ElementType Name="hisp_Widget_GetDetailWidgetPagesResult">
+      <Column Name="OBJ_Title" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="VirtualURL" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

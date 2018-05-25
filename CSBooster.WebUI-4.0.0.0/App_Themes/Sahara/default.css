@@ -1,0 +1,11 @@
+body
+{
+   font-family: Segoe Script;
+   background-color: #FFF1AA;
+   background-image: url(Images/body_bg.png);
+}
+
+td, th, input, select, textarea
+{
+   font-family: Segoe Script;
+}

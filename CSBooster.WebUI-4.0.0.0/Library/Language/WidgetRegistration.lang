@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleRegistration">
+        <value><![CDATA[Registration]]></value>
+    </data>
+    <data name="TooltipRegistration">
+    <value><![CDATA[Registrationsformular]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+</root>

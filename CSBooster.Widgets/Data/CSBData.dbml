@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CSBooster" Class="CSBDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.hitbl_CountryName_COU" Member="hitbl_CountryName_COUs">
+    <Type Name="hitbl_CountryName_COU">
+      <Column Name="CountryCode" Type="System.String" DbType="VarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LangCode" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CountryName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_DataObject_OBJ" Member="hitbl_DataObject_OBJs">
+    <Type Name="hitbl_DataObject_OBJ">
+      <Column Name="OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="USR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="USR_Nickname" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="INS_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CTY_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="OBJ_Type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_ShowState" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_Parent_OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="OBJ_RoleRight" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OBJ_Featured" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_Title" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OBJ_DescriptionLinked" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OBJ_DescriptionMobile" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OBJ_URLImageSmall" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="OBJ_Copyright" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OBJ_MainTagList" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OBJ_CategoryTagList" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="OBJ_TagList" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="OBJ_StatisticUpdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OBJ_LangCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="OBJ_InsertedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_UpdatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OBJ_InsertedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="OBJ_UpdatedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="OBJ_ViewCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_RatedCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_RatingAmount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_RatedAverage" Type="System.Decimal" DbType="Decimal(18,3) NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_RatedConsolidated" Type="System.Decimal" DbType="Decimal(18,5) NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_CommentCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_IncentivePoints" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_MemberCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_Agility" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_SpezialXml" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="OBJ_OriginalObjID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="OBJ_Country_ISO" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="OBJ_Region" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="OBJ_Zip" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="OBJ_City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OBJ_Geo_Lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="OBJ_Geo_Long" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="OBJ_GroupID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="OBJ_StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OBJ_EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,1312 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B33DED5-A7C0-42EB-A1DF-349AC1C8BA03}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_4screen.CSB.WebUI</RootNamespace>
+    <AssemblyName>CSBooster.WebUI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug + Copy|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="4screen.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\4screen.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="4screen.WebControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\General\4screen.WebControls_deploy\Debug\bin\4screen.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControlToolkit, Version=3.0.11119.25533, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Anders.Web.Controls, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Anders.Web.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Element-IT.PowUpload, Version=1.3.0.0, Culture=neutral, PublicKeyToken=0f5ecb088372736c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Element-IT.PowUpload.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtremeSwank.OpenId, Version=4.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\ExtremeSwank.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Bmp, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Bmp.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Cmp, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Cmp.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Gif, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Gif.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Img, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Img.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Pcx, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Pcx.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Png, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Png.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Tif, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Tif.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs.Wmf, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.Codecs.Wmf.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Color, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.Color.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Effects, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.Effects.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.SpecialEffects, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.SpecialEffects.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Utilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Leadtools.ImageProcessing.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="MSCaptcha, Version=1.0.2832.11804, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\MSCaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Show_Net, Version=1.3.3.0, Culture=neutral, PublicKeyToken=a24f0e4ecff66e91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\obout_Show_Net.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenFlashChartLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\OpenFlashChartLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptReferenceProfiler, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\ScriptReferenceProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib, Version=0.4.0.0, Culture=neutral, PublicKeyToken=fbebc9694da332b7">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SubSonic, Version=2.1.0.0, Culture=neutral, PublicKeyToken=eadb47849839a332, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\SubSonic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\System.Web.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="taglib-sharp, Version=2.0.3.0, Culture=neutral, PublicKeyToken=db62eba44689b5b0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\taglib-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2008.3.1314.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\RadEditor.Dialogs.de-CH.designer.cs" />
+    <Compile Include="App_GlobalResources\RadEditor.Dialogs.de-CH1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Dialogs.de-CH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Main.de-CH.designer.cs" />
+    <Compile Include="App_GlobalResources\RadEditor.Main.de-CH1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Main.de-CH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Modules.de-CH.designer.cs" />
+    <Compile Include="App_GlobalResources\RadEditor.Modules.de-CH1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Modules.de-CH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Tools.de-CH.designer.cs" />
+    <Compile Include="App_GlobalResources\RadEditor.Tools.de-CH1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Tools.de-CH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadSpell.Dialog.de-CH.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadSpell.Dialog.de-CH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Empty.master.designer.cs">
+      <DependentUpon>Empty.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\MobileMaster.master.cs">
+      <DependentUpon>MobileMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\MobileMaster.master.designer.cs">
+      <DependentUpon>MobileMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Static.master.designer.cs">
+      <DependentUpon>Static.master</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Dialogs.de-DE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Dialogs.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Dialogs.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Dialogs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Main.de-DE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Main.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Main.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Main.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Modules.de-DE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Modules.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Modules.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Modules.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Tools.de-DE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Tools.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadEditor.Tools.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadEditor.Tools.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadProgressArea.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadProgressArea.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadScheduler.Main.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadScheduler.Main.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadSpell.Dialog.de-DE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadSpell.Dialog.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadSpell.Dialog.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadSpell.Dialog.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadUpload.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadUpload.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Empty.master.cs">
+      <DependentUpon>Empty.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Static.master.cs">
+      <DependentUpon>Static.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\NaviOutputFlyoutMenu.ascx.cs">
+      <DependentUpon>NaviOutputFlyoutMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NaviOutputFlyoutMenu.ascx.designer.cs">
+      <DependentUpon>NaviOutputFlyoutMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NaviOutputOutlook.ascx.cs">
+      <DependentUpon>NaviOutputOutlook.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NaviOutputOutlook.ascx.designer.cs">
+      <DependentUpon>NaviOutputOutlook.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NaviOutputTree.ascx.cs">
+      <DependentUpon>NaviOutputTree.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NaviOutputTree.ascx.designer.cs">
+      <DependentUpon>NaviOutputTree.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserNavi.ascx.cs">
+      <DependentUpon>UserNavi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserNavi.ascx.designer.cs">
+      <DependentUpon>UserNavi.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Browsers\form.browser" />
+    <None Include="App_Data\RadSpell\de-DE.tdf" />
+    <None Include="App_Data\RadSpell\en-US.tdf" />
+    <None Include="App_Data\RadSpell\fr-FR.tdf" />
+    <Content Include="App_Themes\Default\default.skin" />
+    <Content Include="App_Themes\Sahara\default.skin" />
+    <Content Include="Configurations\CombineScriptsFileSets.config" />
+    <Content Include="Configurations\ConverterTimeEstimate.config" />
+    <Content Include="Configurations\Copyrights.config" />
+    <Content Include="Configurations\DataAccess.config" />
+    <Content Include="App_Layouts\Default\settings.config" />
+    <Content Include="App_Layouts\Layout1\settings.config" />
+    <Content Include="App_Layouts\LayoutMitNavi\settings.config" />
+    <Content Include="Configurations\DefaultCommJoin.rule" />
+    <Content Include="Configurations\DefaultWidgets.config" />
+    <Content Include="Configurations\FilterEngine.config" />
+    <Content Include="Configurations\IncentivePoints.rule" />
+    <Content Include="Configurations\Mobile.config" />
+    <Content Include="Configurations\Notification.config" />
+    <Content Include="Configurations\Links.config" />
+    <Content Include="Configurations\NotTrackObjectEvents.rule" />
+    <Content Include="Configurations\NotTrackPageEvents.rule" />
+    <Content Include="Configurations\ProfileData.config" />
+    <Content Include="Configurations\RadEditorToolsFile1.config" />
+    <Content Include="Configurations\RadEditorToolsFile2.config" />
+    <Content Include="Configurations\RadPagesToolsFile3.config" />
+    <Content Include="Configurations\RssEngine.config" />
+    <Content Include="Configurations\SlideShow.config" />
+    <Content Include="Configurations\TagHandler.config" />
+    <Content Include="Configurations\Widgets.config" />
+    <Content Include="Configurations\Wizards.config" />
+    <None Include="Log\dummy.Log" />
+    <Content Include="MasterPages\Empty.master" />
+    <Content Include="MasterPages\Static.master" />
+    <Content Include="MasterPages\Default.Master" />
+    <None Include="vwd.webinfo" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\RadEditor.Dialogs.de-CH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Dialogs.de-CH1.designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="App_GlobalResources\RadEditor.Dialogs.de-DE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Dialogs.de-DE.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\RadEditor.Dialogs.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Dialogs.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="App_GlobalResources\RadEditor.Main.de-CH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Main.de-CH1.designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="App_GlobalResources\RadEditor.Main.de-DE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Main.de-DE.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\RadEditor.Main.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Main.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="App_GlobalResources\RadEditor.Modules.de-CH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Modules.de-CH1.designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="App_GlobalResources\RadEditor.Modules.de-DE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Modules.de-DE.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\RadEditor.Modules.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Modules.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="App_GlobalResources\RadEditor.Tools.de-CH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Tools.de-CH1.designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="App_GlobalResources\RadEditor.Tools.de-DE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Tools.de-DE.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\RadEditor.Tools.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadEditor.Tools.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\RadProgressArea.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadProgressArea.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\RadScheduler.Main.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadScheduler.Main.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="App_GlobalResources\RadSpell.Dialog.de-CH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadSpell.Dialog.de-CH.designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="App_GlobalResources\RadSpell.Dialog.de-DE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadSpell.Dialog.de-DE.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\RadSpell.Dialog.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadSpell.Dialog.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\RadUpload.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadUpload.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="App_Layouts\Layout2c\icon.gif" />
+    <Content Include="App_Layouts\Layout2c\layout.html" />
+    <Content Include="App_Layouts\Layout2b\icon.gif" />
+    <Content Include="App_Layouts\Layout2b\layout.html" />
+    <Content Include="App_Layouts\Layout3\icon.gif" />
+    <Content Include="App_Layouts\Layout3\layout.html" />
+    <Content Include="App_Layouts\LayoutMitNavi\icon.gif" />
+    <Content Include="App_Layouts\LayoutMitNavi\layout.html" />
+    <Content Include="App_Layouts\Layout1\icon.gif" />
+    <Content Include="App_Layouts\Layout1\layout.html" />
+    <Content Include="App_Layouts\Default\icon.gif" />
+    <Content Include="App_Layouts\Default\layout.html" />
+    <Content Include="App_Themes\Default\default.css" />
+    <Content Include="App_Themes\Default\default.gif" />
+    <Content Include="App_Themes\Default\videoflashvars.xml" />
+    <Content Include="App_Themes\NaviLeft\default.css" />
+    <Content Include="App_Themes\NaviLeft\NaviLeft.gif" />
+    <Content Include="App_Themes\NaviLeft\videoflashvars.xml" />
+    <Content Include="App_Themes\NoImage.gif" />
+    <Content Include="App_Themes\Sahara\default.css" />
+    <Content Include="App_Themes\Sahara\Images\bg_footer.png" />
+    <Content Include="App_Themes\Sahara\Images\body_bg.png" />
+    <Content Include="App_Themes\Sahara\Images\box1_bottom_center.png" />
+    <Content Include="App_Themes\Sahara\Images\box1_bottom_left.png" />
+    <Content Include="App_Themes\Sahara\Images\box1_bottom_right.png" />
+    <Content Include="App_Themes\Sahara\Images\box1_left.png" />
+    <Content Include="App_Themes\Sahara\Images\box1_right.png" />
+    <Content Include="App_Themes\Sahara\Images\box1_top_center.png" />
+    <Content Include="App_Themes\Sahara\Images\box1_top_left.png" />
+    <Content Include="App_Themes\Sahara\Images\box1_top_right.png" />
+    <Content Include="App_Themes\Sahara\Images\drag.png" />
+    <Content Include="App_Themes\Sahara\Images\drop.gif" />
+    <Content Include="App_Themes\Sahara\sahara.gif" />
+    <Content Include="App_Themes\Sahara\videoflashvars.xml" />
+    <Content Include="bin\4screen.Utils.dll" />
+    <Content Include="bin\4screen.Utils.pdb" />
+    <Content Include="bin\4screen.WebControls.dll" />
+    <Content Include="bin\4screen.WebControls.pdb" />
+    <Content Include="bin\Affirma.ThreeSharp.dll" />
+    <Content Include="bin\Affirma.ThreeSharp.Wrapper.dll" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\Anders.Web.Controls.dll" />
+    <Content Include="bin\BuildVsi.dll" />
+    <Content Include="bin\CookComputing.XmlRpcV2.dll" />
+    <Content Include="bin\CSBooster.AJAXASMXHandler.dll" />
+    <Content Include="bin\CSBooster.AJAXASMXHandler.pdb" />
+    <Content Include="bin\CSBooster.Common.dll" />
+    <Content Include="bin\CSBooster.Common.pdb" />
+    <Content Include="bin\CSBooster.CustomDragDrop.dll" />
+    <Content Include="bin\CSBooster.CustomDragDrop.pdb" />
+    <Content Include="bin\CSBooster.DataAccess.dll" />
+    <Content Include="bin\CSBooster.DataAccess.pdb" />
+    <Content Include="bin\CSBooster.Extensions.dll" />
+    <Content Include="bin\CSBooster.Extensions.pdb" />
+    <Content Include="bin\CSBooster.GeoTagging.dll" />
+    <Content Include="bin\CSBooster.GeoTagging.pdb" />
+    <Content Include="bin\CSBooster.ImageHandler.dll" />
+    <Content Include="bin\CSBooster.ImageHandler.pdb" />
+    <Content Include="bin\CSBooster.Notification.dll" />
+    <Content Include="bin\CSBooster.Notification.pdb" />
+    <Content Include="bin\CSBooster.WebServices.dll" />
+    <Content Include="bin\CSBooster.WebServices.pdb" />
+    <Content Include="bin\CSBooster.WebUI.Admin.dll" />
+    <Content Include="bin\CSBooster.WebUI.Admin.pdb" />
+    <Content Include="bin\CSBooster.WebUI.Base.dll" />
+    <Content Include="bin\CSBooster.WebUI.Base.pdb" />
+    <Content Include="bin\CSBooster.WebUI.Mobile.dll" />
+    <Content Include="bin\CSBooster.WebUI.Mobile.pdb" />
+    <Content Include="bin\CSBooster.Widgets.dll" />
+    <Content Include="bin\CSBooster.Widgets.pdb" />
+    <Content Include="bin\dotNetFreak.WebControls.FormShield.dll" />
+    <Content Include="bin\Element-IT.PowUpload.dll" />
+    <Content Include="bin\Element-IT.PowUpload.xml" />
+    <Content Include="bin\ExtremeSwank.OpenId.dll" />
+    <Content Include="bin\Leadtools.Codecs.Bmp.dll" />
+    <Content Include="bin\Leadtools.Codecs.Cmp.dll" />
+    <Content Include="bin\Leadtools.Codecs.dll" />
+    <Content Include="bin\Leadtools.Codecs.Gif.dll" />
+    <Content Include="bin\Leadtools.Codecs.Img.dll" />
+    <Content Include="bin\Leadtools.Codecs.Pcx.dll" />
+    <Content Include="bin\Leadtools.Codecs.Png.dll" />
+    <Content Include="bin\Leadtools.Codecs.Tif.dll" />
+    <Content Include="bin\Leadtools.Codecs.Wmf.dll" />
+    <Content Include="bin\Leadtools.dll" />
+    <Content Include="bin\Leadtools.ImageProcessing.Color.dll" />
+    <Content Include="bin\Leadtools.ImageProcessing.Core.dll" />
+    <Content Include="bin\Leadtools.ImageProcessing.Effects.dll" />
+    <Content Include="bin\Leadtools.ImageProcessing.SpecialEffects.dll" />
+    <Content Include="bin\Leadtools.ImageProcessing.Utilities.dll" />
+    <Content Include="bin\MSCaptcha.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\obout_ColorPicker.dll" />
+    <Content Include="bin\obout_Show_Net.dll" />
+    <Content Include="bin\OpenFlashChartLib.dll" />
+    <Content Include="bin\SharpZipLib.dll" />
+    <Content Include="bin\Simplovation.Web.Maps.VE.dll" />
+    <Content Include="bin\SubSonic.dll" />
+    <Content Include="bin\System.Web.DataVisualization.dll" />
+    <Content Include="bin\taglib-sharp.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.xml" />
+    <Content Include="App_Layouts\Layout3\settings.config" />
+    <Content Include=".htaccess" />
+    <Content Include="App_Layouts\Layout2b\settings.config" />
+    <Content Include="App_Layouts\Layout2c\settings.config" />
+    <Content Include="Configurations\SiteObjects.config" />
+    <Content Include="App_Themes\NaviLeft\default.skin" />
+    <None Include="App_Data\RadSpell\de-CH.tdf" />
+    <None Include="App_Data\RadSpell\en-GB.tdf" />
+    <None Include="App_Themes\Default\videoskin.zip" />
+    <None Include="App_Themes\NaviLeft\videoskin.zip" />
+    <None Include="App_Themes\Sahara\videoskin.zip" />
+    <Content Include="Configurations\Customization.config" />
+    <Content Include="Configurations\OutputTemplates.config" />
+    <Content Include="Configurations\NotTrackSessions.rule" />
+    <Content Include="Configurations\DefaultMap.config" />
+    <Content Include="Configurations\ResourceEditorTools.xml" />
+    <None Include="Library\Language\WidgetLoginSSO.lang" />
+    <None Include="Library\Language\WidgetRegistration.lang" />
+    <None Include="Library\Language\UserControls.Templates.WebUI.Base.lang" />
+    <None Include="Library\Language\WebControls.lang" />
+    <None Include="Library\Language\WidgetGoogleMap.lang" />
+    <None Include="Library\Language\WidgetWizard.lang" />
+    <None Include="Library\Language\WidgetCacheInfo.lang" />
+    <None Include="Library\Language\WidgetDashboard.lang" />
+    <None Include="Library\Language\WidgetAssemblyInfo.lang" />
+    <None Include="Library\Language\WidgetRelatedObjectLists.lang" />
+    <None Include="Library\Language\WidgetSharing.lang" />
+    <None Include="Library\Language\DataObjectHTMLContent.lang" />
+    <None Include="Library\Language\DataObjectProduct.lang" />
+    <None Include="Library\Language\DataObjectSurvey.lang" />
+    <None Include="Library\Language\WebUI.Admin.lang" />
+    <None Include="Library\Language\UserControls.WebUI.Base.lang" />
+    <None Include="Library\Language\Pages.Popups.WebUI.Base.lang" />
+    <None Include="Library\Language\Pages.Other.WebUI.Base.lang" />
+    <None Include="Library\Language\Pages.Static.WebUI.Base.lang" />
+    <None Include="Library\Language\UserControls.Basket.WebUI.lang" />
+    <None Include="Library\Language\UserControls.Dashboard.WebUI.Base.lang" />
+    <None Include="Library\Language\UserControls.Templates.WebUI.lang" />
+    <None Include="Library\Language\ProfileData.lang" />
+    <None Include="Library\Language\UserControls.WebUI.lang" />
+    <None Include="Library\Language\WidgetBoard.lang" />
+    <None Include="Library\Language\WidgetComments.lang" />
+    <None Include="Library\Language\WidgetCommunityLists.lang" />
+    <None Include="Library\Language\WidgetCommunityShortInfo.lang" />
+    <None Include="Library\Language\WidgetForm.lang" />
+    <None Include="Library\Language\WidgetFunctionsFilter.lang" />
+    <None Include="Library\Language\WidgetFunctionsSort.lang" />
+    <None Include="Library\Language\WidgetFunctionsUser.lang" />
+    <None Include="Library\Language\WidgetHTMLContent.lang" />
+    <None Include="Library\Language\WidgetIFrame.lang" />
+    <None Include="Library\Language\WidgetInfo.lang" />
+    <None Include="Library\Language\WidgetLogin.lang" />
+    <None Include="Library\Language\WidgetNewestUser.lang" />
+    <None Include="Library\Language\WidgetObjectDetail.lang" />
+    <None Include="Library\Language\WidgetObjectLists.lang" />
+    <None Include="Library\Language\WidgetObjectSiblings.lang" />
+    <None Include="Library\Language\WidgetOnlineUser.lang" />
+    <None Include="Library\Language\WidgetPermaLink.lang" />
+    <None Include="Library\Language\WidgetRating.lang" />
+    <None Include="Library\Language\WidgetRSS.lang" />
+    <None Include="Library\Language\Widgets.lang" />
+    <None Include="Library\Language\WidgetsBase.lang" />
+    <None Include="Library\Language\Shared.lang" />
+    <None Include="Library\Language\UserControls.Wizards.WebUI.Base.lang" />
+    <None Include="Library\Language\SiteObjects.lang" />
+    <None Include="Library\Language\WebUI.Mobile.lang" />
+    <None Include="Library\Language\Templates.lang" />
+    <None Include="Library\Language\DataAccess.lang" />
+    <None Include="Library\Language\WidgetSearch.lang" />
+    <None Include="Library\Language\WidgetSearchResults.lang" />
+    <None Include="Library\Language\WidgetSiteTagCloud.lang" />
+    <None Include="Library\Language\WidgetStatistics.lang" />
+    <None Include="Library\Language\WidgetTagRelatedObjects.lang" />
+    <None Include="Library\Language\WidgetUploadControls.lang" />
+    <None Include="Library\Language\WidgetUserActivities.lang" />
+    <None Include="Library\Language\WidgetUserLists.lang" />
+    <None Include="Library\Language\WidgetUserShortInfo.lang" />
+    <Content Include="Configurations\Shop.config" />
+    <Content Include="crossdomain.xml" />
+    <Content Include="Library\Images\Layout\bg_alpha_green_50.png" />
+    <Content Include="Library\Images\Layout\cmd_add.png" />
+    <Content Include="Library\Images\Layout\cmd_administration.png" />
+    <Content Include="Library\Images\Layout\cmd_btn150.png" />
+    <Content Include="Library\Images\Layout\cmd_btn150_l.png" />
+    <Content Include="Library\Images\Layout\cmd_btn180.png" />
+    <Content Include="Library\Images\Layout\cmd_btn200.png" />
+    <Content Include="Library\Images\Layout\cmd_comment.png" />
+    <Content Include="Library\Images\Layout\cmd_content_edit.png" />
+    <Content Include="Library\Images\Layout\cmd_dd150.png" />
+    <Content Include="Library\Images\Layout\cmd_dd200.png" />
+    <Content Include="Library\Images\Layout\cmd_dd39.png" />
+    <Content Include="Library\Images\Layout\cmd_edit4.png" />
+    <Content Include="Library\Images\Layout\cmd_find.png" />
+    <Content Include="Library\Images\Layout\cmd_nohelp.gif" />
+    <Content Include="Library\Images\Layout\cmd_page_add.png" />
+    <Content Include="Library\Images\Layout\cmd_save.png" />
+    <Content Include="Library\Images\Layout\cmd_content.png" />
+    <Content Include="Library\Images\Layout\cmd_settings.png" />
+    <Content Include="Library\Images\Layout\icon_arrow_down.png" />
+    <Content Include="Library\Images\Layout\icon_facebook_large.png" />
+    <Content Include="Library\Images\Layout\icon_help.png" />
+    <Content Include="Library\Images\Layout\icon_inprogress2.gif" />
+    <Content Include="Library\Images\Layout\icon_location.png" />
+    <Content Include="Library\Images\Layout\icon_receiver_group.gif" />
+    <Content Include="Library\Images\Layout\icon_comments_large.gif" />
+    <Content Include="Library\Images\Layout\icon_memberships_large.gif" />
+    <Content Include="Library\Images\Layout\icon_messages_large.gif" />
+    <Content Include="Library\Images\Layout\icon_twitter_large.png" />
+    <Content Include="Library\Images\Layout\icon_unlisted.png" />
+    <Content Include="Library\Images\Layout\icon_digg.png" />
+    <Content Include="Library\Images\Layout\icon_facebook.png" />
+    <Content Include="Library\Images\Layout\icon_myspace.png" />
+    <Content Include="Library\Images\Layout\icon_twitter.png" />
+    <Content Include="Library\Images\Layout\taba.png" />
+    <Content Include="Library\Images\Layout\tabi.png" />
+    <Content Include="Library\Images\Map\audio.png" />
+    <Content Include="Library\Images\Map\event_concert.png" />
+    <Content Include="Library\Images\Map\event_festival.png" />
+    <Content Include="Library\Images\Map\event_exhibition.png" />
+    <Content Include="Library\Images\Map\event.png" />
+    <Content Include="Library\Images\Map\default.png" />
+    <Content Include="Library\Images\Map\location.png" />
+    <Content Include="Library\Images\Map\news.png" />
+    <Content Include="Library\Images\Map\news_politik.png" />
+    <Content Include="Library\Images\Map\news_sport.png" />
+    <Content Include="Library\Images\Map\news_wirtschaft.png" />
+    <Content Include="Library\Images\Map\picture.png" />
+    <Content Include="Library\Images\Map\picture_flyer.png" />
+    <Content Include="Library\Images\Map\picture_landscape.png" />
+    <Content Include="Library\Images\Map\picture_nasa.png" />
+    <Content Include="Library\Images\Map\shadow.png" />
+    <Content Include="Library\Images\Map\video.png" />
+    <Content Include="Library\Images\MP\cmd_go.gif" />
+    <Content Include="Library\Images\MP\icon_arrow_left.png" />
+    <Content Include="Library\Images\MP\icon_arrow_left_i.png" />
+    <Content Include="Library\Images\MP\icon_arrow_right.png" />
+    <Content Include="Library\Images\MP\icon_arrow_right_i.png" />
+    <Content Include="Library\Images\MP\logo.png" />
+    <Content Include="Library\Images\OutputTemplates\1.gif" />
+    <Content Include="Library\Images\OutputTemplates\2.gif" />
+    <Content Include="Library\Images\OutputTemplates\3.gif" />
+    <Content Include="Library\Images\Layout\bg_error_tooltip.png" />
+    <Content Include="Library\Images\Layout\button_wiz.png" />
+    <Content Include="Library\Images\Layout\cmd_insertimage2.gif" />
+    <Content Include="Library\Images\Layout\favicon.png" />
+    <Content Include="Library\Images\Layout\icon_down.png" />
+    <Content Include="Library\Images\Layout\icon_pollquestions.png" />
+    <Content Include="Library\Images\Layout\icon_up.png" />
+    <Content Include="Library\Skins\Common\CommandSpritesLight.png" />
+    <Content Include="Library\Skins\Custom\Calendar\hoverBg.gif" />
+    <Content Include="Library\Skins\Custom\Calendar\MonthYearFastNavBtnBg.gif" />
+    <Content Include="Library\Skins\Custom\Calendar\selectBg.gif" />
+    <Content Include="Library\Skins\Custom\Calendar\titlebarBg.gif" />
+    <Content Include="Library\Skins\Custom\ComboBox\rcbSprite.png" />
+    <Content Include="Library\Skins\Custom\ComboBox\rcbSpriteIE6.png" />
+    <Content Include="Library\Skins\Custom\DatePicker\Default.gif" />
+    <Content Include="Library\Skins\Custom\Dock\CornerSprites.gif" />
+    <Content Include="Library\Skins\Custom\Dock\DockCommandSprites.gif" />
+    <Content Include="Library\Skins\Custom\Dock\rdHTitle.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Titlebar.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Titlebarh.gif" />
+    <Content Include="Library\Skins\Custom\Dock\TitlebarHLeft.gif" />
+    <Content Include="Library\Skins\Custom\Dock\VerticalBorders.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ImageEditorOpenerIcon.gif" />
+    <Content Include="Library\Skins\Custom\ToolTip\ToolTipSprites.gif" />
+    <Content Include="Library\Skins\Custom\ToolTip\ToolTipVerticalSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\close.gif" />
+    <Content Include="Library\Skins\Custom\Window\CommandButtonSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\CommandSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\FooterSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\StatusBarSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\WindowCornerSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\WindowHorizontalSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\WindowSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\WindowVerticalSprites.gif" />
+    <Content Include="Library\Styles\4swc.css" />
+    <Content Include="MasterPages\MobileMaster.master" />
+    <Content Include="Configurations\Security.config" />
+    <Content Include="Library\Images\Layout\bg_alpha_red_10.png" />
+    <Content Include="Library\Images\Layout\bg_alpha_red_30.png" />
+    <Content Include="Configurations\CSBImageActionProfile.xml" />
+    <Content Include="favicon.ico" />
+    <Content Include="Library\CampaignImages\ad_banner.jpg" />
+    <Content Include="Library\CampaignImages\ad_leaderboard.jpg" />
+    <Content Include="Library\CampaignImages\ad_skyscraper.jpg" />
+    <Content Include="Library\CampaignImages\ad_wideskyscraper.gif" />
+    <Content Include="Library\CampaignImages\placeholder.gif" />
+    <Content Include="Library\Images\Layout\bg_boxtitle.gif" />
+    <Content Include="Library\Images\Layout\bg_footer.jpg" />
+    <Content Include="Library\Images\Layout\bg_header2.jpg" />
+    <Content Include="Library\Images\Layout\bg_add.gif" />
+    <Content Include="Library\Images\Layout\bg_alpha_30.png" />
+    <Content Include="Library\Images\Layout\bg_header.jpg" />
+    <Content Include="Library\Images\Layout\bg_remove.gif" />
+    <Content Include="Library\Images\Layout\blueButton.png" />
+    <Content Include="Library\Images\Layout\button1.png" />
+    <Content Include="Library\Images\Layout\button4.png" />
+    <Content Include="Library\Images\Layout\button8.png" />
+    <Content Include="Library\Images\Layout\button_c.png" />
+    <Content Include="Library\Images\Layout\cmd_block.png" />
+    <Content Include="Library\Images\Layout\cmd_close.png" />
+    <Content Include="Library\Images\Layout\cmd_delete.png" />
+    <Content Include="Library\Images\Layout\cmd_delete2.png" />
+    <Content Include="Library\Images\Layout\cmd_drag.png" />
+    <Content Include="Library\Images\Layout\cmd_edit.png" />
+    <Content Include="Library\Images\Layout\cmd_edit3.png" />
+    <Content Include="Library\Images\Layout\cmd_first.png" />
+    <Content Include="Library\Images\Layout\cmd_first_i.png" />
+    <Content Include="Library\Images\Layout\cmd_flag.png" />
+    <Content Include="Library\Images\Layout\cmd_friend_birth_no.png" />
+    <Content Include="Library\Images\Layout\cmd_friend_birth_yes.png" />
+    <Content Include="Library\Images\Layout\cmd_friend_stetting.png" />
+    <Content Include="Library\Images\Layout\cmd_go.gif" />
+    <Content Include="Library\Images\Layout\cmd_horizontal.png" />
+    <Content Include="Library\Images\Layout\cmd_info.png" />
+    <Content Include="Library\Images\Layout\cmd_insertimage.gif" />
+    <Content Include="Library\Images\Layout\cmd_last.png" />
+    <Content Include="Library\Images\Layout\cmd_last_i.png" />
+    <Content Include="Library\Images\Layout\cmd_link.png" />
+    <Content Include="Library\Images\Layout\cmd_memberships.png" />
+    <Content Include="Library\Images\Layout\cmd_msg.png" />
+    <Content Include="Library\Images\Layout\cmd_msg_forward.png" />
+    <Content Include="Library\Images\Layout\cmd_msg_reply.png" />
+    <Content Include="Library\Images\Layout\cmd_next.png" />
+    <Content Include="Library\Images\Layout\cmd_next_i.png" />
+    <Content Include="Library\Images\Layout\cmd_note_add.png" />
+    <Content Include="Library\Images\Layout\cmd_note_hide.png" />
+    <Content Include="Library\Images\Layout\cmd_note_show.png" />
+    <Content Include="Library\Images\Layout\cmd_ok.png" />
+    <Content Include="Library\Images\Layout\cmd_prev.png" />
+    <Content Include="Library\Images\Layout\cmd_prev_i.png" />
+    <Content Include="Library\Images\Layout\cmd_publish.png" />
+    <Content Include="Library\Images\Layout\cmd_rss.gif" />
+    <Content Include="Library\Images\Layout\cmd_rss.png" />
+    <Content Include="Library\Images\Layout\cmd_rss_a.gif" />
+    <Content Include="Library\Images\Layout\cmd_sort_asc.png" />
+    <Content Include="Library\Images\Layout\cmd_sort_asc_i.png" />
+    <Content Include="Library\Images\Layout\cmd_sort_desc.png" />
+    <Content Include="Library\Images\Layout\cmd_sort_desc_i.png" />
+    <Content Include="Library\Images\Layout\cmd_unblock.png" />
+    <Content Include="Library\Images\Layout\cmd_unflag.png" />
+    <Content Include="Library\Images\Layout\cmd_vertical.png" />
+    <Content Include="Library\Images\Layout\cmd_withdraw.png" />
+    <Content Include="Library\Images\Layout\cmd_edit2.png" />
+    <Content Include="Library\Images\Layout\cmd_mycontent.png" />
+    <Content Include="Library\Images\Layout\cmd_featured.png" />
+    <Content Include="Library\Images\Layout\cmd_style.png" />
+    <Content Include="Library\Images\Layout\bg_alpha_50.png" />
+    <Content Include="Library\Images\Layout\cmd_upload.png" />
+    <Content Include="Library\Images\Layout\drop2.png" />
+    <Content Include="Library\Images\Layout\icon_page.png" />
+    <Content Include="Library\Images\Layout\icon_featured.png" />
+    <Content Include="Library\Images\Layout\icon_community_missing.png" />
+    <Content Include="Library\Images\Layout\drop.gif" />
+    <Content Include="Library\Images\Layout\icon_alerts.gif" />
+    <Content Include="Library\Images\Layout\icon_alert_read.png" />
+    <Content Include="Library\Images\Layout\icon_alert_unread.png" />
+    <Content Include="Library\Images\Layout\icon_article.png" />
+    <Content Include="Library\Images\Layout\icon_audio.png" />
+    <Content Include="Library\Images\Layout\icon_board.gif" />
+    <Content Include="Library\Images\Layout\icon_cardspace.png" />
+    <Content Include="Library\Images\Layout\icon_comments.gif" />
+    <Content Include="Library\Images\Layout\icon_community.png" />
+    <Content Include="Library\Images\Layout\icon_community_managed.png" />
+    <Content Include="Library\Images\Layout\icon_content.gif" />
+    <Content Include="Library\Images\Layout\icon_document.png" />
+    <Content Include="Library\Images\Layout\icon_draft.png" />
+    <Content Include="Library\Images\Layout\icon_event.png" />
+    <Content Include="Library\Images\Layout\icon_extlink.png" />
+    <Content Include="Library\Images\Layout\icon_failed.gif" />
+    <Content Include="Library\Images\Layout\icon_favorites.gif" />
+    <Content Include="Library\Images\Layout\icon_folder.png" />
+    <Content Include="Library\Images\Layout\icon_forum.png" />
+    <Content Include="Library\Images\Layout\icon_forumtopic.png" />
+    <Content Include="Library\Images\Layout\icon_forumtopicitem.png" />
+    <Content Include="Library\Images\Layout\icon_friends.gif" />
+    <Content Include="Library\Images\Layout\icon_generic.png" />
+    <Content Include="Library\Images\Layout\icon_geotagged.png" />
+    <Content Include="Library\Images\Layout\icon_img_ph.png" />
+    <Content Include="Library\Images\Layout\icon_info.png" />
+    <Content Include="Library\Images\Layout\icon_inprogress.gif" />
+    <Content Include="Library\Images\Layout\icon_loader.gif" />
+    <Content Include="Library\Images\Layout\icon_lock.gif" />
+    <Content Include="Library\Images\Layout\icon_logout.gif" />
+    <Content Include="Library\Images\Layout\icon_memberships.gif" />
+    <Content Include="Library\Images\Layout\icon_messages.gif" />
+    <Content Include="Library\Images\Layout\icon_msg_inbox.png" />
+    <Content Include="Library\Images\Layout\icon_msg_outbox.png" />
+    <Content Include="Library\Images\Layout\icon_msg_read_forwarded.png" />
+    <Content Include="Library\Images\Layout\icon_msg_read_none.png" />
+    <Content Include="Library\Images\Layout\icon_msg_read_replied.png" />
+    <Content Include="Library\Images\Layout\icon_msg_status_none.png" />
+    <Content Include="Library\Images\Layout\icon_msg_unread.png" />
+    <Content Include="Library\Images\Layout\icon_msg_unread_forwarded.png" />
+    <Content Include="Library\Images\Layout\icon_msg_unread_none.png" />
+    <Content Include="Library\Images\Layout\icon_msg_unread_replied.png" />
+    <Content Include="Library\Images\Layout\icon_news.png" />
+    <Content Include="Library\Images\Layout\icon_object.png" />
+    <Content Include="Library\Images\Layout\icon_openid.png" />
+    <Content Include="Library\Images\Layout\icon_picture.png" />
+    <Content Include="Library\Images\Layout\icon_pinboardoffer.png" />
+    <Content Include="Library\Images\Layout\icon_pinboardsearch.png" />
+    <Content Include="Library\Images\Layout\icon_private.png" />
+    <Content Include="Library\Images\Layout\icon_profile.gif" />
+    <Content Include="Library\Images\Layout\icon_public.png" />
+    <Content Include="Library\Images\Layout\icon_published.png" />
+    <Content Include="Library\Images\Layout\icon_slideshow.png" />
+    <Content Include="Library\Images\Layout\icon_user.png" />
+    <Content Include="Library\Images\Layout\icon_video.png" />
+    <Content Include="Library\Images\Layout\listArrow.png" />
+    <Content Include="Library\Images\Layout\listArrowBack.png" />
+    <Content Include="Library\Images\Layout\listArrowSel.png" />
+    <Content Include="Library\Images\Layout\listGroup.png" />
+    <Content Include="Library\Images\Layout\logo.png" />
+    <Content Include="Library\Images\Layout\logo_video.png" />
+    <Content Include="Library\Images\Layout\pixel.gif" />
+    <Content Include="Library\Images\Layout\rating2.gif" />
+    <Content Include="Library\Images\Layout\rating2_i.gif" />
+    <Content Include="Library\Images\Layout\rating3.png" />
+    <Content Include="Library\Images\Layout\rating3_i.png" />
+    <Content Include="Library\Images\Layout\rating_0.5.png" />
+    <Content Include="Library\Images\Layout\rating_0.png" />
+    <Content Include="Library\Images\Layout\rating_1.5.png" />
+    <Content Include="Library\Images\Layout\rating_1.png" />
+    <Content Include="Library\Images\Layout\rating_2.5.png" />
+    <Content Include="Library\Images\Layout\rating_2.png" />
+    <Content Include="Library\Images\Layout\rating_3.5.png" />
+    <Content Include="Library\Images\Layout\rating_3.png" />
+    <Content Include="Library\Images\Layout\rating_4.5.png" />
+    <Content Include="Library\Images\Layout\rating_4.png" />
+    <Content Include="Library\Images\Layout\rating_5.5.png" />
+    <Content Include="Library\Images\Layout\rating_5.png" />
+    <Content Include="Library\Images\Layout\rating_6.png" />
+    <Content Include="Library\Images\Layout\rating_i.png" />
+    <Content Include="Library\Images\Layout\selection.png" />
+    <Content Include="Library\Images\MP\logo.jpg" />
+    <Content Include="Library\Images\User\ag\ag_0.png" />
+    <Content Include="Library\Images\User\ag\ag_1.png" />
+    <Content Include="Library\Images\User\ag\ag_10.png" />
+    <Content Include="Library\Images\User\ag\ag_2.png" />
+    <Content Include="Library\Images\User\ag\ag_3.png" />
+    <Content Include="Library\Images\User\ag\ag_4.png" />
+    <Content Include="Library\Images\User\ag\ag_5.png" />
+    <Content Include="Library\Images\User\ag\ag_6.png" />
+    <Content Include="Library\Images\User\ag\ag_7.png" />
+    <Content Include="Library\Images\User\ag\ag_8.png" />
+    <Content Include="Library\Images\User\ag\ag_9.png" />
+    <Content Include="Library\Images\User\lg\pc\0.png" />
+    <Content Include="Library\Images\User\lg\pc\1.png" />
+    <Content Include="Library\Images\User\lg\pc\10.png" />
+    <Content Include="Library\Images\User\lg\pc\11.png" />
+    <Content Include="Library\Images\User\lg\pc\12.png" />
+    <Content Include="Library\Images\User\lg\pc\13.png" />
+    <Content Include="Library\Images\User\lg\pc\14.png" />
+    <Content Include="Library\Images\User\lg\pc\15.png" />
+    <Content Include="Library\Images\User\lg\pc\16.png" />
+    <Content Include="Library\Images\User\lg\pc\2.png" />
+    <Content Include="Library\Images\User\lg\pc\3.png" />
+    <Content Include="Library\Images\User\lg\pc\4.png" />
+    <Content Include="Library\Images\User\lg\pc\5.png" />
+    <Content Include="Library\Images\User\lg\pc\6.png" />
+    <Content Include="Library\Images\User\lg\pc\7.png" />
+    <Content Include="Library\Images\User\lg\pc\8.png" />
+    <Content Include="Library\Images\User\lg\pc\9.png" />
+    <Content Include="Library\Images\User\lg\sc\0.png" />
+    <Content Include="Library\Images\User\lg\sc\1.png" />
+    <Content Include="Library\Images\User\lg\sc\10.png" />
+    <Content Include="Library\Images\User\lg\sc\11.png" />
+    <Content Include="Library\Images\User\lg\sc\12.png" />
+    <Content Include="Library\Images\User\lg\sc\13.png" />
+    <Content Include="Library\Images\User\lg\sc\14.png" />
+    <Content Include="Library\Images\User\lg\sc\15.png" />
+    <Content Include="Library\Images\User\lg\sc\16.png" />
+    <Content Include="Library\Images\User\lg\sc\2.png" />
+    <Content Include="Library\Images\User\lg\sc\3.png" />
+    <Content Include="Library\Images\User\lg\sc\4.png" />
+    <Content Include="Library\Images\User\lg\sc\5.png" />
+    <Content Include="Library\Images\User\lg\sc\6.png" />
+    <Content Include="Library\Images\User\lg\sc\7.png" />
+    <Content Include="Library\Images\User\lg\sc\8.png" />
+    <Content Include="Library\Images\User\lg\sc\9.png" />
+    <Content Include="Library\Images\User\sm\pc\0.png" />
+    <Content Include="Library\Images\User\sm\pc\1.png" />
+    <Content Include="Library\Images\User\sm\pc\10.png" />
+    <Content Include="Library\Images\User\sm\pc\11.png" />
+    <Content Include="Library\Images\User\sm\pc\12.png" />
+    <Content Include="Library\Images\User\sm\pc\13.png" />
+    <Content Include="Library\Images\User\sm\pc\14.png" />
+    <Content Include="Library\Images\User\sm\pc\15.png" />
+    <Content Include="Library\Images\User\sm\pc\16.png" />
+    <Content Include="Library\Images\User\sm\pc\2.png" />
+    <Content Include="Library\Images\User\sm\pc\3.png" />
+    <Content Include="Library\Images\User\sm\pc\4.png" />
+    <Content Include="Library\Images\User\sm\pc\5.png" />
+    <Content Include="Library\Images\User\sm\pc\6.png" />
+    <Content Include="Library\Images\User\sm\pc\7.png" />
+    <Content Include="Library\Images\User\sm\pc\8.png" />
+    <Content Include="Library\Images\User\sm\pc\9.png" />
+    <Content Include="Library\Images\User\sm\sc\0.png" />
+    <Content Include="Library\Images\User\sm\sc\1.png" />
+    <Content Include="Library\Images\User\sm\sc\10.png" />
+    <Content Include="Library\Images\User\sm\sc\11.png" />
+    <Content Include="Library\Images\User\sm\sc\12.png" />
+    <Content Include="Library\Images\User\sm\sc\13.png" />
+    <Content Include="Library\Images\User\sm\sc\14.png" />
+    <Content Include="Library\Images\User\sm\sc\15.png" />
+    <Content Include="Library\Images\User\sm\sc\16.png" />
+    <Content Include="Library\Images\User\sm\sc\2.png" />
+    <Content Include="Library\Images\User\sm\sc\3.png" />
+    <Content Include="Library\Images\User\sm\sc\4.png" />
+    <Content Include="Library\Images\User\sm\sc\5.png" />
+    <Content Include="Library\Images\User\sm\sc\6.png" />
+    <Content Include="Library\Images\User\sm\sc\7.png" />
+    <Content Include="Library\Images\User\sm\sc\8.png" />
+    <Content Include="Library\Images\User\sm\sc\9.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\0.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\1.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\10.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\11.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\12.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\13.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\14.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\15.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\16.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\2.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\3.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\4.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\5.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\6.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\7.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\8.png" />
+    <Content Include="Library\Images\User\sm\sc_selected\9.png" />
+    <Content Include="Library\Images\User\state\activity.png" />
+    <Content Include="Library\Images\User\state\activity_aktiv.png" />
+    <Content Include="Library\Images\User\state\activity_passiv.png" />
+    <Content Include="Library\Images\User\state\admin\0.png" />
+    <Content Include="Library\Images\User\state\admin\1.png" />
+    <Content Include="Library\Images\User\state\admin\10.png" />
+    <Content Include="Library\Images\User\state\admin\2.png" />
+    <Content Include="Library\Images\User\state\admin\3.png" />
+    <Content Include="Library\Images\User\state\admin\4.png" />
+    <Content Include="Library\Images\User\state\admin\5.png" />
+    <Content Include="Library\Images\User\state\admin\6.png" />
+    <Content Include="Library\Images\User\state\admin\7.png" />
+    <Content Include="Library\Images\User\state\admin\8.png" />
+    <Content Include="Library\Images\User\state\admin\9.png" />
+    <Content Include="Library\Images\User\state\basic\0.png" />
+    <Content Include="Library\Images\User\state\basic\1.png" />
+    <Content Include="Library\Images\User\state\basic\10.png" />
+    <Content Include="Library\Images\User\state\basic\2.png" />
+    <Content Include="Library\Images\User\state\basic\3.png" />
+    <Content Include="Library\Images\User\state\basic\4.png" />
+    <Content Include="Library\Images\User\state\basic\5.png" />
+    <Content Include="Library\Images\User\state\basic\6.png" />
+    <Content Include="Library\Images\User\state\basic\7.png" />
+    <Content Include="Library\Images\User\state\basic\8.png" />
+    <Content Include="Library\Images\User\state\basic\9.png" />
+    <Content Include="Library\Images\User\state\default\0.png" />
+    <Content Include="Library\Images\User\state\default\1.png" />
+    <Content Include="Library\Images\User\state\default\10.png" />
+    <Content Include="Library\Images\User\state\default\2.png" />
+    <Content Include="Library\Images\User\state\default\3.png" />
+    <Content Include="Library\Images\User\state\default\4.png" />
+    <Content Include="Library\Images\User\state\default\5.png" />
+    <Content Include="Library\Images\User\state\default\6.png" />
+    <Content Include="Library\Images\User\state\default\7.png" />
+    <Content Include="Library\Images\User\state\default\8.png" />
+    <Content Include="Library\Images\User\state\default\9.png" />
+    <Content Include="Library\Images\User\state\expert\0.png" />
+    <Content Include="Library\Images\User\state\expert\1.png" />
+    <Content Include="Library\Images\User\state\expert\10.png" />
+    <Content Include="Library\Images\User\state\expert\2.png" />
+    <Content Include="Library\Images\User\state\expert\3.png" />
+    <Content Include="Library\Images\User\state\expert\4.png" />
+    <Content Include="Library\Images\User\state\expert\5.png" />
+    <Content Include="Library\Images\User\state\expert\6.png" />
+    <Content Include="Library\Images\User\state\expert\7.png" />
+    <Content Include="Library\Images\User\state\expert\8.png" />
+    <Content Include="Library\Images\User\state\expert\9.png" />
+    <Content Include="Library\Images\User\state\premium\0.png" />
+    <Content Include="Library\Images\User\state\premium\1.png" />
+    <Content Include="Library\Images\User\state\premium\10.png" />
+    <Content Include="Library\Images\User\state\premium\2.png" />
+    <Content Include="Library\Images\User\state\premium\3.png" />
+    <Content Include="Library\Images\User\state\premium\4.png" />
+    <Content Include="Library\Images\User\state\premium\5.png" />
+    <Content Include="Library\Images\User\state\premium\6.png" />
+    <Content Include="Library\Images\User\state\premium\7.png" />
+    <Content Include="Library\Images\User\state\premium\8.png" />
+    <Content Include="Library\Images\User\state\premium\9.png" />
+    <Content Include="Library\iui\backButton.png" />
+    <Content Include="Library\iui\cancel.png" />
+    <Content Include="Library\iui\grayButton.png" />
+    <Content Include="Library\iui\iui.css" />
+    <Content Include="Library\iui\iui.js" />
+    <Content Include="Library\iui\iuix.css" />
+    <Content Include="Library\iui\iuix.js" />
+    <Content Include="Library\iui\loading.gif" />
+    <Content Include="Library\iui\pinstripes.png" />
+    <Content Include="Library\iui\thumb.png" />
+    <Content Include="Library\iui\toggle.png" />
+    <Content Include="Library\iui\toggleOn.png" />
+    <Content Include="Library\iui\toolbar.png" />
+    <Content Include="Library\iui\toolButton.png" />
+    <Content Include="Library\iui\whiteButton.png" />
+    <Content Include="Library\Skins\Custom\All.Custom.css" />
+    <Content Include="Library\Skins\Custom\Calendar\sprite.gif" />
+    <Content Include="Library\Skins\Custom\ComboBox\rcbArrowCell.gif" />
+    <Content Include="Library\Skins\Custom\ComboBox\rcbMoreResults.gif" />
+    <Content Include="Library\Skins\Custom\DatePicker\Custom.gif" />
+    <Content Include="Library\Skins\Custom\Input\sprite.gif" />
+    <Content Include="Library\Styles\csbooster.css" />
+    <Content Include="Library\Styles\MP.css" />
+    <Content Include="Library\Images\Layout\icon_recycle.gif" />
+    <Content Include="Library\Templates\DataObject.xslt" />
+    <Content Include="Maintenance.htm" />
+    <Content Include="Library\OboutControls\show\styles\style10\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style10\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style10\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style10\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style10\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style10\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style10\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style10\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style10\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style1\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style1\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style1\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style1\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style1\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style1\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style1\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style1\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style1\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style2\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style2\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style2\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style2\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style2\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style2\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style2\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style2\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style2\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style3\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style3\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style3\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style3\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style3\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style3\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style3\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style3\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style3\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style4\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style4\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style4\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style4\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style4\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style4\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style4\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style4\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style4\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style5\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style5\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style5\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style5\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style5\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style5\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style5\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style5\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style5\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style6\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style6\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style6\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style6\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style6\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style6\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style6\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style6\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style6\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style7\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style7\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style7\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style7\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style7\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style7\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style7\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style7\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style7\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style8\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style8\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style8\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style8\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style8\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style8\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style8\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style8\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style8\style.css" />
+    <Content Include="Library\OboutControls\show\styles\style9\arrow_bottom.gif" />
+    <Content Include="Library\OboutControls\show\styles\style9\arrow_left.gif" />
+    <Content Include="Library\OboutControls\show\styles\style9\arrow_right.gif" />
+    <Content Include="Library\OboutControls\show\styles\style9\arrow_top.gif" />
+    <Content Include="Library\OboutControls\show\styles\style9\number.gif" />
+    <Content Include="Library\OboutControls\show\styles\style9\number_selected.gif" />
+    <Content Include="Library\OboutControls\show\styles\style9\pause.gif" />
+    <Content Include="Library\OboutControls\show\styles\style9\play.gif" />
+    <Content Include="Library\OboutControls\show\styles\style9\style.css" />
+    <Content Include="robots.txt" />
+    <Content Include="Library\Skins\Custom\Dock\Close.gif" />
+    <Content Include="Library\Skins\Custom\Dock\CloseHover.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Collapse.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Custom.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Expand.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Pin.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Reload.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Titlebarv.gif" />
+    <Content Include="Library\Skins\Custom\Dock\TitlebarVTop.gif" />
+    <Content Include="Library\Skins\Custom\Dock\Unpin.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ApplyClassSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ButtonHover_Horizontal.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ButtonHover_Vertical.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ButtonOn_Horizontal.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ButtonOn_Vertical.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ComboArrow.gif" />
+    <Content Include="Library\Skins\Custom\Editor\CommandSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\CornersSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\CustomLinksSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\FlashManager.gif" />
+    <Content Include="Library\Skins\Custom\Editor\FormatStripperSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\GripHandle_Horizontal_Left.gif" />
+    <Content Include="Library\Skins\Custom\Editor\GripHandle_Horizontal_Right.gif" />
+    <Content Include="Library\Skins\Custom\Editor\GripHandle_Vertical_Left.gif" />
+    <Content Include="Library\Skins\Custom\Editor\GripHandle_Vertical_Right.gif" />
+    <Content Include="Library\Skins\Custom\Editor\InsertFormElementSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\LoadingSpell.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ModesSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\SplitButtonArrow.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ToolbarBgr_Horizontal.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ToolbarBgr_Vertical.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ToolBarSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\ToolbarVerticalSprites.gif" />
+    <Content Include="Library\Skins\Custom\Editor\VertSideSprites.gif" />
+    <Content Include="Library\Skins\Custom\Window\Icon.gif" />
+    <Content Include="Library\Skins\Custom\Window\Loading.gif" />
+    <Content Include="Library\Skins\Custom\Window\WindowResizeHandle.gif" />
+    <Content Include="Library\Skins\Custom\ToolTip\Callouts.gif" />
+    <Content Include="Library\Skins\Custom\ToolTip\close.gif" />
+    <Content Include="Library\Skins\Custom\ToolTip\Loading.gif" />
+    <Content Include="UserControls\NaviOutputFlyoutMenu.ascx" />
+    <Content Include="UserControls\NaviOutputOutlook.ascx" />
+    <Content Include="UserControls\NaviOutputTree.ascx" />
+    <Content Include="UserControls\UserNavi.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSBooster.AJAXASMXHandler\CSBooster.AJAXASMXHandler.csproj">
+      <Project>{8DE11A95-BBC3-4931-A8C3-10004A91093C}</Project>
+      <Name>CSBooster.AJAXASMXHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Common-4.0.0.0\CSBooster.Common.csproj">
+      <Project>{A9F54D96-06CF-4975-93CE-92F0831A088D}</Project>
+      <Name>CSBooster.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.CustomDragDrop-4.0.0.0\CSBooster.CustomDragDrop.csproj">
+      <Project>{2528E045-5DA5-45BC-9FF9-9741C3DCBE89}</Project>
+      <Name>CSBooster.CustomDragDrop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.DataAccess-4.0.0.0\CSBooster.DataAccess.csproj">
+      <Project>{ACB74BEB-A75F-4427-B183-CE7D49F149F4}</Project>
+      <Name>CSBooster.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Extensions-4.0.0.0\CSBooster.Extensions.csproj">
+      <Project>{646EEB60-9C19-49CE-B048-E2CE35C13469}</Project>
+      <Name>CSBooster.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.ImageHandler\CSBooster.ImageHandler.csproj">
+      <Project>{5778DC99-B340-4E56-8E85-5D489ECC2066}</Project>
+      <Name>CSBooster.ImageHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.WebServices-4.0.0.0\CSBooster.WebServices.csproj">
+      <Project>{B30C96CA-F14A-4F55-A22A-2B982825EBEB}</Project>
+      <Name>CSBooster.WebServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.WebUI.Base-4.0.0.0\CSBooster.WebUI.Base.csproj">
+      <Project>{42E4B14D-2ED8-465F-9238-6A9C5D5C7950}</Project>
+      <Name>CSBooster.WebUI.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.WebUI.Mobile-4.0.0.0\CSBooster.WebUI.Mobile.csproj">
+      <Project>{CFE1CD33-4983-40A9-AEBD-C5919527ED05}</Project>
+      <Name>CSBooster.WebUI.Mobile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Widgets-4.0.0.0\CSBooster.Widgets.csproj">
+      <Project>{C41F77A8-318D-440D-B97D-E32734AA0FDC}</Project>
+      <Name>CSBooster.Widgets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Themes\Default\Images\" />
+    <Folder Include="App_Themes\NaviLeft\Images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>
+          </DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://sieme</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

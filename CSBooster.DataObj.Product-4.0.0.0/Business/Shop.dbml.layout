@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Shop">
+  <DataContextMoniker Name="/ShopDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a0c07a31-8fcc-4fc1-93aa-f331ca53abbc" absoluteBounds="1.5, 2.375, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/ShopDataContext/hitbl_ShoppingCart_Cart_SHO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b31f0f5-bbfc-41f2-b80c-f1d2c0b085e4" absoluteBounds="1.5149999999999997, 2.835, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d02ff293-17e9-4da9-b4d4-049b5fef2405" absoluteBounds="4.375, 3.125, 2, 3.1170068359375">
+      <DataClassMoniker Name="/ShopDataContext/hitbl_ShoppingCart_Items_ITE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc907295-53e3-41d9-b273-2e8b55318b9b" absoluteBounds="4.39, 3.585, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.5 : 4.68350341796875); (4.375 : 4.68350341796875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ShopDataContext/hitbl_ShoppingCart_Cart_SHO/hitbl_ShoppingCart_Cart_SHO_hitbl_ShoppingCart_Items_ITE" />
+      <nodes>
+        <classShapeMoniker Id="a0c07a31-8fcc-4fc1-93aa-f331ca53abbc" />
+        <classShapeMoniker Id="d02ff293-17e9-4da9-b4d4-049b5fef2405" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

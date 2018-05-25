@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleSearch">
+        <value><![CDATA[Suche]]></value>
+    </data>
+    <data name="LableContentSingular">
+        <value><![CDATA[Inhalt]]></value>
+    </data>
+    <data name="LableContentPlural">
+        <value><![CDATA[Inhalte]]></value>
+    </data>
+    <data name="TootltipCommunity">
+        <value><![CDATA[Community]]></value>
+    </data>
+    <data name="TootltipCommunityManaged">
+        <value><![CDATA[Managed Community - Inhalte werden von Community-Administratoren freigegeben]]></value>
+    </data>
+    <data name="LableProfile">
+        <value><![CDATA[Profil]]></value>
+    </data>
+    <data name="TooltipProfile">
+        <value><![CDATA[Profil]]></value>
+    </data>
+    <data name="TooltipCommunityError">
+        <value><![CDATA[Fehlerhafte Community - melden sie dieses Problem dem Site-Administrator]]></value>
+    </data>
+    <data name="MessagePasswordMust">
+        <value><![CDATA[<br/>Email angeben]]></value>
+    </data>
+    <data name="MessagePasswordWrong">
+        <value><![CDATA[<br/>Gültige Email angeben]]></value>
+    </data>
+    <data name="CommandNewPassword">
+        <value><![CDATA[Neues Passwort senden]]></value>
+    </data>
+    <data name="TooltipNewPassword">
+        <value><![CDATA[Passwort zurücksetzen und Email senden]]></value>
+    </data>
+    <data name="MessageDeleteUserConfirm">
+        <value><![CDATA[Soll der Benutzer {0} wirklich gelöscht werden?]]></value>
+    </data>
+    <data name="MessageDeleteUserError">
+        <value><![CDATA[Der Benutzer konnte nicht gelöscht werden]]></value>
+    </data>
+    <data name="MessageActivationCode">
+        <value><![CDATA[Ihr Aktivierungcode lautet]]></value>
+    </data>
+    <data name="MessageAccountSubject">
+        <value><![CDATA[sieme.net - Benutzer-Konto-Informationen]]></value>
+    </data>
+    <data name="MessageNewPassword">
+        <value><![CDATA[Dem Benutzer wurde das neue Passwort gesendet]]></value>
+    </data>
+    <data name="MessageAccountInfoNotFound">
+        <value><![CDATA[Benutzer-Konto nicht gefunden]]></value>
+    </data>
+    <data name="MessageAccountSaved">
+        <value><![CDATA[Benutzer-Information gespeichert]]></value>
+    </data>
+    <data name="MessageAccountNotSaved">
+        <value><![CDATA[Benutzer-Information konnte nicht gespeichert werden]]></value>
+    </data>
+    <data name="LableGroupBySynonym">
+        <value><![CDATA[Synonyme]]></value>
+    </data>
+    <data name="LableGroupBySynonymMaster">
+        <value><![CDATA[Haupt-Synonyme]]></value>
+    </data>
+    <data name="TooltipNotSynchronized">
+        <value><![CDATA[Navigation nicht aktuell. Jetzt aktualisieren?]]></value>
+    </data>
+    <data name="TooltipSynchronized">
+        <value><![CDATA[Navigation aktuell. Nochmals aktualisieren?]]></value>
+    </data>
+    <data name="TooltipInfoTitle">
+        <value><![CDATA[Navigation ID: <br/>]]></value>
+    </data>
+    <data name="CommandReload">
+        <value><![CDATA[Aktualisieren]]></value>
+    </data>
+    <data name="CommandLanguage">
+        <value><![CDATA[Sprachen]]></value>
+    </data>
+    <data name="LableNavigationName">
+        <value><![CDATA[Navigationsname]]></value>
+    </data>
+    <data name="LableNavigationVisibility">
+        <value><![CDATA[Roles Visibility]]></value>
+    </data>
+    <data name="LableNavigationTarget">
+        <value><![CDATA[Target]]></value>
+    </data>
+    <data name="LableNavigationLink">
+        <value><![CDATA[Link]]></value>
+    </data>
+    <data name="LableNavigationTooltip">
+        <value><![CDATA[Tooltip]]></value>
+    </data>
+    <data name="CommandGoToMyContent">
+        <value><![CDATA[Gehe zu 'Meine Inhalte']]></value>
+    </data>
+    <data name="MessageNoObjectsFound">
+        <value><![CDATA[Keine {0} gefunden ]]></value>
+    </data>
+    
+    <data name="TitleSettings">
+        <value><![CDATA[Customization]]></value>
+    </data>
+    <data name="LableSettingsCustBar">
+        <value><![CDATA[CustomizationBar]]></value>
+    </data>
+    <data name="LableSettingsWidgets">
+        <value><![CDATA[Widgets]]></value>
+    </data>
+    <data name="LableSettingsLayout">
+        <value><![CDATA[Layout]]></value>
+    </data>
+    <data name="LableSettingsTheme">
+        <value><![CDATA[Theme]]></value>
+    </data>
+    <data name="LableSettingsStyle">
+        <value><![CDATA[Style]]></value>
+    </data>
+    <data name="LableSettingsAllowPwdChanges">
+        <value><![CDATA[Password Änderung zulassen]]></value>
+    </data>
+    <data name="LableSettingsShowPermalik">
+        <value><![CDATA[Permalink anzeigen]]></value>
+    </data>
+    <data name="LableSettingsUiLanguage">
+        <value><![CDATA[UI Sprachauswahl anzeigen]]></value>
+    </data>
+    <data name="LableSettingsShowPoints">
+        <value><![CDATA[Benutzerpunkte anzeigen]]></value>
+    </data>
+    <data name="LableSettingsDeleteUser">
+        <value><![CDATA[Konto löschen zulassen]]></value>
+    </data>
+    <data name="LableSettingsUserAndColor">
+        <value><![CDATA[Benutzerbild und Farben]]></value>
+    </data>
+    <data name="LableSettingsUserPicture">
+        <value><![CDATA[Benutzerbild]]></value>
+    </data>
+    <data name="LableSettingsUserColor">
+        <value><![CDATA[Farben]]></value>
+    </data>
+    <data name="LableSettingsNames">
+        <value><![CDATA[Vor- und Nachnamen]]></value>
+    </data>
+    <data name="LableSettingsFirstName">
+        <value><![CDATA[Vornamen]]></value>
+    </data>
+    <data name="LableSettingsName">
+        <value><![CDATA[Nachnamen]]></value>
+    </data>
+    <data name="LableSettingsSexAndBirthday">
+        <value><![CDATA[Geschlecht und Geburtstag]]></value>
+    </data>
+    <data name="LableSettingsSex">
+        <value><![CDATA[Geschlecht]]></value>
+    </data>
+    <data name="LableSettingsBirthday">
+        <value><![CDATA[Geburtstag]]></value>
+    </data>
+    <data name="LableSettingsAddressAndLang">
+        <value><![CDATA[Adresse und Sprache]]></value>
+    </data>
+    <data name="LableSettingsAddress">
+        <value><![CDATA[Adresse]]></value>
+    </data>
+    <data name="LableSettingsCountry">
+        <value><![CDATA[Land]]></value>
+    </data>
+    <data name="LableSettingsLanguage">
+        <value><![CDATA[Sprache]]></value>
+    </data>
+    <data name="LableSettingsPrivateData">
+        <value><![CDATA[Persönliche Angaben]]></value>
+    </data>
+    <data name="LableSettingsRelationship">
+        <value><![CDATA[Beziehung]]></value>
+    </data>
+    <data name="LableSettingsTendency">
+        <value><![CDATA[Ausrichtung]]></value>
+    </data>
+    <data name="LableSettingsEyeColor">
+        <value><![CDATA[Augenfarbe]]></value>
+    </data>
+    <data name="LableSettingsHairColor">
+        <value><![CDATA[Haarfarbe]]></value>
+    </data>
+    <data name="LableSettingsBodyHeight">
+        <value><![CDATA[Grösse]]></value>
+    </data>
+    <data name="LableSettingsBodyWeight">
+        <value><![CDATA[Gewicht]]></value>
+    </data>
+    <data name="LableSettingsTelefon">
+        <value><![CDATA[Telefon]]></value>
+    </data>
+    <data name="LableSettingsMobil">
+        <value><![CDATA[Mobil]]></value>
+    </data>
+    <data name="LableSettingsPhone">
+        <value><![CDATA[Festnetz]]></value>
+    </data>
+    <data name="LableSettingsCommunication">
+        <value><![CDATA[Kommunikation]]></value>
+    </data>
+    <data name="LableSettingsMSN">
+        <value><![CDATA[MSN]]></value>
+    </data>
+    <data name="LableSettingsYahoo">
+        <value><![CDATA[Yahoo]]></value>
+    </data>
+    <data name="LableSettingsSkype">
+        <value><![CDATA[Skype]]></value>
+    </data>
+    <data name="LableSettingsICQ">
+        <value><![CDATA[ICQ]]></value>
+    </data>
+    <data name="LableSettingsAIM">
+        <value><![CDATA[AIM]]></value>
+    </data>
+    <data name="LableSettingsWeb">
+        <value><![CDATA[Web]]></value>
+    </data>
+    <data name="LableSettingsHomepage">
+        <value><![CDATA[Homepage]]></value>
+    </data>
+    <data name="LableSettingsBlog">
+        <value><![CDATA[Blog]]></value>
+    </data>
+    <data name="LableSettingsJobMotto">
+        <value><![CDATA[Job, Motto und Talente]]></value>
+    </data>
+    <data name="LableSettingsJob">
+        <value><![CDATA[Job]]></value>
+    </data>
+    <data name="LableSettingsSlogan">
+        <value><![CDATA[Motto]]></value>
+    </data>
+    <data name="LableSettingsInterests">
+        <value><![CDATA[Intressen]]></value>
+    </data>
+    <data name="LableSettingsModule">
+        <value><![CDATA[Module]]></value>
+    </data>
+    <data name="LableSettingsMessages">
+        <value><![CDATA[Nachrichten]]></value>
+    </data>
+    <data name="LableSettingsFriends">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="LableSettingsComments">
+        <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="LableSettingsAlerts">
+        <value><![CDATA[Alerts]]></value>
+    </data>
+    <data name="LableSettingsFavorites">
+        <value><![CDATA[Favoriten]]></value>
+    </data>
+    <data name="LableSettingsMemberships">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="LableSettingsLogins">
+        <value><![CDATA[Logins]]></value>
+    </data>
+    <data name="LableSettingsOpenID">
+        <value><![CDATA[OpenID]]></value>
+    </data>
+    <data name="LableSettingsInfoCard">
+        <value><![CDATA[InfoCard]]></value>
+    </data>
+    <data name="MessageSaveError">
+        <value><![CDATA[Einstellungen konnten nicht gespeichert werden!]]></value>
+    </data>
+    <data name="LableWidgetName">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="TooltipWidgetName">
+        <value><![CDATA[Widget Name]]></value>
+    </data>
+    <data name="TooltipWidgetGroup">
+        <value><![CDATA[Gruppen 0 - 3]]></value>
+    </data>
+    <data name="TooltipWidgetSort">
+        <value><![CDATA[Sortierungswert]]></value>
+    </data>
+    <data name="LableWidgetRoles">
+        <value><![CDATA[Roles]]></value>
+    </data>
+    <data name="TooltipWidgetRoles">
+        <value><![CDATA[Komma-getrennte Rollen (* für alle, leer für keine)]]></value>
+    </data>
+    <data name="LableWidgetCommunities">
+        <value><![CDATA[Communities]]></value>
+    </data>
+    <data name="TooltipWidgetCommunities">
+        <value><![CDATA[Komma-getrennte Communities (* für alle, leer für keine)]]></value>
+    </data>
+    <data name="LableWidgetPageType">
+        <value><![CDATA[Page-Types]]></value>
+    </data>
+    <data name="TooltipWidgetPageType">
+        <value><![CDATA[Komma-getrennte Page-Types (* für alle, leer für keine)]]></value>
+    </data>
+    <data name="LableWidgetSettings">
+        <value><![CDATA[Settings]]></value>
+    </data>
+    <data name="TooltipWidgetSettings">
+        <value><![CDATA[Einstellugen]]></value>
+    </data>
+    <data name="TitleTagword">
+        <value><![CDATA[Tagwort suchen / hinzufügen]]></value>
+    </data>
+    <data name="LableTagword">
+        <value><![CDATA[Tagwort]]></value>
+    </data>
+    <data name="LableTagwordGroupTag">
+        <value><![CDATA[Gruppen Tag für]]></value>
+    </data>
+    <data name="LableTagwordSynonym">
+        <value><![CDATA[Synonyme]]></value>
+    </data>
+    <data name="LableTagwordSynonymOf">
+        <value><![CDATA[Synonym von]]></value>
+    </data>
+    <data name="LableTagwordGroup">
+        <value><![CDATA[Gruppe]]></value>
+    </data>
+    <data name="LableTagwordAdd">
+        <value><![CDATA[Synonme zuweisen]]></value>
+    </data>
+    <data name="LableTagword">
+        <value><![CDATA[Communities]]></value>
+    </data>
+    <data name="TitleUser">
+        <value><![CDATA[Benutzer suchen]]></value>
+    </data>
+    <data name="LableUsername">
+        <value><![CDATA[Benutzername]]></value>
+    </data>
+    <data name="LableUserLocked">
+        <value><![CDATA[Gesperrte Benutzer]]></value>
+    </data>
+    <data name="LableUserChangeEmail">
+        <value><![CDATA[Email ändern]]></value>
+    </data>
+    <data name="LableUserSendPassword">
+        <value><![CDATA[Passwort senden]]></value>
+    </data>
+    <data name="LableUserLock">
+        <value><![CDATA[Sperrung]]></value>
+    </data>
+    <data name="LableUserDel">
+        <value><![CDATA[Löschen]]></value>
+    </data>
+    <data name="LableUserSetRole">
+        <value><![CDATA[Rolle setzen]]></value>
+    </data>
+    <data name="TitleFilter">
+        <value><![CDATA[Inhalt Filter]]></value>
+    </data>
+    <data name="LableFilterWord">
+        <value><![CDATA[Wort]]></value>
+    </data>
+    <data name="LableFilterFullWord">
+        <value><![CDATA[Ganzes Wort]]></value>
+    </data>
+    <data name="LableFilterAction">
+        <value><![CDATA[Aktion]]></value>
+    </data>
+    <data name="LableFilterActionInform">
+        <value><![CDATA[Email]]></value>
+    </data>
+    <data name="TitleSiteAdmin">
+        <value><![CDATA[sieme.net Administration]]></value>
+    </data>
+    
+    
+</root>

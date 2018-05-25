@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="ButtonSave">
+        <value><![CDATA[Speichern]]></value>
+    </data>
+    <data name="LabelLabeltext">
+        <value><![CDATA[Labeltext]]></value>
+    </data>
+    <data name="LabelTooltip">
+        <value><![CDATA[Tooltip]]></value>
+    </data>
+</root>

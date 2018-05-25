@@ -1,0 +1,12 @@
+﻿<%@ Register Src="~/UserControls/Navigation.ascx" TagName="Navigation" TagPrefix="csb" %>
+
+<div>
+    <div style="width:180px;float:left;">
+       <csb:Navigation id="Nav" NavigationID ="8f8fc844-f105-4500-b851-b2a5b74afcb4" NavType="TreeView" runat="server" OutputASCXPath="/UserControls/NaviOutputTree.ascx"/>
+       <csb:Navigation id="Nav1" NavigationID ="8f8fc844-f105-4500-b851-b2a5b74afcb4" NavType="Outlook" runat="server" OutputASCXPath="/UserControls/NaviOutputOutlook.ascx"/>
+       <csb:Navigation id="Nav2" NavigationID ="8f8fc844-f105-4500-b851-b2a5b74afcb4" NavType="FlyoutMenu" runat="server" OutputASCXPath="/UserControls/NaviOutputFlyoutMenu.ascx"/>
+    </div>
+    <div style="width:99%;float:right;">
+        <%DROPZONE index="0" width="400"%>
+    </div>
+</div>

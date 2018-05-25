@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="CommandAcciding">
+        <value><![CDATA[Beitreten]]></value>
+    </data>
+    <data name="CommandAdd">
+        <value><![CDATA[Hinzufügen]]></value>
+    </data>
+    <data name="CommandAlerts">
+        <value><![CDATA[Benachrichtigung]]></value>
+    </data>
+  <data name="CommandApply">
+    <value><![CDATA[Übernehmen]]></value>
+  </data>
+    <data name="CommandBack">
+        <value><![CDATA[Zurück]]></value>
+    </data>
+    <data name="CommandBecomeAMember">
+        <value><![CDATA[Mitglied werden]]></value>
+    </data>
+    <data name="CommandBlock">
+        <value><![CDATA[Sperren]]></value>
+    </data>
+    <data name="CommandCancel">
+        <value><![CDATA[Abbrechen]]></value>
+    </data>
+    <data name="CommandClearList">
+        <value><![CDATA[Liste leeren]]></value>
+    </data>
+    <data name="CommandClose">
+        <value><![CDATA[Schliessen]]></value>
+    </data>
+    <data name="CommandComment">
+        <value><![CDATA[Kommentar hinzufügen]]></value>
+    </data>
+    <data name="CommandCommunityReport">
+        <value><![CDATA[Community melden]]></value>
+    </data>
+    <data name="CommandContentReport">
+        <value><![CDATA[Seite melden]]></value>
+    </data>
+    <data name="CommandCreate">
+        <value><![CDATA[Erstellen]]></value>
+    </data>
+    <data name="CommandCreateProfile">
+        <value><![CDATA[Profil erstellen]]></value>
+    </data>
+    <data name="CommandCrop">
+        <value><![CDATA[Zuschneiden]]></value>
+    </data>
+    <data name="CommandDelete">
+        <value><![CDATA[Löschen]]></value>
+    </data>
+    <data name="CommandEnd">
+        <value><![CDATA[Beenden]]></value>
+    </data>
+    <data name="CommandEntryAdd">
+        <value><![CDATA[Eintrag hinzufügen]]></value>
+    </data>
+    <data name="CommandFind">
+        <value><![CDATA[Suchen]]></value>
+    </data>
+    <data name="CommandFriendshipQuery">
+        <value><![CDATA[Freundschaftsanfrage]]></value>
+    </data>
+    <data name="CommandInviteFriend">
+        <value><![CDATA[Freund einladen]]></value>
+    </data>
+    <data name="CommandLink">
+        <value><![CDATA[Verlinken]]></value>
+    </data>
+    <data name="CommandLogin">
+        <value><![CDATA[Anmelden]]></value>
+    </data>
+    <data name="CommandNext">
+        <value><![CDATA[Weiter]]></value>
+    </data>
+    <data name="CommandNotCrop">
+        <value><![CDATA[Nicht zuschneiden]]></value>
+    </data>
+    <data name="CommandObjectReport">
+        <value><![CDATA[{0} melden]]></value>
+    </data>
+    <data name="CommandOK">
+        <value><![CDATA[OK]]></value>
+    </data>
+    <data name="CommandOpenPlaceOnMap">
+        <value><![CDATA[Karte anzeigen]]></value>
+    </data>
+    <data name="CommandPageReport">
+        <value><![CDATA[Seite melden]]></value>
+    </data>
+    <data name="CommandPageSetting">
+        <value><![CDATA[Seiteneinstellungen]]></value>
+    </data>
+    <data name="CommandPrevious">
+        <value><![CDATA[Zurück]]></value>
+    </data>
+    <data name="CommandProcess">
+        <value><![CDATA[Bearbeiten]]></value>
+    </data>
+    <data name="CommandRecommend">
+        <value><![CDATA[Seite weiterempfehlen]]></value>
+    </data>
+    <data name="CommandReject">
+        <value><![CDATA[Ablehnen]]></value>
+    </data>
+    <data name="CommandRemember">
+        <value><![CDATA[Merken]]></value>
+    </data>
+    <data name="CommandRemove">
+        <value><![CDATA[Entfernen]]></value>
+    </data>
+    <data name="CommandReplay">
+        <value><![CDATA[Antworten]]></value>
+    </data>
+    <data name="CommandReport">
+        <value><![CDATA[Melden]]></value>
+    </data>
+    <data name="CommandReset">
+        <value><![CDATA[Zurücksetzen]]></value>
+    </data>
+    <data name="CommandSave">
+        <value><![CDATA[Speichern]]></value>
+    </data>
+    <data name="CommandSaveAndClose">
+        <value><![CDATA[Speichern & Schliessen]]></value>
+    </data>
+    <data name="CommandSearch">
+        <value><![CDATA[Suchen]]></value>
+    </data>
+    <data name="CommandSend">
+        <value><![CDATA[Senden]]></value>
+    </data>
+    <data name="CommandSendMessage">
+        <value><![CDATA[Nachricht senden]]></value>
+    </data>
+    <data name="CommandShow">
+        <value><![CDATA[Anzeigen]]></value>
+    </data>
+    <data name="CommandShowMap">
+        <value><![CDATA[Karte anzeigen]]></value>
+    </data>
+    <data name="CommandSignup">
+        <value><![CDATA[Anmelden]]></value>
+    </data>
+    <data name="CommandUpload">
+        <value><![CDATA[Hochladen]]></value>
+    </data>
+    <data name="CommandUserReport">
+        <value><![CDATA[Benutzer melden]]></value>
+    </data>
+    <data name="DayDi">
+        <value><![CDATA[Dienstag]]></value>
+    </data>
+    <data name="DayDo">
+        <value><![CDATA[Donnerstag]]></value>
+    </data>
+    <data name="DayFr">
+        <value><![CDATA[Freitag]]></value>
+    </data>
+    <data name="DayMi">
+        <value><![CDATA[Mittwoch]]></value>
+    </data>
+    <data name="DayMo">
+        <value><![CDATA[Montag]]></value>
+    </data>
+    <data name="DaySa">
+        <value><![CDATA[Samstag]]></value>
+    </data>
+    <data name="DaySo">
+        <value><![CDATA[Sonntag]]></value>
+    </data>
+    <data name="EmailFromName">
+        <value><![CDATA[sieme.net]]></value>
+    </data>
+    <data name="EmailUnableToSend">
+        <value><![CDATA[Email konnte nicht versendet werden]]></value>
+    </data>
+    <data name="LabelAuthor">
+        <value><![CDATA[Autor]]></value>
+    </data>
+    <data name="LabelCreateGroup">
+        <value><![CDATA[Gruppe gründen]]></value>
+    </data>
+    <data name="LabelCreatePage">
+        <value><![CDATA[Neue Seite erstellen]]></value>
+    </data>
+    <data name="LabelDateCreated">
+        <value><![CDATA[Erstellt]]></value>
+    </data>
+    <data name="LabelEmail">
+        <value><![CDATA[Email]]></value>
+    </data>
+    <data name="LabelEmailAddress">
+        <value><![CDATA[Email-Adresse]]></value>
+    </data>
+    <data name="LabelEmbed">
+        <value><![CDATA[Embed-Code]]></value>
+    </data>
+    <data name="LabelEntryPlural">
+        <value><![CDATA[Einträge]]></value>
+    </data>
+    <data name="LabelEntrySingular">
+        <value><![CDATA[Eintrag]]></value>
+    </data>
+    <data name="LabelLatitude">
+        <value><![CDATA[Breite]]></value>
+    </data>
+    <data name="LabelLongitude">
+        <value><![CDATA[Länge]]></value>
+    </data>
+    <data name="LabelMembers">
+        <value><![CDATA[Mitglieder]]></value>
+    </data>
+    <data name="LabelMessageImportant">
+        <value><![CDATA[Wichtige Mitteilung]]></value>
+    </data>
+    <data name="LabelPermaLink">
+        <value><![CDATA[Link auf die aktuelle Seite]]></value>
+    </data>
+    <data name="LabelUnnamed">
+        <value><![CDATA[Unbenannt]]></value>
+    </data>
+    <data name="LabelUnspecified">
+        <value><![CDATA[Keine Angabe]]></value>
+    </data>
+    <data name="LabelUpdateProgress">
+        <value><![CDATA[Es wird geladen....]]></value>
+    </data>
+    <data name="LabelVisits">
+        <value><![CDATA[Besuche]]></value>
+    </data>
+    <data name="LabelWidgetTitle">
+        <value><![CDATA[Widget-Titel]]></value>
+    </data>
+    <data name="LableAddressCity">
+        <value><![CDATA[Ort]]></value>
+    </data>
+    <data name="LableAddressComment">
+        <value><![CDATA[Bemerkung]]></value>
+    </data>
+    <data name="LableAddressFirm">
+        <value><![CDATA[Firma]]></value>
+    </data>
+    <data name="LableAddressFirstname">
+        <value><![CDATA[Vorname]]></value>
+    </data>
+    <data name="LableAddressMobile">
+        <value><![CDATA[Handy]]></value>
+    </data>
+    <data name="LableAddressName">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="LableAddressPhone">
+        <value><![CDATA[Telefon]]></value>
+    </data>
+    <data name="LableAddressPostbox">
+        <value><![CDATA[Postfach]]></value>
+    </data>
+    <data name="LableAddressStreet">
+        <value><![CDATA[Strasse]]></value>
+    </data>
+    <data name="LableAddressTitle">
+        <value><![CDATA[Anrede]]></value>
+    </data>
+    <data name="LableAddressTitleFemale">
+        <value><![CDATA[Frau]]></value>
+    </data>
+    <data name="LableAddressTitleMale">
+        <value><![CDATA[Herr]]></value>
+    </data>
+    <data name="LableAddressZip">
+        <value><![CDATA[PLZ]]></value>
+    </data>
+    <data name="LableCommentPlural">
+        <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="LableCommentSigular">
+        <value><![CDATA[Kommentar]]></value>
+    </data>
+    <data name="LableNonePlural">
+        <value><![CDATA[Keine]]></value>
+    </data>
+    <data name="LableNoneSingular">
+        <value><![CDATA[Kein]]></value>
+    </data>
+    <data name="LablePagerFirst">
+        <value><![CDATA[Erste Seite]]></value>
+    </data>
+    <data name="LablePagerLast">
+        <value><![CDATA[Letzte Seite]]></value>
+    </data>
+    <data name="LablePagerNext">
+        <value><![CDATA[Nächste Seite]]></value>
+    </data>
+    <data name="LablePagerPrev">
+        <value><![CDATA[Vorherige Seite]]></value>
+    </data>
+    <data name="LablePagerThis">
+        <value><![CDATA[Seite {0}]]></value>
+    </data>
+    <data name="LablePicture">
+        <value><![CDATA[Bild]]></value>
+    </data>
+    <data name="MessageClosedUser">
+        <value><![CDATA[Die Webseite befindet sich im "closed Beta" betrieb]]></value>
+    </data>
+    <data name="MessageCommentDeletedByAdmin">
+        <value><![CDATA[Kommentar vom Administrator gelöscht]]></value>
+    </data>
+    <data name="MessageEmailInvalidFormat">
+        <value><![CDATA[Format ungültig]]></value>
+    </data>
+    <data name="MessageMustField">
+        <value><![CDATA[Pflichtfeld]]></value>
+    </data>
+    <data name="MessageNoComment">
+        <value><![CDATA[Keine Kommentare]]></value>
+    </data>
+    <data name="MessageNoEntry">
+        <value><![CDATA[Keine Einträge vorhanden]]></value>
+    </data>
+    <data name="MessageNoItemFound">
+        <value><![CDATA[Keine {0} gefunden!]]></value>
+    </data>
+    <data name="MessageNotAuthenticated">
+        <value><![CDATA[Sie sind nicht angemeldet]]></value>
+    </data>
+    <data name="MonthApr">
+        <value><![CDATA[April]]></value>
+    </data>
+    <data name="MonthAug">
+        <value><![CDATA[August]]></value>
+    </data>
+    <data name="MonthDez">
+        <value><![CDATA[Dezember]]></value>
+    </data>
+    <data name="MonthFeb">
+        <value><![CDATA[Februar]]></value>
+    </data>
+    <data name="MonthJan">
+        <value><![CDATA[Januar]]></value>
+    </data>
+    <data name="MonthJan">
+        <value><![CDATA[Januar]]></value>
+    </data>
+    <data name="MonthJul">
+        <value><![CDATA[Juli]]></value>
+    </data>
+    <data name="MonthJun">
+        <value><![CDATA[Juni]]></value>
+    </data>
+    <data name="MonthMar">
+        <value><![CDATA[März]]></value>
+    </data>
+    <data name="MonthMay">
+        <value><![CDATA[May]]></value>
+    </data>
+    <data name="MonthNov">
+        <value><![CDATA[November]]></value>
+    </data>
+    <data name="MonthOkt">
+        <value><![CDATA[Oktober]]></value>
+    </data>
+    <data name="MonthSep">
+        <value><![CDATA[September]]></value>
+    </data>
+    <data name="ObjectFeaturedValue0">
+        <value><![CDATA[Unbekannte Priorität]]></value>
+    </data>
+    <data name="ObjectFeaturedValue1">
+        <value><![CDATA[Höchste Priorität]]></value>
+    </data>
+    <data name="ObjectFeaturedValue2">
+        <value><![CDATA[Mittlere Priorität]]></value>
+    </data>
+    <data name="ObjectFeaturedValue3">
+        <value><![CDATA[Niedrige Priorität]]></value>
+    </data>
+    <data name="TextAll">
+        <value><![CDATA[Alle]]></value>
+    </data>
+    <data name="TextAnd">
+        <value><![CDATA[und]]></value>
+    </data>
+    <data name="TextAnybody">
+        <value><![CDATA[Jemand]]></value>
+    </data>
+    <data name="TextDateConstraintFromToday">
+        <value><![CDATA[Ab heute]]></value>
+    </data>
+    <data name="TextDateConstraintFromTomorrow">
+        <value><![CDATA[Ab morgen]]></value>
+    </data>
+    <data name="TextDateConstraintNone">
+        <value><![CDATA[Keine Einschränkung]]></value>
+    </data>
+    <data name="TextDateConstraintToday">
+        <value><![CDATA[Nur heute]]></value>
+    </data>
+    <data name="TextDateConstraintUntilToday">
+        <value><![CDATA[Bis und mit heute]]></value>
+    </data>
+    <data name="TextDateConstraintUntilYesterday">
+        <value><![CDATA[Bis und mit gestern]]></value>
+    </data>
+    <data name="TextEventType1">
+        <value><![CDATA[Konzert]]></value>
+    </data>
+    <data name="TextEventType10">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextEventType2">
+        <value><![CDATA[Ausstellung]]></value>
+    </data>
+    <data name="TextEventType3">
+        <value><![CDATA[Festival]]></value>
+    </data>
+    <data name="TextEventType4">
+        <value><![CDATA[Oper]]></value>
+    </data>
+    <data name="TextEventType5">
+        <value><![CDATA[Party]]></value>
+    </data>
+    <data name="TextEventType6">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextEventType7">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextEventType8">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextEventType9">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextFilesCountExceedMessage">
+        <value><![CDATA[Maximale Anzahl Dateien <MAXFILECOUNT> wurde überschritten! <COUNTINVALIDFILES> Dateien wurden ignoriert!]]></value>
+    </data>
+    <data name="TextFileSizeExceedMessage">
+        <value><![CDATA[Maximale Dateigrösse îst <MAXFILESIZE> Kb. <COUNTINVALIDFILES> Dateien wurden ignoriert!]]></value>
+    </data>
+    <data name="TextLocationType1">
+        <value><![CDATA[Klub]]></value>
+    </data>
+    <data name="TextLocationType10">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextLocationType2">
+        <value><![CDATA[Theater]]></value>
+    </data>
+    <data name="TextLocationType3">
+        <value><![CDATA[Kino]]></value>
+    </data>
+    <data name="TextLocationType4">
+        <value><![CDATA[Park]]></value>
+    </data>
+    <data name="TextLocationType5">
+        <value><![CDATA[Restaurant]]></value>
+    </data>
+    <data name="TextLocationType6">
+        <value><![CDATA[Muesum]]></value>
+    </data>
+    <data name="TextLocationType7">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextLocationType8">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextLocationType9">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextNo">
+        <value><![CDATA[Nein]]></value>
+    </data>
+    <data name="TextOf">
+        <value><![CDATA[von]]></value>
+    </data>
+    <data name="TextOr">
+        <value><![CDATA[oder]]></value>
+    </data>
+    <data name="TextProgressMainText">
+        <value><![CDATA[<PERCENT>%25 hochgeladen (<FILESNUM> Dateien)<PART2DIV><BR>Durchsatzrate: <RATEVALUE>/sec<BR>verbleibende Zeit: <LEFTMIN> Min <LEFTSEC> Sek]]></value>
+    </data>
+    <data name="TextProgressUploadCanceledText">
+        <value><![CDATA[Hochladen der nächsten Datei abgebrochen. Bitte warten...]]></value>
+    </data>
+    <data name="TextProgressUploadCompleteText">
+        <value><![CDATA[Das Hochladen wurde erfolgreich beendet.]]></value>
+    </data>
+    <data name="TextProgressUploadingText">
+        <value><![CDATA[Hochladen in Arbeit...]]></value>
+    </data>
+    <data name="TextRetryDialogCaption">
+        <value><![CDATA[Hochladen erneut versuchen?]]></value>
+    </data>
+    <data name="TextShowStateConversionFailed">
+        <value><![CDATA[Abgebrochen]]></value>
+    </data>
+    <data name="TextShowStateDraft">
+        <value><![CDATA[Entwurf - Inhalt muss von einem Community-Administrators auf 'Publiziert' gesetzt werden]]></value>
+    </data>
+    <data name="TextShowStateInProgress">
+        <value><![CDATA[In Arbeit]]></value>
+    </data>
+    <data name="TextShowStatePublished">
+        <value><![CDATA[Publiziert]]></value>
+    </data>
+    <data name="TextSizeTotalExceedMessage">
+        <value><![CDATA[Gesammtgrösse <MAXFILESIZETOTAL> Kb wurde überschritten. <COUNTINVALIDFILES> Dateien wurden ignoriert!]]></value>
+    </data>
+    <data name="TextSortAscLabel">
+        <value><![CDATA[Aufsteigend sortieren]]></value>
+    </data>
+    <data name="TextSortByDateLabel">
+        <value><![CDATA[Sortiert nach Datum]]></value>
+    </data>
+    <data name="TextSortByNameLabel">
+        <value><![CDATA[Sortiert nach Name]]></value>
+    </data>
+    <data name="TextSortBySizeLabel">
+        <value><![CDATA[Sortiert nach Grösse]]></value>
+    </data>
+    <data name="TextSortDescLabel">
+        <value><![CDATA[Absteigend sortieren]]></value>
+    </data>
+    <data name="TextTo">
+        <value><![CDATA[bis]]></value>
+    </data>
+    <data name="TextTotalSizeText">
+        <value><![CDATA[Gesamtgrösse aller Dateien <SIZE>]]></value>
+    </data>
+    <data name="TextUploadStoppedText">
+        <value><![CDATA[Das Hochladen wurde gestoppt]]></value>
+    </data>
+    <data name="TextYes">
+        <value><![CDATA[Ja]]></value>
+    </data>
+    <data name="TextZeroSizeMessage">
+        <value><![CDATA[<COUNTINVALIDFILES> Dateien mit 0 - Grösse wurden ignoriert!]]></value>
+    </data>
+    <data name="TitleComment">
+        <value><![CDATA[Kommentar]]></value>
+    </data>
+    <data name="TitleMap">
+        <value><![CDATA[Karte]]></value>
+    </data>
+    <data name="TitleObject">
+        <value><![CDATA[Objekt]]></value>
+    </data>
+    <data name="TitleObjects">
+        <value><![CDATA[Objekte]]></value>
+    </data>
+  <data name="TooltipEmail">
+    <value><![CDATA[]]></value>
+  </data>
+    <data name="TooltipEmbed">
+        <value><![CDATA[Verwenden Sie diesen Code, um den aktuellen Inhalt auf Ihrer Seite einzubinden]]></value>
+    </data>
+    <data name="TooltipPermaLink">
+        <value><![CDATA[]]></value>
+    </data>
+  <data name="CommandReload">
+    <value><![CDATA[Neu laden]]></value>
+    </data>
+</root>

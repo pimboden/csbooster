@@ -1,0 +1,249 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F28050B-7E27-41DD-9237-887FF42CD694}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_4screen.CSB.DataObj</RootNamespace>
+    <AssemblyName>CSBooster.DataObj.Survey</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug + Copy|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="4screen.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\4screen.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="Telerik.Web.UI, Version=2009.1.402.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\DataObjectSurvey.cs" />
+    <Compile Include="Business\QuickParametersDataObjectSurvey.cs" />
+    <Compile Include="Data\SurveyDataClassDataContextPartial.cs" />
+    <Compile Include="UserControls\Dashboard\SurveyHistory.ascx.cs">
+      <DependentUpon>SurveyHistory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\SurveyHistory.ascx.designer.cs">
+      <DependentUpon>SurveyHistory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SurveyCommon\SurveyCommon.cs" />
+    <Compile Include="Data\DataObjectSurvey.cs" />
+    <Compile Include="Data\SurveyDataClass.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SurveyDataClass.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Repeaters\SurveyOverview.ascx.cs">
+      <DependentUpon>SurveyOverview.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Repeaters\SurveyOverview.ascx.designer.cs">
+      <DependentUpon>SurveyOverview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsSurvey.ascx.cs">
+      <DependentUpon>DetailsSurvey.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\DetailsSurvey.ascx.designer.cs">
+      <DependentUpon>DetailsSurvey.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputSurvey.ascx.cs">
+      <DependentUpon>SmallOutputSurvey.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Templates\SmallOutputSurvey.ascx.designer.cs">
+      <DependentUpon>SmallOutputSurvey.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyStep015.ascx.cs">
+      <DependentUpon>SurveyStep015.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyStep015.ascx.designer.cs">
+      <DependentUpon>SurveyStep015.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyPageInfo.ascx.cs">
+      <DependentUpon>SurveyPageInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyPageInfo.ascx.designer.cs">
+      <DependentUpon>SurveyPageInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyQuestion.ascx.cs">
+      <DependentUpon>SurveyQuestion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyQuestion.ascx.designer.cs">
+      <DependentUpon>SurveyQuestion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveySimpleAnswer.ascx.cs">
+      <DependentUpon>SurveySimpleAnswer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveySimpleAnswer.ascx.designer.cs">
+      <DependentUpon>SurveySimpleAnswer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyStep02.ascx.cs">
+      <DependentUpon>SurveyStep02.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyStep02.ascx.designer.cs">
+      <DependentUpon>SurveyStep02.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyStep01.ascx.cs">
+      <DependentUpon>SurveyStep01.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyStep01.ascx.designer.cs">
+      <DependentUpon>SurveyStep01.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyStep03.ascx.cs">
+      <DependentUpon>SurveyStep03.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyStep03.ascx.designer.cs">
+      <DependentUpon>SurveyStep03.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyTestResults.ascx.cs">
+      <DependentUpon>SurveyTestResults.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Wizards\SurveyTestResults.ascx.designer.cs">
+      <DependentUpon>SurveyTestResults.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\SurveyDataClass.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SurveyDataClass.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\SurveyDataClass.dbml.layout">
+      <DependentUpon>SurveyDataClass.dbml</DependentUpon>
+    </None>
+    <Content Include="UserControls\Dashboard\SurveyHistory.ascx" />
+    <Content Include="UserControls\Repeaters\SurveyOverview.ascx" />
+    <Content Include="UserControls\Templates\DetailsSurvey.ascx" />
+    <Content Include="UserControls\Templates\SmallOutputSurvey.ascx" />
+    <Content Include="UserControls\Wizards\SurveyStep015.ascx" />
+    <Content Include="UserControls\Wizards\SurveyPageInfo.ascx" />
+    <Content Include="UserControls\Wizards\SurveyQuestion.ascx" />
+    <Content Include="UserControls\Wizards\SurveySimpleAnswer.ascx" />
+    <Content Include="UserControls\Wizards\SurveyStep02.ascx" />
+    <Content Include="UserControls\Wizards\SurveyStep01.ascx" />
+    <Content Include="UserControls\Wizards\SurveyStep03.ascx" />
+    <Content Include="UserControls\Wizards\SurveyTestResults.ascx" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSBooster.Common-4.0.0.0\CSBooster.Common.csproj">
+      <Project>{A9F54D96-06CF-4975-93CE-92F0831A088D}</Project>
+      <Name>CSBooster.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.DataAccess-4.0.0.0\CSBooster.DataAccess.csproj">
+      <Project>{ACB74BEB-A75F-4427-B183-CE7D49F149F4}</Project>
+      <Name>CSBooster.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Extensions-4.0.0.0\CSBooster.Extensions.csproj">
+      <Project>{646EEB60-9C19-49CE-B048-E2CE35C13469}</Project>
+      <Name>CSBooster.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Widgets-4.0.0.0\CSBooster.Widgets.csproj">
+      <Project>{C41F77A8-318D-440D-B97D-E32734AA0FDC}</Project>
+      <Name>CSBooster.Widgets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1735</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>perl.exe "$(SolutionDir)Other\copy_base.pl" "--solution_dir=$(SolutionDir)\" "--project_dir=$(ProjectDir)\" "--target_path=$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

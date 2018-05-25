@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidgetInfoUser">
+        <value><![CDATA[Benutzer-Info]]></value>
+    </data>
+    <data name="TitleWidgetInfoCommunity">
+        <value><![CDATA[Community-Info]]></value>
+    </data>
+    <data name="TitleWidgetInfoObject">
+        <value><![CDATA[Inhalts-Info]]></value>
+    </data>
+    <data name="TooltipWidget">
+        <value><![CDATA[Info]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+</root>

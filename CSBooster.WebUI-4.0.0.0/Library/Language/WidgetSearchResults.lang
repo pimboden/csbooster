@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleSearchResults">
+        <value><![CDATA[Suchresultate]]></value>
+    </data>
+    <data name="TooltipSearchResults">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelToTop">
+        <value><![CDATA[Nach oben]]></value>
+    </data>
+    <data name="MessageNothingFound">
+        <value><![CDATA[Die Suche lieferte keine Resultate]]></value>
+    </data>
+    <data name="LabelCount">
+        <value><![CDATA[wieviele zeigen]]></value>
+    </data>
+    <data name="TooltipCount">
+        <value><![CDATA[]]></value>
+    </data>
+</root>

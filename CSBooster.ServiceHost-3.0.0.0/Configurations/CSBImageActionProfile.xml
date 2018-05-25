@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+   <actionProfile ID="ExtraSmallCroppedJpg">
+      <ApplicationURL>/CSBooster.WebUI</ApplicationURL>
+      <autoSave>true</autoSave>
+      <VirtualOutPath>##MEDIASERVER##/##FOLDERID##\P\XS</VirtualOutPath>
+      <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\XS</fileOutPath>
+      <fileNamePreExtension></fileNamePreExtension>
+      <fileNamePostExtension></fileNamePostExtension>
+      <format>jpg</format>
+      <resolution>72</resolution>
+      <quality>12</quality>
+      <action ID="resizetomin">
+         <interpolation>bicubic</interpolation>
+         <width>75</width>
+         <height>75</height>
+      </action>
+      <action ID="crop">
+         <bestFit>true</bestFit>
+         <bestFitWidth>75</bestFitWidth>
+         <bestFitHeight>75</bestFitHeight>
+      </action>
+   </actionProfile>
+   <actionProfile ID="SmallCroppedJpg">
+      <ApplicationURL>/CSBooster.WebUI</ApplicationURL>
+      <autoSave>true</autoSave>
+      <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/S</VirtualOutPath>
+      <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\S</fileOutPath>
+      <fileNamePreExtension></fileNamePreExtension>
+      <fileNamePostExtension></fileNamePostExtension>
+      <format>jpg</format>
+      <resolution>72</resolution>
+      <quality>8</quality>
+      <action ID="resizetomax">
+         <interpolation>bicubic</interpolation>
+         <maxwidth>232</maxwidth>
+         <maxheight>174</maxheight>
+      </action>
+   </actionProfile>
+   <actionProfile ID="LargeResizedJpg">
+      <ApplicationURL>/CSBooster.WebUI</ApplicationURL>
+      <autoSave>true</autoSave>
+      <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/L</VirtualOutPath>
+      <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\L</fileOutPath>
+      <fileNamePreExtension></fileNamePreExtension>
+      <fileNamePostExtension></fileNamePostExtension>
+      <format>jpg</format>
+      <resolution>72</resolution>
+      <quality>5</quality>
+      <action ID="resizetomax">
+         <interpolation>bicubic</interpolation>
+         <maxwidth>568</maxwidth>
+         <maxheight>426</maxheight>
+      </action>
+   </actionProfile>
+   <actionProfile ID="CopyArchive">
+      <ApplicationURL>/CSBooster.WebUI</ApplicationURL>
+      <autoSave>false</autoSave>
+      <VirtualOutPath>##MEDIASERVER##/##FOLDERID##/P/A</VirtualOutPath>
+      <fileOutPath>##MEDIAPATH##\MEDIA\##FOLDERID##\P\A</fileOutPath>
+      <fileNamePreExtension></fileNamePreExtension>
+      <fileNamePostExtension></fileNamePostExtension>
+      <format></format>
+      <resolution>0</resolution>
+      <quality>0</quality>
+   </actionProfile>
+</root>

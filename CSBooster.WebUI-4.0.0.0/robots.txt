@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: /Admin/
+Disallow: /M/
+Disallow: /Pages/Popups/
+Disallow: /Pages/Static/
+Disallow: /Pages/Other/AdCampaignRedirecter.aspx
+Disallow: /Pages/Other/RssFeed.aspx
+Disallow: /Pages/Other/Wizard.aspx
+Disallow: /Pages/Other/ActivateUser.aspx

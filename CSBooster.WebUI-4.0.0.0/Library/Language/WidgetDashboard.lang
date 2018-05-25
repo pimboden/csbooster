@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidget">
+        <value><![CDATA[Dashboard]]></value>
+    </data>
+    <data name="TooltipWidget">
+        <value><![CDATA[Dieses Widget zeigt Nachrichten, Freunde, Inhalte usw. an]]></value>
+    </data>
+</root>

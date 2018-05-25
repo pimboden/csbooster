@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleFunctionsFilter">
+        <value><![CDATA[Filtern]]></value>
+    </data>
+    <data name="TooltipFunctionsFilter">
+        <value><![CDATA[Filtern]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelFilter">
+        <value><![CDATA[Verhalten]]></value>
+    </data>
+    <data name="TooltipFilter">
+        <value><![CDATA[Verhalten]]></value>
+    </data>
+    <data name="LableFilterType">
+        <value><![CDATA[Autofilter]]></value>
+    </data>
+    <data name="LabelTagwords">
+        <value><![CDATA[Tagwörter]]></value>
+    </data>
+    <data name="TooltipTagwords">
+        <value><![CDATA[eine Liste von Tagwörtern getrennt duch Komma (,) oder Strichpunkt (;)]]></value>
+    </data>
+    <data name="MessageTagwordMust">
+        <value><![CDATA[Mindestens ein Tagwort muss eingegeben werden.]]></value>
+    </data>
+    <data name="LabelMaxCount">
+        <value><![CDATA[wieviele zeigen]]></value>
+    </data>
+    <data name="TooltipMaxCount">
+        <value><![CDATA[Anzahl der maximal angezeigten Filterwörter]]></value>
+    </data>
+    <data name="LabelRelevance">
+        <value><![CDATA[Relevanz]]></value>
+    </data>
+    <data name="TooltipRelevance">
+        <value><![CDATA[Wie wichtig sind Filterwörter die neu sind]]></value>
+    </data>
+    <data name="TextRelevance0">
+        <value><![CDATA[unwichtig]]></value>
+    </data>
+    <data name="TextRelevance3">
+        <value><![CDATA[sehr wichtig]]></value>
+    </data>
+    <data name="TextRelevance5">
+        <value><![CDATA[wichtiger]]></value>
+    </data>
+    <data name="CommandFilterReset">
+        <value><![CDATA[Alles anzeigen]]></value>
+    </data>
+</root>

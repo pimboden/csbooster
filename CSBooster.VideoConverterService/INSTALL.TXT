@@ -1,0 +1,8 @@
+Uninstall
+=========
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\installutil /u CSBooster.VideoConverterService.exe
+
+Install
+=======
+Create Folder "Source" and "Target"
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\installutil CSBooster.VideoConverterService.exe

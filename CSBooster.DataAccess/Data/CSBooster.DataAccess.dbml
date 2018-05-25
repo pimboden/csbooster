@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CSBooster.V20" Class="CSBooster_DataAccessDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="ConnectionString" ConnectionString="Data Source=4SAPPL02\SQL2005;Initial Catalog=CSBooster.V20;Integrated Security=True" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.hitbl_NavigationStructure_NST" Member="hitbl_NavigationStructure_NSTs">
+    <Type Name="hitbl_NavigationStructure_NST">
+      <Column Name="NST_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NST_KeyName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NST_XMLStruct" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NST_IsDirty" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.hisp_Comments_SetCommentStatus" Method="hisp_Comments_SetCommentStatus">
+    <Parameter Name="CommentId" Parameter="commentId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="Status" Parameter="status" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_aspnet_Profile_UpdateLastActivityDate" Method="hisp_aspnet_Profile_UpdateLastActivityDate">
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="CurrentTimeUtc" Parameter="currentTimeUtc" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_GeoKoordinates_Get" Method="hisp_GeoKoordinates_Get">
+    <Parameter Name="GEO_Street" Parameter="gEO_Street" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="GEO_PLZ" Parameter="gEO_PLZ" Type="System.String" DbType="NVarChar(8)" />
+    <Parameter Name="GEO_City" Parameter="gEO_City" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="GEO_Land" Parameter="gEO_Land" Type="System.String" DbType="NVarChar(5)" />
+    <ElementType Name="hisp_GeoKoordinates_GetResult">
+      <Column Name="GEO_Street" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="GEO_PLZ" Type="System.String" DbType="NVarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="GEO_City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GEO_Kanton" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="GEO_Land" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="GEO_Breite" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="GEO_Laenge" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_GeoKoordinates_Save" Method="hisp_GeoKoordinates_Save">
+    <Parameter Name="GEO_Street" Parameter="gEO_Street" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="GEO_PLZ" Parameter="gEO_PLZ" Type="System.String" DbType="NVarChar(8)" />
+    <Parameter Name="GEO_City" Parameter="gEO_City" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="GEO_Land" Parameter="gEO_Land" Type="System.String" DbType="NVarChar(5)" />
+    <Parameter Name="GEO_Kanton" Parameter="gEO_Kanton" Type="System.String" DbType="NVarChar(25)" />
+    <Parameter Name="GEO_Breite" Parameter="gEO_Breite" Type="System.Double" DbType="Float" />
+    <Parameter Name="GEO_Laenge" Parameter="gEO_Laenge" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Partners_Load" Method="hisp_Partners_Load">
+    <Parameter Name="PAR_ID" Parameter="pAR_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="USR_ID" Parameter="uSR_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="hisp_Partners_LoadResult">
+      <Column Name="USR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_ID1" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CTY_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_BaseUrlXSLT" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="PAR_GeoServiceCalls" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_RESTCalls" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_MonthlyGeoServiceCredits" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_MonthlyRESTCredits" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_LastResetDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PAR_MobileHeader" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PAR_MobileFooter" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Partners_Update" Method="hisp_Partners_Update">
+    <Parameter Name="PAR_ID" Parameter="pAR_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="PAR_Name" Parameter="pAR_Name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CTY_ID" Parameter="cTY_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="PAR_BaseUrlXSLT" Parameter="pAR_BaseUrlXSLT" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="PAR_GeoServiceCalls" Parameter="pAR_GeoServiceCalls" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PAR_RESTCalls" Parameter="pAR_RESTCalls" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PAR_MonthlyGeoServiceCredits" Parameter="pAR_MonthlyGeoServiceCredits" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PAR_MonthlyRESTCredits" Parameter="pAR_MonthlyRESTCredits" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PAR_LastResetDate" Parameter="pAR_LastResetDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PAR_MobileHeader" Parameter="pAR_MobileHeader" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="PAR_MobileFooter" Parameter="pAR_MobileFooter" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_TagWord_GetIDSByWords" Method="hisp_TagWord_GetIDSByWords">
+    <Parameter Name="TagWords" Parameter="tagWords" Type="System.String" DbType="NVarChar(MAX)" />
+    <ElementType Name="hisp_TagWord_GetIDSByWordsResult">
+      <Column Name="TGW_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_UserFriendType_GetTypes" Method="hisp_UserFriendType_GetTypes">
+    <Parameter Name="LangCode" Parameter="langCode" Type="System.String" DbType="VarChar(10)" />
+    <ElementType Name="hisp_UserFriendType_GetTypesResult">
+      <Column Name="UFR_TypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UFT_TypeName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Community_FindGroups" Method="hisp_Community_FindGroups">
+    <Parameter Name="CommunityId" Parameter="communityID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="hisp_Community_FindGroupsResult">
+      <Column Name="OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Content_GetContent" Method="hisp_Content_GetContent">
+    <Parameter Name="CTY_ID" Parameter="cTY_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="CNT_Name" Parameter="cNT_Name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CNT_LangCode" Parameter="cNT_LangCode" Type="System.String" DbType="NVarChar(10)" />
+    <ElementType Name="hisp_Content_GetContentResult">
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Content_SaveContent" Method="hisp_Content_SaveContent">
+    <Parameter Name="CTY_ID" Parameter="cTY_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="CNT_Name" Parameter="cNT_Name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CNT_LangCode" Parameter="cNT_LangCode" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="CNT_Text" Parameter="cNT_Text" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Navigation_GetNavigationForRender" Method="hisp_Navigation_GetNavigationForRender">
+    <Parameter Name="NST_KeyName" Parameter="nST_KeyName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="NAV_LangCode" Parameter="nAV_LangCode" Type="System.String" DbType="NVarChar(10)" />
+    <ElementType Name="hisp_Navigation_GetNavigationForRenderResult">
+      <Column Name="NAV_XMLNavigation" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Navigation_SaveNavigationStructure" Method="hisp_Navigation_SaveNavigationStructure">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="NST_KeyName" Parameter="nST_KeyName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="NST_XMLStruct" Parameter="nST_XMLStruct" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Navigation_GetNavigationID" Method="hisp_Navigation_GetNavigationID">
+    <Parameter Name="NST_KeyName" Parameter="nST_KeyName" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="hisp_Navigation_GetNavigationIDResult">
+      <Column Name="NST_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Navigation_GetNavigationLanguageXML" Method="hisp_Navigation_GetNavigationLanguageXML">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="NAV_LangCode" Parameter="nAV_LangCode" Type="System.String" DbType="NVarChar(10)" />
+    <ElementType Name="hisp_Navigation_GetNavigationLanguageXMLResult">
+      <Column Name="NAV_XMLNames" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Navigation_SaveNavigationLanguage" Method="hisp_Navigation_SaveNavigationLanguage">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="NAV_LangCode" Parameter="nAV_LangCode" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="NAV_XMLNames" Parameter="nAV_XMLNames" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="NAV_XMLNavigation" Parameter="nAV_XMLNavigation" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Navigation_DeleteNavigation" Method="hisp_Navigation_DeleteNavigation">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Navigation_SaveNavigationKeyName" Method="hisp_Navigation_SaveNavigationKeyName">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="NST_KeyName" Parameter="nST_KeyName" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Navigation_GetNavigationKeyName" Method="hisp_Navigation_GetNavigationKeyName">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="hisp_Navigation_GetNavigationKeyNameResult">
+      <Column Name="NST_KeyName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Navigation_SavePreChache" Method="hisp_Navigation_SavePreChache">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="NAV_LangCode" Parameter="nAV_LangCode" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="ASP_RoleName" Parameter="aSP_RoleName" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="NPC_PreCacheXML" Parameter="nPC_PreCacheXML" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Navigation_GetPreChache" Method="hisp_Navigation_GetPreChache">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="NAV_LangCode" Parameter="nAV_LangCode" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="ASP_RoleName" Parameter="aSP_RoleName" Type="System.String" DbType="NVarChar(256)" />
+    <ElementType Name="hisp_Navigation_GetPreChacheResult">
+      <Column Name="NPC_PreCacheXML" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_User_GetUserLockOut" Method="hisp_User_GetUserLockOut">
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="hisp_User_GetUserLockOutResult">
+      <Column Name="IsLockedOut" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_User_LockUnlockUser" Method="hisp_User_LockUnlockUser">
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="IsLockedOut" Parameter="isLockedOut" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.hisp_Navigation_GetNavigationStructureXML" Method="hisp_Navigation_GetNavigationStructureXML">
+    <Parameter Name="NST_ID" Parameter="nST_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="hisp_Navigation_GetNavigationStructureXMLResult">
+      <Column Name="NST_XMLStruct" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NST_IsDirty" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_Community_GetIDSByVUrls" Method="hisp_Community_GetIDSByVUrls">
+    <Parameter Name="CommunityNames" Parameter="communityNames" Type="System.String" DbType="NVarChar(MAX)" />
+    <ElementType Name="hisp_Community_GetIDSByVUrlsResult">
+      <Column Name="CTY_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CTY_VirtualUrl" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.hisp_DataObjectTag_GetAllButSynonyms" Method="hisp_DataObjectTag_GetAllButSynonyms">
+    <ElementType Name="hisp_DataObjectTag_GetAllButSynonymsResult">
+      <Column Name="OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_Title" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_Type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

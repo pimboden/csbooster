@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <data name="MessageAccessDenied">
+        <value><![CDATA[Kein Zugriff auf diesen Inhalt]]></value>
+    </data>
+    <data name="TextGoToContact">
+        <value><![CDATA[Gehen Sie zur Kontaktseite]]></value>
+    </data>
+    <data name="MessageDoS">
+        <value><![CDATA[Zu viele Anfragen.]]></value>
+    </data>
+    <data name="MessagePageNotFound">
+        <value><![CDATA[Die gewünschte Seite wurde nicht gefunden!]]></value>
+    </data>
+    <data name="MessageObjectNotFound">
+        <value><![CDATA[Die gewünschte Seite wurde nicht gefunden!]]></value>
+    </data>
+    <data name="MessageThisObjectNotFound">
+        <value><![CDATA[{0} konnte nicht gefunden werden!]]></value>
+    </data>
+</root>

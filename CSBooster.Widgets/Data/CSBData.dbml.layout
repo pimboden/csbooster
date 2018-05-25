@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 14.25" name="CSBData">
+  <DataContextMoniker Name="/CSBDataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c63822bc-163e-4efc-82d2-62cdd6bb2005" absoluteBounds="4.625, 2, 2, 1.3862939453125">
+      <DataClassMoniker Name="/CSBDataDataContext/hitbl_CountryName_COU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3ba7f1c-ab25-47f2-a07c-0ee1a0d86153" absoluteBounds="4.64, 2.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fe1a5331-2e44-436d-a5e1-6a9271d2ab86" absoluteBounds="4.875, 4.375, 2, 9.6552555338541648">
+      <DataClassMoniker Name="/CSBDataDataContext/hitbl_DataObject_OBJ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5137110a-d6dd-4484-a884-9679de257a3c" absoluteBounds="4.89, 4.835, 1.9700000000000002, 9.0952555338541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

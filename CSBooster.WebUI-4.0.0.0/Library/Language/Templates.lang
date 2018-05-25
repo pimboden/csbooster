@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="EmailAccountRetrieval" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p>Hallo <%USER%></p> 
+   <p>Nachfolgend erhalten Sie das neue Passwort, welches Sie angefordert haben.</p>
+   <p>Ihr Benutzername ist <b><%USER%></b> und das neue Passwort ist <b><%PASSWORD%></b></p>
+   <%ACTIVATIONCODE%>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailBugReport" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p>Hallo Admin</p>
+   <p>
+      Der Benutzer <%FROMUSERNAME%>
+      <br/>
+      ID = <%FROMUSERID%>
+      <br/>
+      EMAIL = <a href='mailto:<%FROMUSEREMAIL%>'><%FROMUSEREMAIL%></a>
+      <br/>
+      meldet einen Fehler auf folgender Seite:
+      <br/>
+      <a href='<%Link%>'><%Link%><a>
+   </p>
+    <p>Kommentar:<br/><%USER_MESSAGE%></p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailNewFriendRequestReceived" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p>Hallo <%TO_USERNAME%></p>
+   <p>Sie haben eine neue Freundschaftsanfrage von <%FROM_USERNAME%> erhalten.</p>
+   <p>Bitte gehen Sie zu <a href="<%SITE_URL%>"><%SITE_URL%></a> und melden Sie sich mit Ihrem Benutzernamen und Passwort an, um die Nachricht zu lesen.</p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailNewInvitationToCommunity" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p><b>Hallo <%TO_USERNAME%></b></p>
+   <p>Sie haben eine Einladung zu einer privaten Community von <%FROM_USERNAME%> erhalten.</p>
+   <p>Bitte gehen Sie zu <a href="<%SITE_URL%>"><%SITE_URL%></a> und melden SIe sich mit Ihrem Benutzernamen und Passwort an, um die Nachricht zu lesen.</p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailNewMessageReceived" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p>Hallo <%TO_USERNAME%></p>
+   <p>Sie haben eine neue Nachricht von <b><%FROM_USERNAME%></b> erhalten.</p>
+   <p>Bitte gehen Sie zu <a href="<%SITE_URL%>"><%SITE_URL%></a> und melden Sie sich mit Ihrem Benutzernamen und Passwort an, um die Nachricht zu lesen.</p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailNewSystemMessage" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p>Hallo <%TO_USERNAME%></p>
+   <p>Sie haben eine neue System-Nachricht erhalten.</p>
+   <p>Bitte gehen Sie zu <a href="<%SITE_URL%>"><%SITE_URL%></a> und melden Sie sich mit Ihrem Benutzernamen und Passwort an, um die Nachricht zu lesen.</p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailObjectReport" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p>Hallo Admin</p>
+   <p>
+      Der Benutzer '<%FROM_USERNAME%>'
+      <br/>
+      meldet folgende Seite:
+      <br/>
+      <a href='<%LINK%>'><%LINK%><a>
+   </p>
+    <p>Grund:<%REASON%></p>
+    <p>Kommentar:<br/><%USER_MESSAGE%></p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailProfileDelete" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p>Hallo Freunde</p>
+   <p>Mit dieser Nachricht verabschiede ich mich von <%SITE_URL%> und wünsche alles Gute!</p>
+   <p>Grüsse <%FROM_USERNAME%></p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailRecommendation" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+<p>Hallo</p>
+    <p>Ich habe eine Webseite gefunden, welche ich dir empfehlen möchte:</p>
+<p><%LINK%></p>
+    <p>Grüsse <%FROM_USERNAME%></p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="EmailRegistration" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+   <p>Hallo <%USER%></p> 
+   <p>
+      Herzlich willkommen in der sieme.net Community! Bitte klicken Sie auf folgenden Link, um Ihr Konto zu aktivieren und Ihre Anmeldung zu best&auml;tigen: <a href="<%SITE_URL%>/Pages/Other/ActivateUser.aspx?U=<%UID%>&C=<%ACTIVATE_CODE%>">Anmeldung best&auml;tigen</a>
+      <br/>
+     Sie können sich auch direkt auf <a href="<%SITE_URL%>/login"><%SITE_URL%>/login</a> mit Ihrem Benutzenamen und Passwort anmelden und anschliessend folgenden Aktivierungscode eingeben: <b><%ACTIVATE_CODE%></b>
+     <br/><br/><br/>
+     Sollten Sie diese E-Mail f&auml;lschlicherweise erhalten haben, brauchen Sie nichts zu tun. Das Konto wird nicht aktiviert, Sie erhalten ab sofort keine weiteren E-Mails mehr.
+   </p>
+</body>
+</html>]]></value>
+  </data>
+    <data name="NotificationEMailBody" xml:space="preserve">
+    <value><![CDATA[<html>
+<body>
+<p>Hallo <%EVENT_USER_FIRSTNAME%></p>
+<p>Folgende Ereignisse sind eingetreten</p>
+<%NOTIFICATION_LIST%>
+</body>
+</html>]]></value>
+  </data>
+    <data name="NotificationEMailBodyBirthdayNotification" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Geburtstage</b></td>
+			<td><b>Benachrichtigung vom</b></td>			
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'>Dein Freund <strong><%EVENT_TITLE%></strong> hat am <%EVENT_OBJECT_BIRTHDATE_DAY%>. <%EVENT_OBJECT_BIRTHDATE_MONTH_LONG%> Geburtstag und wird <%EVENT_OBJECT_BIRTHDATE_AGE%> Jahre alt</a></td>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>			
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'>Dein Freund <strong><%EVENT_TITLE%></strong> hat am <%EVENT_OBJECT_BIRTHDATE_DAY%>. <%EVENT_OBJECT_BIRTHDATE_MONTH_LONG%> Geburtstag und wird <%EVENT_OBJECT_BIRTHDATE_AGE%> Jahre alt</a></td>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>			
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationEMailBodyChangeObject" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Editiert</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Editiert</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationEMailBodyComment" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neuer Kommentar</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neuer Kommentar</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationEMailBodyNewMember" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Mitglieder hinzugekommen</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%COMMUNITY_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Mitglieder hinzugekommen</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%COMMUNITY_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationEMailBodyNewObject" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Inhalt hinzugefügt</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Objekt hinzugefügt</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationEMailBodyNewPhotoNote" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neue Bild-Notiz</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neue Bild-Notiz</td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_OBJECT_TYPE%></a></td>
+			<td><%EVENT_TITLE%></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationEMailBodyNewTopicItem" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neuer Forumeintrag</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neuer Forumeintrag</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationEMailBodyRate" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neue Bewertung</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neue Bewertung</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationEMailSubject" xml:space="preserve">
+    <value><![CDATA[Alert]]></value>
+  </data>
+    <data name="NotificationCSBMessageBody" xml:space="preserve">
+    <value><![CDATA[Hallo <%EVENT_USER_FIRSTNAME%><br/><br/>
+Folgende Ereignisse sind eingetreten<br/><br/>
+<%NOTIFICATION_LIST%>]]></value>
+  </data>
+    <data name="NotificationCSBMessageBodyBirthdayNotification" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Geburtstage</b></td>
+			<td><b>Benachrichtigung vom</b></td>			
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'>Dein Freund <strong><%EVENT_TITLE%></strong> hat am <%EVENT_OBJECT_BIRTHDATE_DAY%>. <%EVENT_OBJECT_BIRTHDATE_MONTH_LONG%> Geburtstag und wird <%EVENT_OBJECT_BIRTHDATE_AGE%> Jahre alt</a></td>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>			
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'>Dein Freund <strong><%EVENT_TITLE%></strong> hat am <%EVENT_OBJECT_BIRTHDATE_DAY%>. <%EVENT_OBJECT_BIRTHDATE_MONTH_LONG%> Geburtstag und wird <%EVENT_OBJECT_BIRTHDATE_AGE%> Jahre alt</a></td>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>			
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationCSBMessageBodyChangeObject" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Editiert</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Editiert</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationCSBMessageBodyComment" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neuer Kommentar</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neuer Kommentar</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationCSBMessageBodyNewMember" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Mitglieder hinzugekommen</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%COMMUNITY_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Mitglieder hinzugekommen</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%COMMUNITY_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationCSBMessageBodyNewObject" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Inhalt hinzugefügt</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Inhalt hinzugefügt</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationCSBMessageBodyNewPhotoNote" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neue Bild-Notiz</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neue Bild-Notiz</td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_OBJECT_TYPE%></a></td>
+			<td><%EVENT_TITLE%></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationCSBMessageBodyNewTopicItem" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neuer Forumeintrag</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neuer Forumeintrag</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationCSBMessageBodyRate" xml:space="preserve">
+    <value><![CDATA[<table cellspacing="1" cellpadding="3" rules="all" width="100%" border="1">
+		<tr>
+			<td><b>Benachrichtigung vom</b></td>
+			<td><b>Ereignis</b></td>
+			<td><b>Art des Inhalts</b></td>
+			<td><b>Titel</b></td>
+		</tr>
+		<itemtemplate>
+		<tr>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neue Bewertung</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</itemtemplate>
+		<alternatingitemtemplate>
+		<tr bgcolor='#CCCCCC'>
+			<td><%EVENT_DATE%>&nbsp;<%EVENT_TIME%></td>
+			<td>Neue Bewertung</td>
+			<td><%EVENT_OBJECT_TYPE%></td>
+			<td><a href='<%EVENT_WEB_ROOT%><%EVENT_LINK%>' target='_blank'><%EVENT_TITLE%></a></td>
+		</tr>					
+		</alternatingitemtemplate>
+</table>
+</br>]]></value>
+  </data>
+    <data name="NotificationCSBMessageSubject" xml:space="preserve">
+    <value><![CDATA[Alert]]></value>
+  </data>
+</root>

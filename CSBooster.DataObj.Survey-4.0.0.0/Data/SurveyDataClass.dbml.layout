@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 14.75" name="SurveyDataClass">
+  <DataContextMoniker Name="/SurveyDataClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cd7ab396-168b-424b-8d9c-e99c4b9c137c" absoluteBounds="9, 1.5, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_Answer_Column_SAC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14a75065-2c96-41f9-9d27-075fc551b6c6" absoluteBounds="9.015, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5f41bdc-d45b-4386-88c8-1106a6bc8c1a" absoluteBounds="9, 4, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_Answer_Row_SAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6e6017d-feb8-4b8b-8318-232d8cb1eb14" absoluteBounds="9.015, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f9e11ab-f3c5-4399-bfab-c770c4bd730c" absoluteBounds="3.5, 2.75, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_Page_SPG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4813f048-901a-481a-b393-629d514b3cf8" absoluteBounds="3.515, 3.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6d70df6-51e6-492e-a357-5454a70482b8" absoluteBounds="6.25, 2.75, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_Question_SQU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb46d649-d945-4559-af32-dbb41dd2098b" absoluteBounds="6.265, 3.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 3.01044840494792); (9 : 3.01044840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_Question_SQU/hitbl_Survey_Question_SQU_hitbl_Survey_Answer_Column_SAC" />
+      <nodes>
+        <classShapeMoniker Id="e6d70df6-51e6-492e-a357-5454a70482b8" />
+        <classShapeMoniker Id="cd7ab396-168b-424b-8d9c-e99c4b9c137c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4.26044840494792); (9 : 4.26044840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_Question_SQU/hitbl_Survey_Question_SQU_hitbl_Survey_Answer_Row_SAR" />
+      <nodes>
+        <classShapeMoniker Id="e6d70df6-51e6-492e-a357-5454a70482b8" />
+        <classShapeMoniker Id="f5f41bdc-d45b-4386-88c8-1106a6bc8c1a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.63544840494792); (6.25 : 3.63544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_Page_SPG/hitbl_Survey_Page_SPG_hitbl_Survey_Question_SQU" />
+      <nodes>
+        <classShapeMoniker Id="6f9e11ab-f3c5-4399-bfab-c770c4bd730c" />
+        <classShapeMoniker Id="e6d70df6-51e6-492e-a357-5454a70482b8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f35c5f1b-9b10-475a-bce9-2ed94cf5fe89" absoluteBounds="5.125, 7.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_TestResult_STR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c0b733a8-2e67-49f3-a38e-b60bc463e40c" absoluteBounds="5.14, 7.8350000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f813b1a-2fdc-4bd3-a28e-f72b4f05b19b" absoluteBounds="8.25, 11.625, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_User_ResultItem_SUI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="17439e77-ac38-4a5e-b539-b0b6be654141" absoluteBounds="8.265, 12.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b143150-1333-4893-968c-0000a3f8bcce" absoluteBounds="0.75, 4.375, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/SurveyDataClassDataContext/hiobj_Survey" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5b2923b-e09e-445f-add3-057c2e7e64de" absoluteBounds="0.765, 4.835, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53035c57-663d-4db0-9830-c0746eafc39d" absoluteBounds="5.5, 10.75, 2, 3.6939111328124987">
+      <DataClassMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_User_Result_SUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4005c162-7622-4ffa-b891-3b0864beab1b" absoluteBounds="5.515, 11.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 5.91669890494792); (4.28125 : 5.91669890494792); (4.28125 : 4.52089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SurveyDataClassDataContext/hiobj_Survey/hiobj_Survey_hitbl_Survey_Page_SPG" />
+      <nodes>
+        <classShapeMoniker Id="8b143150-1333-4893-968c-0000a3f8bcce" />
+        <classShapeMoniker Id="6f9e11ab-f3c5-4399-bfab-c770c4bd730c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.67710145247396); (5.875 : 6.67710145247396); (5.875 : 7.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SurveyDataClassDataContext/hiobj_Survey/hiobj_Survey_hitbl_Survey_TestResult_STR" />
+      <nodes>
+        <classShapeMoniker Id="8b143150-1333-4893-968c-0000a3f8bcce" />
+        <classShapeMoniker Id="f35c5f1b-9b10-475a-bce9-2ed94cf5fe89" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 12.6065991210937); (8.25 : 12.6065991210937)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SurveyDataClassDataContext/hitbl_Survey_User_Result_SUR/hitbl_Survey_User_Result_SUR_hitbl_Survey_User_ResultItem_SUI" />
+      <nodes>
+        <classShapeMoniker Id="53035c57-663d-4db0-9830-c0746eafc39d" />
+        <classShapeMoniker Id="8f813b1a-2fdc-4bd3-a28e-f72b4f05b19b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

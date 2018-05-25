@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidget">
+        <value><![CDATA[Formular]]></value>
+    </data>
+    <data name="TooltipWidget">
+        <value><![CDATA[Formular]]></value>
+    </data>
+    <data name="TitleFormAddress">
+        <value><![CDATA[Adressdaten]]></value>
+    </data>
+    <data name="TitleFormFields">
+        <value><![CDATA[Formulardaten]]></value>
+    </data>
+    <data name="TitleFormSend">
+        <value><![CDATA[Empfängerdaten]]></value>
+    </data>
+    <data name="LabelText">
+        <value><![CDATA[Vorspann]]></value>
+    </data>
+    <data name="TooltipText">
+        <value><![CDATA[Begleittext welcher zu dem Formular gehört und vor dem Formular angezeigt wird.]]></value>
+    </data>
+    <data name="LabelTextbox">
+        <value><![CDATA[Textbox zeigen]]></value>
+    </data>
+    <data name="TooltipTextbox">
+        <value><![CDATA[Soll ein grosses Eingabefeld angezeigt werden]]></value>
+    </data>
+    <data name="LabelShowTextbox">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelMustTextbox">
+        <value><![CDATA[Pflichtfeld]]></value>
+    </data>
+    <data name="LabelOption">
+        <value><![CDATA[Options-Felder]]></value>
+    </data>
+    <data name="LabelMultiOption">
+        <value><![CDATA[mehrere Optionen selektierbar]]></value>
+    </data>
+    <data name="LabelMustOption">
+        <value><![CDATA[Pflichtfeld]]></value>
+    </data>
+    <data name="TooltipOption">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelFormField">
+        <value><![CDATA[Formularfelder]]></value>
+    </data>
+    <data name="TooltipFormField">
+        <value><![CDATA[Adress-Felder sind nicht zu erfassen, da diese als vordefinierter Adress-Block zugewiesen werden können.]]></value>
+    </data>
+    <data name="LabelFormFieldMust">
+        <value><![CDATA[Pflichtfeld]]></value>
+    </data>
+    <data name="LabelAddressData">
+        <value><![CDATA[Adress-Felder zeigen]]></value>
+    </data>
+    <data name="TooltipAddressData">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="ItemAddressSave0">
+        <value><![CDATA[Adressdaten immer speichern]]></value>
+    </data>
+    <data name="ItemAddressSave1">
+        <value><![CDATA[Fragen ob Adressdaten speichern]]></value>
+    </data>
+    <data name="ItemAddressSave2">
+        <value><![CDATA[Adressdaten nicht speichern]]></value>
+    </data>
+    <data name="LabelMustAuth">
+        <value><![CDATA[Sicherheitscode]]></value>
+    </data>
+    <data name="TooltipMustAuth">
+        <value><![CDATA[Definiert ob eine Sicherheitscode (CAPTCHA) abgefragt werden soll. Dies ist bei Formularen, welche auch für nicht-registrierte Benutzer zugänglich sind aus Spam-Gründen sinnvoll.]]></value>
+    </data>
+    <data name="LabelSubject">
+        <value><![CDATA[Betreff]]></value>
+    </data>
+    <data name="TooltipSubject">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelTextPre">
+        <value><![CDATA[Text vor Mail-Inhalt]]></value>
+    </data>
+    <data name="TooltipTextPre">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelTextPost">
+        <value><![CDATA[Text nach Mail-Inhalt]]></value>
+    </data>
+    <data name="TooltipTextPost">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelUserCopy">
+        <value><![CDATA[Kopie an Benutzer]]></value>
+    </data>
+    <data name="TooltipUserCopy">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="ItemUserCopy0">
+        <value><![CDATA[Nein]]></value>
+    </data>
+    <data name="ItemUserCopy1">
+        <value><![CDATA[als Email]]></value>
+    </data>
+    <data name="ItemUserCopy2">
+        <value><![CDATA[als interne Mitteilung]]></value>
+    </data>
+    <data name="LabelSendForm">
+        <value><![CDATA[Formular senden]]></value>
+    </data>
+    <data name="TooltipSendForm">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelMustAuth">
+        <value><![CDATA[muss der Benutzer angenmeldet sein]]></value>
+    </data>
+    <data name="LabelAddressShow">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelAddressComment">
+        <value><![CDATA[Kommentar-Feld zeigen]]></value>
+    </data>
+    <data name="ItemSendAs1">
+        <value><![CDATA[als Email]]></value>
+    </data>
+    <data name="ItemSendAs2">
+        <value><![CDATA[als interne Mitteilung]]></value>
+    </data>
+    <data name="LabelUser">
+        <value><![CDATA[Benutzer]]></value>
+    </data>
+    <data name="LabelAndOr">
+        <value><![CDATA[und / oder]]></value>
+    </data>
+    <data name="LabelEmail">
+        <value><![CDATA[Email]]></value>
+    </data>
+    <data name="MessageInvalidUser">
+        <value><![CDATA[Benutzername ist ungültig!]]></value>
+    </data>
+
+
+</root>

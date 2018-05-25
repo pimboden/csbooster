@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="_4screen.CSB.WebUI.MasterPages.Default" CodeBehind="Default.Master.cs" %>
+<%@ Register Src="/UserControls/UserNavi.ascx" TagName="UserNavi" TagPrefix="csb" %>
+<%@ Register Src="/UserControls/Navigation.ascx" TagName="Navigation" TagPrefix="csb" %>
+<%@ Register Src="/UserControls/LanguageChanger.ascx" TagName="Lang" TagPrefix="csb" %>
+<%@ Register Src="/UserControls/BreadCrumb.ascx" TagName="BreadCrumb" TagPrefix="csb" %>
+<%@ Register Src="/UserControls/HTMLContent.ascx" TagName="HTMLContent" TagPrefix="csb" %>
+<%@ Register Src="/UserControls/PageEdit.ascx" TagName="PageEdit" TagPrefix="csb" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head" runat="server" enableviewstate="false">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="de" />
+    <meta id="metadesc" runat="server" name="description" content="" />
+    <meta id="metatags" runat="server" name="keywords" content="" />
+    <meta id="metadate" runat="server" name="date" content="" visible="false" />
+    <meta id="metaOgSiteName" runat="server" property="og:site_name" content="" />
+    <meta id="metaOgUrl" runat="server" property="og:url" content="" />
+    <meta id="metaOgTitle" runat="server" property="og:title" content="" />
+    <meta id="metaOgType" runat="server" property="og:type" content="" visible="false" />
+    <meta id="metaOgImage" runat="server" property="og:image" content="" visible="false" />
+    <meta id="metaOgDescription" runat="server" property="og:description" content="" visible="false" />
+    <meta id="metaOgLatitude" runat="server" property="og:latitude" content="" visible="false" />
+    <meta id="metaOgLongitude" runat="server" property="og:longitude" content="" visible="false" />
+    <meta id="metaOgStreet" runat="server" property="og:street-address" content="" visible="false" />
+    <meta id="metaOgCity" runat="server" property="og:locality" content="" visible="false" />
+    <meta id="metaOgZipCode" runat="server" property="og:postal-code" content="" visible="false" />
+    <meta id="metaOgCountryCode" runat="server" property="og:country-name" content="" visible="false" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link href="/Library/Styles/csbooster.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="body" runat="server">
+    <form id="form" runat="server">
+        <telerik:RadScriptManager ID="rsm" runat="server" EnableViewState="false">
+            <Scripts>
+                <asp:ScriptReference Name="MicrosoftAjax.js" Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+                <asp:ScriptReference Name="MicrosoftAjaxWebForms.js" Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Common.Core.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Common.Popup.PopupScripts.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Common.jQuery.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Common.jQueryPlugins.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Common.Animation.AnimationScripts.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.ToolTip.RadToolTip.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Common.LayoutBuilder.LayoutBuilderEngine.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Editor.RadEditor.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Spell.SpellCheckService.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Dialogs.RadDialogOpenerScripts.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Window.RadWindowScripts.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.Window.RadWindowManager.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="Telerik.Web.UI.ToolTip.RadToolTipManager.js" Assembly="Telerik.Web.UI" />
+                <asp:ScriptReference Name="AjaxControlToolkit.Common.Common.js" Assembly="AjaxControlToolkit" />
+                <asp:ScriptReference Name="AjaxControlToolkit.Compat.Timer.Timer.js" Assembly="AjaxControlToolkit" />
+                <asp:ScriptReference Name="AjaxControlToolkit.Compat.DragDrop.DragDropScripts.js" Assembly="AjaxControlToolkit" />
+                <asp:ScriptReference Name="AjaxControlToolkit.ExtenderBase.BaseScripts.js" Assembly="AjaxControlToolkit" />
+                <asp:ScriptReference Name="CustomDragDrop.CustomFloatingBehavior.js" Assembly="CSBooster.CustomDragDrop" />
+                <asp:ScriptReference Name="CustomDragDrop.CustomDragDropBehavior.js" Assembly="CSBooster.CustomDragDrop" />
+                <asp:ScriptReference Path="/Library/Scripts/common.js" />
+            </Scripts>
+        </telerik:RadScriptManager>
+        <telerik:RadStyleSheetManager ID="rssm" runat="server" EnableViewState="false" />
+        <div id="toolbar">
+            <csb:PageEdit ID="toolbar" runat="server" EnableViewState="false" />
+            <asp:ContentPlaceHolder ID="cBar" runat="server" />
+        </div>
+        <div id="container">
+            <div id="header" style="<%=HeaderStyle %>">
+                <csb:UserNavi ID="userNavi" runat="server" EnableViewState="false" />
+                <csb:Lang ID="language" runat="server" EnableViewState="false" />
+            </div>
+            <div id="content" style="<%=BodyStyle %>">
+                <csb:BreadCrumb ID="breadcrumbs" runat="server" EnableViewState="false" />
+                <asp:ContentPlaceHolder ID="cnt" runat="server" />
+            </div>
+            <div id="footer" style="<%=FooterStyle%>">
+                <csb:HTMLContent ID="footerText" runat="server" ContentId="CSB_footer_text" AllowedEditRoles="Admin,Expert" EnableViewState="false" />
+            </div>
+        </div>
+        <telerik:RadWindowManager ID="rwm" runat="server" AutoSize="true" VisibleStatusbar="false" VisibleTitlebar="true" DestroyOnClose="true" Modal="true" EnableViewState="false" IconUrl="/Library/Images/Layout/favicon.png" Behaviors="Resize, Close, Move" InitialBehaviors="None">
+            <AlertTemplate>
+            </AlertTemplate>
+            <ConfirmTemplate>
+            </ConfirmTemplate>
+            <PromptTemplate>
+            </PromptTemplate>
+        </telerik:RadWindowManager>
+        <telerik:RadToolTipManager ID="rtm" runat="server" Position="BottomRight" OffsetY="22" ShowCallout="false" AutoTooltipify="true" AutoCloseDelay="30000" EnableViewState="false" />
+    </form>
+</body>
+</html>

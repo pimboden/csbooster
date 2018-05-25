@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="CommandOpenTermsAndConditions">
+        <value><![CDATA[AGB anzeigen]]></value>
+    </data>
+    <data name="CommandRegister">
+        <value><![CDATA[Registrieren]]></value>
+    </data>
+  <data name="CommandRemoveMember">
+    <value><![CDATA[Mitglied entfernen]]></value>
+  </data>
+  <data name="CommandUpload">
+    <value><![CDATA[Hochladen]]></value>
+  </data>
+  <data name="ErrorMessageCouldNotSend">
+    <value><![CDATA[Die Nachricht konnte nicht versendet werden!]]></value>
+  </data>
+  <data name="ErrorMessageNoConect">
+    <value><![CDATA[Keine Benutzer ausgewählt oder Benutzer wünschen keine Kontaktafnahme!]]></value>
+  </data>
+  <data name="ErrorMessageNoText">
+    <value><![CDATA[Bitte Nachrichtentext schreiben!]]></value>
+  </data>
+    <data name="LabelAGB">
+        <value><![CDATA[AGB]]></value>
+    </data>
+    <data name="LabelEmailAddress">
+        <value><![CDATA[Email-Adresse]]></value>
+    </data>
+    <data name="LabelEnterCode">
+        <value><![CDATA[Code eingeben]]></value>
+    </data>
+    <data name="LabelFeedback">
+        <value><![CDATA[Feedback]]></value>
+    </data>
+    <data name="LabelFeedbackAttachment">
+        <value><![CDATA[Anhang]]></value>
+    </data>
+    <data name="LabelName">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="LabelPassword">
+        <value><![CDATA[Passwort]]></value>
+    </data>
+    <data name="LabelPasswordVerification">
+        <value><![CDATA[Password-Bestätigung]]></value>
+    </data>
+  <data name="LabelReportRuleBreak">
+        <value><![CDATA[Inhalt verstösst gegen Richtlinien]]></value>
+  </data>
+  <data name="LabelReportSpam">
+    <value><![CDATA[Spam]]></value>
+  </data>
+  <data name="LabelReportUsingMyContent">
+        <value><![CDATA[Verwendung von fremden Inhalten]]></value>
+  </data>
+  <data name="LabelReportWorried">
+    <value><![CDATA[Belästigung]]></value>
+  </data>
+  <data name="LabelUploadFormats">
+    <value><![CDATA[Mögliche Formate: gif, jpeg, jpg, png]]></value>
+  </data>
+  <data name="LabelUploadInProgress">
+    <value><![CDATA[Hochladen in Arbeit...]]></value>
+  </data>
+  <data name="LabelUploadTitle">
+    <value><![CDATA[Bild]]></value>
+  </data>
+    <data name="LabelUsername">
+        <value><![CDATA[Benutzername]]></value>
+    </data>
+    <data name="LabelVerificationCode">
+        <value><![CDATA[Verifikationscode]]></value>
+    </data>
+  <data name="LableAlertsEvent">
+    <value><![CDATA[Ereignis]]></value>
+  </data>
+  <data name="LableAlertsType">
+    <value><![CDATA[Typ]]></value>
+  </data>
+  <data name="LableAlertsWhen">
+    <value><![CDATA[Wann]]></value>
+  </data>
+  <data name="LableAlertsWhen">
+    <value><![CDATA[Wann]]></value>
+  </data>
+  <data name="LableAnswer">
+    <value><![CDATA[Antwort]]></value>
+  </data>
+  <data name="LableComment">
+    <value><![CDATA[Kommentar]]></value>
+  </data>
+  <data name="LableFavorite">
+    <value><![CDATA[Titel]]></value>
+  </data>
+  <data name="LableFavoriteAll">
+    <value><![CDATA[Sichtbar für Alle]]></value>
+  </data>
+  <data name="LableFavoriteDescription">
+    <value><![CDATA[Beschreibung]]></value>
+  </data>
+  <data name="LableFavoriteTop">
+    <value><![CDATA[Als Top-Favorit speichern]]></value>
+  </data>
+  <data name="LableInviteMyFriends">
+    <value><![CDATA[meine Freunde]]></value>
+  </data>
+  <data name="LableInviteReason">
+    <value><![CDATA[Einladungsgrund]]></value>
+  </data>
+  <data name="LableMapAdress">
+    <value><![CDATA[Adresse]]></value>
+  </data>
+  <data name="LableMapAdressDesc">
+    <value><![CDATA[Adresseingabe: <b>Strasse</b> (optional), <b>Ort</b>, <b>Land</b> (optional)]]></value>
+  </data>
+  <data name="LableMapCity">
+    <value><![CDATA[Ort]]></value>
+  </data>
+  <data name="LableMapCoordinate">
+    <value><![CDATA[Koordinaten]]></value>
+  </data>
+  <data name="LableMapLand">
+    <value><![CDATA[Land]]></value>
+  </data>
+  <data name="LableMapLandAT">
+    <value><![CDATA[Österreich]]></value>
+  </data>
+  <data name="LableMapLandCH">
+    <value><![CDATA[Schweiz]]></value>
+  </data>
+  <data name="LableMapLandDE">
+    <value><![CDATA[Deutschland]]></value>
+  </data>
+  <data name="LableMapLatLong">
+    <value><![CDATA[Länge/Breite]]></value>
+  </data>
+  <data name="LableMapRegion">
+    <value><![CDATA[Region]]></value>
+  </data>
+  <data name="LableMapStreet">
+    <value><![CDATA[Strasse + Nr]]></value>
+  </data>
+  <data name="LableMapZIP">
+    <value><![CDATA[PLZ]]></value>
+  </data>
+  <data name="LableMapZIPCity">
+    <value><![CDATA[PLZ / Ort]]></value>
+  </data>
+  <data name="LableMessage">
+    <value><![CDATA[Nachricht]]></value>
+  </data>
+  <data name="LableMessage">
+    <value><![CDATA[Nachricht]]></value>
+  </data>
+  <data name="LableMessageAllFriends">
+    <value><![CDATA[(an alle Freunde)]]></value>
+  </data>
+  <data name="LableMessageAnswer">
+    <value><![CDATA[Nachricht beantworten]]></value>
+  </data>
+  <data name="LableMessageForward">
+    <value><![CDATA[Nachricht weiterleiten]]></value>
+  </data>
+  <data name="LableMessageInviteToCommunity">
+    <value><![CDATA[Einladung in Privat-Community]]></value>
+  </data>
+  <data name="LableMessagePrivateMessage">
+        <value><![CDATA[Neue Nachricht]]></value>
+  </data>
+  <data name="LableMessageReceiverMail">
+    <value><![CDATA[Empfänger-Email]]></value>
+  </data>
+  <data name="LableMessageRecommedation">
+        <value><![CDATA[Webseiten-Empfehlung]]></value>
+  </data>
+  <data name="LableMessageSubject">
+    <value><![CDATA[Betreff]]></value>
+  </data>
+  <data name="LableMessageUserNickname">
+    <value><![CDATA[Benutzername]]></value>
+  </data>
+  <data name="LableMessageWrote">
+    <value><![CDATA[schrieb]]></value>
+  </data>
+  <data name="LableName">
+    <value><![CDATA[Name]]></value>
+  </data>
+  <data name="LableOwner">
+    <value><![CDATA[Besitzer]]></value>
+  </data>
+  <data name="LablePassword">
+    <value><![CDATA[Passwort]]></value>
+  </data>
+  <data name="LablePasswordNew">
+    <value><![CDATA[Neues Passwort]]></value>
+  </data>
+  <data name="LablePasswordRepeat">
+    <value><![CDATA[Passwort bestätigen]]></value>
+  </data>
+  <data name="LablePicUploadSelect">
+    <value><![CDATA[Klicken Sie ein Bild an um es einzufügen.]]></value>
+  </data>
+  <data name="LablePicUploadSelectSimple">
+    <value><![CDATA[Klicken Sie ein Bild an um es auszuwählen.]]></value>
+  </data>
+  <data name="LablePicUploadSize">
+    <value><![CDATA[Anzeigegrösse]]></value>
+  </data>
+  <data name="LablePicUploadTitle">
+    <value><![CDATA[Bild hochladen]]></value>
+  </data>
+  <data name="LableRemember">
+    <value><![CDATA[Merken]]></value>
+  </data>
+  <data name="LableReportErrorDesc">
+    <value><![CDATA[Beschreiben Sie den Fehler]]></value>
+  </data>
+  <data name="LableReportFormats">
+    <value><![CDATA[Screenshots Bilder (Max 3/gif, bmp, jpg)]]></value>
+  </data>
+  <data name="LableRequestBirthdayInfo">
+    <value><![CDATA[Ich möchte informiert werden wenn dieser Freund Geburtstag hat]]></value>
+  </data>
+  <data name="LableRequestBlockMore">
+    <value><![CDATA[Weitere Anfragen blockieren]]></value>
+  </data>
+  <data name="LableRequestFriendship">
+    <value><![CDATA[Freundschaft]]></value>
+  </data>
+  <data name="LableRequestReceiver">
+    <value><![CDATA[Empfänger]]></value>
+  </data>
+  <data name="LableRequestSender">
+    <value><![CDATA[Sender]]></value>
+  </data>
+  <data name="LableRequestText">
+    <value><![CDATA[Anfragetext]]></value>
+  </data>
+  <data name="LableTitle">
+    <value><![CDATA[Titel]]></value>
+  </data>
+  <data name="LableURL">
+    <value><![CDATA[URL]]></value>
+  </data>
+    <data name="MessageAcceptAGB">
+        <value><![CDATA[Akzeptieren Sie die AGB um sich zu registrieren]]></value>
+    </data>
+  <data name="MessageAccountInfoNotFound">
+    <value><![CDATA[Benutzer-Konto nicht gefunden]]></value>
+  </data>
+  <data name="MessageAccountInfoSent">
+        <value><![CDATA[Ihr neues Passwort wurde erfolgreich versendet!]]></value>
+  </data>
+  <data name="MessageChangePasswordFailure">
+    <value><![CDATA[Das Passwort konnte nicht geändert werden!]]></value>
+  </data>
+  <data name="MessageConfirmNewPasswordRequired">
+    <value><![CDATA[Das neue Passwort muss zweimal eingegeben werden!<br/>]]></value>
+  </data>
+    <data name="MessageCouldNotSendActivationMail">
+        <value><![CDATA[Der Aktivierungscode konnte nicht versendet werden. Bitte melden Sie dieses Problem.]]></value>
+    </data>
+  <data name="MessageCurrentPasswordRequired">
+    <value><![CDATA[Das aktuelle Passwort muss eingegeben werden!<br/>]]></value>
+  </data>
+    <data name="MessageEnterCode">
+        <value><![CDATA[Bitte die angezeigten Zeichen eingeben]]></value>
+    </data>
+    <data name="MessageInvisibleTextBoxCaptcha">
+        <value><![CDATA[Diese Funktion steht im Moment nicht zur Verfügung]]></value>
+    </data>
+  <data name="MessageInviteNoFriends">
+    <value><![CDATA[Sie haben noch keine Freunde]]></value>
+  </data>
+  <data name="MessageLastOwner">
+    <value><![CDATA[Löschen oder entfernen des letzten Owners ist nicht möglich!]]></value>
+  </data>
+  <data name="MessageMapLandMust">
+    <value><![CDATA[Land ist zwingend]]></value>
+  </data>
+  <data name="MessageMapMustSelect">
+    <value><![CDATA[Wählen Sie auf der Karte einen Ort]]></value>
+  </data>
+  <data name="MessageMaxLength">
+    <value><![CDATA[Der Kommentar darf höchstens {0} Zeichen lang sein!]]></value>
+  </data>
+  <data name="MessageMust">
+    <value><![CDATA[Bitte Kommentar eingeben!]]></value>
+  </data>
+  <data name="MessageNewPasswordCompare">
+    <value><![CDATA[Das neue Passwort muss zweimal dasselbe eingegeben werden!<br/>]]></value>
+  </data>
+  <data name="MessageNewPasswordRequired">
+    <value><![CDATA[Ein neues Passwort muss eingegeben werden!<br/>]]></value>
+  </data>
+  <data name="MessageNoFriendFound">
+    <value><![CDATA[Keine Freunde gefunden]]></value>
+  </data>
+    <data name="MessagePwdNeeded">
+        <value><![CDATA[Bitte geben Sie ein gültiges Passwort ein]]></value>
+    </data>
+    <data name="MessagePwdsNotMatch">
+        <value><![CDATA[Die Passwörter stimmen nicht überein]]></value>
+    </data>
+    <data name="MessagePwdVerificationNeeded">
+        <value><![CDATA[Bitte Passwortbestätigung eingeben]]></value>
+    </data>
+    <data name="MessageRegistrationSucceded">
+        <value><![CDATA[<b>Herzlich willkommen auf MySG!</b><br/><br/>In wenigen Minuten erhalten Sie ein Email mit einem Aktivierungs-Code. Mit diesem Code können Sie Ihr Profil aktivieren und aktiv auf MySG teilnehmen.]]></value>
+    </data>
+  <data name="MessageReportObjectOK">
+    <value><![CDATA[Meldung wurde gesendet.<br/>Vielen Dank für Ihr Feedback]]></value>
+  </data>
+  <data name="MessageReportOK">
+    <value><![CDATA[Fehler wurde gemeldet <br/>Vielen Dank für das Feedback]]></value>
+  </data>
+  <data name="MessageToAdmin">
+    <value><![CDATA[Report an den Administrator]]></value>
+  </data>
+  <data name="MessageToAllFriends">
+    <value><![CDATA[Nachricht an alle Freunde]]></value>
+  </data>
+  <data name="MessageToAllMember">
+    <value><![CDATA[Nachricht an alle Mitglieder]]></value>
+  </data>
+  <data name="MessageUploadInvalidFile">
+    <value><![CDATA[Ungültige Datei]]></value>
+  </data>
+  <data name="MessageURLMust">
+    <value><![CDATA[Url muss eingegeben werden.]]></value>
+  </data>
+    <data name="MessageUsernameExists">
+        <value><![CDATA[Der angegebene Benutzername ist schon besetzt]]></value>
+    </data>
+    <data name="MessageUsernameNeeded">
+        <value><![CDATA[Bitte geben Sie einen gültigen Benutzernamen ein]]></value>
+    </data>
+    <data name="MessageUsernameWrongChar">
+        <value><![CDATA[Nicht gültige Zeichen eingegeben. Gültig sind a-z und 0-9]]></value>
+    </data>
+  <data name="MessageValidEmail">
+        <value><![CDATA[Bitte geben Sie eine gültige Email-Adresse ein]]></value>
+  </data>
+  <data name="MessageWidgetConfig£Error">
+    <value><![CDATA[Konfigurationsfehler: ]]></value>
+  </data>
+  <data name="TextAccountSubject">
+        <value><![CDATA[Konto-Informationen]]></value>
+  </data>
+  <data name="TextActivationCode">
+    <value><![CDATA[Ihr Aktivierungcode ist]]></value>
+  </data>
+  <data name="TextAlertsFor">
+    <value><![CDATA[Benachrichtigung für]]></value>
+  </data>
+  <data name="TextAlertsForUserObjects">
+    <value><![CDATA[Benachrichtigung für Inhalte dieses Benutzers]]></value>
+  </data>
+  <data name="TextAlertsGlobal">
+    <value><![CDATA[Benachrichtigung für Inhalte in dieser Community]]></value>
+  </data>
+  <data name="TextAlertsWithTagwords">
+    <value><![CDATA[mit folgenden TagWords]]></value>
+  </data>
+  <data name="TextCropTitle">
+        <value><![CDATA[Wählen Sie den gewünschten Bildausschnitt durch Verändern des Rahmens.]]></value>
+  </data>
+    <data name="TextDontFillBelow">
+        <value><![CDATA[Lassen Sie nachfolgendes Eingabefeld leer]]></value>
+    </data>
+  <data name="TextFavoriteNoTitle">
+    <value><![CDATA[keine Titel]]></value>
+  </data>
+  <data name="TextInviteAllreadyMember">
+    <value><![CDATA[ist bereits Mitglied]]></value>
+  </data>
+    <data name="TextMailSubjectActivation">
+        <value><![CDATA[Aktivierung]]></value>
+    </data>
+    <data name="TextMapUsage">
+        <value>
+            <![CDATA[<ul style="margin: 0px;">
+    <li>
+    Suchen Sie auf der Karte oder mittels Adresseingabe den gew&uuml;nschten Ort.
+    </li>
+    <li>
+    Sobald ein Ort gefunden wurde, kannst dieser mittels <strong>Klick auf der Karte</strong> markiert werden (kann beliebig oft wiederholt werden)
+    </li>
+    <li>
+    Nachdem der Ort markiert ist, k&ouml;nnen zus&auml;tzliche Angaben erfasst und danach das Fenster mittels <strong>Klick auf Speichern</strong> geschlossen werden.
+    </li>
+</ul>]]>
+        </value>
+    </data>
+  <data name="TextMessageFeedback">
+    <value><![CDATA[Feedback]]></value>
+  </data>
+  <data name="TextMessageIsAuthenticated">
+    <value><![CDATA[Der Benutzer]]></value>
+  </data>
+  <data name="TextMessageNotIsAuthenticated">
+    <value><![CDATA[Ein anonymer Benutzer]]></value>
+  </data>
+  <data name="TextPicUploadPopupA">
+    <value><![CDATA[Originalgrösse]]></value>
+  </data>
+  <data name="TextPicUploadPopupL">
+    <value><![CDATA[Gross]]></value>
+  </data>
+  <data name="TextPicUploadPopupNone">
+    <value><![CDATA[Kein Anzeigefenster]]></value>
+  </data>
+  <data name="TextPicUploadSizeA">
+    <value><![CDATA[Originalgrösse]]></value>
+  </data>
+  <data name="TextPicUploadSizeL">
+    <value><![CDATA[gross]]></value>
+  </data>
+  <data name="TextPicUploadSizeS">
+    <value><![CDATA[klein]]></value>
+  </data>
+  <data name="TextPicUploadSizeXS">
+    <value><![CDATA[extra klein]]></value>
+  </data>
+  <data name="TextPinboardOffer">
+    <value><![CDATA[Pinboard Angebot]]></value>
+  </data>
+  <data name="TextPinboardSearch">
+    <value><![CDATA[Pinboard Suche]]></value>
+  </data>
+  <data name="TextReportRuleBreak">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TextReportSpam">
+    <value><![CDATA[Titel]]></value>
+  </data>
+  <data name="TextReportUsingMyContent">
+    <value><![CDATA[Jemand verwendet meinen Inhalt]]></value>
+  </data>
+  <data name="TextReportWorried">
+    <value><![CDATA[Ich fühle mich belästigt]]></value>
+  </data>
+  <data name="TextRequestAccepted">
+    <value><![CDATA[Freundschaftsanfrage angenommen]]></value>
+  </data>
+  <data name="TextRequestDenied">
+    <value><![CDATA[Freundschaftsanfrage abgelehnt]]></value>
+  </data>
+  <data name="TextRequestFriendshipType0">
+    <value><![CDATA[Familie]]></value>
+  </data>
+  <data name="TextRequestFriendshipType1">
+    <value><![CDATA[Freund]]></value>
+  </data>
+  <data name="TextRequestFriendshipType2">
+    <value><![CDATA[Kamerad]]></value>
+  </data>
+  <data name="TextRequestFriendshipType3">
+    <value><![CDATA[Schulfreund]]></value>
+  </data>
+  <data name="TextRequestFriendshipType4">
+    <value><![CDATA[Arbeitskollege]]></value>
+  </data>
+  <data name="TextRequestFriendshipType5">
+    <value><![CDATA[Bekanntschaft]]></value>
+  </data>
+    <data name="TextSendFeedback">
+        <value><![CDATA[Sie k&ouml;nnen dem Feedback auch Anh&auml;nge wie beispielsweise Screenshots mitsenden.]]></value>
+    </data>
+  <data name="TitleBecomeAMember">
+    <value><![CDATA[Bestätigen Sie, falls Sie dieser Community beitreten wollen.]]></value>
+  </data>
+  <data name="TitleInvite">
+    <value><![CDATA[Ein Benutzer lädt dich ein]]></value>
+  </data>
+  <data name="TitlePasswordRecover">
+        <value><![CDATA[Bitte geben Sie die Email-Adresse an, welche Sie bei der Anmeldung verwendet haben. Ihr neues Passwort wird anschliessend an diese Email-Adresse gesendet.]]></value>
+  </data>
+  <data name="TitlePicUpload">
+    <value><![CDATA[Bild hochladen]]></value>
+  </data>
+  <data name="TitleReportError">
+    <value><![CDATA[Fehler-Meldung]]></value>
+  </data>
+  <data name="TitleReportObject">
+    <value><![CDATA[Link-Melder]]></value>
+  </data>
+  <data name="TitleReportReason">
+    <value><![CDATA[Der Grund?]]></value>
+  </data>
+  <data name="TitleRequestAccept">
+    <value><![CDATA[Positive Nachricht]]></value>
+  </data>
+  <data name="TitleRequestDeny">
+    <value><![CDATA[Negative Nachricht]]></value>
+  </data>
+    <data name="TitleTermsAndConditions">
+        <value><![CDATA[AGB]]></value>
+    </data>
+  <data name="TitleWidgetProperties">
+    <value><![CDATA[Eigenschaften]]></value>
+  </data>
+    <data name="TooltipAcceptAGB">
+        <value><![CDATA[Bitte lesen Sie die Allgemeinen Geschäftsbedingungen vor der Registration sorgfältig durch]]></value>
+    </data>
+    <data name="TooltipEmailAddress">
+        <value><![CDATA[Geben Sie hier eine gültige Email-Adresse ein]]></value>
+    </data>
+    <data name="TooltipEmailExists">
+        <value><![CDATA[Die angegebene Email-Adresse ist schon registriert]]></value>
+    </data>
+    <data name="TooltipEnterCode">
+        <value><![CDATA[Geben Sie den Code ein, welcher unter „Aktivierungscode“ gezeigt wird]]></value>
+    </data>
+  <data name="ToolTipFavoriteAll">
+    <value><![CDATA[Soll dieser Favorit öffentlich angezeigt werden?]]></value>
+  </data>
+  <data name="TooltipFavoriteTop">
+    <value><![CDATA[Die Top-Favoriten werden in der Naviagtion rechts angezeigt.]]></value>
+  </data>
+    <data name="TooltipFeedback">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TooltipFeedbackAttachment">
+        <value><![CDATA[]]></value>
+    </data>
+  <data name="TooltipMapZIPCity">
+    <value><![CDATA[]]></value>
+  </data>
+    <data name="TooltipMessage">
+        <value><![CDATA[Geben Sie die Nachricht ein]]></value>
+    </data>
+    <data name="TooltipMessageSubject">
+        <value><![CDATA[Geben Sie den Titel der Nachricht ein]]></value>
+    </data>
+    <data name="TooltipName">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TooltipPassword">
+        <value><![CDATA[Wählen Sie ein Passwort mit Buchstaben, Zahlen und Sonderzeichen. Gross-/Klein-Schreibweise wird unterschieden.]]></value>
+    </data>
+    <data name="TooltipPasswordVerification">
+        <value><![CDATA[Wiederholen Sie das obige Passwort um Tippfehler zu vermeiden.]]></value>
+    </data>
+  <data name="TooltipPicUploadSize">
+    <value><![CDATA[Wählen Sie die Grösse des Bildes und des Anzeigefensters aus]]></value>
+  </data>
+  <data name="TooltipPicUploadTitle">
+    <value><![CDATA[Falls das Bild noch nicht vorhanden ist, kann es hier hochgeladen werden]]></value>
+  </data>
+    <data name="TooltipRequestReceiver">
+        <value><![CDATA[Geben Sie Empfänger ein oder wählen diese aus. Email Adressen werden einfach eingegeben und mit der Enter-Taste bestätigt.]]></value>
+    </data>
+  <data name="ToolTipURL">
+    <value><![CDATA[Url muss eingegeben werden.]]></value>
+  </data>
+    <data name="TooltipUsername">
+        <value><![CDATA[Ihr gewünschter Benutzername (minimal 4 Zeichen lang)]]></value>
+    </data>
+    <data name="TooltipVerificationCode">
+        <value><![CDATA[Der angezeigte Code ist im nachfolgenden Feld einzugeben.]]></value>
+    </data>
+    <data name="MessageFeedbackRequired">
+        <value><![CDATA[Geben Sie ein Feedback ein]]></value>
+    </data>
+    <data name="EmailFeedbackSubject">
+        <value><![CDATA[Feedback]]></value>
+    </data>
+    <data name="TextLinkFacebookAccount">
+        <value><![CDATA[Da Sie sich das erste Mal mit Facebook Connect anmelden, müssen Sie ein Profil anlegen. Geben Sie dazu einen Benutzernamen ein, unter welchem Sie hier auftreten wollen.]]></value>
+  </data>
+    <data name="MessageUsernameRequired">
+        <value><![CDATA[Bitte geben Sie einen Namen ein]]></value>
+    </data>
+    <data name="MessageUsernameWrongChar">
+        <value><![CDATA[Bitte geben Sie einen gültigen Namen ein]]></value>
+    </data>
+    <data name="MessageValidEmail">
+        <value><![CDATA[Bitten geben Sie eine gültige Email-Adresse ein]]></value>
+    </data>
+    <data name="MessageForumTopicItemTextRequired">
+        <value><![CDATA[Bitte geben Sie einen Text ein]]></value>
+    </data>
+    <data name="LabelTitle">
+        <value><![CDATA[Titel]]></value>
+    </data>
+    <data name="TextPasswordChanged">
+        <value><![CDATA[Ihr Passwort wurde geändert]]></value>
+    </data>
+</root>

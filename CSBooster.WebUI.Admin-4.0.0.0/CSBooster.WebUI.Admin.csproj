@@ -1,0 +1,360 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04C5ECEE-5DEB-43A6-AB47-4A8DAB2E7E57}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_4screen.CSB.WebUI</RootNamespace>
+    <AssemblyName>CSBooster.WebUI.Admin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug + Copy|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="4screen.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\4screen.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_ImageZoom_NET, Version=1.2.0.0, Culture=neutral, PublicKeyToken=c5bb29a21fa7230b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\obout_ImageZoom_NET.dll</HintPath>
+    </Reference>
+    <Reference Include="SubSonic, Version=2.1.0.0, Culture=neutral, PublicKeyToken=eadb47849839a332, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\SubSonic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2008.3.1314.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserStatistic.aspx.cs">
+      <DependentUpon>UserStatistic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserStatistic.aspx.designer.cs">
+      <DependentUpon>UserStatistic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserCreate.aspx.cs">
+      <DependentUpon>UserCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserCreate.aspx.designer.cs">
+      <DependentUpon>UserCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GroupByTest.aspx.cs">
+      <DependentUpon>GroupByTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GroupByTest.aspx.designer.cs">
+      <DependentUpon>GroupByTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TagWordGroup.aspx.cs">
+      <DependentUpon>TagWordGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TagWordGroup.aspx.designer.cs">
+      <DependentUpon>TagWordGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NavigationsAll.aspx.cs">
+      <DependentUpon>NavigationsAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\NavigationsAll.aspx.designer.cs">
+      <DependentUpon>NavigationsAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NavigationsEdit.aspx.cs">
+      <DependentUpon>NavigationsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\NavigationsEdit.aspx.designer.cs">
+      <DependentUpon>NavigationsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TagWords.aspx.cs">
+      <DependentUpon>TagWords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TagWords.aspx.designer.cs">
+      <DependentUpon>TagWords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TagWordSynonym.aspx.cs">
+      <DependentUpon>TagWordSynonym.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TagWordSynonym.aspx.designer.cs">
+      <DependentUpon>TagWordSynonym.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControls\AdminTopMenu.ascx.cs">
+      <DependentUpon>AdminTopMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControls\AdminTopMenu.ascx.designer.cs">
+      <DependentUpon>AdminTopMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControls\TagWordOutput.ascx.cs">
+      <DependentUpon>TagWordOutput.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControls\TagWordOutput.ascx.designer.cs">
+      <DependentUpon>TagWordOutput.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControls\SingleObjectSelection.ascx.cs">
+      <DependentUpon>SingleObjectSelection.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControls\SingleObjectSelection.ascx.designer.cs">
+      <DependentUpon>SingleObjectSelection.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControls\WordFilter.ascx.cs">
+      <DependentUpon>WordFilter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControls\WordFilter.ascx.designer.cs">
+      <DependentUpon>WordFilter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserExport.aspx.cs">
+      <DependentUpon>UserExport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserExport.aspx.designer.cs">
+      <DependentUpon>UserExport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WordFilterAdmin.aspx.cs">
+      <DependentUpon>WordFilterAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WordFilterAdmin.aspx.designer.cs">
+      <DependentUpon>WordFilterAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ResourcesCompile.aspx.cs">
+      <DependentUpon>ResourcesCompile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ResourcesCompile.aspx.designer.cs">
+      <DependentUpon>ResourcesCompile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ResourcesEdit.aspx.cs">
+      <DependentUpon>ResourcesEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ResourcesEdit.aspx.designer.cs">
+      <DependentUpon>ResourcesEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SettingsWidgets.aspx.cs">
+      <DependentUpon>SettingsWidgets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SettingsWidgets.aspx.designer.cs">
+      <DependentUpon>SettingsWidgets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SettingsCommon.aspx.cs">
+      <DependentUpon>SettingsCommon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SettingsCommon.aspx.designer.cs">
+      <DependentUpon>SettingsCommon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdmin.aspx.cs">
+      <DependentUpon>UserAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAdmin.aspx.designer.cs">
+      <DependentUpon>UserAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControls\UserOutput.ascx.cs">
+      <DependentUpon>UserOutput.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControls\UserOutput.ascx.designer.cs">
+      <DependentUpon>UserOutput.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\SiteAdmin.Master.cs">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\SiteAdmin.Master.designer.cs">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popups\NavigationTranslate.aspx.cs">
+      <DependentUpon>NavigationTranslate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Popups\NavigationTranslate.aspx.designer.cs">
+      <DependentUpon>NavigationTranslate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library\Styles\CSBoosterAdmin.css" />
+    <Content Include="MasterPages\SiteAdmin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\SettingsWidgets.aspx" />
+    <Content Include="Admin\SettingsCommon.aspx" />
+    <Content Include="Admin\UserAdmin.aspx" />
+    <Content Include="Admin\UserControls\UserOutput.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\NavigationsAll.aspx" />
+    <Content Include="Admin\NavigationsEdit.aspx" />
+    <Content Include="Admin\UserControls\SingleObjectSelection.ascx" />
+    <Content Include="Admin\UserControls\WordFilter.ascx" />
+    <Content Include="Admin\WordFilterAdmin.aspx" />
+    <Content Include="Admin\ResourcesCompile.aspx" />
+    <Content Include="Admin\ResourcesEdit.aspx" />
+    <Content Include="Admin\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\UserStatistic.aspx" />
+    <Content Include="Admin\UserCreate.aspx" />
+    <Content Include="Admin\GroupByTest.aspx" />
+    <Content Include="Admin\TagWordGroup.aspx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\TagWords.aspx" />
+    <Content Include="Admin\TagWordSynonym.aspx" />
+    <Content Include="Admin\UserControls\AdminTopMenu.ascx" />
+    <Content Include="Admin\UserControls\TagWordOutput.ascx" />
+    <Content Include="Admin\UserExport.aspx" />
+    <Content Include="Library\Images\Layout\bg_admin_header.jpg" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\bottomcenter.png" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\bottomleft.png" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\bottomright.png" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\dark.css" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\dark.xml" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\middleleft.png" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\middleright.png" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\topcenter.png" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\topleft.png" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\topright.png" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\zoomin.cur" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\dark\zoomout.cur" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\simple\simple.css" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\simple\simple.xml" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\simple\zoomin.cur" />
+    <Content Include="Library\OboutControls\ImageZoom\styles\simple\zoomout.cur" />
+    <Content Include="Pages\Popups\NavigationTranslate.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSBooster.Common-4.0.0.0\CSBooster.Common.csproj">
+      <Project>{A9F54D96-06CF-4975-93CE-92F0831A088D}</Project>
+      <Name>CSBooster.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.DataAccess-4.0.0.0\CSBooster.DataAccess.csproj">
+      <Project>{ACB74BEB-A75F-4427-B183-CE7D49F149F4}</Project>
+      <Name>CSBooster.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Extensions-4.0.0.0\CSBooster.Extensions.csproj">
+      <Project>{646EEB60-9C19-49CE-B048-E2CE35C13469}</Project>
+      <Name>CSBooster.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.WebUI.Base-4.0.0.0\CSBooster.WebUI.Base.csproj">
+      <Project>{42E4B14D-2ED8-465F-9238-6A9C5D5C7950}</Project>
+      <Name>CSBooster.WebUI.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSBooster.Widgets-4.0.0.0\CSBooster.Widgets.csproj">
+      <Project>{C41F77A8-318D-440D-B97D-E32734AA0FDC}</Project>
+      <Name>CSBooster.Widgets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2889</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>perl.exe "$(SolutionDir)Other\copy_base.pl" "--solution_dir=$(SolutionDir)\" "--project_dir=$(ProjectDir)\" "--target_path=$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CSBooster.DataAccess2">
+  <DataContextMoniker Name="/CSBooster_DataAccessDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ef1a4bf9-fb07-4a8e-b962-b7dbfd1d8904" absoluteBounds="1.375, 5.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CSBooster_DataAccessDataContext/hitbl_NavigationStructure_NST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06786fb4-647c-4233-a517-eb21718d2d8d" absoluteBounds="1.3900000000000001, 5.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,16 @@
+﻿Uninstall
+=========
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\installutil /u CSBooster.ServiceHost.exe
+
+Install
+=======
+Create Folder "Source" and "Target"
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\installutil CSBooster.ServiceHost.exe
+
+Reg File erzeugen und importieren
+---------------------------------
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CSBooster ServiceHost]
+"DependOnService"=hex(7):4d,00,53,00,53,00,51,00,4c,00,53,00,45,00,52,00,56,00,\
+  45,00,52,00,00,00,00,00

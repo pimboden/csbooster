@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidgetConfig">
+        <value><![CDATA[Konfiguration von]]></value>
+    </data>
+    <data name="MessageShowOnlyForAdmin">
+        <value><![CDATA[Widget <b>ohne Inhalt nur für Admins</b> ersichtlich]]></value>
+    </data>
+    <data name="MessageMissingConfigOrError">
+        <value><![CDATA[Dieses Widget ist entweder nicht konfiguriert oder hat einen Fehler]]></value>
+    </data>
+    <data name="MessageWidgetError">
+        <value><![CDATA[Widget {0} Fehler<br/>{1}]]></value>
+    </data>
+</root>

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="CommandAddPicturesAndVideos">
+        <value><![CDATA[Fotos und Videos hochladen]]></value>
+    </data>
+    <data name="CommandEventAddMe">
+        <value><![CDATA[Da geh ich hin!]]></value>
+    </data>
+    <data name="CommandFolderAlphabetical">
+        <value><![CDATA[Alphabetisch]]></value>
+    </data>
+    <data name="CommandFolderSort">
+        <value><![CDATA[Wie eingefügt]]></value>
+    </data>
+    <data name="CommandFolderType">
+        <value><![CDATA[Nach Inhaltstyp]]></value>
+    </data>
+    <data name="CommandForumPostAdd">
+        <value><![CDATA[Beitrag hinzufügen]]></value>
+    </data>
+    <data name="CommandForumReleasing">
+        <value><![CDATA[Beitrag freigeben]]></value>
+    </data>
+    <data name="CommandForumRemove">
+        <value><![CDATA[Beitrag entfernen]]></value>
+    </data>
+    <data name="CommandForumTopicAdd">
+        <value><![CDATA[Neue Diskussion starten]]></value>
+    </data>
+    <data name="CommandPinboardContact">
+        <value><![CDATA[Kontaktieren]]></value>
+    </data>
+    <data name="CommandPinboardContactTitle">
+        <value><![CDATA[Anbieter kontaktieren]]></value>
+    </data>
+    <data name="CommandPinboardNoPrice">
+        <value><![CDATA[Keine Angabe]]></value>
+    </data>
+    <data name="CommandPinboardPrice">
+        <value><![CDATA[Preis]]></value>
+    </data>
+    <data name="CommandPollVote">
+        <value><![CDATA[Abstimmen]]></value>
+    </data>
+    <data name="ErrorMessageForumTopicTitle">
+        <value><![CDATA[Titel angeben]]></value>
+    </data>
+    <data name="LabelAdministrator">
+        <value><![CDATA[Admin]]></value>
+    </data>
+    <data name="LabelAudioFlashPlayer">
+        <value><![CDATA[wird benötigt um diese Musikstück zu hören!]]></value>
+    </data>
+    <data name="LabelDocumentAuthor">
+        <value><![CDATA[Autor]]></value>
+    </data>
+    <data name="LabelDocumentDownload">
+        <value><![CDATA[Herunterladen]]></value>
+    </data>
+    <data name="LabelDocumentVersion">
+        <value><![CDATA[Version]]></value>
+    </data>
+    <data name="LabelFolderEmpty">
+        <value><![CDATA[Album ist leer]]></value>
+    </data>
+    <data name="LabelForumModerated">
+        <value><![CDATA[Moderiert]]></value>
+    </data>
+    <data name="LabelForumTopicCreation">
+        <value><![CDATA[Neue Beiträge]]></value>
+    </data>
+    <data name="labelmoderator">
+        <value><![CDATA[Moderator]]></value>
+    </data>
+    <data name="LabelPollDuration">
+        <value><![CDATA[Abstimmung offen]]></value>
+    </data>
+    <data name="LabelVideoFlashPlayer">
+        <value><![CDATA[wird benötigt um dieses Video zu sehen!]]></value>
+    </data>
+    <data name="LableForumRights0">
+        <value><![CDATA[Ersteller / Besitzer]]></value>
+    </data>
+    <data name="LableForumRights1">
+        <value><![CDATA[Alle Mitglieder]]></value>
+    </data>
+    <data name="LableForumRights2">
+        <value><![CDATA[Alle angemeldeten Benutzer]]></value>
+    </data>
+    <data name="LableNewsDetailLink">
+        <value><![CDATA[Links zum Artikel]]></value>
+    </data>
+    <data name="MessageForumIsModerated">
+        <value><![CDATA[<div>Dieses Thema ist moderiert. Die Beiträge erscheinen erst, wenn sie überprüft worden sind.</div>]]></value>
+    </data>
+    <data name="MessageForumRemove">
+        <value><![CDATA[Beitrag vom Administrator gelöscht]]></value>
+    </data>
+    <data name="MessageForumSearchResult">
+        <value><![CDATA[{0} schrieb am {1} zum Thema {2}]]></value>
+    </data>
+    <data name="MessageForumTopicHasWrite">
+        <value><![CDATA[ schrieb am {0}]]></value>
+    </data>
+    <data name="MessageForumTopicItemNoRights">
+        <value><![CDATA[<div>Sie besitzen keine Rechte um in diesem Thema ein Eintrag zu erstellen</div>]]></value>
+    </data>
+    <data name="MessageForumTopicNoRights">
+        <value><![CDATA[<div>Sie besitzen keine Rechte um in diesem Forum ein Thema zu erstellen</div>]]></value>
+    </data>
+    <data name="MessagePollThank">
+        <value><![CDATA[Ihre Antwort wurde registriert. Danke!]]></value>
+    </data>
+    <data name="MessageSlideShowNoPicture">
+        <value><![CDATA[Keine Fotos in der Fotogallerie!]]></value>
+    </data>
+    <data name="TextEventAddPicturesAndVideos">
+        <value><![CDATA[Haben Sie Fotos oder Videos von diesem Event?]]></value>
+    </data>
+    <data name="TextLocationAddPicturesAndVideos">
+        <value><![CDATA[Haben Sie Fotos oder Videos von dieser Location?]]></value>
+    </data>
+    <data name="TextSharingIntro">
+    <value><![CDATA[Sind Sie auf Facebook oder Twitter? Benutzen Sie folgende Buttons, um die aktuelle Seite dort bekannt zu geben]]></value>
+    </data>
+    <data name="TitleEventArtist">
+        <value><![CDATA[Künstler]]></value>
+    </data>
+    <data name="TitleEventEventType">
+        <value><![CDATA[Art des Anlasses]]></value>
+    </data>
+    <data name="TitleEventMusicStyle">
+        <value><![CDATA["Musik-Stil]]></value>
+    </data>
+    <data name="TitleFolderPreview">
+        <value><![CDATA[Vorschau]]></value>
+    </data>
+    <data name="TitleFolderTitle">
+        <value><![CDATA[Titel]]></value>
+    </data>
+    <data name="TitleFolderType">
+        <value><![CDATA[Inhaltstyp]]></value>
+    </data>
+    <data name="TitleFolderUser">
+        <value><![CDATA[von Benutzer]]></value>
+    </data>
+    <data name="TitleForumCreateBy">
+        <value><![CDATA[Erstellung]]></value>
+    </data>
+    <data name="TitleForumEntry">
+        <value><![CDATA[Einträge / Besuche / Bewertung]]></value>
+    </data>
+    <data name="TitleForumLastEntry">
+        <value><![CDATA[Letzter Eintrag]]></value>
+    </data>
+    <data name="TitleForumNewTopic">
+        <value><![CDATA[Neues Thema erstellen]]></value>
+    </data>
+    <data name="TitleForumNoTopic">
+        <value><![CDATA[Keine Forum-Themen vorhanden]]></value>
+    </data>
+    <data name="TitleForumTopic">
+        <value><![CDATA[Thema]]></value>
+    </data>
+    <data name="TitleForumTopicDescription">
+        <value><![CDATA[Beschreibung]]></value>
+    </data>
+    <data name="TitleForumTopicTitle">
+        <value><![CDATA[Titel]]></value>
+    </data>
+    <data name="TooltipForumModerated">
+        <value><![CDATA[Hier wird eingestellt ob die Beiträge zuerst freigegeben werden müssen]]></value>
+    </data>
+    <data name="TooltipForumTopicCreation">
+        <value><![CDATA[Welche Benutzer dürfen neue Beiträge schreiben]]></value>
+    </data>
+    <data name="TooltipLoginToAddForumTopic">
+        <value><![CDATA[Melden Sie sich an oder registrieren Sie sich um eine Diskussion zu starten]]></value>
+    </data>
+    <data name="TooltipLoginToAddForumTopicItem">
+        <value><![CDATA[Melden Sie sich an oder registrieren Sie sich um sich an der Diskussion zu beteiligen]]></value>
+    </data>
+  <data name="TooltipLoginToAddPhotosAndVideos">
+    <value><![CDATA[Melden Sie sich an oder registrieren Sie sich um Fotos oder Videos hochzuladen]]></value>
+  </data>
+    <data name="TooltipPictureNoteAdd">
+        <value><![CDATA[Foto-Notiz hinzufügen]]></value>
+    </data>
+    <data name="TooltipPictureNoteHide">
+        <value><![CDATA[Foto-Notizen verstecken]]></value>
+    </data>
+    <data name="TooltipPictureNoteShow">
+        <value><![CDATA[Foto-Notizen anzeigen]]></value>
+    </data>
+    <data name="TooltipSharingFacebook">
+        <value><![CDATA[Seite auf Facebook posten]]></value>
+    </data>
+    <data name="TooltipSharingTwitter">
+        <value><![CDATA[Seite auf Twitter posten]]></value>
+    </data>
+</root>

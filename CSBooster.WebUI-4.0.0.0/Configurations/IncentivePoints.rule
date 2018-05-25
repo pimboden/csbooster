@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- 
+	rule : Name of the rule
+	url: Url where to apply the rule. if * then apply on any Url
+	roles: Comma separated Roles. Role the user must match for the rule to apply. * = apply for all users
+	PointsToAdd: How much püoits this Rules adds. negative values allowed. Only Integer Values. 0 = will not be added.
+	TimespanMinutes: minutes that must have passed since the last time the users got the rule applied. Only positive integer values.
+					  0 = Apply Rule everytime
+					  15 = Apply every 15 Minutes
+					  * = only apply the rule once	 
+	PointType   Points have to have a type 	
+	-->
+	<include rule="HTMLCONTENT_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="0">HTMLCONTENT hochladen</include>
+	<include rule="HTMLCONTENT_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="1440">HTMLCONTENT bearbeitet</include>
+
+	<include rule="VIDEO_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Video hochladen</include>
+	<include rule="VIDEO_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Video bearbeitet</include>
+	<include rule="VIDEO_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Video gelöscht</include>
+	<include rule="VIDEO_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="5">Video angeschaut</include>
+
+	<include rule="PICTURE_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Bild hochladen</include>
+	<include rule="PICTURE_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1"  TimespanMinutes="1440">Bild bearbeitet</include>
+	<include rule="PICTURE_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Bild gelöscht</include>
+	<include rule="PICTURE_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="5">Bild angeschaut</include>
+
+	<include rule="AUDIO_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Audio hochladen</include>
+	<include rule="AUDIO_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Audio bearbeitet</include>
+	<include rule="AUDIO_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Audio gelöscht</include>
+	<include rule="AUDIO_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="5">Audio angehört</include>
+
+	<include rule="ARTICLE_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Artikel Eintrag</include>
+	<include rule="ARTICLE_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Artikel bearbeitet</include>
+	<include rule="ARTICLE_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Artikel gelöscht</include>
+	<include rule="ARTICLE_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="5">Artikel angeschaut</include>
+
+
+	<include rule="SLIDESHOW_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Slideshow Eintrag</include>
+	<include rule="SLIDESHOW_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Slideshow bearbeitet</include>
+	<include rule="SLIDESHOW_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Slideshow gelöscht</include>
+	<include rule="SLIDESHOW_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="5">Slideshow angeschaut</include>
+
+	<include rule="FOLDER_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Ordner Eintrag</include>
+	<include rule="FOLDER_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Ordner bearbeitet</include>
+	<include rule="FOLDER_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Ordner gelöscht</include>
+	<include rule="FOLDER_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="5">Ordner angeschaut</include>
+
+	<include rule="EVENT_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Event hochladen</include>
+	<include rule="EVENT_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Event bearbeitet</include>
+	<include rule="EVENT_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Event gelöscht</include>
+	<include rule="EVENT_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="5">Event angeschaut</include>
+
+	<include rule="COMMUNITY_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Community gründen</include>
+	<include rule="COMMUNITY_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Community bearbeitet</include>
+	<include rule="COMMUNITY_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Community gelöscht</include>
+	<include rule="COMMUNITY_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="5">Community angeschaut</include>
+
+	<include rule="PROFILE_PAGE_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-9" TimespanMinutes="10">Profil Seite angeschaut </include>
+
+	<include rule="FORUMTOPICITEM_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="0">FORUMTOPICITEM hochladen</include>
+	<include rule="FORUMTOPICITEM_VIEWED" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="6" TimespanMinutes="5">FORUMTOPICITEM angeschaut</include>
+
+	<include rule="*_COMMENT" url="*" roles="SAMPLEROLE" PointType="Green" PointsToAdd="9" TimespanMinutes="0">Objekt kommentiert</include>
+	<include rule="*_RATE" url="*" roles="SAMPLEROLE" PointType="Green" PointsToAdd="9" TimespanMinutes="0">Objekt bewertet</include>
+	<include rule="COMMUNITY_PARTICIPATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="0">in Community einschreiben</include>
+	<include rule="PAGE_RECOMMEND" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="60">Seite weiterempfohlen</include>
+	<include rule="BUG_REPORT" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="1440">Bug reporting</include>
+	<include rule="*_CONTENT_REPORT" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="1440">Objekt Inhalt gemeldet</include>
+
+	<include rule="PROFILE_PICTURE_UPLOAD" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Foto im Profil ausgefüllt</include>
+	<include rule="PROFILE_PICTURE_UPDATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Foto im Profil bearbeitet</include>
+	<include rule="PROFILE_PICTURE_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Foto im Profil gelöscht</include>
+
+	<include rule="FRIEND_ACCEPT" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Freunde Anfrage akzeptiert</include>
+	<include rule="FRIEND_REJECT" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-1" TimespanMinutes="0">Freunde Anfrage nicht akzeptiert</include>
+	<include rule="FRIEND_BLOCK" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-1" TimespanMinutes="0">Freund Blockiert</include>
+	<include rule="FRIEND_DELETE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Freund gelöscht</include>
+
+	<include rule="USER_ACTIVATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="*">Aktivierung des Account</include>
+	<include rule="USER_PROMOTION_ACTIVATE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="*">Aktivierung des Account</include>
+	<include rule="USER_LOGIN" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="60">Succesfull Login</include>
+
+	<include rule="PROFILE_ALLGEMEIN" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Allgemein im Profil ausgefüllt </include>
+	<include rule="PROFILE_CAREER" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Karriere im Profil ausgefüllt </include>
+	<include rule="PROFILE_ART_ENTERTAINMENT" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Kunst + Unterhaltung im Profil ausgefüllt </include>
+	<include rule="PROFILE_ADDRESSES" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Meine Basisdaten im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_NAME" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Name / Vorname im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_BASICS" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Geburtsdatum / Sex / Beziehung im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_ADDRESS" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Adresse im Profil ausgefüllt </include>
+	<include rule="PROFILE_OTHERINTERESSTS" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">sonstige Interessen im Profil ausgefüllt </include>
+	<include rule="PROFILE_POLITICS" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Gesellschaft + Politik im Profil ausgefüllt </include>
+	<include rule="PROFILE_SPORT_LIFESTYLE" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Sport + Lifestyle im Profil ausgefüllt </include>
+	<include rule="PROFILE_WHO_AM_I" url="*" roles="SAMPLEROLE" PointType="Red" PointsToAdd="9" TimespanMinutes="10080">Wer bin ich im Profil ausgefüllt </include>
+	<include rule="*_EMBED" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">extern verwenden</include>
+	<!--NOT in Use yet-->
+
+	<!--ROLE:BASIC-->
+	<include rule="HTMLCONTENT_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">HTMLCONTENT hochladen</include>
+	<include rule="HTMLCONTENT_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="1440">HTMLCONTENT bearbeitet</include>
+
+	<include rule="EVENT_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Event hochladen</include>
+	<include rule="EVENT_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Event bearbeitet</include>
+	<include rule="EVENT_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Event gelöscht</include>
+	<include rule="EVENT_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="1" TimespanMinutes="5">Event angeschaut</include>
+
+	<include rule="VIDEO_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Video hochladen</include>
+	<include rule="VIDEO_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Video bearbeitet</include>
+	<include rule="VIDEO_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Video gelöscht</include>
+	<include rule="VIDEO_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Video angeschaut</include>
+
+	<include rule="PICTURE_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Bild hochladen</include>
+	<include rule="PICTURE_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1"  TimespanMinutes="1440">Bild bearbeitet</include>
+	<include rule="PICTURE_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Bild gelöscht</include>
+	<include rule="PICTURE_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Bild angeschaut</include>
+
+	<include rule="AUDIO_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Audio hochladen</include>
+	<include rule="AUDIO_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Audio bearbeitet</include>
+	<include rule="AUDIO_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Audio gelöscht</include>
+	<include rule="AUDIO_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Audio angehört</include>
+
+	<include rule="ARTICLE_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Artikel Eintrag</include>
+	<include rule="ARTICLE_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Artikel bearbeitet</include>
+	<include rule="ARTICLE_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Artikel gelöscht</include>
+	<include rule="ARTICLE_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Artikel angeschaut</include>
+
+	<include rule="SLIDESHOW_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Slideshow Eintrag</include>
+	<include rule="SLIDESHOW_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Slideshow bearbeitet</include>
+	<include rule="SLIDESHOW_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Slideshow gelöscht</include>
+	<include rule="SLIDESHOW_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Slideshow angeschaut</include>
+
+	<include rule="FOLDER_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Ordner Eintrag</include>
+	<include rule="FOLDER_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Ordner bearbeitet</include>
+	<include rule="FOLDER_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Ordner gelöscht</include>
+	<include rule="FOLDER_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Ordner angeschaut</include>
+
+	<include rule="COMMUNITY_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Community gründen</include>
+	<include rule="COMMUNITY_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Community bearbeitet</include>
+	<include rule="COMMUNITY_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Community gelöscht</include>
+	<include rule="COMMUNITY_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Community angeschaut</include>
+
+	<include rule="PROFILE_PAGE_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="3" TimespanMinutes="10">Profil Seite angeschaut </include>
+
+	<include rule="FORUMTOPICITEM_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">FORUMTOPICITEM hochladen</include>
+	<include rule="FORUMTOPICITEM_VIEWED" url="*" roles="Basic" PointType="Green" PointsToAdd="2" TimespanMinutes="5">FORUMTOPICITEM angeschaut</include>
+
+	<include rule="*_COMMENT" url="*" roles="Basic" PointType="Green" PointsToAdd="6" TimespanMinutes="0">Objekt kommentiert</include>
+	<include rule="*_RATE" url="*" roles="Basic" PointType="Green" PointsToAdd="6" TimespanMinutes="0">Objekt bewertet</include>
+	<include rule="COMMUNITY_PARTICIPATE" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="0">in Community einschreiben</include>
+	<include rule="PAGE_RECOMMEND" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="60">Seite weiterempfohlen</include>
+	<include rule="BUG_REPORT" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="1440">Bug reporting</include>
+	<include rule="*_CONTENT_REPORT" url="*" roles="Basic" PointType="Red" PointsToAdd="6" TimespanMinutes="1440">Objekt Inhalt gemeldet</include>
+
+	<include rule="PROFILE_PICTURE_UPLOAD" url="*" roles="Basic" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Foto im Profil ausgefüllt</include>
+	<include rule="PROFILE_PICTURE_UPDATE" url="*" roles="Basic" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Foto im Profil bearbeitet</include>
+	<include rule="PROFILE_PICTURE_DELETE" url="*" roles="Basic" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Foto im Profil gelöscht</include>
+
+	<include rule="FRIEND_ACCEPT" url="*" roles="Basic" PointType="Green" PointsToAdd="6" TimespanMinutes="0">Freunde Anfrage akzeptiert</include>
+	<include rule="FRIEND_REJECT" url="*" roles="Basic" PointType="Green" PointsToAdd="-1" TimespanMinutes="0">Freunde Anfrage nicht akzeptiert</include>
+	<include rule="FRIEND_BLOCK" url="*" roles="Basic" PointType="Green" PointsToAdd="-1" TimespanMinutes="0">Freund Blockiert</include>
+	<include rule="FRIEND_DELETE" url="*" roles="Basic" PointType="Green" PointsToAdd="-6" TimespanMinutes="0">Freund gelöscht</include>
+
+	<include rule="USER_ACTIVATE" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="*">Aktivierung des Account</include>
+	<include rule="USER_PROMOTION_ACTIVATE" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="*">Aktivierung des Account</include>
+	<include rule="USER_LOGIN" url="*" roles="Basic" PointType="Red" PointsToAdd="9" TimespanMinutes="60">Succesfull Login</include>
+
+	<include rule="PROFILE_ALLGEMEIN" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Allgemein im Profil ausgefüllt </include>
+	<include rule="PROFILE_CAREER" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Karriere im Profil ausgefüllt </include>
+	<include rule="PROFILE_ART_ENTERTAINMENT" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Kunst + Unterhaltung im Profil ausgefüllt </include>
+	<include rule="PROFILE_ADDRESSES" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Meine Basisdaten im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_NAME" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Name / Vorname im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_BASICS" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Geburtsdatum / Sex / Beziehung im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_ADDRESS" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Adresse im Profil ausgefüllt </include>
+	<include rule="PROFILE_OTHERINTERESSTS" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">sonstige Interessen im Profil ausgefüllt </include>
+	<include rule="PROFILE_POLITICS" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Gesellschaft + Politik im Profil ausgefüllt </include>
+	<include rule="PROFILE_SPORT_LIFESTYLE" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Sport + Lifestyle im Profil ausgefüllt </include>
+	<include rule="PROFILE_WHO_AM_I" url="*" roles="Basic" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Wer bin ich im Profil ausgefüllt </include>
+
+	<!--ROLE:EXPERT-->
+	<include rule="HTMLCONTENT_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">HTMLCONTENT hochladen</include>
+	<include rule="HTMLCONTENT_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="1440">HTMLCONTENT bearbeitet</include>
+
+	<include rule="EVENT_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Event hochladen</include>
+	<include rule="EVENT_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Event bearbeitet</include>
+	<include rule="EVENT_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Event gelöscht</include>
+	<include rule="EVENT_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="1" TimespanMinutes="5">Event angeschaut</include>
+
+	<include rule="VIDEO_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Video hochladen</include>
+	<include rule="VIDEO_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Video bearbeitet</include>
+	<include rule="VIDEO_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Video gelöscht</include>
+	<include rule="VIDEO_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Video angeschaut</include>
+
+	<include rule="PICTURE_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Bild hochladen</include>
+	<include rule="PICTURE_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1"  TimespanMinutes="1440">Bild bearbeitet</include>
+	<include rule="PICTURE_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Bild gelöscht</include>
+	<include rule="PICTURE_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Bild angeschaut</include>
+
+	<include rule="AUDIO_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Audio hochladen</include>
+	<include rule="AUDIO_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Audio bearbeitet</include>
+	<include rule="AUDIO_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Audio gelöscht</include>
+	<include rule="AUDIO_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Audio angehört</include>
+
+	<include rule="ARTICLE_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Artikel Eintrag</include>
+	<include rule="ARTICLE_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Artikel bearbeitet</include>
+	<include rule="ARTICLE_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Artikel gelöscht</include>
+	<include rule="ARTICLE_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Artikel angeschaut</include>
+
+	<include rule="SLIDESHOW_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Slideshow Eintrag</include>
+	<include rule="SLIDESHOW_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Slideshow bearbeitet</include>
+	<include rule="SLIDESHOW_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Slideshow gelöscht</include>
+	<include rule="SLIDESHOW_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Slideshow angeschaut</include>
+
+	<include rule="FOLDER_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">Ordner Eintrag</include>
+	<include rule="FOLDER_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Ordner bearbeitet</include>
+	<include rule="FOLDER_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-6" TimespanMinutes="0">Ordner gelöscht</include>
+	<include rule="FOLDER_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Ordner angeschaut</include>
+
+	<include rule="COMMUNITY_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Community gründen</include>
+	<include rule="COMMUNITY_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Community bearbeitet</include>
+	<include rule="COMMUNITY_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Community gelöscht</include>
+	<include rule="COMMUNITY_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="2" TimespanMinutes="5">Community angeschaut</include>
+
+	<include rule="PROFILE_PAGE_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="3" TimespanMinutes="10">Profil Seite angeschaut </include>
+
+	<include rule="FORUMTOPICITEM_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">FORUMTOPICITEM hochladen</include>
+	<include rule="FORUMTOPICITEM_VIEWED" url="*" roles="Expert" PointType="Green" PointsToAdd="2" TimespanMinutes="5">FORUMTOPICITEM angeschaut</include>
+
+	<include rule="*_COMMENT" url="*" roles="Expert" PointType="Green" PointsToAdd="6" TimespanMinutes="0">Objekt kommentiert</include>
+	<include rule="*_RATE" url="*" roles="Expert" PointType="Green" PointsToAdd="6" TimespanMinutes="0">Objekt bewertet</include>
+	<include rule="COMMUNITY_PARTICIPATE" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="0">in Community einschreiben</include>
+	<include rule="PAGE_RECOMMEND" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="60">Seite weiterempfohlen</include>
+	<include rule="BUG_REPORT" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="1440">Bug reporting</include>
+	<include rule="*_CONTENT_REPORT" url="*" roles="Expert" PointType="Red" PointsToAdd="6" TimespanMinutes="1440">Objekt Inhalt gemeldet</include>
+
+	<include rule="PROFILE_PICTURE_UPLOAD" url="*" roles="Expert" PointType="Red" PointsToAdd="9" TimespanMinutes="0">Foto im Profil ausgefüllt</include>
+	<include rule="PROFILE_PICTURE_UPDATE" url="*" roles="Expert" PointType="Red" PointsToAdd="1" TimespanMinutes="1440">Foto im Profil bearbeitet</include>
+	<include rule="PROFILE_PICTURE_DELETE" url="*" roles="Expert" PointType="Red" PointsToAdd="-9" TimespanMinutes="0">Foto im Profil gelöscht</include>
+
+	<include rule="FRIEND_ACCEPT" url="*" roles="Expert" PointType="Green" PointsToAdd="6" TimespanMinutes="0">Freunde Anfrage akzeptiert</include>
+	<include rule="FRIEND_REJECT" url="*" roles="Expert" PointType="Green" PointsToAdd="-1" TimespanMinutes="0">Freunde Anfrage nicht akzeptiert</include>
+	<include rule="FRIEND_BLOCK" url="*" roles="Expert" PointType="Green" PointsToAdd="-1" TimespanMinutes="0">Freund Blockiert</include>
+	<include rule="FRIEND_DELETE" url="*" roles="Expert" PointType="Green" PointsToAdd="-6" TimespanMinutes="0">Freund gelöscht</include>
+
+	<include rule="USER_ACTIVATE" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="*">Aktivierung des Account</include>
+	<include rule="USER_PROMOTION_ACTIVATE" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="*">Aktivierung des Account</include>
+	<include rule="USER_LOGIN" url="*" roles="Expert" PointType="Red" PointsToAdd="9" TimespanMinutes="60">Succesfull Login</include>
+
+	<include rule="PROFILE_ALLGEMEIN" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Allgemein im Profil ausgefüllt </include>
+	<include rule="PROFILE_CAREER" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Karriere im Profil ausgefüllt </include>
+	<include rule="PROFILE_ART_ENTERTAINMENT" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Kunst + Unterhaltung im Profil ausgefüllt </include>
+	<include rule="PROFILE_ADDRESSES" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Meine Basisdaten im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_NAME" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Name / Vorname im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_ExpertS" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Geburtsdatum / Sex / Beziehung im Profil ausgefüllt </include>
+	<include rule="PROFILE_USER_ADDRESS" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Adresse im Profil ausgefüllt </include>
+	<include rule="PROFILE_OTHERINTERESSTS" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">sonstige Interessen im Profil ausgefüllt </include>
+	<include rule="PROFILE_POLITICS" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Gesellschaft + Politik im Profil ausgefüllt </include>
+	<include rule="PROFILE_SPORT_LIFESTYLE" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Sport + Lifestyle im Profil ausgefüllt </include>
+	<include rule="PROFILE_WHO_AM_I" url="*" roles="Expert" PointType="Red" PointsToAdd="3" TimespanMinutes="10080">Wer bin ich im Profil ausgefüllt </include>
+</root>

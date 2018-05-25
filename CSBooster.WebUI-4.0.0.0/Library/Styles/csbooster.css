@@ -1,0 +1,3071 @@
+﻿body
+{
+    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+    font-size: 12px;
+    color: #333333;
+    background: #FFFFFF;
+    margin: 0;
+}
+h1, h2, h3
+{
+    font-size: 12px;
+    margin: 0;
+}
+td, th
+{
+    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+select
+{
+    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+input, textarea
+{
+    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+    font-size: 12px;
+}
+input[type=checkbox]
+{
+    margin: 0px 5px 0px 0px;
+}
+label[for]
+{
+    position: relative;
+    top: -2px;
+}
+a
+{
+    text-decoration: none;
+    color: #669900;
+}
+a:visited
+{
+    color: #669900;
+}
+a:hover, a:active, a:focus
+{
+    text-decoration: underline;
+}
+img
+{
+    border: none;
+}
+fieldset
+{
+    padding: 8px;
+    margin: 0px 0px 8px 0px;
+    border: solid 1px #CCCCCC;
+}
+legend
+{
+}
+
+/* Common */
+.clearBoth
+{
+    clear: both;
+}
+.hidden
+{
+    display: none;
+}
+.updateProgress
+{
+    position: fixed;
+    top: 2px;
+    right: 5px;
+    padding: 6px 10px 6px 10px;
+    background-color: #FFCC00;
+    border: 1px solid Black;
+    color: Black;
+    font-size: 13px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.text
+{
+}
+.text ul
+{
+    margin: 0;
+    padding-left: 20px;
+}
+.text ul li
+{
+    margin-bottom: 11px;
+}
+.errorText
+{
+    color: #FF0000;
+}
+.inputTitle
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.inputBlock
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.inputBlock:last-child
+{
+    margin-bottom: 0px;
+}
+.inputBlock2
+{
+    float: left;
+    width: 100%;
+}
+.inputBlock3
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.inputBlockLabel
+{
+    float: left;
+    width: 25%;
+    text-align: right;
+    padding: 4px 0px 2px 2px;
+    white-space:nowrap;
+}
+.inputBlockContent
+{
+    float: right;
+    width: 74%;
+}
+.inputBlockError
+{
+    position: relative;
+    width: 74%;
+    float: right;
+}
+.inputBlockLabel2
+{
+    float: left;
+    width: 45%;
+    text-align: right;
+    padding: 4px 0px 2px 2px;
+     white-space:nowrap;
+}
+.inputBlockContent2
+{
+    float: right;
+    width: 54%;
+}
+.inputBlockError2
+{
+    position: relative;
+    width: 54%;
+    float: right;
+}
+.inputBlockLabel3
+{
+    float: left;
+    width: 25%;
+    text-align: right;
+    white-space: nowrap;
+    color:#666666;
+}
+.inputBlockContent3
+{
+    float: right;
+    width: 73%;
+}
+.inputErrorTooltip
+{
+    background: url(/Library/Images/Layout/bg_error_tooltip.png) no-repeat;
+    padding: 7px 5px 3px 5px;
+    top: -7px;
+    left: 10px;
+    position: absolute;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    z-index: 100;
+}
+.inputBlockImage
+{
+    float: left;
+    margin-right: 10px;
+}
+.inputButton
+{
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background: url(/Library/Images/Layout/bg_alpha_30.png);
+    border: 1px solid #333333;
+    height: 22px;
+    line-height: 22px;
+    padding: 0px 10px 0px 10px;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.inputButtonSecondary
+{
+    height: 22px;
+    line-height: 22px;
+    margin-right: 5px;
+    color: #333333;
+}
+
+.inputButton2
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background: url(/Library/Images/Layout/bg_alpha_30.png);
+    border: 1px solid #ffffff;
+    height: 22px;
+    line-height: 22px;
+    padding: 0px 10px 0px 10px;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.inputButtonSecondary2
+{
+    height: 22px;
+    line-height: 22px;
+    margin-right: 5px;
+    color: #FFFFFF;
+}
+.inputHelp
+{
+    background-image: url(/Library/Images/Layout/icon_help.png);
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 4px;
+}
+.inputHelp:hover
+{
+    text-decoration: none;
+}
+.inputNoHelp
+{
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 4px;
+}
+.inputMandatory
+{
+    font-weight:bold;
+}
+.staticContent
+{
+}
+.staticContentTitleRow
+{
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+}
+.staticContentRow
+{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.reTool .buttonInsertImage
+{
+    background-image: url(/library/images/layout/cmd_insertimage.gif);
+}
+
+/* 4screen web controls */
+.EditableArea
+{
+    border: 1px dashed rgb(204, 204, 204);
+    background: url(/library/images/layout/bg_alpha_50.png);
+    position: relative;
+}
+
+.EditableArea:hover
+{
+    border: 1px dashed rgb(176, 235, 204);
+    background: url(/library/images/layout/bg_alpha_green_50.png);
+}
+
+.EditableArea .button
+{
+    background: url(/library/images/layout/cmd_edit4.png) no-repeat scroll 0px 0px transparent;
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+.LabelHelp
+{
+    margin-left: 4px;
+    cursor: pointer;
+}
+.LabelHelp img
+{
+    position: relative;
+    top: 1px;
+}
+.LabelNoHelp
+{
+    margin-left: 17px;
+}
+
+/* Content edit */
+.contentEditButton
+{
+    position: absolute;
+    display: block;
+    top: 2px;
+    left: 2px;
+    width: 37px;
+    height: 19px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_content_edit.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_content_edit.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_content_edit.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.contentEdit ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+.contentEdit ul li
+{
+    margin-bottom: 2px;
+}
+
+/* Pager */
+.pager
+{
+    clear: both;
+    margin: 5px 0px 5px 0px;
+}
+.pager td
+{
+    height: 20px;
+}
+.pager a
+{
+    margin-left: 2px;
+}
+.pager a:hover
+{
+    text-decoration: none;
+}
+.pagerButtons
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+.pagerGoToActive
+{
+    padding: 0px 2px 0px 2px;
+    border: solid 1px #588A4D;
+    background-color: #D1DDB1;
+}
+.pagerGoToInactive
+{
+    padding: 0px 2px 0px 2px;
+    border: solid 1px #588A4D;
+    font-weight: bold;
+}
+.cBarContent .pagerGoToActive
+{
+    color: #FFFFFF;
+    border: solid 1px #888888;
+    background-color: #888888;
+}
+.cBarContent .pagerGoToInactive
+{
+    color: #FFFFFF;
+    border: solid 1px #FFFFFF;
+}
+
+/* Pager */
+.reloader
+{
+    clear: both;
+    margin: 5px 0px 5px 0px;
+}
+
+/* Toolbar */
+#toolbar
+{
+    color: #FFFFFF;
+}
+#toolbar ul.toolbarMenu
+{
+    float: left;
+    width: 100%;
+    list-style: none;
+    background-color: #589800;
+    padding: 10px 0px 10px 0px;
+}
+#toolbar ul.toolbarMenu li
+{
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    padding: 0px 0px 0px 22px;
+    margin: 0px 20px 0px 0px;
+    background-repeat: no-repeat;
+}
+#toolbar ul.toolbarMenu li a
+{
+    color: #FFFFFF;
+}
+#toolbar ul
+{
+    padding: 0;
+    margin: 0;
+}
+#toolbar ul li.title
+{
+    padding: 0px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+#toolbar ul li.editStyle
+{
+    background-image: url(/Library/Images/Layout/cmd_style.png);
+}
+#toolbar ul li.editContent
+{
+    background-image: url(/Library/Images/Layout/cmd_content.png);
+}
+#toolbar ul li.editPage
+{
+    background-image: url(/Library/Images/Layout/cmd_settings.png);
+}
+#toolbar ul li.manageContent
+{
+    background-image: url(/Library/Images/Layout/cmd_mycontent.png);
+}
+#toolbar ul li.createPage
+{
+    background-image: url(/Library/Images/Layout/cmd_page_add.png);
+}
+#toolbar ul li.admin
+{
+    background-image: url(/Library/Images/Layout/cmd_administration.png);
+}
+#toolbar .cBar
+{
+    float: left;
+    width: 100%;
+    background-color: #85C50F;
+}
+#toolbar .cBarTabs
+{
+    float: left;
+    position: relative;
+    top: 1px;
+}
+#toolbar .cBarTab
+{
+    display: block;
+    height: 19px;
+    line-height: 19px;
+    float: left;
+    text-align: center;
+    margin-right: 2px;
+    padding: 0px 10px 0px 10px;
+    background-color: #85C50F;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-top: solid 1px #FFFFFF;
+    border-right: solid 1px #FFFFFF;
+    border-left: solid 1px #FFFFFF;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+#toolbar .cBarTabInactive
+{
+    display: block;
+    height: 19px;
+    line-height: 19px;
+    float: left;
+    text-align: center;
+    margin-right: 2px;
+    padding: 0px 10px 0px 10px;
+    background-color: #D7ECB0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+#toolbar .cBarContent
+{
+    float: left;
+    width: 100%;
+    border: solid 1px #FFFFFF;
+}
+#toolbar .cBarWidgetFilter input
+{
+    margin-right: 2px;
+    position: relative;
+    top: 2px;
+}
+#toolbar .cBarWidgetFilter label
+{
+    margin-right: 10px;
+}
+#toolbar .cBarWidgetList
+{
+    overflow: auto;
+    height: 125px;
+    border: solid 1px #FFFFFF;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+#toolbar .cBarWidget
+{
+    float: left;
+    background-color: #589800;
+    padding: 2px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+#toolbar .cBarWidgetTitle
+{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+#toolbar .cBarWidgetDescription
+{
+    font-size: 11px;
+}
+#toolbar .cBarWidgetDragHandle
+{
+    float: left;
+    width: 250px;
+    height: 50px;
+    cursor: move;
+}
+#toolbar .cBarStyles
+{
+    float: left;
+    width: 100%;
+}
+#toolbar .cBarStyles th
+{
+    text-align: left;
+    width: 25%;
+    padding-bottom: 5px;
+}
+#toolbar .cBarStyles td
+{
+    padding: 0px 5px 0px 0px;
+}
+#toolbar .cBarStyle
+{
+    height: 150px;
+    border: solid 1px #FFFFFF;
+}
+#toolbar .cBarStyle td
+{
+    padding: 5px;
+}
+
+/* Page */
+#container
+{
+    width: 980px;
+    margin: 0 auto;
+}
+#header
+{
+    float: left;
+    width: 100%;
+    height: 65px;
+    background: url(/Library/Images/Layout/bg_header.jpg) no-repeat;
+    position: relative;
+}
+#headerLogo
+{
+    float: left;
+    width: 116px;
+    height: 38px;
+    margin-top: 7px;
+    margin-left: 7px;
+    background: url(/Library/Images/Layout/logo.png) no-repeat;
+    display: block;
+}
+#content
+{
+    float: left;
+    width: 100%;
+}
+#contentBody
+{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+#contentBody .widgetHolder
+{
+    height: 100%;
+    min-height: 40px;
+    height: auto !important;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: dashed 1px #ccc;
+    background-image: url( /Library/Images/Layout/drop2.png );
+}
+#contentBody .widgetDropCue
+{
+    border: solid 2px gray;
+    display: none;
+    margin-bottom: 20px;
+    background-image: url( /Library/Images/Layout/drop.gif );
+    min-height: 100px;
+}
+#contentBody .widgetHeader
+{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+#contentBody .widgetHeaderMove
+{
+    width: 100%;
+    height: 22px;
+    cursor: move;
+}
+#contentBody .widgetHeaderNoMove
+{
+    width: 100%;
+    height: 22px;
+}
+#contentBody .widgetHeaderEdit
+{
+    position: absolute;
+    top: 3px;
+    right: 22px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_settings.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_settings.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_settings.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#contentBody .widgetHeaderRemove
+{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#footer
+{
+    float: left;
+    width: 100%;
+    background: url(/Library/Images/Layout/bg_footer.jpg) no-repeat;
+    font-weight: 500;
+    background-color: transparent;
+    color: #427200;
+    text-align: center;
+    height: 100px;
+    position: relative;
+}
+
+/* Default widget */
+.widget
+{
+    position: relative;
+}
+.widget .top
+{
+    background: url(/Library/Images/Layout/bg_boxtitle.gif);
+    color: #CC0000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 6px 4px 6px;
+    height: 13px;
+    line-height: 13px;
+}
+.widget .cnt
+{
+    padding: 5px;
+    border: solid 1px #BFBFBF;
+}
+.widget .cnt a
+{
+}
+.widget .bottom
+{
+    padding-bottom: 10px;
+}
+
+/* Language bar */
+#languageBar
+{
+    float: right;
+    margin: 4px 40px 0px 0px;
+}
+#languageBar ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#languageBar ul li
+{
+    float: left;
+    color: #FFFFFF;
+}
+#languageBar ul li a
+{
+    color: #FFFFFF;
+}
+#languageBar ul li.languageActive a
+{
+    font-weight: bold;
+}
+#languageBar ul li.languageInactive
+{
+}
+#languageBar ul li.languageGap
+{
+}
+
+/* Header search */
+#headerSearch
+{
+    float: right;
+    margin: 4px 4px 0px 0px;
+}
+#headerSearch .headerSearchBox
+{
+    float: left;
+}
+#headerSearch .headerSearchBox input
+{
+    height: 13px;
+    border: solid 1px #FFFFFF;
+    padding: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+#headerSearch .headerSearchButton
+{
+    float: left;
+    margin-left: 5px;
+}
+#headerSearch .headerSearchButton a
+{
+    display: block;
+    width: 19px;
+    height: 19px;
+    background-image: url(/Library/Images/Layout/cmd_go.gif);
+    background-repeat: no-repeat;
+}
+
+/* User navigation */
+#userNav
+{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+#userNav .rss
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(/library/images/layout/cmd_rss.png);
+}
+#userNav ul
+{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#userNav ul li
+{
+    float: left;
+    margin: 0px 0px 0px 6px;
+    padding: 4px 4px 3px 4px;
+    background-image: url(/Library/Images/Layout/bg_alpha_50.png);
+    border: solid 1px #000000;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#userNav ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    height: 16px;
+    line-height: 15px;
+    padding: 2px 0px 2px 0px;
+}
+#userNav ul li.userNavRegister a
+{
+    font-weight: bold;
+    padding-left: 20px;
+    background: url('../Images/Layout/cmd_block.png') no-repeat 0px 0px;
+}
+
+/* Breadcrumbs */
+#breadcrumbs
+{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+#breadcrumbs .breadcrumbImage
+{
+    float: left;
+    width: 16px;
+    height: 16px;
+    padding-top: 2px;
+}
+#breadcrumbs .breadcrumb
+{
+    float: left;
+    line-height: 20px;
+    margin-left: 4px;
+}
+#breadcrumbs .breadcrumb:last-child
+{
+    font-weight: bold;
+}
+#breadcrumbs .breadcrumbGap
+{
+    float: left;
+    line-height: 20px;
+    margin-left: 4px;
+}
+
+/* Tabs */
+#pageTabs
+{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+#pageTabs ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#pageTabs ul li
+{
+    float: left;
+    line-height: 23px;
+    height: 23px;
+    margin: 0px 2px 0px 0px;
+    padding: 0px 4px 0px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#pageTabs ul li a
+{
+    color: #FFFFFF;
+}
+#pageTabs ul li.pageTabActive
+{
+    background-color: #545454;
+}
+#pageTabs ul li.pageTabInactive
+{
+    background-color: #AFAFAF;
+}
+#pageTabs ul li.pageTabPrivate
+{
+    padding-left: 16px;
+    background-image: url(/Library/Images/Layout/icon_lock.gif);
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+}
+#pageTabs ul li.pageTabNew
+{
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 5px;
+    padding: 0px 4px 0px 4px;
+    background-color: #FFFFFF;
+    border: solid 1px #AAAAAA;
+}
+#pageTabs ul li.pageTabNew a
+{
+    color: #AAAAAA;
+}
+#pageTabs ul li a.pageTabButton
+{
+    float: left;
+    margin-right: 4px;
+    margin-top: 4px;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+#pageTabs ul li a.pageTabGoto
+{
+    float: left;
+}
+#pageTabs ul li a.pageTabEdit
+{
+    margin-left: 4px;
+    background: url(/Library/Images/Layout/cmd_edit.png) no-repeat 0px 0px;
+}
+#pageTabs ul li a.pageTabSave
+{
+    background: url(/Library/Images/Layout/cmd_ok.png) no-repeat 0px 0px;
+}
+#pageTabs ul li a.pageTabDelete
+{
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat 0px 0px;
+}
+
+/* Content editor */
+.contentEditor
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.contentEditor ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.contentEditor ul li
+{
+    float: left;
+    position: relative;
+    top: 1px;
+    padding: 4px;
+    margin-left: 2px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+.contentEditor ul li.contentEditorTabActive
+{
+    background-color: #A7BC75;
+    border-top: solid 1px #000000;
+    border-right: solid 1px #000000;
+    border-left: solid 1px #000000;
+}
+.contentEditor ul li.contentEditorTabInactive
+{
+    background-color: #CDE29B;
+}
+
+/* Generic popup */
+#popup
+{
+    float: left;
+    padding: 10px;
+    background-color: #C2D197;
+}
+
+/* Wizards */
+#wizard
+{
+    float: left;
+    width: 100%;
+}
+#wizard .wizardPopup
+{
+    width: 800px;
+    padding: 10px;
+}
+#wizard .wizardWidget
+{
+    float: left;
+    width: 100%;
+}
+#wizard .wizardContent
+{
+    padding: 10px;
+    border-left: solid 1px #588A4D;
+    border-right: solid 1px #588A4D;
+    border-bottom: solid 1px #588A4D;
+    background-color: #C2D197;
+}
+#wizard .wizardFinish
+{
+}
+#wizard .wizardFinish ul
+{
+    padding: 0;
+    margin: 4px 0px 0px 0px;
+    list-style: none;
+}
+#wizard .wizardFinish ul li
+{
+    margin-bottom: 4px;
+}
+
+/* Widget settings */
+#widgetSettings
+{
+    float: left;
+    width: 700px;
+    padding: 10px;
+}
+
+#widgetSettings .widgetSettingsContent
+{
+    float: left;
+    width: 678px;
+    padding: 10px;
+    border-left: solid 1px #588A4D;
+    border-right: solid 1px #588A4D;
+    border-bottom: solid 1px #588A4D;
+    background-color: #C2D197;
+}
+#widgetSettings .imageUploadButton
+{
+    background-image: url(/Library/Images/Layout/cmd_upload.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+#widgetSettings .itemSelected
+{
+    float: left;
+    margin: 0px 4px 4px 0px;
+    border: solid 2px #589800;
+    background-color: #85C50F;
+}
+#widgetSettings .itemNotSelected
+{
+    float: left;
+    margin: 0px 4px 4px 0px;
+    border: solid 2px #85C50F;
+}
+#widgetSettings .itemSelected div, #widgetSettings .itemNotSelected div
+{
+    margin: 0px;
+    border: none;
+}
+
+/* Message receiver list */
+#receiverList
+{
+    float: left;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: solid 1px #CCCCCC;
+}
+#receiverList .receiver
+{
+    float: left;
+    margin: 4px;
+    padding: 0px 4px 0px 4px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #85C50F;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#receiverList .receiver span
+{
+    float: left;
+}
+#receiverList .receiver a
+{
+    float: left;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    margin-left: 4px;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+}
+#receiverTextBox
+{
+    float: left;
+}
+#receiverTextBox input
+{
+    height: 16px;
+    width: 100px;
+    overflow: visible;
+    margin: 4px 0px 4px 0px;
+    padding-left: 4px;
+}
+#receiverSuggestions
+{
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+#receiverSuggestions .receiverSuggestion
+{
+    float: left;
+    width: 98%;
+    background-color: #D1DDB1;
+    border: solid 3px #588A4D;
+    position: absolute;
+}
+#receiverSuggestions .receiverSuggestion a
+{
+    float: left;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#receiverSuggestions .receiverGroup
+{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: url(/Library/Images/Layout/icon_receiver_group.gif) no-repeat;
+}
+#receiverSuggestions .receiverGroupName
+{
+    width: 55px;
+    margin-top: 2px;
+    font-size: 9px;
+}
+
+/* Tagging suggestions list */
+#tagHintsList
+{
+    float: left;
+    width: 100%;
+    background-color:#E7F1D7;
+    border:1px solid #618740;
+}
+#tagHintsList .tagHint
+{
+    float: left;
+    margin: 4px;
+    padding: 0px 4px 0px 4px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #85C50F;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#tagHintsList .tagHint span
+{
+    float: left;
+}
+#tagHintsList .tagHint a
+{
+    float: left;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    margin-left: 4px;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+}
+#tagHintsTextBox
+{
+    float: left;
+}
+#tagHintsTextBox input
+{
+    height: 16px;
+    width: 100px;
+    overflow: visible;
+    margin: 4px 0px 4px 0px;
+    padding-left: 4px;
+    background-color:Transparent;
+}
+#tagHints
+{
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+#tagHints .tagHints
+{
+    float: left;
+    width: 98%;
+    background-color: #D1DDB1;
+    border: solid 3px #588A4D;
+    position: absolute;
+}
+#tagHints .tagHints a
+{
+    float: left;
+    margin: 4px;
+    padding: 0px 4px 0px 4px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #D1DDB1;
+    text-decoration: none;
+    background-color: #588A4D;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* My content */
+.myContent
+{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+.myContent .icon, .myContent .func
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+}
+.myContent .private
+{
+    background-image: url(/Library/Images/Layout/icon_private.png);
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.myContent .public
+{
+    background-image: url(/Library/Images/Layout/icon_public.png);
+        position:absolute;
+    top:0px;
+    left:0px;
+}
+.myContent .unlisted
+{
+    background-image: url(/Library/Images/Layout/icon_unlisted.png);
+        position:absolute;
+    top:0px;
+    left:0px;
+}
+.myContent .featured
+{
+    background-image: url(/Library/Images/Layout/icon_featured.png);
+        position:absolute;
+    top:0px;
+    left:60px;
+    text-align: center;
+}
+.myContent .geo
+{
+    background-image: url(/Library/Images/Layout/icon_geotagged.png);
+        position:absolute;
+    top:0px;
+    left:40px;
+}
+.myContent .published
+{
+    background-image: url(/Library/Images/Layout/icon_published.png);
+        position:absolute;
+    top:0px;
+    left:20px;
+}
+.myContent .draft
+{
+    background-image: url(/Library/Images/Layout/icon_draft.png);
+        position:absolute;
+    top:0px;
+    left:20px;
+}
+.myContent .working
+{
+    background-image: url(/Library/Images/Layout/icon_inprogress.gif);
+        position:absolute;
+    top:0px;
+    left:20px;
+}
+.myContent .failed
+{
+    background-image: url(/Library/Images/Layout/icon_failed.gif);
+        position:absolute;
+    top:0px;
+    left:20px;
+}
+.myContent .popup
+{
+    background-image: url(/Library/Images/Layout/cmd_info.png);
+}
+.myContent .popup2
+{
+    background: #7A7A7A url(/Library/Images/Layout/cmd_featured.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_featured.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_featured.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.myContent .edit
+{
+    background: #7A7A7A url(/Library/Images/Layout/cmd_edit.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_edit.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_edit.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.myContent .publish
+{
+    background: #7A7A7A url(/Library/Images/Layout/cmd_publish.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_publish.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_publish.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.myContent .withdraw
+{
+    background: #7A7A7A url(/Library/Images/Layout/cmd_withdraw.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_withdraw.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_withdraw.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.myContent .members
+{
+    background: #7A7A7A url(/Library/Images/Layout/cmd_memberships.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_memberships.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_memberships.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.myContent .msg
+{
+    background: #7A7A7A url(/Library/Images/Layout/cmd_msg.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_msg.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_msg.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.myContent .delete
+{
+    background: #AA0000 url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -moz-linear-gradient(top, #F26060, #AA0000);
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#F26060), to(#AA0000));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.myContent .prof
+{
+    background: url(/Library/Images/Layout/icon_profile.gif) no-repeat 0px 0px;
+    padding-left: 20px;
+    line-height: 16px;
+}
+.myContent .cty
+{
+    background: url(/Library/Images/Layout/icon_community.png) no-repeat 0px 0px;
+    padding-left: 20px;
+    line-height: 16px;
+}
+.myContent .mcty
+{
+    background: url(/Library/Images/Layout/icon_community_managed.png) no-repeat 0px 0px;
+    padding-left: 20px;
+    line-height: 16px;
+}
+.myContent .errcty
+{
+    background: url(/Library/Images/Layout/icon_community_missing.png) no-repeat 0px 0px;
+    padding-left: 20px;
+    line-height: 16px;
+}
+
+/* My content row */
+.myContent .myContentRow
+{
+    float: left;
+    width: 100%;
+    border-bottom: solid 1px #CCCCCC;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.myContent .myContentRow:last-child
+{
+    border: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.myContent .myContentRow1
+{
+    float: left;
+    width: 80px;
+    height: 60px;
+    margin-right: 5px;
+    display: block;
+}
+.myContent .myContentRow1 img
+{
+    max-width: 80px;
+    max-height: 60px;
+}
+.myContent .myContentRow2
+{
+    float: left;
+    width: 120px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.myContent .myContentRow3
+{
+    float: left;
+    width: 60px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.myContent .myContentRow4
+{
+    float: left;
+    width: 80px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.myContent .myContentRow5
+{
+    float: left;
+    position:relative;
+}
+.myContent .myContentRow6
+{
+    float: right;
+}
+
+/* My content item */
+.myContent .myContentItem
+{
+    float: left;
+    width: 240px;
+    padding: 4px;
+    margin: 0px 10px 10px 0px;
+    border: solid 1px #CCCCCC;
+}
+.myContent .myContentItemTitle
+{
+    white-space: nowrap;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+.myContent .myContentItemMain
+{
+    float: left;
+}
+.myContent .myContentItemImage
+{
+    float: left;
+    width: 80px;
+    height: 60px;
+    margin-right: 5px;
+}
+.myContent .myContentItemImage img
+{
+    max-width: 80px;
+    max-height: 60px;
+}
+.myContent .myContentItemInfo
+{
+    float: left;
+}
+.myContent .myContentItemInfo1
+{
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+.myContent .myContentItemInfo2
+{
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+.myContent .myContentItemInfo3
+{
+    position:relative;
+    height:16px;
+    margin-bottom: 2px;
+}
+.myContent .myContentItemInfo4
+{
+    height:16px;
+}
+
+/* My content widget list */
+.myContent .myContentWidgetBox
+{
+    float: left;
+    padding: 5px;
+    margin: 0px 1px 1px 0px;
+    background-color: #589800;
+}
+.myContent .myContentWidgetBoxTitle
+{
+    height: 13px;
+    overflow: hidden;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.myContent .myContentWidgetBoxContent
+{
+    float: left;
+    width: 180px;
+    height: 100px;
+    cursor: move;
+}
+.myContent .myContentWidgetBoxImage img
+{
+    max-width: 100px;
+    max-height: 80px;
+}
+
+/* My content image gallery */
+.myContent .myContentSelectionBox
+{
+    float: left;
+    width: 80px;
+    height: 60px;
+    padding: 2px;
+    margin: 0px 10px 10px 0px;
+    border: solid 1px #CCCCCC;
+}
+.myContent .myContentSelectionBoxTitle
+{
+    height: 13px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+.myContent .myContentSelectionBoxImage img
+{
+    max-width: 50px;
+    max-height: 35px;
+}
+
+/* Object Relator */
+.myContentSearchRelator
+{
+    float: left;
+    width: 25%;
+}
+.myContentSearchRelatorLabel
+{
+    float: right;
+    margin-bottom: 12px;
+    margin-top: 7px;
+}
+.myContentSearchRelatorBox
+{
+    padding: 5px;
+    clear: both;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(204, 204, 204);
+}
+.myContentRelator
+{
+    float: right;
+    width: 74%;
+}
+.myContentRelatorArrow
+{
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background:url(/library/images/layout/icon_arrow_down.png);
+}
+.objectRelator
+{
+}
+.objectRelator ul
+{
+    float:left;
+    width:100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border:solid 1px #CCCCCC;
+}
+.objectRelator #dragContainer
+{
+    height:333px;
+}
+.objectRelator #dropContainer
+{
+    height: 120px;
+    overflow:auto;
+}
+.objectRelator ul li
+{
+    float: left;
+    position: relative;
+    width: 98px;
+    height: 83px;
+    margin:5px;
+    border: solid 1px #CCCCCC;
+    background-color:#FFFFFF;
+}
+.objectRelator .ui-state-active
+{
+    border:solid 1px #DA002F;
+}
+.objectRelator .ui-state-placeholder
+{
+    border:dashed 1px #DA002F;
+    background-color:Transparent;
+}
+.objectRelator .ui-icon-remove
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 2px;
+    bottom: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.objectRelator .myContentRelatedBox
+{
+    float: left;
+    width: 98px;
+    height: 83px;
+    background-color:#F0F0F0;
+    cursor:move;
+}
+.objectRelator .myContentRelatedBoxTitle
+{
+    font-size: 11px;
+    white-space:nowrap;
+    overflow: hidden;
+    margin:4px;
+}
+.objectRelator .myContentRelatedBoxImage
+{
+    margin:0px 4px 4px 4px;
+}
+.objectRelator .myContentRelatedBoxImage img
+{
+    max-width: 90px;
+    max-height: 58px;
+}
+
+/* Menu */
+.menu
+{
+}
+.menu div.menuTitle
+{
+    margin-bottom: 10px;
+}
+.menu ul
+{
+    padding: 0;
+    list-style: none;
+    margin: 0px 0px 8px 0px;
+}
+.menu ul:last-child
+{
+    margin: 0;
+}
+.menu ul li
+{
+    margin-bottom: 5px;
+}
+.menu ul li:last-child
+{
+    margin-bottom: 0px;
+}
+.menu ul li.menuTitle
+{
+    font-weight: bold;
+}
+.menu ul li.active
+{
+    font-weight: bold;
+}
+.menu ul li.inactive
+{
+}
+
+/* Dashboard */
+#dashboard
+{
+    float: left;
+    width: 100%;
+}
+#dashboard .dashboardBox1
+{
+    float: left;
+    width: 60%;
+}
+#dashboard .dashboardBox2
+{
+    float: right;
+    width: 38%;
+}
+#dashboard ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#dashboard ul li
+{
+}
+#dashboard ul li:last-child
+{
+    margin: 0px;
+}
+#dashboard li.dashboardMessages
+{
+    line-height: 32px;
+    padding-left: 40px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    background: url(/Library/Images/Layout/icon_messages_large.gif) no-repeat;
+}
+#dashboard li.dashboardRequests
+{
+    line-height: 32px;
+    padding-left: 40px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    background: url(/Library/Images/Layout/icon_memberships_large.gif) no-repeat;
+}
+#dashboard li.dashboardComments
+{
+    line-height: 32px;
+    padding-left: 40px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    background: url(/Library/Images/Layout/icon_comments_large.gif) no-repeat;
+}
+
+/* Dashboard common */
+.dashboardSettingsTable
+{
+    width: 100%;
+}
+.dashboardSettingsTable td
+{
+    width: 50%;
+    padding-bottom: 2px;
+}
+.dashboardSettingsTable td input
+{
+    margin-right: 4px;
+}
+.dashboardTools
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.dashboardToolsSearch
+{
+    float: left;
+    margin-right: 10px;
+}
+.dashboardToolsSearch input
+{
+    height: 18px;
+}
+.dashboardToolsActions
+{
+    float: right;
+    margin-left: 10px;
+}
+.dashboardSearch
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #D1DDB1;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.dashboardSearchOptionsSwitch
+{
+    float: left;
+    padding: 5px;
+}
+.dashboardSearchOptions
+{
+    float: left;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+}
+.dashboardDownButtonInactive
+{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_sort_asc_i.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_sort_asc_i.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_sort_asc_i.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.dashboardDownButtonActive
+{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_sort_asc.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_sort_asc.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_sort_asc.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.dashboardUpButtonInactive
+{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_sort_desc_i.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_sort_desc_i.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_sort_desc_i.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.dashboardUpButtonActive
+{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_sort_desc.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_sort_desc.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_sort_desc.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.dashboardAlertsSettings
+{
+    width: 100%;
+    border-top: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+}
+.dashboardAlertsSettings th
+{
+    text-align: left;
+    padding: 5px;
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+}
+.dashboardAlertsSettings td
+{
+    padding: 5px;
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+/* Dashboard messages */
+#dashboardMessageBox
+{
+}
+#dashboardMessageBox .messageBoxPreview a
+{
+    text-decoration: none;
+    color: #000000;
+}
+#dashboardMessageBox .messageBox
+{
+    width: 100%;
+    border-top: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+}
+#dashboardMessageBox .messageBox th
+{
+    text-align: left;
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 4px;
+    white-space: nowrap;
+}
+#dashboardMessageBox .messageBox td
+{
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 4px;
+}
+#dashboardMessageBox .messageBoxUnread
+{
+    background-color: #EEEEEE;
+}
+#dashboardMessageBox .messageBoxReplyButton
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_msg_reply.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_msg_reply.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_msg_reply.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardMessageBox .messageBoxForwardButton
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_msg_forward.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_msg_forward.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_msg_forward.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardMessageBox .messageBoxFlagButtonActive
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_unflag.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_unflag.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_unflag.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardMessageBox .messageBoxFlagButtonInactive
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_flag.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_flag.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_flag.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardMessageBox .messageBoxDeleteButton
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* Dashboard friends */
+#dashboardFriends
+{
+}
+#dashboardFriends .friends
+{
+    float: left;
+    width: 100%;
+}
+#dashboardFriends .friend
+{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #CCCCCC;
+}
+#dashboardFriends .friendType
+{
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+}
+#dashboardFriends .friendImage
+{
+}
+#dashboardFriends .friendActions
+{
+    padding: 4px 0px 4px 0px;
+    text-align: center;
+}
+#dashboardFriends .friendDecision
+{
+    padding: 2px;
+    text-align: center;
+}
+#dashboardFriends .friendDecision a
+{
+    margin: 0px;
+}
+#dashboardFriends .friendBlockButtonActive
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_unblock.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_unblock.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_unblock.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardFriends .friendBlockButtonInactive
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_block.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_block.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_block.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardFriends .friendBirthdayButtonActive
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_friend_birth_yes.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_friend_birth_yes.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_friend_birth_yes.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardFriends .friendBirthdayButtonInactive
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_friend_birth_no.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_friend_birth_no.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_friend_birth_no.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardFriends .friendMessageButton
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_msg.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_msg.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_msg.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#dashboardFriends .friendRemoveButton
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* Dashboard blocked users */
+#dashboardBlockedUsers
+{
+}
+#dashboardBlockedUsers .blockedUsers
+{
+    float: left;
+    width: 100%;
+}
+#dashboardBlockedUsers .blockedUser
+{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #CCCCCC;
+}
+#dashboardBlockedUsers .blockedUserImage
+{
+    padding-top: 4px;
+}
+#dashboardBlockedUsers .blockedUserActions
+{
+    padding: 4px 0px 4px 0px;
+    text-align: center;
+}
+#dashboardBlockedUsers .blockedUserRemoveButton
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* Dashboard comments */
+#dashboardComments
+{
+}
+#dashboardComments .comments
+{
+    width: 100%;
+    border-top: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+}
+#dashboardComments .comments th
+{
+    text-align: left;
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 4px;
+    white-space: nowrap;
+}
+#dashboardComments .comments td
+{
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 4px;
+}
+#dashboardComments .commentPreview a
+{
+    text-decoration: none;
+    color: #000000;
+}
+#dashboardComments .commentObject img
+{
+    margin-top: 2px;
+}
+
+/* Dashboard alerts */
+#dashboardAlerts
+{
+}
+#dashboardAlerts .alerts
+{
+    width: 100%;
+    border-top: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+}
+#dashboardAlerts .alerts th
+{
+    text-align: left;
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 4px;
+}
+#dashboardAlerts .alerts td
+{
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 4px;
+}
+#dashboardAlerts .alertPreview a
+{
+    text-decoration: none;
+    color: #000000;
+}
+#dashboardAlerts .alertDeleteButton
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+}
+
+/* Dashboard favorites */
+#dashboardFavorites
+{
+}
+#dashboardFavorites .favorites
+{
+    width: 100%;
+    border-top: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+}
+#dashboardFavorites .favorites td
+{
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 4px;
+}
+#dashboardFavorites .favoriteDeleteButton
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+}
+
+/* Dashboard memberships */
+#dashboardMemberships
+{
+}
+#dashboardMemberships .memberships
+{
+    float: left;
+    width: 100%;
+}
+#dashboardMemberships .membership
+{
+    float: left;
+    width: 120px;
+    height: 130px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #CCCCCC;
+}
+#dashboardMemberships .membership img
+{
+    height: 60px;
+}
+
+/* Dashboard invitations */
+#dashboardInvitations
+{
+}
+#dashboardInvitations .invitaions
+{
+    float: left;
+    width: 100%;
+}
+#dashboardMemberships .invitaion
+{
+    float: left;
+    width: 120px;
+    height: 130px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #CCCCCC;
+}
+
+/* User activities */
+.userActivitiesStatus
+{
+    float: left;
+    width: 100%;
+}
+.userActivitiesStatus input
+{
+    height: 18px;
+}
+.userActivitiesStatusElement
+{
+    float: left;
+    line-height: 22px;
+    margin: 0px 5px 5px 0px;
+}
+.userActivities
+{
+    float: left;
+    width: 100%;
+}
+.userActivities ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.userActivities ul li
+{
+    padding: 3px 0 3px 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+.userActivities ul li.userActivityTitle
+{
+    font-weight: bold;
+    margin-top: 8px;
+}
+.userActivityDate
+{
+    display: block;
+    font-size: 9px;
+}
+
+/* Social sharing */
+.socialSharing
+{
+    float: left;
+    width: 100%;
+}
+.socialSharing .socialSharingBlock
+{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.socialSharing .socialSharingBlock:first-child
+{
+    float: left;
+    width: 100%;
+    margin-top:0px;
+}
+.socialSharing .socialSharingButtons ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.socialSharing .socialSharingButtons ul li
+{
+    float: left;
+    margin-right: 4px;
+}
+.socialSharing .socialSharingButtons ul li a
+{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+.socialSharing .socialSharingButtons a.facebook
+{
+    background: url(/Library/Images/Layout/icon_facebook_large.png) no-repeat;
+}
+.socialSharing .socialSharingButtons a.twitter
+{
+    background: url(/Library/Images/Layout/icon_twitter_large.png) no-repeat;
+}
+.socialSharing .socialSharingEmbed input
+{
+    margin: 2px 0px 4px 0px;
+}
+
+/* Comments */
+.commentsForm .commentInputArea
+{
+    border: solid 1px #CCCCCC;
+    padding: 8px;
+}
+.commentsForm .commentToggleButton
+{
+}
+.comments
+{
+    margin-top: 8px;
+}
+.comments td
+{
+    vertical-align: top;
+    padding: 5px 0px 5px 5px;
+}
+.comments .commentUser
+{
+    width: 55px;
+    text-align: center;
+}
+.comments .commentContent
+{
+    padding-left: 10px;
+}
+.comments tr:last-child td
+{
+    border: none;
+}
+.comments .commentInfo
+{
+    margin-bottom: 4px;
+    font-size: 9px;
+}
+.comments .commentDeleteButton
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(/Library/Images/Layout/cmd_delete.png) no-repeat;
+}
+
+/* Search */
+.searchResultsHeader
+{
+    margin-bottom: 10px;
+}
+.searchResults .searchResultItems
+{
+    margin-bottom: 10px;
+}
+.searchResults .searchResultTitle a
+{
+    color:#333333;
+}
+.searchResults .searchResultTitle a:hover
+{
+    text-decoration:none;
+}
+.searchResults ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.searchResults ul li
+{
+    float:left;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+/* Tag filter */
+.tagFilter
+{
+}
+.tagFilter ul
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.tagFilter ul li
+{
+    float: left;
+    line-height: 27px;
+    margin-right: 5px;
+}
+.tagFilter ul li a
+{
+    padding: 3px;
+    color: #FFFFFF;
+    background-color: #DA002F;
+}
+.tagFilter .tagClass1
+{
+    font-size: 10px;
+}
+.tagFilter .tagClass2
+{
+    font-size: 11px;
+}
+.tagFilter .tagClass3
+{
+    font-size: 12px;
+}
+.tagFilter .tagClass4
+{
+    font-size: 14px;
+}
+.tagFilter .tagClass5
+{
+    font-size: 16px;
+}
+.tagFilter .tagActive
+{
+}
+.tagFilter .tagActive a
+{
+    background-color: #FFFFFF;
+    border: solid 1px #DA002F;
+    font-weight: bold;
+    color: #DA002F;
+}
+.tagFilter .tagFilterReset
+{
+    float: left;
+    background-color: Transparent;
+    margin-top: 10px;
+}
+
+/* Map */
+.map
+{
+    float: left;
+}
+.map .RadTreeView img
+{
+    height: 20px;
+}
+div.gmnoprint div div div
+{
+overflow: hidden !important; 
+}
+
+/* Image annotations */
+.showImageNotesButton
+{
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_note_show.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_note_show.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_note_show.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.hideImageNotesButton
+{
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_note_hide.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_note_hide.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_note_hide.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.addImageNoteButton
+{
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #7A7A7A url(/Library/Images/Layout/cmd_note_add.png) no-repeat;
+    background: url(/Library/Images/Layout/cmd_note_add.png) no-repeat, -moz-linear-gradient(top, #C1C1C1, #3B3B3B);
+    background: url(/Library/Images/Layout/cmd_note_add.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#3B3B3B));
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.drsElement
+{
+    position: absolute;
+    border: 1px solid #333;
+}
+.drsMoveHandle
+{
+    height: 20px;
+    background-color: #CCC;
+    border-bottom: 1px solid #666;
+    cursor: move;
+}
+.dragresize
+{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    font-size: 1px;
+    background: #EEE;
+    border: 1px solid #333;
+}
+.dragresize-tl
+{
+    top: -8px;
+    left: -8px;
+    cursor: nw-resize;
+}
+.dragresize-tm
+{
+    top: -8px;
+    left: 50%;
+    margin-left: -4px;
+    cursor: n-resize;
+}
+.dragresize-tr
+{
+    top: -8px;
+    right: -8px;
+    cursor: ne-resize;
+}
+.dragresize-ml
+{
+    top: 50%;
+    margin-top: -4px;
+    left: -8px;
+    cursor: w-resize;
+}
+.dragresize-mr
+{
+    top: 50%;
+    margin-top: -4px;
+    right: -8px;
+    cursor: e-resize;
+}
+.dragresize-bl
+{
+    bottom: -8px;
+    left: -8px;
+    cursor: sw-resize;
+}
+.dragresize-bm
+{
+    bottom: -8px;
+    left: 50%;
+    margin-left: -4px;
+    cursor: s-resize;
+}
+.dragresize-br
+{
+    bottom: -8px;
+    right: -8px;
+    cursor: se-resize;
+}
+.fn-container
+{
+    position: relative;
+}
+.fn-container img
+{
+    border-width: 0;
+}
+.fn-area
+{
+    position: absolute;
+    border: none;
+    border: 0px solid #DDDDDD;
+    margin: 1px;
+}
+.fn-area-blackborder
+{
+    border: 1px solid #000;
+}
+.fn-area-whiteborder
+{
+    border: 1px solid #FFFFFF;
+}
+.fn-area-inner
+{
+    background-image: url(/Library/Images/Layout/pixel.gif);
+}
+.fn-note
+{
+    position: absolute;
+    max-width: 300px;
+    padding: 5px;
+    display: none;
+    cursor: default;
+    z-index: 1000;
+}
+.fn-note-text
+{
+    color: Black;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+.fn-note-publ
+{
+    color: Black;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+.fn-note-edit-text, .fn-note-edit-select
+{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.fn-note-edit
+{
+    display: none;
+}
+.fn-note-edit textarea
+{
+    background-color: #FFFFFF;
+    border: 0;
+    overflow: visible;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 180px;
+    margin: 0;
+}
+.fn-note-edit select
+{
+    width: 100%;
+}
+#fn-note-whois
+{
+    background-color: #FFFFFF;
+    border: 1px dotted #000000;
+    padding: 2px;
+}
+#fn-note-whois-link
+{
+    font-weight: bold;
+}
+#fn-note-from
+{
+    background-color: #FFFFFF;
+    padding: 2px;
+}
+#fn-note-from-link
+{
+    font-weight: bold;
+}
+.ToolTipContent a, .ToolTipContent a:link, .ToolTipContent a:visited
+{
+    color: #575757;
+}
+
+/****************************************/
+/* Templates
+/****************************************/
+
+/* Object output */
+.objectOutput
+{
+    float: left;
+    margin: 0 5px 5px 0;
+    padding: 5px;
+    width: 120px;
+    border: solid 1px #666666;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.objectOutput .objectOutputImage
+{
+    height: 80px;
+    text-align: center;
+}
+.objectOutput .objectOutputImage img
+{
+    max-width: 100px;
+    max-height: 80px;
+}
+.objectOutput .objectOutputTitle
+{
+    height: 13px;
+    overflow: hidden;
+}
+.objectOutput .objectOutputDesc
+{
+    height: 13px;
+    overflow: hidden;
+}
+
+/* User output */
+.userOutput
+{
+    display: inline-block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+}
+.userOutput .userOutputColor1
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 55px;
+    height: 55px;
+}
+.userOutput .userOutputImage
+{
+    height: 44px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 0;
+}
+.userOutput .userOutputImage img
+{
+    width: 44px;
+    height: 44px;
+}
+.userOutput .userOutputColor2
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 55px;
+    height: 55px;
+}
+.userOutputName
+{
+    width: 55px;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 9px;
+}
+.userOutput2
+{
+    float: left;
+    padding: 5px;
+    margin: 0px 10px 10px 0px;
+    border: solid 1px #CCCCCC;
+}
+.userOutput2 .userOutput2Icon
+{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.userOutput2 .userOutput2Color1
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+}
+.userOutput2 .userOutput2Image
+{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    z-index: 0;
+}
+.userOutput2 .userOutput2Image img
+{
+    width: 82px;
+    height: 82px;
+}
+.userOutput2 .userOutput2Color2
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+}
+.userOutput2 .userOutput2Info
+{
+    margin-top: 2px;
+}
+
+/* Forum */
+.forum
+{
+}
+.forum .forumDesc
+{
+    margin-bottom: 20px;
+}
+.forum .forumDesc ul
+{
+    margin: 0;
+    padding-left: 20px;
+}
+.forum .forumDesc ul li
+{
+    margin-bottom: 4px;
+}
+.forum .forumTopicTitle
+{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.forum .forumTopicDesc
+{
+    color:#333333;
+    text-decoration:none;
+}
+.forum .forumContent
+{
+    border-top: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+}
+.forum .forumContent th
+{
+    border-bottom: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;
+    padding: 6px;
+}
+.forum .forumContent td
+{
+    border-bottom: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;
+    padding: 6px;
+}
+.forum td.forumPost
+{
+    border-bottom: none;
+}
+.forum td.forumFunctions
+{
+    padding: 6px 2px 6px 0px;
+}
+.forum .forumDate
+{
+    font-size: 9px;
+    margin-bottom: 4px;
+}
+.forum .forumInfo
+{
+    font-size: 9px;
+    margin-bottom: 4px;
+}
+.forum .forumModerator
+{
+    margin-top: 4px;
+}
+.forum .forumAdmin
+{
+    margin-top: 4px;
+}
+.forum .forumCitation
+{
+    margin-bottom: 4px;
+    padding: 4px;
+    font-style: italic;
+    color: #666666;
+    border: solid 1px #EEEEEE;
+    background-color: #F8F8F8;
+}
+.forum .forumDraft
+{
+    background-color: #EEEEEE;
+}
+
+/* Search Result */
+.searchResultOutput .searchResultOutputTitle
+{
+    font-weight: bold;
+    margin-bottom:4px;
+}
+.searchResultOutput .searchResultOutputDesc img
+{
+    float:left;
+    margin:0px 5px 0px 0px;
+}
+.searchResultOutput .searchResultOutputDesc a
+{
+    color: #333333;
+}
+.searchResultOutput .searchResultOutputDesc a:hover
+{
+    text-decoration: none;
+}
+
+/* Rss feed item */
+.rssFeedItem
+{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+.rssFeedItem .rssFeedItemDate
+{
+    font-size: 9px;
+    margin-bottom: 4px;
+}
+
+.rssFeedItem .rssFeedItemTitle
+{
+    margin-bottom: 4px;
+}
+
+.rssFeedItem .rssFeedItemDesc
+{
+}

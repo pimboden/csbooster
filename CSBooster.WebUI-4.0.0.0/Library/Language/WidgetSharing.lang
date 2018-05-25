@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidget">
+        <value><![CDATA[Share]]></value>
+    </data>
+    <data name="TooltipShare">
+        <value><![CDATA[Share]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+  <data name="LabelVisibility">
+    <value><![CDATA[Sichtbarkeit]]></value>
+  </data>
+  <data name="TooltipVisibility">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="LabelEmbedWidth">
+    <value><![CDATA[Embed-Breite]]></value>
+  </data>
+  <data name="TooltipEmbedWidth">
+    <value><![CDATA[Breite in Pixel, welche in den Embed-Code geschrieben wird.]]></value>
+  </data>
+  <data name="LabelEmbedHeight">
+    <value><![CDATA[Embed-Höhe]]></value>
+  </data>
+  <data name="TooltipEmbedHeight">
+    <value><![CDATA[Höhe in Pixel, welche in den Embed-Code geschrieben wird.]]></value>
+  </data>
+  <data name="LabelShowExtSharing">
+        <value><![CDATA[Sharing-Buttons (Facebook etc.)]]></value>
+    </data>
+    <data name="LabelShowILike">
+        <value><![CDATA[Facebook Like-Button]]></value>
+  </data>
+  <data name="LabelShowSendUrl">
+    <value><![CDATA[Weiterempfehlen]]></value>
+  </data>
+  <data name="LabelShowEmbedAndCopy">
+    <value><![CDATA[Embed- und Copy-Code]]></value>
+  </data>
+</root>

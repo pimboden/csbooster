@@ -1,0 +1,2274 @@
+/*Telerik RadCalendar Custom skin*/
+
+table.RadCalendar_Custom
+{
+	border-collapse:separate;
+	border:0;
+	background:#fff;
+	width:220px;
+}
+
+/*titlebar*/
+
+.RadCalendar_Custom .rcTitlebar
+{
+	width:100%;
+	border:1px solid;
+	border-color:#868686 #868686 #c4c4c4;
+	padding:0;
+	background:#eaeaea 0 -1000px repeat-x url('Calendar/sprite.gif');
+	color:#000;
+}
+
+.RadCalendar_Custom .rcTitlebar table
+{
+	width:100%;
+	border-collapse:separate;
+	border:0;
+}
+
+.RadCalendar_Custom .rcTitlebar td
+{
+	border:0;
+	padding:0 0 1px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcTitle
+{
+	width:100%;
+	cursor:pointer;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcPrev,
+.RadCalendar_Custom .rcTitlebar .rcNext,
+.RadCalendar_Custom .rcTitlebar .rcFastPrev,
+.RadCalendar_Custom .rcTitlebar .rcFastNext
+{
+	display:block;
+	width:15px;
+	height:15px;
+	overflow:hidden;
+	margin:0 4px;
+	background:transparent url('Calendar/sprite.gif') no-repeat;
+	text-indent:-2222px;
+	text-decoration:none;
+	color:#ccc;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcFastPrev
+{
+	margin-left:6px;
+	background-position:1px -197px;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcFastPrev:hover
+{
+	background-position:1px -247px;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcPrev
+{
+	background-position:4px -297px;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcPrev:hover
+{
+	background-position:4px -347px;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcNext
+{
+	background-position:3px -397px;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcNext:hover
+{
+	background-position:3px -447px;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcFastNext
+{
+	margin-right:6px;
+	background-position:1px -497px;
+}
+
+.RadCalendar_Custom .rcTitlebar .rcFastNext:hover
+{
+	background-position:1px -547px;
+}
+
+.RadCalendar_Custom .rcMain
+{
+	width:100%;
+	border:1px solid #868686;
+	border-top:0;
+	padding:0;
+}
+
+.RadCalendar_Custom .rcMainTable
+{
+	border-collapse:separate;
+	border:0;
+	width:100%;
+}
+
+/*header, footer*/
+
+.RadCalendar_Custom .rcHeader,
+.RadCalendar_Custom .rcFooter
+{
+	border:1px solid #868686;
+	border-top:0;
+	padding:0;
+}
+
+/*week numbers and days*/
+
+.RadCalendar_Custom .rcRow th,
+.RadCalendar_Custom .rcWeek th
+{
+	border:0;
+	vertical-align:middle;
+	cursor:default;
+}
+
+.RadCalendar_Custom .rcWeek th
+{
+	border-bottom:1px solid #c5c5c5;
+	padding:4px 6px 3px 0;
+	text-align:right;
+	color:#333;
+}
+
+.RadCalendar_Custom .rcWeek .rcViewSel,
+.RadCalendar_Custom .rcRow th
+{
+	width:13px;
+	padding:0 7px 0 9px;
+	background:#eee;
+	text-align:center;
+}
+
+.RadCalendar_Custom .rcRow th
+{
+	color:#777;
+}
+
+/*date cells*/
+
+.RadCalendar_Custom .rcRow td
+{
+	border:1px solid #fff;
+	padding:0;
+	text-align:right;
+	vertical-align:middle;
+}
+
+.RadCalendar_Custom .rcMain .rcRow a,
+.RadCalendar_Custom .rcMain .rcRow span
+{
+	display:block;
+	padding:1px 5px 1px 0;
+	text-decoration:none;
+	color:#333;
+}
+
+.RadCalendar_Custom .rcMain .rcWeekend a
+{
+	color:#666;
+}
+
+.RadCalendar_Custom .rcRow .rcToday
+{
+	border-color:#898989;
+}
+
+.RadCalendar_Custom .rcMain .rcOtherMonth a
+{
+	color:#898989;
+}
+
+.RadCalendar_Custom .rcMain .rcOutOfRange span
+{
+	color:#898989;
+	cursor:default;
+}
+
+.RadCalendar_Custom .rcRow .rcHover
+{
+	border-color:#c4c4c4 #b2b2b2 #9e9e9e;
+	background:#c5c5c5 0 -1600px repeat-x url('Calendar/sprite.gif');
+}
+
+.RadCalendar_Custom .rcRow .rcSelected
+{
+	border-color:#8d8d8d #7d7d7d #6c6c6c;
+	background:#828282 0 -1700px repeat-x url('Calendar/sprite.gif');
+}
+
+.RadCalendar_Custom .rcMain .rcRow .rcSelected a
+{
+	color:#fff;
+}
+
+/*multimonth view*/
+
+table.RadCalendarMultiView_Custom
+{
+	width:auto;
+}
+
+.RadCalendarMultiView_Custom .rcTitlebar
+{
+	border-color:#9a9a9a #9c9c9c #9c9c9c;
+	background:#c5c5c5 0 -1199px repeat-x url('Calendar/sprite.gif');
+}
+
+.RadCalendarMultiView_Custom .rcTitlebar table
+{
+	border:1px solid;
+	border-color:#fdfdfd #f3f3f3 #e7e7e7;
+	line-height:27px;
+}
+
+.RadCalendarMultiView_Custom .rcTitlebar .rcFastPrev:hover
+{
+	background-position:1px -647px;
+}
+
+.RadCalendarMultiView_Custom .rcTitlebar .rcPrev:hover
+{
+	background-position:4px -747px;
+}
+
+.RadCalendarMultiView_Custom .rcTitlebar .rcNext:hover
+{
+	background-position:3px -847px;
+}
+
+.RadCalendarMultiView_Custom .rcTitlebar .rcFastNext:hover
+{
+	background-position:1px -947px;
+}
+
+.RadCalendarMultiView_Custom .rcMain
+{
+	border-color:#9b9b9b;
+}
+
+.RadCalendarMultiView_Custom .rcCalendar
+{
+	width:220px;
+	border:1px solid #868686;
+	padding:0;
+}
+
+.RadCalendarMultiView_Custom .rcMainTable .rcTitle
+{
+	border:0;
+	border-bottom:1px solid #c4c4c4;
+	padding:0 0 2px;
+	background:#eaeaea 0 -1000px repeat-x url('Calendar/sprite.gif');
+	text-align:center;
+	line-height:22px;
+}
+
+/*month view*/
+
+table.RadCalendarMonthView_Custom
+{
+	border-collapse:separate;
+	border:1px solid #979797;
+	background:#fff;
+	color:#333;
+}
+
+table.RadCalendarMonthView_Custom td
+{
+	border:0;
+	padding:5px 2px 0;
+}
+
+.RadCalendarMonthView_Custom #rcMView_Feb,
+.RadCalendarMonthView_Custom #rcMView_Apr,
+.RadCalendarMonthView_Custom #rcMView_Jun,
+.RadCalendarMonthView_Custom #rcMView_Aug,
+.RadCalendarMonthView_Custom #rcMView_Oct,
+.RadCalendarMonthView_Custom #rcMView_Dec
+{
+	border-right:1px solid #e0e0e0;
+}
+
+.RadCalendarMonthView_Custom a
+{
+	display:block;
+	padding:2px 4px;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+}
+
+.RadCalendarMonthView_Custom .rcSelected a
+{
+	border:1px solid;
+	border-color:#8d8d8d #7d7d7d #6c6c6c;
+	padding:1px 3px;
+	background:#828282 0 -1700px repeat-x url('Calendar/sprite.gif');
+	color:#fff;
+}
+
+.RadCalendarMonthView_Custom #rcMView_PrevY a,
+.RadCalendarMonthView_Custom #rcMView_NextY a
+{
+	display:block;
+	width:17px;
+	height:14px;
+	overflow:hidden;
+	margin:0 auto;
+	background:transparent no-repeat url('Calendar/sprite.gif');
+	text-indent:-2222px;
+	text-align:center;
+	text-decoration:none;
+	color:#ccc;
+}
+
+.RadCalendarMonthView_Custom #rcMView_PrevY a
+{
+	background-position:7px -196px;
+}
+
+.RadCalendarMonthView_Custom #rcMView_NextY a
+{
+	background-position:7px -496px;
+}
+
+.RadCalendarMonthView_Custom .rcButtons
+{
+	padding:6px 7px 5px;
+	text-align:center;
+}
+
+.RadCalendarMonthView_Custom input
+{
+	border:1px solid;
+	border-color:#a7a7a7 #7b7b7b #7b7b7b #a7a7a7;
+	padding:0;
+	background:#e9e9e9 0 -2300px repeat-x url('Calendar/sprite.gif');
+	color:#000;
+	cursor:pointer;
+}
+
+.RadCalendarMonthView_Custom #rcMView_Today
+{
+	margin:0 0.4em 0 0;
+}
+
+.RadCalendarMonthView_Custom #rcMView_OK
+{
+	padding:0 0.2em;
+}
+
+/*time view*/
+
+table.RadCalendarTimeView_Custom
+{
+	border-collapse:separate;
+	border:1px solid #868686;
+	background:#fff;
+}
+
+.RadCalendarTimeView_Custom th
+{
+	border:0;
+	border-bottom:1px solid #c4c4c4;
+	padding:0 0 1px;
+	background:#eaeaea 0 -1000px repeat-x url('Calendar/sprite.gif');
+	color:#000;
+	text-align:center;
+	cursor:default;
+	line-height:23px;
+}
+
+table.RadCalendarTimeView_Custom td
+{
+	border:0;
+	border-left:1px solid #c5c5c5;
+	padding:2px 2px 3px;
+}
+
+table.RadCalendarTimeView_Custom td:first-child
+{
+	border-left:0;
+}
+
+.RadCalendarTimeView_Custom a
+{
+	display:block;
+	padding:2px 6px;
+	text-align:center;
+	color:#333;
+	text-decoration:none;
+}
+
+.RadCalendarTimeView_Custom td.rcHover a
+{
+	border:1px solid;
+	border-color:#c4c4c4 #b2b2b2 #9e9e9e;
+	padding:1px 5px;
+	background:#c5c5c5 0 -1600px repeat-x url('Calendar/sprite.gif');
+	color:#000;
+}
+
+.RadCalendarTimeView_Custom .rcFooter
+{
+	border:0;
+	border-top:1px solid #c5c5c5;
+	padding:0;
+}
+
+/*pickers*/
+
+.RadPicker_Custom
+{
+	vertical-align:middle;
+}
+
+.RadPicker_Custom table.rcTable,
+.RadPicker_Custom table.rcTable td
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+.RadPicker_Custom td
+{
+	vertical-align:middle;
+}
+
+.RadPicker_Custom table.rcTable .rcInputCell
+{
+	padding:0 4px 0 0;
+}
+
+.RadPicker_Custom td a
+{
+	position:relative;/*FF*/
+	outline:none;/*FF*/
+	z-index:2;/*Opera*/
+	margin:0 2px;
+	text-decoration:none;
+}
+* html .RadPicker_Custom td a{position:static}/*IE6*/
+*+html .RadPicker_Custom td a{position:static}/*IE7*/
+
+.RadPicker_Custom .rcCalPopup,
+.RadPicker_Custom .rcTimePopup
+{
+	display:block;
+	overflow:hidden;
+	width:22px;
+	height:22px;
+	background:url('Calendar/sprite.gif') no-repeat;
+	text-indent:-2222px;
+	text-align:center;
+}
+
+.RadPicker_Custom .rcCalPopup,
+.RadPicker_Custom .rcDisabled.rcCalPopup:hover
+{
+	background-position:0 0;
+}
+
+.RadPicker_Custom .rcCalPopup:hover
+{
+	background-position:0 -50px;
+}
+
+.RadPicker_Custom .rcTimePopup,
+.RadPicker_Custom .rcDisabled.rcTimePopup:hover
+{
+	background-position:0 -100px;
+}
+
+.RadPicker_Custom .rcTimePopup:hover
+{
+	background-position:0 -150px;
+}
+
+.RadPicker_Custom .rcDisabled,
+.RadCalendarMonthView_Custom .rcDisabled
+{
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+
+/*rtl*/
+
+.RadCalendarRTL_Custom .rcTitlebar .rcFastPrev
+{
+	background-position:1px -497px;
+}
+
+.RadCalendarRTL_Custom .rcTitlebar .rcFastPrev:hover
+{
+	background-position:1px -547px;
+}
+
+.RadCalendarRTL_Custom .rcTitlebar .rcPrev
+{
+	background-position:3px -397px;
+}
+
+.RadCalendarRTL_Custom .rcTitlebar .rcPrev:hover
+{
+	background-position:3px -447px;
+}
+
+.RadCalendarRTL_Custom .rcTitlebar .rcNext
+{
+	background-position:4px -297px;
+}
+
+.RadCalendarRTL_Custom .rcTitlebar .rcNext:hover
+{
+	background-position:4px -347px;
+}
+
+.RadCalendarRTL_Custom .rcTitlebar .rcFastNext
+{
+	background-position:1px -197px;
+}
+
+.RadCalendarRTL_Custom .rcTitlebar .rcFastNext:hover
+{
+	background-position:1px -247px;
+}
+
+.RadCalendarMultiViewRTL_Custom .rcTitlebar .rcFastPrev:hover
+{
+	background-position:1px -947px;
+}
+
+.RadCalendarMultiViewRTL_Custom .rcTitlebar .rcPrev:hover
+{
+	background-position:3px -847px;
+}
+
+.RadCalendarMultiViewRTL_Custom .rcTitlebar .rcNext:hover
+{
+	background-position:4px -747px;
+}
+
+.RadCalendarMultiViewRTL_Custom .rcTitlebar .rcFastNext:hover
+{
+	background-position:1px -647px;
+}
+
+/* RadComboBox Custom skin */
+
+/*global*/
+
+.RadComboBox_Custom *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.RadComboBox_Custom,
+.RadComboBox_Custom .rcbInput,
+.RadComboBoxDropDown_Custom
+{
+	color: #333;
+	text-align: left;
+}
+
+.RadComboBox_Custom_rtl,
+.RadComboBox_Custom_rtl .rcbInput,
+.RadComboBoxDropDown_Custom_rtl
+{
+	text-align: right;
+}
+
+/* combobox */
+
+.RadComboBox_Custom
+{
+	vertical-align: middle;
+}
+
+* html .RadComboBox_Custom { vertical-align: top; }
+
+.RadComboBox_Custom table
+{
+	border: 0;
+	border-collapse: collapse;
+}
+
+.RadComboBox_Custom table td.rcbInputCell
+{
+	width: 100%;
+	height: 22px;
+	line-height: 20px;
+	vertical-align: top;
+	padding: 0;
+	border: 0;
+}
+
+.RadComboBox_Custom .rcbInputCellLeft,
+.RadComboBox_Custom .rcbInputCellRight,
+.RadComboBox_Custom .rcbArrowCellLeft,
+.RadComboBox_Custom .rcbArrowCellRight
+{
+	background: url('ComboBox/rcbSprite.png') no-repeat;
+}
+
+* html .RadComboBox_Custom .rcbInputCellLeft,
+* html .RadComboBox_Custom .rcbInputCellRight,
+* html .RadComboBox_Custom .rcbArrowCellLeft,
+* html .RadComboBox_Custom .rcbArrowCellRight
+{
+	background: url('ComboBox/rcbSpriteIE6.png') no-repeat;
+}
+
+.RadComboBox_Custom td.rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Custom td.rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_Custom .rcbHovered .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Custom .rcbHovered .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_Custom .rcbFocused .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Custom .rcbFocused .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_Custom .rcbHovered .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -22px; }
+.RadComboBox_Custom .rcbHovered .rcbReadOnly td.rcbInputCellRight { background-position: 100% -22px; }
+
+.RadComboBox_Custom .rcbFocused .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -44px; }
+.RadComboBox_Custom .rcbFocused .rcbReadOnly td.rcbInputCellRight { background-position: 100% -44px; }
+
+.RadComboBox_Custom .rcbInputCell .rcbInput
+{
+	width: 100%;
+	background: transparent;
+	border: 0;
+	vertical-align: top;
+	padding: 3px 0 0;
+	outline: 0;
+}
+
+.RadComboBox_Custom .rcbInputCell .rcbEmptyMessage
+{
+	color: #666;
+}
+
+.RadComboBox_Custom .rcbReadOnly .rcbInput
+{
+	cursor: default;
+}
+
+.RadComboBox_Custom table td.rcbInputCell,
+.RadComboBox_Custom .rcbInputCell .rcbInput
+{
+	padding-left: 2px;
+}
+
+.RadComboBox_Custom_rtl table td.rcbInputCell,
+.RadComboBox_Custom_rtl .rcbInputCell .rcbInput
+{
+	padding-right: 2px;
+	padding-left: 0;
+}
+
+.RadComboBox_Custom .rcbHovered .rcbInputCell .rcbInput
+{
+	color: #000;
+}
+
+.RadComboBox_Custom table td.rcbArrowCell
+{
+	width: 18px;
+	padding: 0;
+	border: 0;
+}
+
+.RadComboBox_Custom td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_Custom td.rcbArrowCellRight { background-position: 0 -88px; }
+
+.RadComboBox_Custom .rcbHovered .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_Custom .rcbHovered .rcbArrowCellRight { background-position: -36px -88px; }
+
+.RadComboBox_Custom .rcbFocused .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_Custom .rcbFocused .rcbArrowCellRight { background-position: -72px -88px; }
+
+.RadComboBox_Custom td.rcbArrowCellHidden,
+.RadComboBox_Custom .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_Custom .rcbFocused td.rcbArrowCellHidden { background-position: -15px -88px; }
+.RadComboBox_Custom table.rcbDisabled td.rcbArrowCellHidden { background-position: -123px -88px; }
+
+.RadComboBox_Custom .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -51px -88px; }
+.RadComboBox_Custom .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -87px -88px; }
+
+.RadComboBox_Custom .rcbArrowCell a
+{
+	position: relative;
+	outline: 0;
+	overflow: hidden;
+	display: block;
+	width: 18px;
+	height: 22px;
+	text-decoration: none;
+	text-indent: -9999px;
+	font-size: 1px;
+}
+
+div.RadComboBox_Custom td.rcbArrowCellHidden,
+div.RadComboBox_Custom .rcbArrowCellHidden a
+{
+	width: 3px;
+}
+
+/* Read-only styles */
+
+.RadComboBox_Custom .rcbReadOnly td.rcbArrowCell { width: 16px; }
+.RadComboBox_Custom .rcbReadOnly td.rcbArrowCell a { width: 16px; }
+
+.RadComboBox_Custom .rcbReadOnly td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_Custom .rcbReadOnly td.rcbArrowCellRight { background-position: -2px -88px; }
+
+.RadComboBox_Custom .rcbHovered .rcbReadOnly .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_Custom .rcbHovered .rcbReadOnly .rcbArrowCellRight { background-position: -38px -88px; }
+
+.RadComboBox_Custom .rcbFocused .rcbReadOnly .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_Custom .rcbFocused .rcbReadOnly .rcbArrowCellRight { background-position: -74px -88px; }
+
+.RadComboBox_Custom .rcbReadOnly td.rcbArrowCellHidden,
+.RadComboBox_Custom .rcbReadOnly td.rcbArrowCellHidden a { width: 3px; } 
+.RadComboBox_Custom .rcbReadOnly td.rcbArrowCellHidden { background-position: -15px -88px; }
+.RadComboBox_Custom .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -51px -88px; }
+.RadComboBox_Custom .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -87px -88px; }
+
+/* dropdown */
+
+.rcbSlide
+{
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	_height: 1px;
+	float: left;
+}
+
+.RadComboBoxDropDown_Custom .rcbHeader,
+.RadComboBoxDropDown_Custom .rcbFooter,
+.RadComboBoxDropDown_Custom .rcbMoreResults,
+.RadComboBoxDropDown_Custom .rcbMoreResults a
+{
+	background-image: url('ComboBox/rcbSprite.png');
+	background-repeat: no-repeat;
+}
+
+* html .RadComboBoxDropDown_Custom .rcbHeader,
+* html .RadComboBoxDropDown_Custom .rcbFooter,
+* html .RadComboBoxDropDown_Custom .rcbMoreResults,
+* html .RadComboBoxDropDown_Custom .rcbMoreResults a
+{
+	background-image: url('ComboBox/rcbSpriteIE6.png');
+	background-repeat: no-repeat;
+}
+
+.RadComboBoxDropDown_Custom
+{
+	position: absolute;
+	background: #fff;
+	border: 1px solid #c6c7d2;
+	border-top-color: #83868d;
+	cursor: default;
+}
+
+.RadComboBoxDropDown_Custom_rtl
+{
+	text-align: right;
+	direction: rtl;
+}
+
+.RadComboBoxDropDown_Custom .rcbScroll
+{
+	overflow: auto;
+	position: relative;
+}
+
+.RadComboBoxDropDown_Custom .rcbList
+{
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.RadComboBoxDropDown_Custom .rcbHeader,
+.RadComboBoxDropDown_Custom .rcbFooter
+{
+	background-repeat: repeat-x;
+	background-color: #f1f2f4;
+	background-position: 0 -110px;
+	padding: 5px 7px 4px;
+}
+
+.RadComboBoxDropDown_Custom .rcbHeader
+{
+	border-bottom: 1px solid #d5d5d5;
+	margin-bottom: 1px;
+}
+
+.RadComboBoxDropDown_Custom .rcbFooter
+{
+	border-top: 1px solid #d5d5d5;
+	margin-top: 1px;
+}
+
+.RadComboBoxDropDown_Custom .rcbNoWrap .rcbItem,
+.RadComboBoxDropDown_Custom .rcbNoWrap .rcbHovered,
+.RadComboBoxDropDown_Custom .rcbNoWrap .rcbDisabled,
+.RadComboBoxDropDown_Custom .rcbNoWrap .rcbLoading
+{
+	white-space: nowrap;
+}
+
+.RadComboBoxDropDown_Custom .rcbItem,
+.RadComboBoxDropDown_Custom .rcbHovered,
+.RadComboBoxDropDown_Custom .rcbDisabled,
+.RadComboBoxDropDown_Custom .rcbLoading
+{
+	padding: 2px 19px 2px 6px;
+	margin: 0 1px;
+	min-height: 13px;
+}
+
+* html .RadComboBoxDropDown_Custom .rcbItem,
+* html .RadComboBoxDropDown_Custom .rcbHovered,
+* html .RadComboBoxDropDown_Custom .rcbDisabled,
+* html .RadComboBoxDropDown_Custom .rcbLoading
+{
+	height: 13px;
+	word-break: break-all;
+}
+
+*+html .RadComboBoxDropDown_Custom .rcbItem,
+*+html .RadComboBoxDropDown_Custom .rcbHovered,
+*+html .RadComboBoxDropDown_Custom .rcbDisabled,
+*+html .RadComboBoxDropDown_Custom .rcbLoading
+{
+	height: auto;
+	word-break: break-all;
+}
+
+.RadComboBoxDropDown_Custom_rtl .rcbItem,
+.RadComboBoxDropDown_Custom_rtl .rcbHovered,
+.RadComboBoxDropDown_Custom_rtl .rcbDisabled,
+.RadComboBoxDropDown_Custom_rtl .rcbLoading
+{
+	padding: 2px 6px 2px 19px;
+}
+
+.RadComboBoxDropDown_Custom .rcbImage
+{
+	vertical-align: middle;
+	margin: 0 6px 2px 0;
+}
+
+.RadComboBoxDropDown_Custom_rtl .rcbImage
+{
+	margin: 0 0 2px 6px;
+}
+
+.RadComboBoxDropDown_Custom em
+{
+	font-weight: bold;
+}
+
+.RadComboBoxDropDown_Custom .rcbItem em
+{
+	background: #e5e5e5;
+}
+
+.RadComboBoxDropDown_Custom .rcbHovered
+{
+	background: #dfdfdf;
+	color: #000;
+}
+
+.RadComboBoxDropDown_Custom .rcbSeparator
+{
+    color: #fff;
+    background: #8a8a8a;
+}
+
+.RadComboBox_Custom .rcbDisabled .rcbInputCell .rcbInput,
+.RadComboBoxDropDown_Custom .rcbDisabled
+{
+	color: #999;
+	cursor: default;
+}
+
+.RadComboBox_Custom .rcbDisabled td.rcbInputCellLeft { background-position: 0 -66px; }
+.RadComboBox_Custom .rcbDisabled td.rcbInputCellRight { background-position: 100% -66px; }
+.RadComboBox_Custom .rcbDisabled td.rcbArrowCellLeft { background-position: -126px -88px; }
+.RadComboBox_Custom .rcbDisabled td.rcbArrowCellRight { background-position: -110px -88px; }
+
+.RadComboBoxDropDown_Custom .rcbLoading
+{
+	background: #f0f0f0;
+	text-align: center;
+}
+
+.RadComboBoxDropDown_Custom .rcbMoreResults
+{
+	clear: both;
+	border-top: 1px solid #c6c7d2;
+	background-position: 0 -132px;
+	background-repeat: repeat-x;
+	background-color: #e6e6e6;
+	position: relative;
+	padding: 0 6px 0;
+	text-align: center;
+	margin-top: 1px;
+	color: #8a8a8a;
+}
+
+.RadComboBoxDropDown_Custom .rcbMoreResults a
+{
+	display: inline-block;
+	width: 15px;
+	height: 9px;
+	background-position: -157px -94px;
+	text-indent: -9999px;
+	overflow: hidden;
+	text-decoration: none;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+* html .RadComboBoxDropDown_Custom .rcbMoreResults a
+{
+	font-size: 0;
+	line-height: 0;
+	text-indent: 0;
+}
+
+*+html .RadComboBoxDropDown_Custom .rcbMoreResults a
+{
+	font-size: 0;
+	line-height: 0;
+	text-indent: 0;
+}
+
+.RadComboBoxDropDown_Custom .rcbMoreResults span
+{
+	vertical-align: middle;
+	height: 19px;
+	line-height: 19px;
+	display: inline-block;
+}
+
+.RadComboBoxDropDown_Custom .rcbSeparatedList .rcbItem,
+.RadComboBoxDropDown_Custom .rcbSeparatedList .rcbHovered,
+.RadComboBoxDropDown_Custom .rcbSeparatedList .rcbDisabled,
+.RadComboBoxDropDown_Custom .rcbSeparatedList .rcbLoading
+{
+	padding-left: 12px;
+}
+
+.RadComboBoxDropDown_Custom .rcbSeparatedList .rcbSeparator
+{
+	padding-left: 6px;
+}
+
+/*hacks*/
+
+/*Opera start*/
+@media screen and (min-width: 550px)
+{
+	.RadComboBoxDropDown_Custom_rtl .rcbItem,
+	.RadComboBoxDropDown_Custom_rtl .rcbHovered,
+	.RadComboBoxDropDown_Custom_rtl .rcbDisabled,
+	.RadComboBoxDropDown_Custom_rtl .rcbLoading
+	{
+		padding: 2px 6px 2px 19px;
+	}
+	
+	:root .RadComboBox_Custom .rcbInputCell .rcbInput
+	{
+		margin-top: 2px;
+	}
+} /*Opera end*/
+
+/* Dock/TitlebarHLeft.gif */
+
+/* RadDock for ASP.NET AJAX Custom Skin */
+
+/* Docking Zone properties */
+.RadDockZone_Custom
+{
+    border-color: #828282;
+}
+
+/* wrappers and borders */
+.RadDockZone_Custom .rdPlaceHolder
+{
+    border-color: #666;
+}
+
+.RadDock_Custom
+{
+    background-color: white;
+    color: #000;
+}
+
+.RadDock_Custom .rdTopBorder,
+.RadDock_Custom .rdSideBorders,
+.RadDock_Custom .rdBottomBorder
+{
+    border-color: #828282;
+}
+
+/* titlebar and buttons */
+.RadDock_Custom .rdTitlebar
+{
+    border-color: #c4c4c4;
+    background-color: #eaeaea;
+    color: #000;
+}
+
+.RadDock_Custom .rdHTitlebar .rdTitle
+{
+    background-image: url('Dock/rdHTitle.gif');
+    background-repeat: repeat-x;
+    background-color: #eaeaea;
+}
+
+.RadDock_Custom .rdVTitlebar .rdTitle
+{
+    border-color: #eff9fe #e8f5fc #eff9fe #fff;
+    background-color: #eaeaea;
+}
+
+.RadDock_Custom .rdHTitlebar .rdCommands
+{
+    padding: 0 3px 0 0;
+}
+
+/* right to left support */
+.RadDock_Custom_rtl .rdHTitlebar .rdTitle
+{
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.RadDock_Custom_rtl .rdHTitlebar .rdCommands
+{
+    padding: 0 0 0 3px;
+}
+
+.RadDock_Custom .rdHTitlebar .rdCommands a,
+.RadDock_Custom .rdVTitlebar .rdCommands a
+{
+    margin: 0 0 0 0;
+}
+
+.RadDock_Custom .rdTitlebar .rdCommands a
+{
+    background-image: url('Dock/DockCommandSprites.gif');
+}
+
+.RadDock_Custom .rdTitlebar .rdCollapse:hover
+{
+    background-position: -19px 0;
+}
+
+.RadDock_Custom .rdTitlebar .rdExpand:hover
+{
+    background-position: -19px -19px;
+}
+
+.RadDock_Custom .rdTitlebar .rdUnpin:hover
+{
+    background-position: -19px -38px;
+}
+
+.RadDock_Custom .rdTitlebar .rdPin:hover
+{
+    background-position: -19px -57px;
+}
+
+.RadDock_Custom .rdTitlebar .rdClose:hover
+{
+    background-position: -19px -76px;
+}
+
+.RadDock_Custom .rdTitlebar .rdCustom:hover
+{
+    background-position: -19px -95px;
+}
+
+/* drag grips */
+.RadDock_Custom .rdGripTop,
+.RadDock_Custom .rdGripLeft
+{
+    background: #828282;
+}
+
+.RadDock_Custom .rdTopLeft,
+.RadDock_Custom .rdTopRight,
+.RadDock_Custom .rdBottomLeft,
+.RadDock_Custom .rdBottomRight,
+.RadDock_Custom .rdLeftMiddle,
+.RadDock_Custom .rdRightMiddle
+{
+	background: #828282;
+}
+
+.RadDock_Custom .rdTopCenter, 
+.RadDock_Custom .rdBottomCenter 
+{
+	background: #828282;
+}
+
+.RadDock_Custom .rdWrapTable .rdTitlebar,
+.RadDock_Custom .rdWrapTable .rdTitle,
+.RadDock_Custom .rdWrapTable .rdCommands
+{
+    background-image: url('Dock/rdHTitle.gif');
+}
+
+/* Editor/ToolBarSprites.gif")%> */
+
+/* RadEditor for ASP.NET AJAX Custom Skin */
+
+.Custom.RadEditor
+{
+    background-color: #ececec;
+}
+
+/* reWrapper */
+.Custom.reWrapper
+{
+    border: solid 1px #828282;
+}
+
+.Custom.RadEditor .reContentCell
+{
+    border: solid 1px #828282;
+}
+
+/* common settings for .reModule, .reEditorModes and .reWrapper */
+.Custom.reColorPicker,
+.Custom.reInsertTable,
+.Custom.reDropDownBody,
+.Custom.reCustomLinks a:hover
+{
+	border: solid 1px #828282;
+}
+
+.Custom.reDropDownBody table
+{
+    background: transparent;
+}
+
+.Custom.RadEditor .reModule,
+.Custom.RadEditor .reEditorModes,
+.Custom.RadEditor .reWrapper
+{
+	background-color: #ececec;
+}
+
+/*NEW: Only in the Bottom zone - where the Statistics module is commonly set, remove uppper border, because it looks ugly*/
+.Custom.RadEditor .reBottomZone .reModule
+{
+    border-top: 0;
+}
+
+.Custom.RadEditor .reModule
+{
+    border-top: solid 1px #828282;  
+}
+
+.Custom.reCustomLinks a,
+.Custom.reCustomLinks a:link,
+.Custom.reCustomLinks a:visited
+{
+    border: solid 1px #fff; /* should be the same as the background of the dropdown */
+    color: black !important;
+}
+
+.Custom.reCustomLinks a:hover
+{
+    background-color: #828282;
+    border-top: solid 1px #8d8d8d;
+    border-right: solid 1px #717171;
+    border-bottom: solid 1px #6c6c6c;
+    border-left: solid 1px #7a7a7a;
+}
+/* end of module */
+
+.reToolbar li
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: 0 -26px;
+    color: #000;
+}
+
+.Custom .reSpinBox a
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    -moz-user-select: none;
+    outline: none;
+}
+
+/* separator */
+.reToolbar.Custom .reSeparator
+{
+    background-position: center -148px;
+    background-image: url('Editor/ToolbarSprites.gif');
+}
+
+/* common settings for left and right grip */
+.reToolbar.Custom .reGrip
+{
+	background-image: url('Editor/ToolbarSprites.gif');
+}
+
+/* reTool */
+.reTool span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+}
+
+/* IE6 does not support PNG alpha channel, so we use gifs for the command sprites instead */
+* html .reTool span,
+* html .reTool_text span,
+* html .reTlbVertical .reTool_text span,
+* html .reToolbar .reSplitButton.reTool_text span
+{
+    _background-image: url('../Common/CommandSpritesLightIE6.gif');
+}
+
+.reDialog .reTool,
+.reModule .reTool
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: 0 -242px;
+}
+
+.reDialog .reTool:hover,
+.reToolbar .reTool:hover,
+.reModule .reTool:hover
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: 0 -52px;
+}
+
+.reToolbar .reTool.reTool_selected,
+.reToolbar .reTool.reTool_selected:hover
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: 0 -124px;
+    background-repeat: no-repeat;
+}
+
+/* .reTool_text */
+.reToolbar .reTool_text span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+}
+
+.reToolbar .reTool_text:hover
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-repeat: repeat-x;
+    background-position: 0 -100px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: solid 1px #878787;
+    border-right: solid 1px #878787;
+}
+
+.reToolbar .reTool_text.reTool_selected,
+.reToolbar .reTool_text.reTool_selected:hover
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-repeat: repeat-x;
+    background-position: 0 -174px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: solid 1px #878787;
+    border-right: solid 1px #878787;
+}
+
+/* these settings will not be included in the common CSS file of RadEditor */
+.reToolbar .reTool_text.reTool_disabled,
+.reToolbar .reTool_text.reTool_disabled:hover
+{
+    margin-left: 0;
+    margin-right: 0;
+    border: 0;
+}
+/* end of reTool_text */
+
+.reTool.reSplitButton:hover
+{
+    background: url('Editor/ToolbarSprites.gif') no-repeat 0 -76px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool.reSplitButton:hover
+{
+    background: url('Editor/ToolbarSprites.gif') no-repeat 0 -76px;
+}
+
+.Custom .reTool .split_arrow
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: -28px -362px;
+}
+
+.Custom .reSplitButton.reTool_text .split_arrow
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: -28px -362px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .Custom .reToolbar .reTool_text .split_arrow
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: -28px -362px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool_text:hover
+{
+    background: url('Editor/ToolbarSprites.gif');
+    background-position: 0 -100px;
+}
+
+.reDialog .reTool.reSplitButton,
+.reModule .reTool.reSplitButton
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: 0 -218px;
+}
+
+.reDialog .reTool.reSplitButton:hover,
+.reModule .reTool.reSplitButton:hover
+{
+    background-position: 0 -76px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool.reSplitButton.reTool_disabled:hover
+{
+    background: none;
+}
+/* end of reSplitButton */
+
+/* reDropdown */
+.reDropdown:link,
+.reDropdown:visited
+{
+    color: black !important;
+}
+
+.reDropdown,
+.reTool_disabled.reDropdown:hover
+{
+    border: solid 1px #ababab;
+    background-color: #fff;
+    background-image: url('Editor/ToolbarSprites.gif') !important;
+    background-position: right -360px !important;
+}
+
+.reDropdown:hover
+{
+    border-top: solid 1px #d1d1d1;
+    border-right: solid 1px #d1d1d1;
+    border-bottom: solid 1px #a3a3a3;
+    border-left: solid 1px #a3a3a3;
+    background-image: url('Editor/ToolbarVerticalSprites.gif') !important;
+    background-position: right 0 !important;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTool_disabled.reDropdown
+{
+    background-image: url('Editor/ToolbarSprites.gif')t;
+    background-position: right -380px;
+    background-repeat: no-repeat;
+}
+/* end of reDropdown */
+
+/* vertical toolbar */
+.RadEditor.Custom .reTlbVertical li
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-repeat: repeat-y;
+    background-position: -26px 0;
+}
+
+.RadEditor.Custom .reTlbVertical .reToolbar.Custom .reGrip
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+}
+
+.RadEditor.Custom .reTlbVertical .reToolbar.Custom .grip_first
+{
+    background-position: 0 0;
+}
+
+.RadEditor.Custom .reTlbVertical .reToolbar.Custom .grip_last
+{
+    background-position: 0 -4px;
+}
+
+.RadEditor.Custom .reTlbVertical .reToolbar.Custom .reSeparator
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -100px -12px;
+}
+
+.reTlbVertical .reTool:hover,
+.reTlbVertical .reTool_text.reSplitButton:hover,
+.reTlbVertical .reTool_text:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -76px 0;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTlbVertical .reTool_text:hover
+{
+	background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-repeat: no-repeat;
+    background-position: -76px 0;
+}
+
+.reTlbVertical .reTool.reTool_selected,
+.reTlbVertical .reTool_text.reTool_selected,
+.reTlbVertical .reTool_text.reTool_selected:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -52px 0;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTlbVertical .reSplitButton:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -76px 0;
+    background-repeat: no-repeat;
+}
+/* end of vertical toolbar */
+
+.reDropDownBody .reTlbVertical ul li a:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -602px 0;
+}
+
+/* InsertTable itself is a kind of tool strip, so it must be styled as a toolstrip */
+.Custom.reInsertTable
+{
+    background-color: #ffffff;
+}
+
+.reDropDownBody .reTlbVertical .reToolbar
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-color: #ffffff;
+    background-position: -126px 0;
+}
+/* end of context menu and toolstrip */
+
+/* spinbox */
+.Custom table.reSpinBox
+{
+	border-top: solid 1px #8e8e8e;
+	border-right: solid 1px #b8b8b8;
+	border-bottom: solid 1px #b8b8b8;
+	border-left: solid 1px #8e8e8e;
+	background: white;
+}
+
+.Custom table.reSpinBox:hover
+{
+    border: solid 1px #515151;
+}
+
+.Custom .reSpinBoxIncrease
+{
+	background-position: 0 -198px;
+}
+
+.Custom .reSpinBoxIncrease:hover
+{
+	background-position: 0 -208px;
+}
+
+.Custom .reSpinBoxDecrease
+{
+	background-position: -11px -198px;
+}
+
+.Custom .reSpinBoxDecrease:hover
+{
+	background-position: -11px -208px;
+}
+/* end of spinbox */
+
+/* editor input elements */
+.Custom.RadEditor input
+{
+	border-top: solid 1px #8e8e8e;
+	border-right: solid 1px #b8b8b8;
+	border-bottom: solid 1px #b8b8b8;
+	border-left: solid 1px #8e8e8e;
+	background: white;
+}
+
+.Custom.RadEditor input:hover
+{
+    border: solid 1px #515151;
+}
+/* editor input elements */
+
+/* editing modes */
+.Custom .reMode_selected
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -948px 0;
+}
+/* end of editing modes */
+
+/* DOM inspector */
+.Custom .reModule_domlink_selected,
+.Custom .reModule_domlink
+{
+    color: black;
+}
+/* end of DOM inspector */
+
+.Custom.reDropDownBody .reItemOver
+{
+	background: #dfdfdf;
+	color: #000;
+}
+/* end of expanded dropdowns */
+
+* html .reTool_selected.reTool
+{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+}
+
+/* color picker */
+.Custom.reColorPicker table div
+{
+	border: solid 1px #c5c5c5;
+}
+
+.Custom.reColorPicker table td.reItemOver div
+{
+	border-color: #000;
+}
+
+.Custom.reColorPicker span
+{
+	border: solid 1px #c5c5c5;
+}
+/* end of color picker */
+
+/* ajax spellchecker */
+.reAjaxspell_button
+{
+    border: solid 1px #828282;
+    background: #ececec;
+    color: #828282;
+}
+
+.Custom .reAjaxSpellCheckSuggestions table
+{
+    border-width: 0;
+    width: 100%;
+}
+
+.Custom .reAjaxSpellCheckSeparator
+{
+    background-color: #979797;
+}
+/* ajax spellchecker */
+
+/* custom links */
+.Custom.reCustomLinks,
+.Custom.reCustomLinks ul
+{
+	color: #000;
+}
+
+.Custom.reCustomLinks a
+{
+    background: none transparent;
+    color: black;
+	cursor: default !important;
+}
+
+.Custom.reCustomLinks a:hover
+{
+    color: white;
+}
+/* end of custom links */
+
+/* insert table dropdown */
+.reInsertTable table
+{
+    background: #ffffff;
+}
+
+.reInsertTable table td
+{
+    border: solid 1px #828282;
+    background: white;
+}
+
+.reInsertTable .reTlbVertical ul
+{
+    background-color: #ffffff;
+}
+
+.Custom.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text,
+.Custom.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:link,
+.Custom.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:visited
+{
+    color: black !important;
+    background: transparent none;
+    _background: none !important;
+}
+
+.Custom.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:hover
+{
+    background: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -1403px 0;
+}
+
+.reInsertTable .reTlbVertical ul .reTool_text span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+    background-position: -3575 center;
+}
+
+.reInsertTable .reToolbar li .reTool:hover
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: 0 -52px;
+}
+/* end of insert table dropdown */
+
+/* modules selector */
+.reModule_visible_icon,
+.reModule_hidden_icon
+{
+	display: block;
+	float: left;
+	height: 18px;
+	width: 18px;
+	background-image: url('../Common/CommonIcons.gif');
+	background-repeat: no-repeat;
+}
+
+.reModule_visible_icon
+{
+	background-position: -8px -199px;
+}
+
+.reModule_hidden_icon
+{
+	background-position: -8px -103px;
+	
+}
+/* end of modules selector */
+
+/* resize cell */
+.reResizeCell div
+{
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-position: center -301px;
+}
+
+/* reTool_disabled */
+.reDialog .reTool_disabled,
+.reDialog .reTool_disabled:hover,
+.reToolbar .reTool_disabled,
+.reToolbar .reTool_disabled:hover,
+.reModule .reTool_disabled,
+.reModule .reTool_disabled:hover
+{
+    filter: alpha(opacity=40);
+    opacity: .4;
+    -moz-opacity: .4;
+    background-image: none;
+}
+/* reTool_disabled */
+
+/*Telerik RadInput Custom Skin*/
+
+/*global*/
+
+.RadInput_Custom,
+.RadInputMgr_Custom
+{
+	vertical-align:middle;
+}
+
+.RadInput_Custom table
+{
+	border:0;
+	vertical-align:bottom;
+}
+
+.RadInput_Custom table.riTable td
+{
+	border:0;
+	padding:0;
+	vertical-align:middle;
+	overflow:visible;/*RadGrid*/
+}
+
+.RadInput_Custom table td.riCell
+{
+	padding-right:4px;
+}
+
+.RadInput_Custom textarea
+{
+	vertical-align:bottom;
+	overflow:auto;
+}
+
+/*textbox states*/
+
+html body .RadInput_Custom .riTextBox,
+html body .RadInputMgr_Custom
+{
+	border:1px solid;
+	border-color:#8e8e8e #b8b8b8 #b8b8b8 #8e8e8e;
+	padding:2px 1px 3px;
+	background:#fff;
+	color:#000;
+}
+
+html body .RadInput_Custom .riEmpty,
+html body .RadInput_Empty_Custom
+{
+	color:#8a8a8a;
+}
+
+html body .RadInput_Custom .riHover,
+html body .RadInput_Hover_Custom,
+html body .RadInput_Custom .riFocused,
+html body .RadInput_Focused_Custom
+{
+	border-color:#515151;
+}
+
+html body .RadInput_Custom .riRead,
+html body .RadInput_Read_Custom
+{
+	border-color:#d0d0d0;
+}
+
+html body .RadInput_Custom .riDisabled,
+html body .RadInput_Disabled_Custom
+{
+	border-color:#d0d0d0;
+	color:#8a8a8a;
+	cursor:default;
+}
+
+html body .RadInput_Custom .riError,
+html body .RadInput_Error_Custom
+{
+	border-color:#d51923;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#d51923;
+}
+
+html body .RadInput_Custom .riNegative,
+html body .RadInput_Negative_Custom
+{
+	color:#565656;
+}
+
+/*buttons*/
+
+.RadInput_Custom a
+{
+	display:block;
+	overflow:hidden;
+	position:relative;/*FF*/
+	outline:none;/*FF*/
+	z-index:2;/*Opera*/
+	background:transparent no-repeat url('Input/sprite.gif');
+	text-indent:-2222px;
+	text-align:center;
+	text-decoration:none;
+}
+* html .RadInput_Custom a{position:static}/*IE6*/
+*+html .RadInput_Custom a{position:static}/*IE7*/
+
+/*go*/
+
+.RadInput_Custom .riBtn a
+{
+	width:20px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Custom .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Custom .riSpin a
+{
+	width:15px;
+	height:7px;
+	line-height:7px;
+	margin:0 1px;
+}
+
+.RadInput_Custom .riUp
+{
+	background-position:4px -98px;
+}
+
+.RadInput_Custom .riUp:hover
+{
+	background-position:4px -148px;
+}
+
+.RadInput_Custom a.riDown
+{
+	background-position:4px -199px;
+	margin-top:3px;
+}
+
+.RadInput_Custom a.riDown:hover
+{
+	background-position:4px -249px;
+}
+
+/*label*/
+
+.RadInput_Custom .riLabel
+{
+	margin:0 4px 0 0;
+	color:#000;
+	white-space:nowrap;
+}
+
+.RadToolTip_Custom.rtLoading
+{	
+	background: url('ToolTip/Loading.gif') no-repeat center;
+	width: 100%; 
+	height: 100%;
+}
+
+div.RadToolTip_Custom
+{
+	position: absolute;
+	cursor: default;
+}
+
+div.RadToolTip_Custom div.rtCallout
+{
+	display: none;
+}
+
+div.RadToolTip_Custom.rtVisibleCallout div.rtCallout
+{
+	display: block;
+}
+
+div.RadToolTip_Custom table.rtWrapper
+{
+	padding: 0; 
+	margin: 0;
+	border-collapse: collapse;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomRight
+{
+	width: 3px; 
+	height: 3px; 
+	line-height: 1px; 
+	font-size: 1px;
+	background-image: url('ToolTip/ToolTipSprites.gif');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopLeft
+{
+	background-position: 0 -12px;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopRight
+{
+	background-position: right -12px;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomLeft
+{
+	background-position: 0 -63px;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomRight
+{
+	background-position: right -63px;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomCenter
+{
+	height: 3px; 
+	line-height: 0px; 
+	font-size: 1px;
+	background: url('ToolTip/ToolTipSprites.gif') ;
+	background-repeat: repeat-x;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopCenter
+{
+	background-position: 0 -66px;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomCenter
+{
+	background-position: 0 -120px;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperRightMiddle
+{
+	background-image:  url('ToolTip/ToolTipVerticalSprites.gif');
+	background-repeat: repeat-y;
+	font-size: 1px;
+	width: 3px;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperLeftMiddle
+{
+	background-position: 0 0;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperRightMiddle
+{
+	background-position: -3px 0;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperContent
+{
+	height: 100%;
+	background-color: #fff;	
+	padding: 4px;
+	color: #666;
+}
+
+div.RadToolTip_Custom div.rtTitlebar
+{	
+	color: #666;
+	float: left;
+	line-height: 22px;
+}
+
+div.RadToolTip_Custom a.rtCloseButton
+{
+	display: block; 
+	float: right;
+	position: absolute;
+	right: 2px;
+	width: 13px; 
+	height: 11px;
+	font-size: 1px; 
+	line-height: 1px;
+	margin-top: 5px;
+	margin-right: 3px;
+	background-image: url('ToolTip/ToolTipSprites.gif');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	outline: none;
+}
+
+/* RTL support begin */
+div.RadToolTip_Custom_rtl a.rtCloseButton,
+div.RadToolTip_Custom_rtl a.rtCloseButton:hover
+{
+	float: left ;
+	text-decoration: none ;
+    outline: none;
+    left: 2px;
+    margin-left: 1px;
+    right: auto;
+    margin-right: auto;
+}
+
+div.RadToolTip_Custom_rtl div.rtTitlebar,
+div.RadToolTip_Custom_rtl table.rtWrapper td.rtWrapperTopCenter div.rtTitlebar div
+{
+	float: right ;
+}
+
+/* position="rtCalloutCenter" */
+div.RadToolTip_Custom_rtl .rtCalloutCenter
+{
+	right: 0;
+	left: auto;
+}
+
+/* position="rtCalloutBottomRight" */
+.RadToolTip_Custom_rtl .rtCalloutTopLeft
+{
+	margin-right: -8px;
+	left: 0;
+}
+
+/* position="rtCalloutBottomCenter" */
+.RadToolTip_Custom_rtl .rtCalloutTopCenter
+{
+	margin-right: 10px;
+}
+
+/* position="rtCalloutBottomLeft" */
+.RadToolTip_Custom_rtl .rtCalloutTopRight
+{
+	margin-right: 20px;
+}
+
+/* position="rtCalloutTopCenter" */
+.RadToolTip_Custom_rtl .rtCalloutBottomCenter
+{
+	margin-right: 10px ;
+}
+
+/* position="rtCalloutTopLeft" */
+.RadToolTip_Custom_rtl .rtCalloutBottomRight
+{
+	margin-right: 40px ;
+}
+
+/* position="rtCalloutTopRight" */
+.RadToolTip_Custom_rtl .rtCalloutBottomLeft
+{
+	margin-right: -20px;
+	left: 0;
+}
+
+/* position="rtCalloutMiddleRight" */
+.RadToolTip_Custom_rtl .rtCalloutMiddleLeft
+{
+	margin-right: 10px;
+	left: 0;
+}
+
+/* position="rtCalloutMiddleLeft" */
+.RadToolTip_Custom_rtl .rtCalloutMiddleRight
+{
+	margin-right: 1px;
+}
+/* RTL support end */
+
+div.RadToolTip_Custom div.rtCallout
+{
+	position: absolute; 
+	height: 11px; 
+	width: 11px;
+	line-height: 0px; 
+	font-size: 1px;
+	background-image: url('ToolTip/Callouts.gif');
+	background-repeat: no-repeat;
+}
+
+/* position="rtCalloutCenter" */
+div.RadToolTip_Custom .rtCalloutCenter
+{
+	visibility: hidden;
+}
+
+/* position="rtCalloutBottomRight" */
+.RadToolTip_Custom .rtCalloutTopLeft
+{
+	margin-top: -10px; 
+	margin-left: 20px;
+	background-position: 0 -22px;
+}
+
+/* position="rtCalloutBottomCenter" */
+.RadToolTip_Custom .rtCalloutTopCenter
+{
+	left: 50% ;
+	margin-top: -9px; 
+	margin-left: -10px;
+	background-position: 0 0 ;
+}
+
+/* position="rtCalloutBottomLeft" */
+.RadToolTip_Custom .rtCalloutTopRight
+{
+	left: 100% ;
+	margin-top: -10px; 
+	margin-left: -20px;
+	background-position: 0 -11px ;
+}
+
+/* position="rtCalloutTopCenter" */
+.RadToolTip_Custom .rtCalloutBottomCenter
+{
+	top: 100% ; 
+	left: 50% ;
+	margin-left: -10px ; 
+	margin-top: -1px ;
+	background-position: 0 -55px ;
+}
+
+/* position="rtCalloutTopLeft" */
+.RadToolTip_Custom .rtCalloutBottomRight
+{
+	top: 100% ; 
+	left: 100% ;
+	margin-left: -40px ; 
+	margin-top: -1px ;
+	background-position: 0 -66px ;
+}
+
+/* position="rtCalloutTopRight" */
+.RadToolTip_Custom .rtCalloutBottomLeft
+{
+	top: 100% ;
+	margin-left: 20px ; 
+	margin-top: -1px ;
+	background-position: 0 -77px ;
+}
+
+/* position="rtCalloutMiddleRight" */
+.RadToolTip_Custom .rtCalloutMiddleLeft
+{
+	top: 50% ;
+	margin-left: -10px; 
+	margin-top: -7px;
+	background-position: 0 -44px ;
+}
+
+/* position="rtCalloutMiddleLeft" */
+.RadToolTip_Custom .rtCalloutMiddleRight
+{
+	left: 100% ; 
+	top: 50% ;
+	margin-left: -1px;
+	margin-top: -10px;
+	background-position: 0 -33px;
+}
+
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopLeft,   
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopCenter,   
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperTopRight,   
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperLeftMiddle,   
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperContent,   
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperRightMiddle,   
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomLeft,   
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomCenter,   
+div.RadToolTip_Custom table.rtWrapper td.rtWrapperBottomRight   
+{
+    padding: 5;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.RadWindow_Custom .rwTopLeft,
+.RadWindow_Custom .rwTopRight,
+.RadWindow_Custom .rwTitlebar,
+.RadWindow_Custom .rwFooterLeft,
+.RadWindow_Custom .rwFooterRight,
+.RadWindow_Custom .rwFooterCenter,
+.RadWindow_Custom .rwTopResize,
+.RadWindow_Custom .rwStatusbar div,
+.RadWindow_Custom .rwStatusbar,
+.RadWindow_Custom .rwPopupButton,
+.RadWindow_Custom .rwPopupButton span,
+.RadWindow_Custom.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+.RadWindow_Custom .rwBodyLeft,
+.RadWindow_Custom .rwBodyRight,
+.RadWindow_Custom .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+.RadWindow_Custom .rwStatusbar input
+{
+    background-color: #f7f3e9;
+}
+
+.RadWindow_Custom .rwControlButtons a
+{
+    background-image: url('Window/CommandButtonSprites.gif');
+}
+
+.RadWindow_Custom a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_Custom .rwTitlebarControls em
+{
+	color: black;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+	padding:0px;
+	position:relative;
+	top:4px;
+	left:-16px;
+}
+
+div.RadWindow_Custom .rwDialogInput
+{
+	border-top: solid 1px #abadb3;
+	border-right: solid 1px #dbdfe6;
+	border-bottom: solid 1px #e3e9ef;
+	border-left: solid 1px #e2e3ea;
+}
+
+div.RadWindow_Custom .rwDialogInput:hover
+{
+	border-top: solid 1px #5794bf;
+	border-right: solid 1px #b7d5ea;
+	border-bottom: solid 1px #c7e2f1;
+	border-left: solid 1px #c5daed;
+	color: #565656;
+}
+
+div.RadWindow_Custom td.rwLoading
+{
+    background-color: #fff;
+}
+

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CSBooster.3.0.0.0" Class="ShopDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="ConnectionString" ConnectionString="Data Source=4SAPPL02\SQL2005;Initial Catalog=CSBooster.3.0.0.0;User ID=CSBooster_User" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.hitbl_ShoppingCart_Cart_SHO" Member="hitbl_ShoppingCart_Cart_SHOs">
+    <Type Name="hitbl_ShoppingCart_Cart_SHO">
+      <Column Name="SHO_CARTID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SHO_USERID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="SHO_CARTSTATUS" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SHO_NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SHO_LASTNAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SHO_FIRM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SHO_ADDRESS1" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="SHO_ADDRESS2" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="SHO_PLZ" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SHO_CITY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SHO_TEL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SHO_EMAIL" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="SHO_DATEADDED" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="SHO_TAXES" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SHO_TRANSPORT" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SHO_ANREDE" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SHO_COMMENT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="hitbl_ShoppingCart_Cart_SHO_hitbl_ShoppingCart_Items_ITE" Member="hitbl_ShoppingCart_Items_ITEs" ThisKey="SHO_CARTID" OtherKey="SHO_CARTID" Type="hitbl_ShoppingCart_Items_ITE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_ShoppingCart_Items_ITE" Member="hitbl_ShoppingCart_Items_ITEs">
+    <Type Name="hitbl_ShoppingCart_Items_ITE">
+      <Column Name="ITE_ITEM_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SHO_CARTID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ITE_QUANTITY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ITE_REFNR" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ITE_TITEL" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ITE_TEXT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ITE_PRICE1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ITE_PRICE2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ITE_PRICE3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ITE_Porto" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ITE_COMENT" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="hitbl_ShoppingCart_Cart_SHO_hitbl_ShoppingCart_Items_ITE" Member="hitbl_ShoppingCart_Cart_SHO" ThisKey="SHO_CARTID" OtherKey="SHO_CARTID" Type="hitbl_ShoppingCart_Cart_SHO" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

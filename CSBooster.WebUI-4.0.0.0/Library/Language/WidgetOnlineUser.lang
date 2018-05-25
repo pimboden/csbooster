@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidget">
+        <value><![CDATA[Benutzer Online]]></value>
+    </data>
+    <data name="TooltipWidget">
+        <value><![CDATA[zeigt die Benutzer welche aktuell Online sind]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelUserCount">
+        <value><![CDATA[Wieviele Benutzer zeigen?]]></value>
+    </data>
+    <data name="TooltipUserCount">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelMemberSince">
+        <value><![CDATA[Mitglied seit:]]></value>
+    </data>
+</root>

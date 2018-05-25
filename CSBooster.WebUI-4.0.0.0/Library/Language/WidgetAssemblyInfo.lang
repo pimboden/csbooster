@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="titlewidgetassemblyinfo">
+        <value><![CDATA[Assembly Versions]]></value>
+    </data>
+    <data name="tooltipWidget">
+        <value><![CDATA[Listet alle Assemblies aus dem bin Ordner auf]]></value>
+    </data>
+    <data name="filename">
+        <value><![CDATA[Dateiname]]></value>
+    </data>
+    <data name="fileversion">
+        <value><![CDATA[Dateiversion]]></value>
+    </data>
+    <data name="productversion">
+        <value><![CDATA[Produktversion]]></value>
+    </data>
+    <data name="creation">
+        <value><![CDATA[Erstellt]]></value>
+    </data>
+    <data name="modified">
+        <value><![CDATA[Geändert]]></value>
+    </data>
+</root>

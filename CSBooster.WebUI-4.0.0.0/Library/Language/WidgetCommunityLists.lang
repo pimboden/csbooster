@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidgetMyCommunities">
+        <value><![CDATA[Meine Communities/Gruppen]]></value>
+    </data>
+    <data name="TooltipWidgetMyCommunities">
+        <value><![CDATA[zeigt meine Communities oder die Gruppen einer Community]]></value>
+    </data>
+    <data name="TextMyCommunitiesSingular">
+        <value><![CDATA[Community]]></value>
+    </data>
+    <data name="TextMyCommunitiesPlural">
+        <value><![CDATA[Communities]]></value>
+    </data>
+    <data name="TextMyGroupsSingular">
+        <value><![CDATA[Gruppe]]></value>
+    </data>
+    <data name="TextMyGroupsPlural">
+        <value><![CDATA[Gruppen]]></value>
+    </data>
+    <data name="TitleWidgetMyMemberships">
+        <value><![CDATA[Meine Mitgliedschaften]]></value>
+    </data>
+    <data name="TooltipWidgetMyMemberships">
+        <value><![CDATA[zeigt alle meine Mitgliedschaften an]]></value>
+    </data>
+    <data name="TextMyMembershipsSingular">
+        <value><![CDATA[Mitgliedschaft]]></value>
+    </data>
+    <data name="TextMyMembershipsPlural">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelUserCount">
+        <value><![CDATA[wieviele zeigen?]]></value>
+    </data>
+    <data name="TooltipUserCount">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelPager">
+        <value><![CDATA[Pager]]></value>
+    </data>
+    <data name="TooltipPager">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelPagerTop">
+        <value><![CDATA[Pager oben anzeigen]]></value>
+    </data>
+    <data name="LabelPagerBottom">
+        <value><![CDATA[Pager unten anzeigen]]></value>
+    </data>
+</root>

@@ -1,0 +1,24 @@
+Windows-Service installieren
+****************************
+ACHTUNG:
+Bei Windows 7 und Server 2008 ist es wichtig, dass CMD mit Administrator-Rechten gestartet wird. Anson
+Install
+=======
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\installutil CSBooster.VideoEncodingService.exe
+
+Uninstall
+=========
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\installutil /u CSBooster.VideoEncodingService.exe
+
+
+
+Configuration
+=============
+FFMpegExecutable und WatermarkImage müssen mit den alten 8.3 Dateinamen geschrieben werden (z.B. PROGRA~1)
+Auf TemporaryConversionFolder und ConverterRootPathMedia muss der Service Schreibrechte besitzen
+
+Watermark
+=========
+Als neutrale Farbe gilt R=128, G=128, B=128. Das Watermark Bild muss als Hintergrund diese Farbe verwenden!
+
+http://ffmpeg.mplayerhq.hu/hooks.html

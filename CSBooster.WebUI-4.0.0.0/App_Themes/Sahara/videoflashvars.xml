@@ -1,0 +1,12 @@
+﻿<config>
+  <frontcolor>FFFF00</frontcolor>
+  <screencolor>333333</screencolor>     <!-- background color of the video aera -->
+  <backcolor>333333</backcolor>         <!-- background color of the controlbar and playlist -->
+  <volume>40</volume>
+  <controlbar>over</controlbar>         <!-- [bottom] | over | none -->
+  <autostart>false</autostart>          <!-- [false] | true -->
+  <plugins>viral-2</plugins>            <!-- This is a comma-separated list of swf plugins to load (e.g. yousearch,viral). -->
+  
+  <!-- plugin specific Flashvars -->
+  <viral.functions>embed,link</viral.functions>          <!-- embed, link, recommend | all -->
+</config>

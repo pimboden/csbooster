@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleWidget">
+        <value><![CDATA[Wizard Container]]></value>
+    </data>
+    <data name="TooltipWidget">
+        <value><![CDATA[Zeigt Wizards an, falls diese nicht als Popups konfiguriert wurden]]></value>
+    </data>
+</root>

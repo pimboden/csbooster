@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <data name="EnumQuickSort">
+        <value><![CDATA[Sortiert nach]]></value>
+    </data>
+    <data name="EnumQuickSortNotSorted">
+        <value><![CDATA[nicht sortiert]]></value>
+    </data>
+    <data name="EnumQuickSortViewed">
+        <value><![CDATA[nach Besuchen]]></value>
+    </data>
+    <data name="EnumQuickSortCommented">
+        <value><![CDATA[nach Kommentaren]]></value>
+    </data>
+    <data name="EnumQuickSortRatedCount">
+        <value><![CDATA[nach Bewertungsanzahl]]></value>
+    </data>
+    <data name="EnumQuickSortRatedAverage">
+        <value><![CDATA[nach Bewertung]]></value>
+    </data>
+    <data name="EnumQuickSortIncentivePoints">
+        <value><![CDATA[nach Punkten]]></value>
+    </data>
+    <data name="EnumQuickSortMemberCount">
+        <value><![CDATA[nach Mitgliederanzahl]]></value>
+    </data>
+    <data name="EnumQuickSortInsertedDate">
+        <value><![CDATA[nach Erstelldatum]]></value>
+    </data>
+    <data name="EnumQuickSortRandom">
+        <value><![CDATA[zufällig]]></value>
+    </data>
+    <data name="EnumQuickSortLinked">
+        <value><![CDATA[nach Verlinkungen]]></value>
+    </data>
+    <data name="EnumQuickSortAgility">
+        <value><![CDATA[nach Aktivität]]></value>
+    </data>
+    <data name="EnumQuickSortStartDate">
+        <value><![CDATA[nach Startdatum]]></value>
+    </data>
+    <data name="EnumQuickSortModifiedDate">
+        <value><![CDATA[nach Änderungsdatum]]></value>
+    </data>
+    <data name="EnumQuickSortRatedConsolidated">
+        <value><![CDATA[nach Bewertung (konsolidiert)]]></value>
+    </data>
+    <data name="EnumQuickSortTitle">
+        <value><![CDATA[nach Titel]]></value>
+    </data>
+    <data name="EnumQuickSortAccuracy">
+        <value><![CDATA[nach Relevanz]]></value>
+    </data>
+    <data name="EnumQuickSortRelationSortNumber">
+        <value><![CDATA[nach Relation]]></value>
+    </data>
+
+    <data name="EnumQuickSortDirectionAsc">
+        <value><![CDATA[aufsteigend]]></value>
+    </data>
+    <data name="EnumQuickSortDirectionDesc">
+        <value><![CDATA[absteigend]]></value>
+    </data>
+
+    <data name="EnumStatisticChartTypeBar">
+        <value><![CDATA[Balken]]></value>
+    </data>
+    <data name="EnumStatisticChartTypeColumn">
+        <value><![CDATA[Kolonne]]></value>
+    </data>
+    <data name="EnumStatisticChartTypeLine">
+        <value><![CDATA[Linie]]></value>
+    </data>
+    <data name="EnumStatisticChartTypePie">
+        <value><![CDATA[Kuchen]]></value>
+    </data>
+    <data name="EnumStatisticGroupBy">
+        <value><![CDATA[Gruppiert]]></value>
+    </data>
+    <data name="EnumStatisticGroupByNone">
+        <value><![CDATA[Nicht gruppiert]]></value>
+    </data>
+    <data name="EnumStatisticGroupByRole">
+        <value><![CDATA[gruppiert nach Rollen]]></value>
+    </data>
+    <data name="EnumStatisticGroupByType">
+        <value><![CDATA[gruppiert nach Objekttyp]]></value>
+    </data>
+    <data name="EnumStatisticGroupByMobile">
+        <value><![CDATA[gruppiert nach Browsertyp]]></value>
+    </data>
+    <data name="EnumStatisticGroupByAge">
+        <value><![CDATA[gruppiert nach Alter]]></value>
+    </data>
+    <data name="EnumStatisticGroupBySex">
+        <value><![CDATA[gruppiert nach Geschlecht]]></value>
+    </data>
+    <data name="EnumStatisticGroupByStatus">
+        <value><![CDATA[gruppiert nach Status]]></value>
+    </data>
+    <data name="EnumStatisticGroupByPageType">
+        <value><![CDATA[gruppiert nach Seitentyp]]></value>
+    </data>
+    <data name="EnumStatisticDataRange">
+        <value><![CDATA[Zeitraum]]></value>
+    </data>
+    <data name="EnumStatisticDataRangeThisMonth">
+        <value><![CDATA[aktueller Monat]]></value>
+    </data>
+    <data name="EnumStatisticDataRangeLastMonth">
+        <value><![CDATA[letzter Monat]]></value>
+    </data>
+    <data name="EnumStatisticDataRangeLastTwoMonth">
+        <value><![CDATA[letzte 2 Monate]]></value>
+    </data>
+    <data name="EnumGenderFemale">
+        <value><![CDATA[Weiblich]]></value>
+    </data>
+    <data name="EnumGenderMale">
+        <value><![CDATA[Männlich]]></value>
+    </data>
+    <data name="EnumNotSet">
+        <value><![CDATA[keine Angabe]]></value>
+    </data>
+    <data name="StatisticAgeYear">
+        <value><![CDATA[Jahre]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeActivities">
+        <value><![CDATA[Aktivitäten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeCmsPage">
+        <value><![CDATA[CMS-Seiten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeComments">
+        <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeCommunity">
+        <value><![CDATA[Community-Seiten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeDetail">
+        <value><![CDATA[Details]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeFavorites">
+        <value><![CDATA[Favoriten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeFriends">
+        <value><![CDATA[Freinde]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeHomepage">
+        <value><![CDATA[Homepage]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeMemberships">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeMessaging">
+        <value><![CDATA[Meldungen]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeMyContent">
+        <value><![CDATA[Meine Inhalte]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeNotification">
+        <value><![CDATA[Benachrichtigungen]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeOverview">
+        <value><![CDATA[Übersichten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeReporting">
+        <value><![CDATA[Site-Reporting]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeSiteAdmin">
+        <value><![CDATA[Administration]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeStatic">
+        <value><![CDATA[statische Seiten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeUnknow">
+        <value><![CDATA[nicht bekannt]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeUserProfile">
+        <value><![CDATA[Profil Seiten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeUserProfileData">
+        <value><![CDATA[Benützerdaten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeWidgetSettings">
+        <value><![CDATA[Widget-Einstellungen]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeWizardEdit">
+        <value><![CDATA[Objekte bearbeiten]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeWizardInsert">
+        <value><![CDATA[Objekte erstellen]]></value>
+    </data>
+    <data name="EnumLogSitePageTypeWizardSpezial">
+        <value><![CDATA[Objekt-Spezialseiten]]></value>
+    </data>
+    <data name="LableDate">
+        <value><![CDATA[Datum]]></value>
+    </data>
+    <data name="LableTime">
+        <value><![CDATA[Zeit]]></value>
+    </data>
+    <data name="LableCount">
+        <value><![CDATA[Anzahl]]></value>
+    </data>
+    <data name="LableObject">
+        <value><![CDATA[Objekt]]></value>
+    </data>
+    <data name="EnumStatisticsTypeCountCommunityMembers">
+        <value><![CDATA[Anzahl Mitglieder]]></value>
+    </data>
+    <data name="EnumStatisticsTypeCountProfileFriends">
+        <value><![CDATA[Anzahl Freunde]]></value>
+    </data>
+    <data name="EnumStatisticsTypeTotalObjectsCount">
+        <value><![CDATA[Anzahl Objekte]]></value>
+    </data>
+    <data name="EnumStatisticsTypeCreationObjects">
+        <value><![CDATA[Neue Objekte]]></value>
+    </data>
+    <data name="EnumStatisticsTypePageView">
+        <value><![CDATA[Anzahl Seitenbesuche]]></value>
+    </data>
+    <data name="EnumStatisticsTypePageViewDayRange">
+        <value><![CDATA[Verteilung Besuchszeiten]]></value>
+    </data>
+    <data name="EnumStatisticsTypeUniqueUser">
+        <value><![CDATA[Eindeutige Benutzer]]></value>
+    </data>
+    <data name="EnumStatisticsTypeUserSession">
+        <value><![CDATA[Eindeutige Sitzungen]]></value>
+    </data>
+    <data name="MessageStatisticNotImplemented">
+        <value><![CDATA[Diese Statistik ist noch nicht implementiert]]></value>
+    </data>
+    <data name="MessageStatisticInternalError">
+        <value><![CDATA[Interner Fehler (siehe Error-Log)]]></value>
+    </data>
+    <data name="MessageStatisticNoData">
+        <value><![CDATA[Keine Daten für diesn Zeitraum]]></value>
+    </data>
+    <data name="LableStatisticCalls">
+        <value><![CDATA[Aufrufe]]></value>
+    </data>
+    <data name="LableTo">
+        <value><![CDATA[bis]]></value>
+    </data>
+    <data name="TextAnAnonymousUser">
+        <value><![CDATA[Ein anonymer Benutzer]]></value>
+    </data>
+    <data name="MessageWhat0">
+        <value><![CDATA[{U} sagt: {DTX}]]></value>
+    </data>
+    <data name="MessageWhat1">
+        <value><![CDATA[{U} und {T} sind jetzt Freunde]]></value>
+    </data>
+    <data name="MessageWhat2">
+        <value><![CDATA[{U} ist jetzt ein Mitglied von {T}]]></value>
+    </data>
+    <data name="MessageWhat3">
+        <value><![CDATA[{U} hat {D} in {TOT} {T} hochgeladen]]></value>
+    </data>
+    <data name="MessageWhat4">
+        <value><![CDATA[{U} hat mehrere {DOT} in {TOT} {T} hochgeladen]]></value>
+    </data>
+    <data name="MessageWhat5">
+        <value><![CDATA[{U} hat {DOT} {D} in {TOT} {T} kommentiert]]></value>
+    </data>
+    <data name="MessageWhat5PictureCommunity">
+        <value><![CDATA[{U} hat {DOT} {D} in {TOT} {T} kommentiert]]></value>
+    </data>
+    <data name="MessageWhat5PictureProfileCommunity">
+        <value><![CDATA[{U} hat {DOT} {D} in {TOT} {T} kommentiert]]></value>
+    </data>
+    <data name="MessageWhat5EQL">
+        <value><![CDATA[{U} hat {TOT} {T} kommentiert]]></value>
+    </data>
+    <data name="MessageWhat6">
+        <value><![CDATA[{U} hat {DOT} {D} in {TOT} {T} mit einer Bildnotiz ergänzt]]></value>
+    </data>
+    <data name="MessageWhat7">
+        <value><![CDATA[{U} hat {D} in {TOT} {T} bewertet]]></value>
+    </data>
+    <data name="MessageWhat8">
+        <value><![CDATA[{U} ist jetzt online]]></value>
+    </data>
+    <data name="EnumCommunityUsersType">
+        <value><![CDATA[Benutzertypen]]></value>
+    </data>
+    <data name="EnumCommunityUsersTypeOwners">
+        <value><![CDATA[Besitzer]]></value>
+    </data>
+    <data name="EnumCommunityUsersTypeMembers">
+        <value><![CDATA[Mitglieder]]></value>
+    </data>
+    <data name="EnumCommunityUsersTypeAuthenticated">
+        <value><![CDATA[Angemeldete Benutzer]]></value>
+    </data>
+    <data name="EnumCommunityUsersTypeAnonymous">
+        <value><![CDATA[Anonyme Benutzer]]></value>
+    </data>
+</root>

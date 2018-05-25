@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="CommandAcceptUser">
+    <value><![CDATA[Annehmen]]></value>
+  </data>
+    <data name="CommandAdd">
+        <value><![CDATA[Hinzufügen]]></value>
+  </data>
+    <data name="CommandBack">
+        <value><![CDATA[Zurück]]></value>
+  </data>
+    <data name="CommandCancel">
+    <value><![CDATA[Abbrechen]]></value>
+  </data>
+    <data name="CommandDelete">
+    <value><![CDATA[L&ouml;schen]]></value>
+  </data>
+    <data name="CommandEdit">
+        <value><![CDATA[Bearbeiten]]></value>
+    </data>
+    <data name="CommandForumReleasing">
+        <value><![CDATA[Beitrag freigeben]]></value>
+    </data>
+    <data name="CommandForumRemove">
+        <value><![CDATA[Beitrag entfernen]]></value>
+    </data>
+    <data name="CommandForward">
+    <value><![CDATA[Weiterleiten]]></value>
+  </data>
+    <data name="CommandLogout">
+        <value><![CDATA[Abmelden]]></value>
+    </data>
+    <data name="CommandLogin">
+        <value><![CDATA[Anmelden]]></value>
+    </data>
+    <data name="CommandNewMessage">
+        <value><![CDATA[Neue Nachricht schreiben]]></value>
+    </data>
+    <data name="CommandNext">
+        <value><![CDATA[Weiter]]></value>
+    </data>
+    <data name="CommandPrevious">
+        <value><![CDATA[Zurück]]></value>
+    </data>
+    <data name="CommandRejectUser">
+        <value><![CDATA[Ablehnen]]></value>
+    </data>
+    <data name="CommandRespond">
+        <value><![CDATA[Antworten]]></value>
+    </data>
+    <data name="CommandSendMessage">
+        <value><![CDATA[Nachricht senden]]></value>
+    </data>
+    <data name="CommandShowOnMap">
+        <value><![CDATA[Auf Karte anzeigen]]></value>
+    </data>
+    <data name="LabelAction">
+        <value><![CDATA[Aktion]]></value>
+    </data>
+    <data name="LabelAddEvent">
+        <value><![CDATA[Event hinzufügen]]></value>
+    </data>
+    <data name="LabelAddForumTopic">
+        <value><![CDATA[Neue Diskussion starten]]></value>
+    </data>
+    <data name="LabelAddForumTopicItem">
+        <value><![CDATA[Beitrag hinzufügen]]></value>
+    </data>
+    <data name="LabelAddLocation">
+        <value><![CDATA[Location hinzufügen]]></value>
+    </data>
+    <data name="LabelAddress">
+        <value><![CDATA[Adresse]]></value>
+    </data>
+    <data name="LabelAge">
+        <value><![CDATA[Alter]]></value>
+    </data>
+    <data name="LabelDescription">
+        <value><![CDATA[Beschreibung]]></value>
+    </data>
+    <data name="LabelEditEvent">
+        <value><![CDATA[Event bearbeiten]]></value>
+    </data>
+    <data name="LabelEditLocation">
+        <value><![CDATA[Location bearbeiten]]></value>
+    </data>
+    <data name="LabelEntries">
+        <value><![CDATA[Einträge]]></value>
+    </data>
+    <data name="LabelEvent">
+        <value><![CDATA[Event]]></value>
+    </data>
+    <data name="LabelEventAddLocation">
+        <value><![CDATA[Location hinzufügen]]></value>
+    </data>
+    <data name="LabelEventAge">
+        <value><![CDATA[Alter]]></value>
+    </data>
+    <data name="LabelEventChooseLocation">
+        <value><![CDATA[Location auswählen]]></value>
+    </data>
+    <data name="LabelEventDate">
+        <value><![CDATA[Start- und Enddatum]]></value>
+    </data>
+    <data name="LabelEventDescription">
+        <value><![CDATA[Beschreibung]]></value>
+    </data>
+    <data name="LabelEventPrice">
+        <value><![CDATA[Preis]]></value>
+    </data>
+    <data name="LabelEventText">
+        <value><![CDATA[Event]]></value>
+    </data>
+    <data name="LabelEventTime">
+        <value><![CDATA[Zeit]]></value>
+    </data>
+    <data name="LabelEventTitle">
+        <value><![CDATA[Titel]]></value>
+    </data>
+    <data name="LabelEventType">
+        <value><![CDATA[Art]]></value>
+    </data>
+    <data name="LabelForumTopicDescription">
+        <value><![CDATA[Beschreibung]]></value>
+    </data>
+    <data name="LabelForumTopicItemText">
+        <value><![CDATA[Beitrag]]></value>
+    </data>
+    <data name="LabelForumTopicTitle">
+        <value><![CDATA[Titel]]></value>
+    </data>
+    <data name="LabelLocation">
+        <value><![CDATA[Location]]></value>
+    </data>
+    <data name="LabelLocationCity">
+        <value><![CDATA[Ort]]></value>
+    </data>
+    <data name="LabelLocationDescription">
+        <value><![CDATA[Beschreibung]]></value>
+  </data>
+    <data name="LabelLocationStreet">
+        <value><![CDATA[Strasse + Nummer]]></value>
+    </data>
+    <data name="LabelLocationTitle">
+        <value><![CDATA[Titel]]></value>
+  </data>
+    <data name="LabelLocationType">
+        <value><![CDATA[Art]]></value>
+  </data>
+    <data name="LabelLocationZipCode">
+        <value><![CDATA[Postleitzahl]]></value>
+  </data>
+    <data name="LabelMessage">
+        <value><![CDATA[Nachricht]]></value>
+  </data>
+    <data name="LabelMessageBody">
+    <value><![CDATA[Nachricht]]></value>
+  </data>
+    <data name="LabelMessageFrom">
+        <value><![CDATA[Nachricht von ]]></value>
+  </data>
+    <data name="LabelMessageSubject">
+        <value><![CDATA[Subject]]></value>
+    </data>
+    <data name="LabelModerator">
+        <value><![CDATA[Moderator]]></value>
+    </data>
+    <data name="LabelPrice">
+        <value><![CDATA[Preis]]></value>
+    </data>
+    <data name="LabelReceiver">
+        <value><![CDATA[Empf&auml;nger]]></value>
+    </data>
+    <data name="LabelReceiver">
+        <value><![CDATA[Empfänger]]></value>
+    </data>
+    <data name="LabelVisits">
+        <value><![CDATA[Besuche]]></value>
+    </data>
+    <data name="LabelWebsite">
+        <value><![CDATA[Webseite]]></value>
+    </data>
+    <data name="LabelWhen">
+        <value><![CDATA[Wann]]></value>
+    </data>
+    <data name="LableMessageWrote">
+        <value><![CDATA[schrieb]]></value>
+    </data>
+    <data name="MessageEventDateRequired">
+        <value><![CDATA[Bitte geben Sie an, wann der Event stattfindet]]></value>
+    </data>
+    <data name="MessageForumRemove">
+        <value><![CDATA[Beitrag vom Administrator gelöscht]]></value>
+    </data>
+    <data name="MessageForumTopicHasWrite">
+        <value><![CDATA[ schrieb am {0}]]></value>
+    </data>
+    <data name="MessageForumTopicItemTextRequired">
+        <value><![CDATA[Bitte Geben Sie Ihren Beitrag ein]]></value>
+    </data>
+    <data name="MessageLocationTypeRequired">
+        <value><![CDATA[Bitten geben Sie die Art der Location an]]></value>
+  </data>
+    <data name="MessageLocationTypeRequired">
+        <value><![CDATA[Bitte geben Sie die Art des Events an]]></value>
+  </data>
+    <data name="MessageNoFriends">
+    <value><![CDATA[Keine Freunde]]></value>
+  </data>
+    <data name="MessageNoMessages">
+        <value><![CDATA[Keine Nachrichten]]></value>
+    </data>
+    <data name="MessageNoRequests">
+    <value><![CDATA[Keine Anfragen]]></value>
+  </data>
+    <data name="MessageNoText">
+        <value><![CDATA[Bitte schreiben Sie einen Nachrichtentext]]></value>
+  </data>
+    <data name="MessageNoUsersToSend">
+        <value><![CDATA[Bitte wählen Sie einen Empfänger aus]]></value>
+  </data>
+    <data name="MessageStartDateAfterEndDate">
+        <value><![CDATA[Das End-Datum des Events muss nach dem Start-Datum sein]]></value>
+    </data>
+    <data name="MessageTitleRequired">
+        <value><![CDATA[Bitten geben Sie einen Titel ein]]></value>
+  </data>
+    <data name="ReceivedRequests" >
+        <value><![CDATA[Anfragen]]></value>
+  </data>
+    <data name="TitleDashboard">
+        <value><![CDATA[Dashboard]]></value>
+  </data>
+    <data name="TitleEventFromTomorrow">
+        <value><![CDATA[Zukünftige]]></value>
+  </data>
+    <data name="TitleEventToday">
+        <value><![CDATA[Heutige]]></value>
+    </data>
+    <data name="TitleEventUntilYesterday">
+        <value><![CDATA[Vergangene]]></value>
+    </data>
+    <data name="TitleForum">
+        <value><![CDATA[Forum]]></value>
+    </data>
+    <data name="TitleForumTopic">
+        <value><![CDATA[Diskussion]]></value>
+    </data>
+    <data name="TitleFriends">
+        <value><![CDATA[Freunde]]></value>
+  </data>
+    <data name="TitleFriendshipRequests">
+        <value><![CDATA[Freundschaftsanfragen]]></value>
+  </data>
+    <data name="TitleHome">
+        <value><![CDATA[Home]]></value>
+  </data>
+    <data name="TitleMessageInbox">
+        <value><![CDATA[Nachrichten Eingang]]></value>
+  </data>
+    <data name="TitleMessageOutbox">
+        <value><![CDATA[Nachrichten Ausgang]]></value>
+  </data>
+    <data name="TitleNewMessage">
+        <value><![CDATA[Neue Nachricht]]></value>
+    </data>
+    <data name="TextMobileIntro">
+        <value><![CDATA[<b>Willkommen auf MySg</b><br/><br/>St. Gallen besteht neben der alten Stadtgemeinde (bis 1798 freie Reichsstadt und Republik St. Gallen) aus den ursprünglichen Dörfern und Weilern Bruggen, Hafnersberg, Heiligkreuz.]]></value>
+    </data>
+    <data name="MessageAccountNotActivated">
+        <value><![CDATA[Ihr Konto wurde noch nicht aktiviert]]></value>
+    </data>
+    <data name="MessageLoginFailed">
+        <value><![CDATA[Die Anmeldung ist fehlgeschlagen]]></value>
+    </data>
+    <data name="TitleLogin">
+        <value><![CDATA[Anmelden]]></value>
+    </data>
+    <data name="LabelLogin">
+        <value><![CDATA[Benutzername]]></value>
+    </data>
+    <data name="LabelPassword">
+        <value><![CDATA[Passwort]]></value>
+  </data>
+    <data name="TextDontFillBelow">
+        <value><![CDATA[Bitte lassen Sie unten stehendes Feld leer]]></value>
+    </data>
+    <data name="LabelName">
+        <value><![CDATA[Name]]></value>
+    </data>
+    <data name="LabelEmail">
+        <value><![CDATA[Email]]></value>
+    </data>
+    <data name="MessageInvisibleTextBoxCaptcha">
+        <value><![CDATA[Diese Funktion steht im Moment nicht zur Verfügung]]></value>
+    </data>
+    <data name="MessageNameRequired">
+        <value><![CDATA[Bitte geben Sie einen Namen ein]]></value>
+    </data>
+    <data name="MessageNameNotValid">
+        <value><![CDATA[Bitte geben Sie einen gültigen Namen ein]]></value>
+    </data>
+    <data name="MessageEmailRequired">
+        <value><![CDATA[Bitte geben Sie eine Email-Adresse ein]]></value>
+    </data>
+    <data name="MessageEmailNotValid">
+        <value><![CDATA[Bitte geben Sie eine gültige Email-Adresse ein]]></value>
+    </data>
+    <data name="TitleSearch">
+        <value><![CDATA[Suche]]></value>
+    </data>
+    <data name="TitleEventTodayMultiDay">
+        <value><![CDATA[Mehrtägige Events]]></value>
+    </data>
+</root>

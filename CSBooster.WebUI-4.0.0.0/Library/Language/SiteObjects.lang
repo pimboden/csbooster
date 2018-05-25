@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="Article">
+        <value><![CDATA[Artikel]]></value>
+    </data>
+    <data name="Articles">
+        <value><![CDATA[Artikel]]></value>
+    </data>
+    <data name="Audio">
+        <value><![CDATA[Musik]]></value>
+    </data>
+    <data name="Audios">
+        <value><![CDATA[Musik]]></value>
+    </data>
+    <data name="Communities">
+        <value><![CDATA[Communities]]></value>
+    </data>
+    <data name="Community">
+        <value><![CDATA[Community]]></value>
+    </data>
+    <data name="CreateCommunity">
+        <value><![CDATA[Community gründen]]></value>
+    </data>
+    <data name="CreateEvent">
+        <value><![CDATA[Event erfassen]]></value>
+    </data>
+    <data name="CreateFolder">
+        <value><![CDATA[Album erstellen]]></value>
+    </data>
+    <data name="CreateForum">
+        <value><![CDATA[Forum erstellen]]></value>
+    </data>
+    <data name="CreatePages">
+        <value><![CDATA[Seiten erstellen]]></value>
+    </data>
+    <data name="CreatePinboardOffer">
+        <value><![CDATA[Angebot erstellen]]></value>
+    </data>
+    <data name="CreatePinboardSearch">
+        <value><![CDATA[Gesuch erstellen]]></value>
+    </data>
+    <data name="CreateSlideshow">
+        <value><![CDATA[Bildgallerie erstellen]]></value>
+    </data>
+    <data name="Document">
+        <value><![CDATA[Dokument]]></value>
+    </data>
+    <data name="Documents">
+        <value><![CDATA[Dokumente]]></value>
+    </data>
+    <data name="Event">
+        <value><![CDATA[Event]]></value>
+    </data>
+    <data name="Events">
+        <value><![CDATA[Events]]></value>
+    </data>
+    <data name="Folder">
+        <value><![CDATA[Album]]></value>
+    </data>
+    <data name="Folders">
+        <value><![CDATA[Alben]]></value>
+    </data>
+    <data name="Forum">
+        <value><![CDATA[Forum]]></value>
+    </data>
+    <data name="Forums">
+        <value><![CDATA[Foren]]></value>
+    </data>
+    <data name="ForumTopic">
+        <value><![CDATA[Forum Diskussion]]></value>
+    </data>
+    <data name="ForumTopicItem">
+        <value><![CDATA[Forum Beitrag]]></value>
+    </data>
+    <data name="ForumTopicItems">
+        <value><![CDATA[Forum Beiträge]]></value>
+    </data>
+    <data name="ForumTopics">
+        <value><![CDATA[Forum Diskussionen]]></value>
+    </data>
+    <data name="Generic">
+        <value><![CDATA[Generisch]]></value>
+    </data>
+    <data name="Generics">
+        <value><![CDATA[Generisch]]></value>
+    </data>
+    <data name="NewsPlural">
+        <value><![CDATA[News]]></value>
+    </data>
+    <data name="NewsSingular">
+        <value><![CDATA[News]]></value>
+    </data>
+    <data name="CommentPlural">
+      <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="CommentSingular">
+      <value><![CDATA[Kommentar]]></value>
+    </data>
+    <data name="Page">
+        <value><![CDATA[Seite]]></value>
+    </data>
+    <data name="Pages">
+        <value><![CDATA[Seiten]]></value>
+    </data>
+    <data name="Picture">
+        <value><![CDATA[Photo]]></value>
+    </data>
+    <data name="Pictures">
+        <value><![CDATA[Photos]]></value>
+    </data>
+    <data name="PinboardOffer">
+        <value><![CDATA[Angebot]]></value>
+    </data>
+    <data name="PinboardOffers">
+        <value><![CDATA[Angebote]]></value>
+    </data>
+    <data name="PinboardSearch">
+        <value><![CDATA[Gesucht]]></value>
+    </data>
+    <data name="PinboardSearches">
+        <value><![CDATA[Gesuche]]></value>
+    </data>
+    <data name="ProfileCommunities">
+        <value><![CDATA[Profile]]></value>
+    </data>
+    <data name="ProfileCommunity">
+        <value><![CDATA[Profil]]></value>
+    </data>
+    <data name="Slideshow">
+        <value><![CDATA[Bildgallerie]]></value>
+    </data>
+    <data name="Slideshows">
+        <value><![CDATA[Bildgallerien]]></value>
+    </data>
+    <data name="UploadAduio">
+        <value><![CDATA[Musik hochladen]]></value>
+    </data>
+    <data name="UploadDocuments">
+        <value><![CDATA[Dokumente hochladen]]></value>
+    </data>
+    <data name="UploadGenerics">
+        <value><![CDATA[Generisches hochladen]]></value>
+    </data>
+    <data name="UploadPictures">
+        <value><![CDATA[Photos hochladen]]></value>
+    </data>
+    <data name="UploadVideos">
+        <value><![CDATA[Videos hochladen]]></value>
+    </data>
+    <data name="User">
+        <value><![CDATA[Benutzer]]></value>
+    </data>
+    <data name="Users">
+        <value><![CDATA[Benutzer]]></value>
+    </data>
+    <data name="Video">
+        <value><![CDATA[Video]]></value>
+    </data>
+    <data name="Videos">
+        <value><![CDATA[Videos]]></value>
+    </data>
+    <data name="WriteArticle">
+        <value><![CDATA[Artikel schreiben]]></value>
+    </data>
+    <data name="WriteNews">
+        <value><![CDATA[News schreiben]]></value>
+    </data>
+    <data name="NotificationHeaderArticle">
+        <value><![CDATA[Benachrichtigung für diesen Artikel:]]></value>
+    </data>
+    <data name="NotificationHeaderAudio">
+        <value><![CDATA[Benachrichtigung für diese Musik:]]></value>
+    </data>
+    <data name="NotificationHeaderCommunity">
+        <value><![CDATA[Benachrichtigung über diese Community:]]></value>
+    </data>
+    <data name="NotificationHeaderDefault">
+        <value><![CDATA[Benachrichtigung für diesen Inhalt:]]></value>
+    </data>
+    <data name="NotificationHeaderEvent">
+        <value><![CDATA[Benachrichtigung für diesen Event:]]></value>
+    </data>
+    <data name="NotificationHeaderFolder">
+        <value><![CDATA[Benachrichtigung für dieses Album:]]></value>
+    </data>
+    <data name="NotificationHeaderForumTopic">
+        <value><![CDATA[Benachrichtigung für diese Forum-Topic:]]></value>
+    </data>
+    <data name="NotificationHeaderNews">
+        <value><![CDATA[Benachrichtigung für diese News:]]></value>
+    </data>
+    <data name="NotificationHeaderPicture">
+        <value><![CDATA[Benachrichtigung für dieses Bild:]]></value>
+    </data>
+    <data name="NotificationHeaderSlideSow">
+        <value><![CDATA[Benachrichtigung für diese Bildgallerie:]]></value>
+    </data>
+    <data name="NotificationHeaderUser">
+        <value><![CDATA[Benachrichtigung über diesen Benutzer:]]></value>
+    </data>
+    <data name="NotificationHeaderVideo">
+        <value><![CDATA[Benachrichtigung für dieses Video:]]></value>
+    </data>
+    <data name="PollAnswer">
+        <value><![CDATA[Antwort]]></value>
+    </data>
+    <data name="PollAnswers">
+        <value><![CDATA[Antworten]]></value>
+    </data>
+    <data name="PollQuestion">
+        <value><![CDATA[Umfrage]]></value>
+    </data>
+    <data name="PollQuestions">
+        <value><![CDATA[Umfragen]]></value>
+    </data>
+    <data name="UploadPollQuestions">
+        <value><![CDATA[Umfrage erstellen]]></value>
+    </data>
+    <data name="CreateLocation">
+        <value><![CDATA[Location hinzufügen]]></value>
+    </data>
+    <data name="Location">
+        <value><![CDATA[Location]]></value>
+    </data>
+    <data name="Locations">
+        <value><![CDATA[Locations]]></value>
+    </data>
+</root>

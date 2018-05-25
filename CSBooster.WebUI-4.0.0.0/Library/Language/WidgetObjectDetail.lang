@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="LabelByUrl">
+    <value><![CDATA[URL gesteuert]]></value>
+  </data>
+  <data name="LabelSearch">
+    <value><![CDATA[Suchtext]]></value>
+  </data>
+  <data name="LabelSource">
+    <value><![CDATA[Bild]]></value>
+    </data>
+  <data name="LabelTagword">
+    <value><![CDATA[Tags]]></value>
+    </data>
+  <data name="MessageDeleted ">
+    <value><![CDATA[Dieser Inhalt ist nicht mehr verfügbar.]]></value>
+    </data>
+  <data name="TextSourceManual">
+    <value><![CDATA[auswählen]]></value>
+    </data>
+  <data name="TitleObjectDetail">
+    <value><![CDATA[Objekt-Detail]]></value>
+    </data>
+    <data name="TitleObjectDetailAudio">
+      <value><![CDATA[Musik]]></value>
+    </data>
+    <data name="TitleObjectDetailBlog">
+      <value><![CDATA[Blog]]></value>
+    </data>
+  <data name="TitleObjectDetailCommunity">
+    <value><![CDATA[Community]]></value>
+    </data>
+  <data name="TitleObjectDetailContent">
+    <value><![CDATA[Inhalt]]></value>
+    </data>
+  <data name="TitleObjectDetailDocument">
+    <value><![CDATA[Dokument]]></value>
+    </data>
+    <data name="TitleObjectDetailEvent">
+      <value><![CDATA[Event]]></value>
+    </data>
+    <data name="TitleObjectDetailFolder">
+      <value><![CDATA[Album]]></value>
+    </data>
+  <data name="TitleObjectDetailForum">
+    <value><![CDATA[Forum]]></value>
+  </data>
+  <data name="TitleObjectDetailForumTopic">
+    <value><![CDATA[Forum Diskussion]]></value>
+  </data>
+  <data name="TitleObjectDetailGeneric">
+    <value><![CDATA[Generischer Inhalt]]></value>
+  </data>
+  <data name="TitleObjectDetailLocation">
+    <value><![CDATA[Location]]></value>
+  </data>
+    <data name="TitleObjectDetailNews">
+      <value><![CDATA[News]]></value>
+    </data>
+    <data name="TitleObjectDetailOffer">
+      <value><![CDATA[Marktplatz Angebot]]></value>
+    </data>
+  <data name="TitleObjectDetailPicture">
+    <value><![CDATA[Bild]]></value>
+    </data>
+    <data name="TitleObjectDetailPoll">
+      <value><![CDATA[Kurzumfrage]]></value>
+    </data>
+    <data name="TitleObjectDetailProduct">
+      <value><![CDATA[Produkt]]></value>
+    </data>
+  <data name="TitleObjectDetailRequest">
+    <value><![CDATA[Marktplatz Gesuch]]></value>
+  </data>
+  <data name="TitleObjectDetailSlideshow">
+    <value><![CDATA[Bildgallerie]]></value>
+    </data>
+    <data name="TitleObjectDetailSurvey">
+      <value><![CDATA[Umfrage]]></value>
+    </data>
+  <data name="TitleObjectDetailUser">
+    <value><![CDATA[Benutzer]]></value>
+  </data>
+  <data name="TitleObjectDetailVideo">
+    <value><![CDATA[Video]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="TooltipByUrl">
+        <value><![CDATA[]]></value>
+    </data>
+  <data name="TooltipObjectDetail">
+    <value><![CDATA[]]></value>
+    </data>
+    <data name="TooltipSearch">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TooltipTagword">
+        <value><![CDATA[Erweiterte Suche: 'UND'-Filter-Einschränkung lässt sich mittels Komma (,)-getrennter Tagwörter erreichen. 'ODER'-Filter-Einschränkung lässt sich mittels OR erreichen.]]></value>
+    </data>
+  <data name="TitleObjectDetailHtmlContent">
+    <value><![CDATA[HTML Inhalt]]></value>
+    </data>
+</root>

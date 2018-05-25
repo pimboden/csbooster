@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CSBooster.GeoTagging.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CSBooster_GeoTagging_MapPointService_CommonService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://findv3.staging.mappoint.net/Find-30/Common.asmx</Value>
+    </Setting>
+    <Setting Name="MPUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">132967</Value>
+    </Setting>
+    <Setting Name="MPPass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">aB1234567$</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

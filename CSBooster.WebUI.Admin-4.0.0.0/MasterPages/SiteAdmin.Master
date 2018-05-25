@@ -1,0 +1,42 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteAdmin.master.cs" Inherits="_4screen.CSB.WebUI.MasterPages_SiteAdmin" %>
+<%@ Register Src="~/UserControls/Navigation.ascx" TagName="Navigation" TagPrefix="csb" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<%@ Import Namespace="_4screen.Utils.Web" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head" runat="server">
+    <title>sieme.net – Administration</title>
+
+    <%#CSS%>
+
+    <script type="text/javascript" src="/Library/Scripts/common.js"></script>
+
+</head>
+<body id="MPBT" runat="server" enableviewstate="false">
+    <form id="form2" runat="server">
+        <asp:ScriptManager ID="scm" runat="server" />
+        <div class="CSB_admin_body">
+            <div class="CSB_admin_top">
+                <div class="title">
+                    <%=GuiLanguage.GetGuiLanguage("WebUI.Admin").GetString("TitleSiteAdmin")%>
+                </div>
+                <div>
+                    <csb:Navigation id="Navi" NavigationID="4a7396e1-71b4-41fe-ab8a-c668db9b5e1c" NavType="FlyoutMenu" runat="server" OutputASCXPath="/Admin/UserControls/AdminTopMenu.ascx" />
+                </div>
+                <div class="clearBoth">
+                </div>
+            </div>
+            <div class="CSB_admin_main">
+                <div class="CSB_admin_cnt">
+                    <asp:ContentPlaceHolder ID="Cnt1" runat="server" />
+                </div>
+            </div>
+            <div class="clearBoth">
+            </div>
+            <div class="CSB_admin_footer">
+            </div>
+        </div>
+        <telerik:RadWindowManager ID="rwm" runat="server" VisibleStatusbar="false" VisibleTitlebar="true" DestroyOnClose="true" Modal="true" EnableViewState="false" IconUrl="~/Library/Images/Layout/pixel.gif" Behaviors="Resize, Close, Move" InitialBehaviors="None" />
+    </form>
+</body>
+</html>

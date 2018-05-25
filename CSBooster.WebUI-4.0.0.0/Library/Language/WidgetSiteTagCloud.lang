@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleSiteTagCloud">
+        <value><![CDATA[Tagcloud]]></value>
+    </data>
+    <data name="TooltipSiteTagCloud">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelMaxNumber">
+        <value><![CDATA[wieviele zeigen]]></value>
+    </data>
+    <data name="TooltipMaxNumber">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelRelevance">
+        <value><![CDATA[Relevanz]]></value>
+    </data>
+    <data name="TooltipRelevance">
+        <value><![CDATA[Wie stark sollen neue Tagwörter gewichtet werden?]]></value>
+    </data>
+    <data name="TextRelevance0">
+        <value><![CDATA[unwichtig]]></value>
+    </data>
+    <data name="TextRelevance3">
+        <value><![CDATA[sehr wichtig]]></value>
+    </data>
+    <data name="TextRelevance5">
+        <value><![CDATA[wichtiger]]></value>
+    </data>
+    <data name="LabelRelevanceType">
+        <value><![CDATA[Gewichtung]]></value>
+    </data>
+    <data name="TooltipRelevanceType">
+        <value><![CDATA[Wie soll die Gewichtung der Tagwörtet berechnet werden]]></value>
+    </data>
+    <data name="TextRelevanceType0">
+        <value><![CDATA[keine Gewichtung]]></value>
+    </data>
+    <data name="TextRelevanceType1">
+        <value><![CDATA[Tagwörter die vor kurzem angeschaut wurden sind wichtiger]]></value>
+    </data>
+    <data name="TextRelevanceType2">
+        <value><![CDATA[Tagwörter die viel angeschaut werden sind wichtiger]]></value>
+    </data>
+    <data name="TextRelevanceType3">
+        <value><![CDATA[Tagwörter die vielen Inhalten zugewiesen sind, sind wichtiger.]]></value>
+    </data>
+
+</root>

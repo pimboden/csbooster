@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 16, 20" name="CSBooster.DataAccess2">
+  <DataContextMoniker Name="/CSBooster_DataContext" />
+  <nestedChildShapes>
+    <classShape Id="ef1a4bf9-fb07-4a8e-b962-b7dbfd1d8904" absoluteBounds="1.375, 5.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_NavigationStructure_NST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06786fb4-647c-4233-a517-eb21718d2d8d" absoluteBounds="1.3900000000000001, 5.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="629137ef-de0a-44a5-947a-4bf82e7ff9ba" absoluteBounds="0.75, 7.75, 2, 3.1170068359375014">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_Notification_RegisteredEvent_NRE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f72216e9-a141-4ae0-a927-72006207e11f" absoluteBounds="0.765, 8.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2f83ccd4-3d42-46ff-90ae-4d14888ad584" absoluteBounds="7.5, 2.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/CSBooster_DataContext/hirel_Community_User_CUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3c9aaff-2ab7-4b4d-bd58-875ad3cc117d" absoluteBounds="7.515, 3.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a3d5175-5294-4c5b-aacb-b7688ad43255" absoluteBounds="10.75, 0.75, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_UserFriends_FRI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7ca9821-d3d0-4e8d-817f-7a86602358f5" absoluteBounds="10.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2aa5422e-b6c8-4b0a-b3e5-9bc038d7d0d2" absoluteBounds="10.75, 3.75, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/CSBooster_DataContext/MessageResult" />
+      <nestedChildShapes>
+        <elementListCompartment Id="130fc833-5684-494f-82fa-a79d603fca00" absoluteBounds="10.765, 4.21, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8606229c-e5ae-441d-b007-592ac7be44c4" absoluteBounds="7.75, 10.75, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/CSBooster_DataContext/CommentResult" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84111f5f-2915-42a6-b6f5-8c8f6db0a17b" absoluteBounds="7.765, 11.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1511efe-6c09-4036-a936-e66a17176677" absoluteBounds="10.75, 9.75, 2, 10.039858398437502">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_DataObject_OBJ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8cd6c7d-2b31-4343-9663-61758cd4443b" absoluteBounds="10.765, 10.21, 1.9700000000000002, 9.4798583984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6d1e6353-02ca-491f-a651-4944ca7d52b4" absoluteBounds="0.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_Main_MAN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd0ec2aa-7dd3-4d2d-8758-6174581e80a5" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c005f8bf-ef6b-4c77-8dda-1b2ce18fddb1" absoluteBounds="7.5, 8.125, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_WidgetInstanceText_WIT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1443f86-28de-4697-a646-46cfba42f92a" absoluteBounds="7.515, 8.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fee579ce-3753-49fe-a76b-fc8d8f00870a" absoluteBounds="4.75, 1.125, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_Community_CTY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9cc0c949-8511-43b3-833e-cba42326b95d" absoluteBounds="4.765, 1.585, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce864d4b-12e1-47f3-9938-4ff6a98cc7c7" absoluteBounds="7.5, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_CommunityText_CTT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5687142c-b9a4-44b6-a6b2-02134629ef8f" absoluteBounds="7.515, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35bcab9e-f3b5-4a14-827f-ce59e9407601" absoluteBounds="13.75, 0.75, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_FilterBadWords_FBW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f8434f9-0d5b-4e06-9bfc-6b4dc3ba2d52" absoluteBounds="13.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f522935-1c1f-4073-bbd6-c64fbe2ec6c7" absoluteBounds="13.75, 3.75, 2, 1.193992513020834">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_Settings_SET" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07c777cf-78d9-4446-97eb-e67db4084094" absoluteBounds="13.765, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.45923076923077 : 2.90549967447917); (1.45923076923077 : 3.15549967447917); (2.05461538461538 : 3.15549967447917); (2.05461538461538 : 2.90549967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CSBooster_DataContext/hitbl_Main_MAN/hitbl_Main_MAN_hitbl_Main_MAN" />
+      <nodes>
+        <classShapeMoniker Id="6d1e6353-02ca-491f-a651-4944ca7d52b4" />
+        <classShapeMoniker Id="6d1e6353-02ca-491f-a651-4944ca7d52b4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.75 : 3.85659912109375); (7.5 : 3.85659912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CSBooster_DataContext/hitbl_Community_CTY/hitbl_Community_CTY_hirel_Community_User_CUR" />
+      <nodes>
+        <classShapeMoniker Id="fee579ce-3753-49fe-a76b-fc8d8f00870a" />
+        <classShapeMoniker Id="2f83ccd4-3d42-46ff-90ae-4d14888ad584" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.75 : 1.85179768880208); (7.5 : 1.85179768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CSBooster_DataContext/hitbl_Community_CTY/hitbl_Community_CTY_hitbl_CommunityText_CTT" />
+      <nodes>
+        <classShapeMoniker Id="fee579ce-3753-49fe-a76b-fc8d8f00870a" />
+        <classShapeMoniker Id="ce864d4b-12e1-47f3-9938-4ff6a98cc7c7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3e2e1f5f-fddc-4975-8ff7-5657d2a6bd40" absoluteBounds="7.5, 5.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_Page_PAG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cfe4e32a-7677-4afc-aaa1-72d046d3bef7" absoluteBounds="7.5150000000000006, 6.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.71875 : 5.20351399739583); (6.71875 : 5.90625); (7.5 : 5.90625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CSBooster_DataContext/hitbl_Community_CTY/hitbl_Community_CTY_hitbl_Page_PAG" />
+      <nodes>
+        <classShapeMoniker Id="fee579ce-3753-49fe-a76b-fc8d8f00870a" />
+        <classShapeMoniker Id="3e2e1f5f-fddc-4975-8ff7-5657d2a6bd40" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a4352c5f-4b7d-40f6-9d69-953038777ba6" absoluteBounds="3.625, 11.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_Partners_PAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e9b7c0d9-5cc4-4b5e-bc4d-15b6a8611f5b" absoluteBounds="3.6399999999999997, 12.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.75 : 14.2059554036458); (5.625 : 14.2059554036458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CSBooster_DataContext/hitbl_DataObject_OBJ/hitbl_DataObject_OBJ_hitbl_Partners_PAR" />
+      <nodes>
+        <classShapeMoniker Id="b1511efe-6c09-4036-a936-e66a17176677" />
+        <classShapeMoniker Id="a4352c5f-4b7d-40f6-9d69-953038777ba6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="72e789c5-48a2-4206-94df-7d1cdc418e3d" absoluteBounds="4.625, 6.25, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_WidgetInstance_IN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="17fd2891-912f-4e06-a15f-8ba2ccf4b66d" absoluteBounds="4.64, 6.7100000000000009, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.625 : 8.81814697265625); (7.5 : 8.81814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CSBooster_DataContext/hitbl_WidgetInstance_IN/hitbl_WidgetInstance_IN_hitbl_WidgetInstanceText_WIT" />
+      <nodes>
+        <classShapeMoniker Id="72e789c5-48a2-4206-94df-7d1cdc418e3d" />
+        <classShapeMoniker Id="c005f8bf-ef6b-4c77-8dda-1b2ce18fddb1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 6.91909912109375); (6.625 : 6.91909912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CSBooster_DataContext/hitbl_Page_PAG/hitbl_Page_PAG_hitbl_WidgetInstance_IN" />
+      <nodes>
+        <classShapeMoniker Id="3e2e1f5f-fddc-4975-8ff7-5657d2a6bd40" />
+        <classShapeMoniker Id="72e789c5-48a2-4206-94df-7d1cdc418e3d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7a0e8abe-7aea-42fe-ae5e-296bdfc089c8" absoluteBounds="0.75, 11.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CSBooster_DataContext/hitbl_WidgetTemplates_WTP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75db3b28-b1cb-4cd3-8ded-2cbc93c91994" absoluteBounds="0.76500000000000012, 12.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

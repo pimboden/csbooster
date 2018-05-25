@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<actionProfile ID="1">
+		<!-- true: the image handler does the save | false: there is no image save -->
+		<autoSave>true</autoSave>
+		<!-- empty: has nothing to do with a web image | virtual path: http url to the web server -->
+		<VirtualOutPath>http://localhost/media/##USERID##/PICTURE</VirtualOutPath>
+		<!-- empty means same file path as original image ['empty' | '...output path...' ] -->
+		<fileOutPath></fileOutPath>
+		<!-- empty means no pre extension on the original file name ['empty' | '...pre extension like THUMB...' ] -->
+		<fileNamePreExtension></fileNamePreExtension>
+		<!-- empty means no post extension on the original file name ['empty' | '...post extension like 72DPI...' ] -->
+		<fileNamePostExtension></fileNamePostExtension>
+		<!-- Drive for the placeholder ##DRIVE## in <fileOutPath>  -->
+		<Drive>M:\</Drive>
+		<!-- empty means no external drive is to map ['empty' | '...UNC path to a server/drive...' ] -->
+		<MapPath>\\4sappl02\tom suter</MapPath>
+		<!-- just used if MapDrive not empty ['empty' | '...user with access rights...' ] -->
+		<MapDriveUser></MapDriveUser>
+		<!-- just used if MapDrive not empty ['empty' | '...user password with access rights...' ] -->
+		<MapDrivePwd></MapDrivePwd>
+		<!-- image format; empty means same format as original image ['empty' | gif | jpg | png | '...more in the future...' ] -->
+		<format>gif</format>
+		<!-- MUST image resolution in DPI; 0 means same resolution as original image [0 | 10 - ... ] -->
+		<resolution>72</resolution>
+		<!-- MUST image quality; 0 means same quality as original image [0 | '...based on the format...' ] -->
+		<quality>24</quality>
+		<action ID="rotate">
+			<!-- 0 means no rotation [0 | 1 - 359] -->
+			<angle>45</angle>
+			<!-- edges color [0 | any color] -->
+			<backColor>0</backColor>
+			<!-- resize image to the real size after rotation [true | false] -->
+			<resize>false</resize>
+			<!-- optimize [normal | resample | bicubic] -->
+			<interpolation></interpolation>
+		</action>
+		<action ID="crop">
+			<!-- true | false -->
+			<bestFit></bestFit>
+			<!-- new image width in Pixel -->
+			<bestFitWidth></bestFitWidth>
+			<!-- new image height in Pixel -->
+			<bestFitHeight></bestFitHeight>
+			<!-- crop x Pixel from left; not used if 'bestFit=true' -->
+			<left></left>
+			<!-- crop x Pixel from right; not used if 'bestFit=true' -->
+			<right></right>
+			<!-- crop x Pixel from top; not used if 'bestFit=true' -->
+			<top></top>
+			<!-- crop x Pixel from bottom; not used if 'bestFit=true' -->
+			<bottom></bottom>
+		</action>
+	</actionProfile>
+	<actionProfile ID="2">
+		<!-- true: the image handler does the save | false: there is no image save -->
+		<autoSave>true</autoSave>
+		<!-- empty: has nothing to do with a web image | virtual path: http url to the web server -->
+		<VirtualOutPath>http://localhost/media/##USERID##/PICTURE</VirtualOutPath>
+		<fileOutPath></fileOutPath>
+		<fileNamePreExtension>START</fileNamePreExtension>
+		<fileNamePostExtension>ENDE</fileNamePostExtension>
+		<!-- Drive for the placeholder ##DRIVE## in <fileOutPath>  -->
+		<Drive>M:\</Drive>
+		<!-- empty means no external drive is to map ['empty' | '...UNC path to a server/drive...' ] -->
+		<MapPath>\\4sappl02\tom suter</MapPath>
+		<!-- just used if MapDrive not empty ['empty' | '...user with access rights...' ] -->
+		<MapDriveUser></MapDriveUser>
+		<!-- just used if MapDrive not empty ['empty' | '...user password with access rights...' ] -->
+		<MapDrivePwd></MapDrivePwd>
+		<format>gif</format>
+		<resolution>72</resolution>
+		<quality>0</quality>
+		<action ID="resize">
+			<!-- optimize [normal | resample | favorblack | favorblackorresample | bicubic | favorblackorbicubic] -->
+			<interpolation></interpolation>
+			<!-- new image width in Pixel -->
+			<width>300</width>
+			<!-- new image height in Pixel -->
+			<height>100</height>
+		</action>
+	</actionProfile>
+	<actionProfile ID="3">
+		<!-- true: the image handler does the save | false: there is no image save -->
+		<autoSave>true</autoSave>
+		<!-- empty: has nothing to do with a web image | virtual path: http url to the web server -->
+		<VirtualOutPath>http://localhost/media/##USERID##/PICTURE</VirtualOutPath>
+		<fileOutPath></fileOutPath>
+		<fileNamePreExtension></fileNamePreExtension>
+		<fileNamePostExtension></fileNamePostExtension>
+		<!-- Drive for the placeholder ##DRIVE## in <fileOutPath>  -->
+		<Drive>M:\</Drive>
+		<!-- empty means no external drive is to map ['empty' | '...UNC path to a server/drive...' ] -->
+		<MapPath>\\4sappl02\tom suter</MapPath>
+		<!-- just used if MapDrive not empty ['empty' | '...user with access rights...' ] -->
+		<MapDriveUser></MapDriveUser>
+		<!-- just used if MapDrive not empty ['empty' | '...user password with access rights...' ] -->
+		<MapDrivePwd></MapDrivePwd>
+		<format>jpg</format>
+		<resolution>72</resolution>
+		<quality>0</quality>
+		<action ID="annotate">
+			<!-- copyright text if no individual text is given -->
+			<copyright>CSBooster</copyright>
+		</action>
+	</actionProfile>
+	<actionProfile ID="4">
+		<!-- true: the image handler does the save | false: there is no image save -->
+		<autoSave>true</autoSave>
+		<!-- empty: has nothing to do with a web image | virtual path: http url to the web server -->
+		<VirtualOutPath>http://localhost/tmp/media/##USERID##/PICTURE</VirtualOutPath>
+		<!-- empty means same file path as original image ['empty' | '...output path...' ] -->
+		<fileOutPath></fileOutPath>
+		<!-- empty means no pre extension on the original file name ['empty' | '...pre extension like THUMB...' ] -->
+		<fileNamePreExtension></fileNamePreExtension>
+		<!-- empty means no post extension on the original file name ['empty' | '...post extension like 72DPI...' ] -->
+		<fileNamePostExtension></fileNamePostExtension>
+		<!-- Drive for the placeholder ##DRIVE## in <fileOutPath>  -->
+		<Drive>M:\</Drive>
+		<!-- empty means no external drive is to map ['empty' | '...UNC path to a server/drive...' ] -->
+		<MapPath></MapPath>
+		<!-- just used if MapDrive not empty ['empty' | '...user with access rights...' ] -->
+		<MapDriveUser></MapDriveUser>
+		<!-- just used if MapDrive not empty ['empty' | '...user password with access rights...' ] -->
+		<MapDrivePwd></MapDrivePwd>
+		<!-- image format; empty means same format as original image ['empty' | gif | jpg | png | '...more in the future...' ] -->
+		<format>jpg</format>
+		<!-- MUST image resolution in DPI; 0 means same resolution as original image [0 | 10 - ... ] -->
+		<resolution>72</resolution>
+		<!-- MUST image quality; 0 means same quality as original image [0 | '...based on the format...' ] -->
+		<quality>0</quality>
+		<action ID="crop">
+			<!-- ATTENTION: alle tags will be overwritten, if the properties cropleft / croptop / cropwidth / cropheight -->
+			<!-- MUST true | false -->
+			<bestFit>true</bestFit>
+			<!-- new image width in Pixel -->
+			<bestFitWidth>100</bestFitWidth>
+			<!-- new image height in Pixel -->
+			<bestFitHeight>200</bestFitHeight>
+			<!-- crop x Pixel from left; not used if 'bestFit=true' -->
+			<left>64</left>
+			<!-- crop x Pixel from right; not used if 'bestFit=true' -->
+			<right>20</right>
+			<!-- crop x Pixel from top; not used if 'bestFit=true' -->
+			<top>78</top>
+			<!-- crop x Pixel from bottom; not used if 'bestFit=true' -->
+			<bottom>10</bottom>
+		</action>
+	</actionProfile>
+	<actionProfile ID="ArchiveSavePicture">
+		<!-- true: the image handler does the save | false: there is no image save --> 
+		<autoSave>false</autoSave>
+		<!-- empty: has nothing to do with a web image | virtual path: http url to the web server -->
+		<VirtualOutPath>http://localhost/media/##USERID##/PICTURE</VirtualOutPath>
+		<fileOutPath>##DRIVE##TEMP\CSB\ARCHIVE\##USERID##\PICTURE</fileOutPath>
+		<fileNamePreExtension></fileNamePreExtension>
+		<fileNamePostExtension></fileNamePostExtension>
+		<!-- Drive for the placeholder ##DRIVE## in <fileOutPath>  -->
+		<Drive>C:\</Drive>
+		<!-- empty means no external drive is to map ['empty' | '...UNC path to a server/drive...' ] -->
+		<MapPath></MapPath>
+		<!-- just used if MapDrive not empty ['empty' | '...user with access rights...' ] -->
+		<MapDriveUser>INTRANET\ts</MapDriveUser>
+		<!-- just used if MapDrive not empty ['empty' | '...user password with access rights...' ] -->
+		<MapDrivePwd></MapDrivePwd>
+		<format></format>
+		<resolution>0</resolution>
+		<quality>0</quality>
+	</actionProfile>
+	<actionProfile ID="SaveOriginalAsJpeg">
+		<!-- true: the image handler does the save | false: there is no image save -->
+		<autoSave>true</autoSave>
+		<!-- empty: has nothing to do with a web image | virtual path: http url to the web server -->
+		<VirtualOutPath>http://localhost/TMP/media/##USERID##/PICTURE</VirtualOutPath>
+		<fileOutPath>##DRIVE##\TEMP\CSB\MEDIA\##USERID##\PICTURE</fileOutPath>
+		<fileNamePreExtension></fileNamePreExtension>
+		<fileNamePostExtension></fileNamePostExtension>
+		<!-- Drive for the placeholder ##DRIVE## in <fileOutPath>  -->
+		<Drive>C:\</Drive>
+		<!-- empty means no external drive is to map ['empty' | '...UNC path to a server/drive...' ] -->
+		<MapPath></MapPath>
+		<!-- just used if MapDrive not empty ['empty' | '...user with access rights...' ] -->
+		<MapDriveUser>INTRANET\ts</MapDriveUser>
+		<!-- just used if MapDrive not empty ['empty' | '...user password with access rights...' ] -->
+		<MapDrivePwd></MapDrivePwd>
+		<format>jpg</format>
+		<resolution>72</resolution>
+		<quality>0</quality>
+		<action ID="onlinecroparea">
+			<!-- width of the croping rectangle in Pixel -->
+			<maxVisualCropWidth>600</maxVisualCropWidth>
+			<!-- width of the croping rectangle in Pixel -->
+			<cropWidth>300</cropWidth>
+			<!-- height of the croping rectangle in Pixel -->
+			<cropHeight>200</cropHeight>
+		</action>
+	</actionProfile>
+</root>

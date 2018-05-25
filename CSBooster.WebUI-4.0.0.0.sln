@@ -1,0 +1,581 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Common", "CSBooster.Common-4.0.0.0\CSBooster.Common.csproj", "{A9F54D96-06CF-4975-93CE-92F0831A088D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.DataAccess", "CSBooster.DataAccess-4.0.0.0\CSBooster.DataAccess.csproj", "{ACB74BEB-A75F-4427-B183-CE7D49F149F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widgets", "CSBooster.Widgets-4.0.0.0\CSBooster.Widgets.csproj", "{C41F77A8-318D-440D-B97D-E32734AA0FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.AJAXASMXHandler", "CSBooster.AJAXASMXHandler\CSBooster.AJAXASMXHandler.csproj", "{8DE11A95-BBC3-4931-A8C3-10004A91093C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.ImageHandler", "CSBooster.ImageHandler\CSBooster.ImageHandler.csproj", "{5778DC99-B340-4E56-8E85-5D489ECC2066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.WebUI.Base", "CSBooster.WebUI.Base-4.0.0.0\CSBooster.WebUI.Base.csproj", "{42E4B14D-2ED8-465F-9238-6A9C5D5C7950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.DataObj.Product", "CSBooster.DataObj.Product-4.0.0.0\CSBooster.DataObj.Product.csproj", "{A01A9E20-C2F2-4B90-B3DA-1A63A409CCA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Services", "Windows Services", "{3CE1DD2B-209F-4B1F-A88D-65B8B176754F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Widgets", "Widgets", "{78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.WebUI", "CSBooster.WebUI-4.0.0.0\CSBooster.WebUI.csproj", "{2B33DED5-A7C0-42EB-A1DF-349AC1C8BA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.ObjectLists", "CSBooster.Widget.ObjectLists-4.0.0.0\CSBooster.Widget.ObjectLists.csproj", "{33C842F2-8F72-404E-ABDF-9CEA4990FDED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Shop", "CSBooster.Widget.Shop-4.0.0.0\CSBooster.Widget.Shop.csproj", "{23772BE3-890D-4146-83D8-F4D1BF90EE7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.SearchResults", "CSBooster.Widget.SearchResults-4.0.0.0\CSBooster.Widget.SearchResults.csproj", "{6310A6BB-00EF-4C1E-8557-0C2DF0FBB4EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.WebUI.Admin", "CSBooster.WebUI.Admin-4.0.0.0\CSBooster.WebUI.Admin.csproj", "{04C5ECEE-5DEB-43A6-AB47-4A8DAB2E7E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Notification", "CSBooster.Notification-4.0.0.0\CSBooster.Notification.csproj", "{C42BAB9E-B2FA-4CCD-8839-77AC9DA8FFE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Extensions", "CSBooster.Extensions-4.0.0.0\CSBooster.Extensions.csproj", "{646EEB60-9C19-49CE-B048-E2CE35C13469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.DataObj.Survey", "CSBooster.DataObj.Survey-4.0.0.0\CSBooster.DataObj.Survey.csproj", "{2F28050B-7E27-41DD-9237-887FF42CD694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Board", "CSBooster.Widget.Board-4.0.0.0\CSBooster.Widget.Board.csproj", "{F5EEA096-42E9-4539-8E46-54D4EBBC8B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Comments", "CSBooster.Widget.Comments-4.0.0.0\CSBooster.Widget.Comments.csproj", "{BA34B963-E69B-4727-83E1-3A2A0245A73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.CommunityLists", "CSBooster.Widget.CommunityLists-4.0.0.0\CSBooster.Widget.CommunityLists.csproj", "{CA88ED87-C03F-45F7-8FFE-30B42F8458FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.CommunityShortInfo", "CSBooster.Widget.CommunityShortInfo-4.0.0.0\CSBooster.Widget.CommunityShortInfo.csproj", "{C7207EB0-D5A7-4A11-8138-1D22BB08143A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Form", "CSBooster.Widget.Form-4.0.0.0\CSBooster.Widget.Form.csproj", "{BC171420-A158-4990-95E6-0CE55C75D43F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.FormAdv", "CSBooster.Widget.FormAdv-4.0.0.0\CSBooster.Widget.FormAdv.csproj", "{C00C47A5-82E0-444E-8B93-F478B88C37C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.FunctionsFilter", "CSBooster.Widget.FunctionsFilter-4.0.0.0\CSBooster.Widget.FunctionsFilter.csproj", "{D343BEF4-148A-48D5-8B43-11E2184BD26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.FunctionsSort", "CSBooster.Widget.FunctionsSort-4.0.0.0\CSBooster.Widget.FunctionsSort.csproj", "{388BD738-E9F0-4F98-9DD0-F348545418E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.FunctionsUser", "CSBooster.Widget.FunctionsUser-4.0.0.0\CSBooster.Widget.FunctionsUser.csproj", "{A50C9F37-3483-4E5A-B640-3D50CFEF9EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.HTMLContent", "CSBooster.Widget.HTMLContent-4.0.0.0\CSBooster.Widget.HTMLContent.csproj", "{8C1EFDE4-4E3A-4142-81CD-DAA66A12437E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.IFrame", "CSBooster.Widget.IFrame-4.0.0.0\CSBooster.Widget.IFrame.csproj", "{7FA18CCF-1D31-40DE-A2A4-1DF5E629D4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Info", "CSBooster.Widget.Info-4.0.0.0\CSBooster.Widget.Info.csproj", "{DDACF201-D8E5-46EF-9254-FB426E874E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Login", "CSBooster.Widget.Login-4.0.0.0\CSBooster.Widget.Login.csproj", "{CB37B14C-2645-4FF3-99A1-963442E9E643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.ObjectDetail", "CSBooster.Widget.ObjectDetail-4.0.0.0\CSBooster.Widget.ObjectDetail.csproj", "{D85BA373-A088-4912-9F32-E02FCAE4CE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.ObjectSiblings", "CSBooster.Widget.ObjectSiblings-4.0.0.0\CSBooster.Widget.ObjectSiblings.csproj", "{91AE6B12-E9BE-4653-8633-FF132793B81F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.PermaLink", "CSBooster.Widget.PermaLink-4.0.0.0\CSBooster.Widget.PermaLink.csproj", "{F7FCBB0E-D349-4A25-BE2F-C6E15C03124F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Rating", "CSBooster.Widget.Rating-4.0.0.0\CSBooster.Widget.Rating.csproj", "{6D9B6DA1-E359-4797-B33C-74C8D41D3768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.RelatedObjectLists", "CSBooster.Widget.RelatedObjectLists-4.0.0.0\CSBooster.Widget.RelatedObjectLists.csproj", "{137B223B-D66E-45AC-98CB-1ECB7A2C63E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.RSS", "CSBooster.Widget.RSS-4.0.0.0\CSBooster.Widget.RSS.csproj", "{A5045172-8A05-4FCC-A0D2-DA60B2CA0BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Search", "CSBooster.Widget.Search-4.0.0.0\CSBooster.Widget.Search.csproj", "{7A3D03F3-7FF6-4593-92DA-29AF89EC8515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Sharing", "CSBooster.Widget.Sharing-4.0.0.0\CSBooster.Widget.Sharing.csproj", "{A1C25B21-BAE1-4727-8275-72F38FCFC129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.SiteTagCloud", "CSBooster.Widget.SiteTagCloud-4.0.0.0\CSBooster.Widget.SiteTagCloud.csproj", "{E65AB7CB-8387-412E-9302-B3EF4B64F251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.StatisticSiteView", "CSBooster.Widget.StatisticSiteView-4.0.0.0\CSBooster.Widget.StatisticSiteView.csproj", "{70296B58-5CC9-407D-A2A5-6A3FBDBAF4CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.TagRelatedObjects", "CSBooster.Widget.TagRelatedObjects-4.0.0.0\CSBooster.Widget.TagRelatedObjects.csproj", "{D21F881C-9491-4B85-A581-0276B9D14939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Wizard", "CSBooster.Widget.UploadContainer-4.0.0.0\CSBooster.Widget.Wizard.csproj", "{FA006CF5-A626-4B6A-B771-BCCD9F6F7A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.UploadControls", "CSBooster.Widget.UploadControls-4.0.0.0\CSBooster.Widget.UploadControls.csproj", "{C0D0F7B0-EDCF-429F-AF19-A773724C3042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.UserActivities", "CSBooster.Widget.UserActivities-4.0.0.0\CSBooster.Widget.UserActivities.csproj", "{E585183E-BBA6-44C3-9B0A-499C1A6C8147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.UserLists", "CSBooster.Widget.UserLists-4.0.0.0\CSBooster.Widget.UserLists.csproj", "{F26F9BDF-788E-408D-9EFB-EF46DB6501E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.UserShortInfo", "CSBooster.Widget.UserShortInfo-4.0.0.0\CSBooster.Widget.UserShortInfo.csproj", "{E52D8985-FA66-405A-A3C9-EB9E893BCCC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.DataAccess.Filter", "CSBooster.DataAccess.Filter-3.0.0.0\CSBooster.DataAccess.Filter.csproj", "{F59AA122-D645-44DA-9D3F-9F4BF8B4DAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.DataObj.HTMLContent", "CSBooster.DataObj.HTMLContent-4.0.0.0\CSBooster.DataObj.HTMLContent.csproj", "{CBC20BE7-9016-4867-A060-8CC6A2AC2594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.GeoTagging", "CSBooster.GeoTagging-3.0.0.0\CSBooster.GeoTagging.csproj", "{594D08EA-B92E-4228-B132-2D2421D9021B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.WebUI.Mobile", "CSBooster.WebUI.Mobile-4.0.0.0\CSBooster.WebUI.Mobile.csproj", "{CFE1CD33-4983-40A9-AEBD-C5919527ED05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.DataAccess.Service", "CSBooster.DataAccess.Service-4.0.0.0\CSBooster.DataAccess.Service.csproj", "{07CF2F2C-DCEE-46EE-9F88-6FB4DC642901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.ServiceHost", "CSBooster.ServiceHost-3.0.0.0\CSBooster.ServiceHost.csproj", "{4FFF8155-BCCB-4345-8371-BACB7C0A6811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.VideoEncodingService", "CSBooster.VideoEncodingService-4.0.0.0\CSBooster.VideoEncodingService.csproj", "{26FFAA72-DC4C-42C0-A104-D58E2F50DDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.WebServices", "CSBooster.WebServices-4.0.0.0\CSBooster.WebServices.csproj", "{B30C96CA-F14A-4F55-A22A-2B982825EBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.AssemblyInfo", "CSBooster.Widget.AssemblyInfo-4.0.0.0\CSBooster.Widget.AssemblyInfo.csproj", "{65AB0A59-F37F-4395-89AA-DDFB823CC64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.CacheInfo", "CSBooster.Widget.CacheInfo-4.0.0.0\CSBooster.Widget.CacheInfo.csproj", "{97BC94DE-92FB-41FD-8F57-0682758B2575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.CustomDragDrop", "CSBooster.CustomDragDrop-4.0.0.0\CSBooster.CustomDragDrop.csproj", "{2528E045-5DA5-45BC-9FF9-9741C3DCBE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.GoogleMap", "CSBooster.Widget.GoogleMap-4.0.0.0\CSBooster.Widget.GoogleMap.csproj", "{DAEBA223-81C4-4DC3-9E04-4273D97E0608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Dashboard", "CSBooster.Widget.Dashboard\CSBooster.Widget.Dashboard.csproj", "{20A4BDD6-03C4-4AC3-8F5E-411EB009A3EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.Registration", "CSBooster.Widget.Registration-4.0.0.0\CSBooster.Widget.Registration.csproj", "{37490420-60F8-4D4D-85FE-7FF5CF91A037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBooster.Widget.LoginSSO", "CSBooster.Widget.LoginSSO-4.0.0.0\CSBooster.Widget.LoginSSO.csproj", "{46E6F2CF-7149-4D69-857C-427F91271179}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 60
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ocag-teamsrv02:8080/tfs/online-4s-collection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CSBooster.Common-4.0.0.0\\CSBooster.Common.csproj
+		SccProjectName1 = CSBooster.Common-4.0.0.0
+		SccLocalPath1 = CSBooster.Common-4.0.0.0
+		SccProjectUniqueName2 = CSBooster.DataAccess-4.0.0.0\\CSBooster.DataAccess.csproj
+		SccProjectName2 = CSBooster.DataAccess-4.0.0.0
+		SccLocalPath2 = CSBooster.DataAccess-4.0.0.0
+		SccProjectUniqueName3 = CSBooster.Widgets-4.0.0.0\\CSBooster.Widgets.csproj
+		SccProjectName3 = CSBooster.Widgets-4.0.0.0
+		SccLocalPath3 = CSBooster.Widgets-4.0.0.0
+		SccProjectUniqueName4 = CSBooster.AJAXASMXHandler\\CSBooster.AJAXASMXHandler.csproj
+		SccProjectName4 = CSBooster.AJAXASMXHandler
+		SccLocalPath4 = CSBooster.AJAXASMXHandler
+		SccProjectUniqueName5 = CSBooster.ImageHandler\\CSBooster.ImageHandler.csproj
+		SccProjectName5 = CSBooster.ImageHandler
+		SccLocalPath5 = CSBooster.ImageHandler
+		SccProjectUniqueName6 = CSBooster.WebUI.Base-4.0.0.0\\CSBooster.WebUI.Base.csproj
+		SccProjectName6 = CSBooster.WebUI.Base-4.0.0.0
+		SccLocalPath6 = CSBooster.WebUI.Base-4.0.0.0
+		SccProjectUniqueName7 = CSBooster.DataObj.Product-4.0.0.0\\CSBooster.DataObj.Product.csproj
+		SccProjectName7 = CSBooster.DataObj.Product-4.0.0.0
+		SccLocalPath7 = CSBooster.DataObj.Product-4.0.0.0
+		SccProjectUniqueName8 = CSBooster.WebUI-4.0.0.0\\CSBooster.WebUI.csproj
+		SccProjectName8 = CSBooster.WebUI-4.0.0.0
+		SccLocalPath8 = CSBooster.WebUI-4.0.0.0
+		SccProjectUniqueName9 = CSBooster.Widget.ObjectLists-4.0.0.0\\CSBooster.Widget.ObjectLists.csproj
+		SccProjectTopLevelParentUniqueName9 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName9 = CSBooster.Widget.ObjectLists-4.0.0.0
+		SccLocalPath9 = CSBooster.Widget.ObjectLists-4.0.0.0
+		SccProjectUniqueName10 = CSBooster.Widget.Shop-4.0.0.0\\CSBooster.Widget.Shop.csproj
+		SccProjectTopLevelParentUniqueName10 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName10 = CSBooster.Widget.Shop-4.0.0.0
+		SccLocalPath10 = CSBooster.Widget.Shop-4.0.0.0
+		SccProjectUniqueName11 = CSBooster.Widget.SearchResults-4.0.0.0\\CSBooster.Widget.SearchResults.csproj
+		SccProjectTopLevelParentUniqueName11 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName11 = CSBooster.Widget.SearchResults-4.0.0.0
+		SccLocalPath11 = CSBooster.Widget.SearchResults-4.0.0.0
+		SccProjectUniqueName12 = CSBooster.WebUI.Admin-4.0.0.0\\CSBooster.WebUI.Admin.csproj
+		SccProjectName12 = CSBooster.WebUI.Admin-4.0.0.0
+		SccLocalPath12 = CSBooster.WebUI.Admin-4.0.0.0
+		SccProjectUniqueName13 = CSBooster.Notification-4.0.0.0\\CSBooster.Notification.csproj
+		SccProjectName13 = CSBooster.Notification-4.0.0.0
+		SccLocalPath13 = CSBooster.Notification-4.0.0.0
+		SccProjectUniqueName14 = CSBooster.Extensions-4.0.0.0\\CSBooster.Extensions.csproj
+		SccProjectName14 = CSBooster.Extensions-4.0.0.0
+		SccLocalPath14 = CSBooster.Extensions-4.0.0.0
+		SccProjectUniqueName15 = CSBooster.DataObj.Survey-4.0.0.0\\CSBooster.DataObj.Survey.csproj
+		SccProjectName15 = CSBooster.DataObj.Survey-4.0.0.0
+		SccLocalPath15 = CSBooster.DataObj.Survey-4.0.0.0
+		SccProjectUniqueName16 = CSBooster.Widget.Board-4.0.0.0\\CSBooster.Widget.Board.csproj
+		SccProjectTopLevelParentUniqueName16 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName16 = CSBooster.Widget.Board-4.0.0.0
+		SccLocalPath16 = CSBooster.Widget.Board-4.0.0.0
+		SccProjectUniqueName17 = CSBooster.Widget.Comments-4.0.0.0\\CSBooster.Widget.Comments.csproj
+		SccProjectTopLevelParentUniqueName17 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName17 = CSBooster.Widget.Comments-4.0.0.0
+		SccLocalPath17 = CSBooster.Widget.Comments-4.0.0.0
+		SccProjectUniqueName18 = CSBooster.Widget.CommunityLists-4.0.0.0\\CSBooster.Widget.CommunityLists.csproj
+		SccProjectTopLevelParentUniqueName18 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName18 = CSBooster.Widget.CommunityLists-4.0.0.0
+		SccLocalPath18 = CSBooster.Widget.CommunityLists-4.0.0.0
+		SccProjectUniqueName19 = CSBooster.Widget.CommunityShortInfo-4.0.0.0\\CSBooster.Widget.CommunityShortInfo.csproj
+		SccProjectTopLevelParentUniqueName19 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName19 = CSBooster.Widget.CommunityShortInfo-4.0.0.0
+		SccLocalPath19 = CSBooster.Widget.CommunityShortInfo-4.0.0.0
+		SccProjectUniqueName20 = CSBooster.Widget.Form-4.0.0.0\\CSBooster.Widget.Form.csproj
+		SccProjectTopLevelParentUniqueName20 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName20 = CSBooster.Widget.Form-4.0.0.0
+		SccLocalPath20 = CSBooster.Widget.Form-4.0.0.0
+		SccProjectUniqueName21 = CSBooster.Widget.FormAdv-4.0.0.0\\CSBooster.Widget.FormAdv.csproj
+		SccProjectTopLevelParentUniqueName21 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName21 = CSBooster.Widget.FormAdv-4.0.0.0
+		SccLocalPath21 = CSBooster.Widget.FormAdv-4.0.0.0
+		SccProjectUniqueName22 = CSBooster.Widget.FunctionsFilter-4.0.0.0\\CSBooster.Widget.FunctionsFilter.csproj
+		SccProjectTopLevelParentUniqueName22 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName22 = CSBooster.Widget.FunctionsFilter-4.0.0.0
+		SccLocalPath22 = CSBooster.Widget.FunctionsFilter-4.0.0.0
+		SccProjectUniqueName23 = CSBooster.Widget.FunctionsSort-4.0.0.0\\CSBooster.Widget.FunctionsSort.csproj
+		SccProjectTopLevelParentUniqueName23 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName23 = CSBooster.Widget.FunctionsSort-4.0.0.0
+		SccLocalPath23 = CSBooster.Widget.FunctionsSort-4.0.0.0
+		SccProjectUniqueName24 = CSBooster.Widget.FunctionsUser-4.0.0.0\\CSBooster.Widget.FunctionsUser.csproj
+		SccProjectTopLevelParentUniqueName24 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName24 = CSBooster.Widget.FunctionsUser-4.0.0.0
+		SccLocalPath24 = CSBooster.Widget.FunctionsUser-4.0.0.0
+		SccProjectUniqueName25 = CSBooster.Widget.HTMLContent-4.0.0.0\\CSBooster.Widget.HTMLContent.csproj
+		SccProjectTopLevelParentUniqueName25 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName25 = CSBooster.Widget.HTMLContent-4.0.0.0
+		SccLocalPath25 = CSBooster.Widget.HTMLContent-4.0.0.0
+		SccProjectUniqueName26 = CSBooster.Widget.IFrame-4.0.0.0\\CSBooster.Widget.IFrame.csproj
+		SccProjectTopLevelParentUniqueName26 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName26 = CSBooster.Widget.IFrame-4.0.0.0
+		SccLocalPath26 = CSBooster.Widget.IFrame-4.0.0.0
+		SccProjectUniqueName27 = CSBooster.Widget.Info-4.0.0.0\\CSBooster.Widget.Info.csproj
+		SccProjectTopLevelParentUniqueName27 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName27 = CSBooster.Widget.Info-4.0.0.0
+		SccLocalPath27 = CSBooster.Widget.Info-4.0.0.0
+		SccProjectUniqueName28 = CSBooster.Widget.Login-4.0.0.0\\CSBooster.Widget.Login.csproj
+		SccProjectTopLevelParentUniqueName28 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName28 = CSBooster.Widget.Login-4.0.0.0
+		SccLocalPath28 = CSBooster.Widget.Login-4.0.0.0
+		SccProjectUniqueName29 = CSBooster.Widget.ObjectDetail-4.0.0.0\\CSBooster.Widget.ObjectDetail.csproj
+		SccProjectTopLevelParentUniqueName29 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName29 = CSBooster.Widget.ObjectDetail-4.0.0.0
+		SccLocalPath29 = CSBooster.Widget.ObjectDetail-4.0.0.0
+		SccProjectUniqueName30 = CSBooster.Widget.ObjectSiblings-4.0.0.0\\CSBooster.Widget.ObjectSiblings.csproj
+		SccProjectTopLevelParentUniqueName30 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName30 = CSBooster.Widget.ObjectSiblings-4.0.0.0
+		SccLocalPath30 = CSBooster.Widget.ObjectSiblings-4.0.0.0
+		SccProjectUniqueName31 = CSBooster.Widget.PermaLink-4.0.0.0\\CSBooster.Widget.PermaLink.csproj
+		SccProjectTopLevelParentUniqueName31 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName31 = CSBooster.Widget.PermaLink-4.0.0.0
+		SccLocalPath31 = CSBooster.Widget.PermaLink-4.0.0.0
+		SccProjectUniqueName32 = CSBooster.Widget.Rating-4.0.0.0\\CSBooster.Widget.Rating.csproj
+		SccProjectTopLevelParentUniqueName32 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName32 = CSBooster.Widget.Rating-4.0.0.0
+		SccLocalPath32 = CSBooster.Widget.Rating-4.0.0.0
+		SccProjectUniqueName33 = CSBooster.Widget.RelatedObjectLists-4.0.0.0\\CSBooster.Widget.RelatedObjectLists.csproj
+		SccProjectTopLevelParentUniqueName33 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName33 = CSBooster.Widget.RelatedObjectLists-4.0.0.0
+		SccLocalPath33 = CSBooster.Widget.RelatedObjectLists-4.0.0.0
+		SccProjectUniqueName34 = CSBooster.Widget.RSS-4.0.0.0\\CSBooster.Widget.RSS.csproj
+		SccProjectTopLevelParentUniqueName34 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName34 = CSBooster.Widget.RSS-4.0.0.0
+		SccLocalPath34 = CSBooster.Widget.RSS-4.0.0.0
+		SccProjectUniqueName35 = CSBooster.Widget.Search-4.0.0.0\\CSBooster.Widget.Search.csproj
+		SccProjectTopLevelParentUniqueName35 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName35 = CSBooster.Widget.Search-4.0.0.0
+		SccLocalPath35 = CSBooster.Widget.Search-4.0.0.0
+		SccProjectUniqueName36 = CSBooster.Widget.Sharing-4.0.0.0\\CSBooster.Widget.Sharing.csproj
+		SccProjectTopLevelParentUniqueName36 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName36 = CSBooster.Widget.Sharing-4.0.0.0
+		SccLocalPath36 = CSBooster.Widget.Sharing-4.0.0.0
+		SccProjectUniqueName37 = CSBooster.Widget.SiteTagCloud-4.0.0.0\\CSBooster.Widget.SiteTagCloud.csproj
+		SccProjectTopLevelParentUniqueName37 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName37 = CSBooster.Widget.SiteTagCloud-4.0.0.0
+		SccLocalPath37 = CSBooster.Widget.SiteTagCloud-4.0.0.0
+		SccProjectUniqueName38 = CSBooster.Widget.StatisticSiteView-4.0.0.0\\CSBooster.Widget.StatisticSiteView.csproj
+		SccProjectTopLevelParentUniqueName38 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName38 = CSBooster.Widget.StatisticSiteView-4.0.0.0
+		SccLocalPath38 = CSBooster.Widget.StatisticSiteView-4.0.0.0
+		SccProjectUniqueName39 = CSBooster.Widget.TagRelatedObjects-4.0.0.0\\CSBooster.Widget.TagRelatedObjects.csproj
+		SccProjectTopLevelParentUniqueName39 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName39 = CSBooster.Widget.TagRelatedObjects-4.0.0.0
+		SccLocalPath39 = CSBooster.Widget.TagRelatedObjects-4.0.0.0
+		SccProjectUniqueName40 = CSBooster.Widget.UploadControls-4.0.0.0\\CSBooster.Widget.UploadControls.csproj
+		SccProjectTopLevelParentUniqueName40 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName40 = CSBooster.Widget.UploadControls-4.0.0.0
+		SccLocalPath40 = CSBooster.Widget.UploadControls-4.0.0.0
+		SccProjectUniqueName41 = CSBooster.Widget.UserActivities-4.0.0.0\\CSBooster.Widget.UserActivities.csproj
+		SccProjectTopLevelParentUniqueName41 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName41 = CSBooster.Widget.UserActivities-4.0.0.0
+		SccLocalPath41 = CSBooster.Widget.UserActivities-4.0.0.0
+		SccProjectUniqueName42 = CSBooster.Widget.UserLists-4.0.0.0\\CSBooster.Widget.UserLists.csproj
+		SccProjectTopLevelParentUniqueName42 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName42 = CSBooster.Widget.UserLists-4.0.0.0
+		SccLocalPath42 = CSBooster.Widget.UserLists-4.0.0.0
+		SccProjectUniqueName43 = CSBooster.Widget.UserShortInfo-4.0.0.0\\CSBooster.Widget.UserShortInfo.csproj
+		SccProjectTopLevelParentUniqueName43 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName43 = CSBooster.Widget.UserShortInfo-4.0.0.0
+		SccLocalPath43 = CSBooster.Widget.UserShortInfo-4.0.0.0
+		SccProjectUniqueName44 = CSBooster.DataAccess.Filter-3.0.0.0\\CSBooster.DataAccess.Filter.csproj
+		SccProjectName44 = CSBooster.DataAccess.Filter-3.0.0.0
+		SccLocalPath44 = CSBooster.DataAccess.Filter-3.0.0.0
+		SccProjectUniqueName45 = CSBooster.DataObj.HTMLContent-4.0.0.0\\CSBooster.DataObj.HTMLContent.csproj
+		SccProjectName45 = CSBooster.DataObj.HTMLContent-4.0.0.0
+		SccLocalPath45 = CSBooster.DataObj.HTMLContent-4.0.0.0
+		SccProjectUniqueName46 = CSBooster.GeoTagging-3.0.0.0\\CSBooster.GeoTagging.csproj
+		SccProjectName46 = CSBooster.GeoTagging-3.0.0.0
+		SccLocalPath46 = CSBooster.GeoTagging-3.0.0.0
+		SccProjectUniqueName47 = CSBooster.WebUI.Mobile-4.0.0.0\\CSBooster.WebUI.Mobile.csproj
+		SccProjectName47 = CSBooster.WebUI.Mobile-4.0.0.0
+		SccLocalPath47 = CSBooster.WebUI.Mobile-4.0.0.0
+		SccProjectUniqueName48 = CSBooster.DataAccess.Service-4.0.0.0\\CSBooster.DataAccess.Service.csproj
+		SccProjectTopLevelParentUniqueName48 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName48 = CSBooster.DataAccess.Service-4.0.0.0
+		SccLocalPath48 = CSBooster.DataAccess.Service-4.0.0.0
+		SccProjectUniqueName49 = CSBooster.VideoEncodingService-4.0.0.0\\CSBooster.VideoEncodingService.csproj
+		SccProjectTopLevelParentUniqueName49 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName49 = CSBooster.VideoEncodingService-4.0.0.0
+		SccLocalPath49 = CSBooster.VideoEncodingService-4.0.0.0
+		SccProjectUniqueName50 = CSBooster.WebServices-4.0.0.0\\CSBooster.WebServices.csproj
+		SccProjectName50 = CSBooster.WebServices-4.0.0.0
+		SccLocalPath50 = CSBooster.WebServices-4.0.0.0
+		SccProjectUniqueName51 = CSBooster.ServiceHost-3.0.0.0\\CSBooster.ServiceHost.csproj
+		SccProjectTopLevelParentUniqueName51 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName51 = CSBooster.ServiceHost-3.0.0.0
+		SccLocalPath51 = CSBooster.ServiceHost-3.0.0.0
+		SccProjectUniqueName52 = CSBooster.Widget.AssemblyInfo-4.0.0.0\\CSBooster.Widget.AssemblyInfo.csproj
+		SccProjectTopLevelParentUniqueName52 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName52 = CSBooster.Widget.AssemblyInfo-4.0.0.0
+		SccLocalPath52 = CSBooster.Widget.AssemblyInfo-4.0.0.0
+		SccProjectUniqueName53 = CSBooster.Widget.CacheInfo-4.0.0.0\\CSBooster.Widget.CacheInfo.csproj
+		SccProjectTopLevelParentUniqueName53 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName53 = CSBooster.Widget.CacheInfo-4.0.0.0
+		SccLocalPath53 = CSBooster.Widget.CacheInfo-4.0.0.0
+		SccProjectUniqueName54 = CSBooster.CustomDragDrop-4.0.0.0\\CSBooster.CustomDragDrop.csproj
+		SccProjectName54 = CSBooster.CustomDragDrop-4.0.0.0
+		SccLocalPath54 = CSBooster.CustomDragDrop-4.0.0.0
+		SccProjectUniqueName55 = CSBooster.Widget.UploadContainer-4.0.0.0\\CSBooster.Widget.Wizard.csproj
+		SccProjectTopLevelParentUniqueName55 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName55 = CSBooster.Widget.UploadContainer-4.0.0.0
+		SccLocalPath55 = CSBooster.Widget.UploadContainer-4.0.0.0
+		SccProjectUniqueName56 = CSBooster.Widget.GoogleMap-4.0.0.0\\CSBooster.Widget.GoogleMap.csproj
+		SccProjectTopLevelParentUniqueName56 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName56 = CSBooster.Widget.GoogleMap-4.0.0.0
+		SccLocalPath56 = CSBooster.Widget.GoogleMap-4.0.0.0
+		SccProjectUniqueName57 = CSBooster.Widget.Dashboard\\CSBooster.Widget.Dashboard.csproj
+		SccProjectTopLevelParentUniqueName57 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName57 = CSBooster.Widget.Dashboard
+		SccLocalPath57 = CSBooster.Widget.Dashboard
+		SccProjectUniqueName58 = CSBooster.Widget.Registration-4.0.0.0\\CSBooster.Widget.Registration.csproj
+		SccProjectTopLevelParentUniqueName58 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName58 = CSBooster.Widget.Registration-4.0.0.0
+		SccLocalPath58 = CSBooster.Widget.Registration-4.0.0.0
+		SccProjectUniqueName59 = CSBooster.Widget.LoginSSO-4.0.0.0\\CSBooster.Widget.LoginSSO.csproj
+		SccProjectTopLevelParentUniqueName59 = CSBooster.WebUI-4.0.0.0.sln
+		SccProjectName59 = CSBooster.Widget.LoginSSO-4.0.0.0
+		SccLocalPath59 = CSBooster.Widget.LoginSSO-4.0.0.0
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F54D96-06CF-4975-93CE-92F0831A088D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F54D96-06CF-4975-93CE-92F0831A088D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F54D96-06CF-4975-93CE-92F0831A088D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB74BEB-A75F-4427-B183-CE7D49F149F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB74BEB-A75F-4427-B183-CE7D49F149F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB74BEB-A75F-4427-B183-CE7D49F149F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41F77A8-318D-440D-B97D-E32734AA0FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41F77A8-318D-440D-B97D-E32734AA0FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41F77A8-318D-440D-B97D-E32734AA0FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE11A95-BBC3-4931-A8C3-10004A91093C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE11A95-BBC3-4931-A8C3-10004A91093C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE11A95-BBC3-4931-A8C3-10004A91093C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5778DC99-B340-4E56-8E85-5D489ECC2066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5778DC99-B340-4E56-8E85-5D489ECC2066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5778DC99-B340-4E56-8E85-5D489ECC2066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E4B14D-2ED8-465F-9238-6A9C5D5C7950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E4B14D-2ED8-465F-9238-6A9C5D5C7950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E4B14D-2ED8-465F-9238-6A9C5D5C7950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01A9E20-C2F2-4B90-B3DA-1A63A409CCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01A9E20-C2F2-4B90-B3DA-1A63A409CCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01A9E20-C2F2-4B90-B3DA-1A63A409CCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B33DED5-A7C0-42EB-A1DF-349AC1C8BA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B33DED5-A7C0-42EB-A1DF-349AC1C8BA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B33DED5-A7C0-42EB-A1DF-349AC1C8BA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C842F2-8F72-404E-ABDF-9CEA4990FDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C842F2-8F72-404E-ABDF-9CEA4990FDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C842F2-8F72-404E-ABDF-9CEA4990FDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23772BE3-890D-4146-83D8-F4D1BF90EE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23772BE3-890D-4146-83D8-F4D1BF90EE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23772BE3-890D-4146-83D8-F4D1BF90EE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6310A6BB-00EF-4C1E-8557-0C2DF0FBB4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6310A6BB-00EF-4C1E-8557-0C2DF0FBB4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6310A6BB-00EF-4C1E-8557-0C2DF0FBB4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C5ECEE-5DEB-43A6-AB47-4A8DAB2E7E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C5ECEE-5DEB-43A6-AB47-4A8DAB2E7E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C5ECEE-5DEB-43A6-AB47-4A8DAB2E7E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42BAB9E-B2FA-4CCD-8839-77AC9DA8FFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42BAB9E-B2FA-4CCD-8839-77AC9DA8FFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42BAB9E-B2FA-4CCD-8839-77AC9DA8FFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646EEB60-9C19-49CE-B048-E2CE35C13469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646EEB60-9C19-49CE-B048-E2CE35C13469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646EEB60-9C19-49CE-B048-E2CE35C13469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F28050B-7E27-41DD-9237-887FF42CD694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F28050B-7E27-41DD-9237-887FF42CD694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F28050B-7E27-41DD-9237-887FF42CD694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EEA096-42E9-4539-8E46-54D4EBBC8B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EEA096-42E9-4539-8E46-54D4EBBC8B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EEA096-42E9-4539-8E46-54D4EBBC8B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA34B963-E69B-4727-83E1-3A2A0245A73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA34B963-E69B-4727-83E1-3A2A0245A73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA34B963-E69B-4727-83E1-3A2A0245A73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA88ED87-C03F-45F7-8FFE-30B42F8458FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA88ED87-C03F-45F7-8FFE-30B42F8458FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA88ED87-C03F-45F7-8FFE-30B42F8458FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7207EB0-D5A7-4A11-8138-1D22BB08143A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7207EB0-D5A7-4A11-8138-1D22BB08143A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7207EB0-D5A7-4A11-8138-1D22BB08143A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC171420-A158-4990-95E6-0CE55C75D43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC171420-A158-4990-95E6-0CE55C75D43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC171420-A158-4990-95E6-0CE55C75D43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00C47A5-82E0-444E-8B93-F478B88C37C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00C47A5-82E0-444E-8B93-F478B88C37C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00C47A5-82E0-444E-8B93-F478B88C37C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D343BEF4-148A-48D5-8B43-11E2184BD26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D343BEF4-148A-48D5-8B43-11E2184BD26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D343BEF4-148A-48D5-8B43-11E2184BD26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388BD738-E9F0-4F98-9DD0-F348545418E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388BD738-E9F0-4F98-9DD0-F348545418E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388BD738-E9F0-4F98-9DD0-F348545418E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50C9F37-3483-4E5A-B640-3D50CFEF9EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50C9F37-3483-4E5A-B640-3D50CFEF9EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50C9F37-3483-4E5A-B640-3D50CFEF9EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1EFDE4-4E3A-4142-81CD-DAA66A12437E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1EFDE4-4E3A-4142-81CD-DAA66A12437E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1EFDE4-4E3A-4142-81CD-DAA66A12437E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA18CCF-1D31-40DE-A2A4-1DF5E629D4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA18CCF-1D31-40DE-A2A4-1DF5E629D4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA18CCF-1D31-40DE-A2A4-1DF5E629D4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDACF201-D8E5-46EF-9254-FB426E874E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDACF201-D8E5-46EF-9254-FB426E874E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDACF201-D8E5-46EF-9254-FB426E874E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB37B14C-2645-4FF3-99A1-963442E9E643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB37B14C-2645-4FF3-99A1-963442E9E643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB37B14C-2645-4FF3-99A1-963442E9E643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85BA373-A088-4912-9F32-E02FCAE4CE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85BA373-A088-4912-9F32-E02FCAE4CE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85BA373-A088-4912-9F32-E02FCAE4CE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91AE6B12-E9BE-4653-8633-FF132793B81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91AE6B12-E9BE-4653-8633-FF132793B81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91AE6B12-E9BE-4653-8633-FF132793B81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FCBB0E-D349-4A25-BE2F-C6E15C03124F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FCBB0E-D349-4A25-BE2F-C6E15C03124F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FCBB0E-D349-4A25-BE2F-C6E15C03124F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9B6DA1-E359-4797-B33C-74C8D41D3768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9B6DA1-E359-4797-B33C-74C8D41D3768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9B6DA1-E359-4797-B33C-74C8D41D3768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137B223B-D66E-45AC-98CB-1ECB7A2C63E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137B223B-D66E-45AC-98CB-1ECB7A2C63E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137B223B-D66E-45AC-98CB-1ECB7A2C63E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5045172-8A05-4FCC-A0D2-DA60B2CA0BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5045172-8A05-4FCC-A0D2-DA60B2CA0BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5045172-8A05-4FCC-A0D2-DA60B2CA0BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3D03F3-7FF6-4593-92DA-29AF89EC8515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3D03F3-7FF6-4593-92DA-29AF89EC8515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3D03F3-7FF6-4593-92DA-29AF89EC8515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C25B21-BAE1-4727-8275-72F38FCFC129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C25B21-BAE1-4727-8275-72F38FCFC129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C25B21-BAE1-4727-8275-72F38FCFC129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65AB7CB-8387-412E-9302-B3EF4B64F251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65AB7CB-8387-412E-9302-B3EF4B64F251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65AB7CB-8387-412E-9302-B3EF4B64F251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70296B58-5CC9-407D-A2A5-6A3FBDBAF4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70296B58-5CC9-407D-A2A5-6A3FBDBAF4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70296B58-5CC9-407D-A2A5-6A3FBDBAF4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21F881C-9491-4B85-A581-0276B9D14939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21F881C-9491-4B85-A581-0276B9D14939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21F881C-9491-4B85-A581-0276B9D14939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA006CF5-A626-4B6A-B771-BCCD9F6F7A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA006CF5-A626-4B6A-B771-BCCD9F6F7A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA006CF5-A626-4B6A-B771-BCCD9F6F7A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D0F7B0-EDCF-429F-AF19-A773724C3042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D0F7B0-EDCF-429F-AF19-A773724C3042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D0F7B0-EDCF-429F-AF19-A773724C3042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E585183E-BBA6-44C3-9B0A-499C1A6C8147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E585183E-BBA6-44C3-9B0A-499C1A6C8147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E585183E-BBA6-44C3-9B0A-499C1A6C8147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26F9BDF-788E-408D-9EFB-EF46DB6501E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26F9BDF-788E-408D-9EFB-EF46DB6501E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26F9BDF-788E-408D-9EFB-EF46DB6501E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52D8985-FA66-405A-A3C9-EB9E893BCCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52D8985-FA66-405A-A3C9-EB9E893BCCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52D8985-FA66-405A-A3C9-EB9E893BCCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59AA122-D645-44DA-9D3F-9F4BF8B4DAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59AA122-D645-44DA-9D3F-9F4BF8B4DAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59AA122-D645-44DA-9D3F-9F4BF8B4DAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC20BE7-9016-4867-A060-8CC6A2AC2594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC20BE7-9016-4867-A060-8CC6A2AC2594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC20BE7-9016-4867-A060-8CC6A2AC2594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594D08EA-B92E-4228-B132-2D2421D9021B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594D08EA-B92E-4228-B132-2D2421D9021B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594D08EA-B92E-4228-B132-2D2421D9021B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE1CD33-4983-40A9-AEBD-C5919527ED05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE1CD33-4983-40A9-AEBD-C5919527ED05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE1CD33-4983-40A9-AEBD-C5919527ED05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CF2F2C-DCEE-46EE-9F88-6FB4DC642901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CF2F2C-DCEE-46EE-9F88-6FB4DC642901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CF2F2C-DCEE-46EE-9F88-6FB4DC642901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFF8155-BCCB-4345-8371-BACB7C0A6811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFF8155-BCCB-4345-8371-BACB7C0A6811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FFAA72-DC4C-42C0-A104-D58E2F50DDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FFAA72-DC4C-42C0-A104-D58E2F50DDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FFAA72-DC4C-42C0-A104-D58E2F50DDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30C96CA-F14A-4F55-A22A-2B982825EBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30C96CA-F14A-4F55-A22A-2B982825EBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30C96CA-F14A-4F55-A22A-2B982825EBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65AB0A59-F37F-4395-89AA-DDFB823CC64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65AB0A59-F37F-4395-89AA-DDFB823CC64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65AB0A59-F37F-4395-89AA-DDFB823CC64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BC94DE-92FB-41FD-8F57-0682758B2575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BC94DE-92FB-41FD-8F57-0682758B2575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BC94DE-92FB-41FD-8F57-0682758B2575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2528E045-5DA5-45BC-9FF9-9741C3DCBE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2528E045-5DA5-45BC-9FF9-9741C3DCBE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2528E045-5DA5-45BC-9FF9-9741C3DCBE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEBA223-81C4-4DC3-9E04-4273D97E0608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEBA223-81C4-4DC3-9E04-4273D97E0608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEBA223-81C4-4DC3-9E04-4273D97E0608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A4BDD6-03C4-4AC3-8F5E-411EB009A3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A4BDD6-03C4-4AC3-8F5E-411EB009A3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A4BDD6-03C4-4AC3-8F5E-411EB009A3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37490420-60F8-4D4D-85FE-7FF5CF91A037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37490420-60F8-4D4D-85FE-7FF5CF91A037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37490420-60F8-4D4D-85FE-7FF5CF91A037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37490420-60F8-4D4D-85FE-7FF5CF91A037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E6F2CF-7149-4D69-857C-427F91271179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E6F2CF-7149-4D69-857C-427F91271179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E6F2CF-7149-4D69-857C-427F91271179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E6F2CF-7149-4D69-857C-427F91271179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07CF2F2C-DCEE-46EE-9F88-6FB4DC642901} = {3CE1DD2B-209F-4B1F-A88D-65B8B176754F}
+		{4FFF8155-BCCB-4345-8371-BACB7C0A6811} = {3CE1DD2B-209F-4B1F-A88D-65B8B176754F}
+		{26FFAA72-DC4C-42C0-A104-D58E2F50DDCB} = {3CE1DD2B-209F-4B1F-A88D-65B8B176754F}
+		{33C842F2-8F72-404E-ABDF-9CEA4990FDED} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{23772BE3-890D-4146-83D8-F4D1BF90EE7D} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{6310A6BB-00EF-4C1E-8557-0C2DF0FBB4EB} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{F5EEA096-42E9-4539-8E46-54D4EBBC8B83} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{BA34B963-E69B-4727-83E1-3A2A0245A73C} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{CA88ED87-C03F-45F7-8FFE-30B42F8458FF} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{C7207EB0-D5A7-4A11-8138-1D22BB08143A} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{BC171420-A158-4990-95E6-0CE55C75D43F} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{C00C47A5-82E0-444E-8B93-F478B88C37C3} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{D343BEF4-148A-48D5-8B43-11E2184BD26C} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{388BD738-E9F0-4F98-9DD0-F348545418E4} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{A50C9F37-3483-4E5A-B640-3D50CFEF9EF4} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{8C1EFDE4-4E3A-4142-81CD-DAA66A12437E} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{7FA18CCF-1D31-40DE-A2A4-1DF5E629D4E9} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{DDACF201-D8E5-46EF-9254-FB426E874E59} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{CB37B14C-2645-4FF3-99A1-963442E9E643} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{D85BA373-A088-4912-9F32-E02FCAE4CE57} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{91AE6B12-E9BE-4653-8633-FF132793B81F} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{F7FCBB0E-D349-4A25-BE2F-C6E15C03124F} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{6D9B6DA1-E359-4797-B33C-74C8D41D3768} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{137B223B-D66E-45AC-98CB-1ECB7A2C63E6} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{A5045172-8A05-4FCC-A0D2-DA60B2CA0BAB} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{7A3D03F3-7FF6-4593-92DA-29AF89EC8515} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{A1C25B21-BAE1-4727-8275-72F38FCFC129} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{E65AB7CB-8387-412E-9302-B3EF4B64F251} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{70296B58-5CC9-407D-A2A5-6A3FBDBAF4CB} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{D21F881C-9491-4B85-A581-0276B9D14939} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{FA006CF5-A626-4B6A-B771-BCCD9F6F7A74} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{C0D0F7B0-EDCF-429F-AF19-A773724C3042} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{E585183E-BBA6-44C3-9B0A-499C1A6C8147} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{F26F9BDF-788E-408D-9EFB-EF46DB6501E1} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{E52D8985-FA66-405A-A3C9-EB9E893BCCC3} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{65AB0A59-F37F-4395-89AA-DDFB823CC64E} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{97BC94DE-92FB-41FD-8F57-0682758B2575} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{DAEBA223-81C4-4DC3-9E04-4273D97E0608} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{20A4BDD6-03C4-4AC3-8F5E-411EB009A3EA} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{37490420-60F8-4D4D-85FE-7FF5CF91A037} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+		{46E6F2CF-7149-4D69-857C-427F91271179} = {78EA444D-45B4-4CE6-AC3F-F7E36CD0CD3F}
+	EndGlobalSection
+EndGlobal

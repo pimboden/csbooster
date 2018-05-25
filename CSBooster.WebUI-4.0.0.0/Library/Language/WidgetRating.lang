@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleRating">
+        <value><![CDATA[Bewertung]]></value>
+    </data>
+    <data name="TooltipRating">
+        <value><![CDATA[Bewertung]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelShowInfo">
+        <value><![CDATA[Detail-Info zeigen]]></value>
+    </data>
+    <data name="TooltipShowInfo">
+        <value><![CDATA[]]></value>
+    </data>
+    
+</root>

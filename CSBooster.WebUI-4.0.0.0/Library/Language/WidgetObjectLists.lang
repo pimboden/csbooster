@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="LabelAnonymous">
+    <value><![CDATA[Anonym]]></value>
+  </data>
+  <data name="LabelByUrl">
+    <value><![CDATA[URL gesteuert]]></value>
+  </data>
+  <data name="LabelCommunity">
+    <value><![CDATA[Communities]]></value>
+  </data>
+  <data name="LabelCommunityMulti">
+    <value><![CDATA[Eingabe einer oder mehrerer (Komma getrennt) Communities zur Anzeigen-Einschränkung.]]></value>
+  </data>
+  <data name="LabelDataSource">
+    <value><![CDATA[Datenherkunft]]></value>
+  </data>
+  <data name="LabelFeatured">
+    <value><![CDATA[Priorität]]></value>
+  </data>
+  <data name="LabelMaxNumber">
+    <value><![CDATA[Anzahl Objekte]]></value>
+  </data>
+  <data name="LabelOrderBy">
+    <value><![CDATA[Sortierung]]></value>
+  </data>
+  <data name="LabelPager">
+    <value><![CDATA[Pager]]></value>
+  </data>
+  <data name="LabelPagerBottom">
+    <value><![CDATA[Pager unten anzeigen]]></value>
+  </data>
+  <data name="LabelPagerTop">
+    <value><![CDATA[Pager oben anzeigen]]></value>
+  </data>
+  <data name="LabelRenderHtml">
+    <value><![CDATA[Pager Style 'Hyperlink']]></value>
+  </data>
+  <data name="LabelTagList">
+    <value><![CDATA[Tagwörter]]></value>
+  </data>
+  <data name="LabelTagOr">
+    <value><![CDATA[oder]]></value>
+  </data>
+  <data name="LabelUser">
+    <value><![CDATA[Benutzer-ID]]></value>
+  </data>
+  <data name="TextDataSource0">
+    <value><![CDATA[Benutzer-Profil]]></value>
+  </data>
+  <data name="TextDataSource1">
+    <value><![CDATA[Site]]></value>
+  </data>
+  <data name="TextDataSource2">
+    <value><![CDATA[Communities]]></value>
+  </data>
+  <data name="TextDataSource3">
+    <value><![CDATA[Community]]></value>
+  </data>
+  <data name="TitleObjectLists">
+    <value><![CDATA[Objekt-Übersicht]]></value>
+  </data>
+  <data name="TitleObjectListsAudio">
+    <value><![CDATA[Musik]]></value>
+  </data>
+  <data name="TitleObjectListsBlog">
+    <value><![CDATA[Blogs]]></value>
+  </data>
+  <data name="TitleObjectListsCommunity">
+    <value><![CDATA[Communities]]></value>
+  </data>
+  <data name="TitleObjectListsContent">
+    <value><![CDATA[Inhalte]]></value>
+  </data>
+  <data name="TitleObjectListsDocument">
+    <value><![CDATA[Dokumente]]></value>
+  </data>
+  <data name="TitleObjectListsEvent">
+    <value><![CDATA[Events]]></value>
+  </data>
+  <data name="TitleObjectListsFolder">
+    <value><![CDATA[Alben]]></value>
+  </data>
+  <data name="TitleObjectListsForum">
+    <value><![CDATA[Foren]]></value>
+  </data>
+  <data name="TitleObjectListsForumThread">
+    <value><![CDATA[Forum Diskussion]]></value>
+  </data>
+  <data name="TitleObjectListsGeneric">
+    <value><![CDATA[Generische Inhalte]]></value>
+  </data>
+  <data name="TitleObjectListsLocation">
+    <value><![CDATA[Locations]]></value>
+  </data>
+  <data name="TitleObjectListsNews">
+    <value><![CDATA[News]]></value>
+  </data>
+  <data name="TitleObjectListsOffer">
+    <value><![CDATA[Marktplatz Angebote]]></value>
+  </data>
+  <data name="TitleObjectListsPicture">
+    <value><![CDATA[Photos]]></value>
+  </data>
+  <data name="TitleObjectListsPoll">
+    <value><![CDATA[Kurzumfragen]]></value>
+  </data>
+  <data name="TitleObjectListsProduct">
+    <value><![CDATA[Produkte]]></value>
+  </data>
+  <data name="TitleObjectListsRequest">
+    <value><![CDATA[Marktplatz Gesuche]]></value>
+  </data>
+  <data name="TitleObjectListsSlideshow">
+    <value><![CDATA[Bildgallerien]]></value>
+  </data>
+  <data name="TitleObjectListsSurvey">
+    <value><![CDATA[Umfragen]]></value>
+  </data>
+  <data name="TitleObjectListsUser">
+    <value><![CDATA[Benutzer]]></value>
+  </data>
+  <data name="TitleObjectListsVideo">
+    <value><![CDATA[Videos]]></value>
+  </data>
+  <data name="TitleWidgetSettings">
+    <value><![CDATA[Eigenschaften]]></value>
+  </data>
+  <data name="TitleWidgetSettingsAdv">
+    <value><![CDATA[Daten selektionen]]></value>
+  </data>
+  <data name="TitleWidgetSettingsProp">
+    <value><![CDATA[Eigenschaften]]></value>
+  </data>
+  <data name="TooltipAnonymous">
+    <value><![CDATA[Wenn gesetzt, so werden die Daten als 'Anonymer User' geladen]]></value>
+  </data>
+  <data name="TooltipByUrl">
+    <value><![CDATA[Wenn selektiert, werden die Filter-Parameter mit den Daten aus der URL ergänzt]]></value>
+  </data>
+  <data name="TooltipCommunity">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipDataSource">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipFeatured">
+    <value><![CDATA[Wenn gesetzt, schränkt die Anzeige auf Objekte dieser Priorität ein]]></value>
+  </data>
+  <data name="TooltipMaxNumber">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipObjectLists">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipOrderBy">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipPager">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipRenderHtml">
+    <value><![CDATA[Wenn gesetzt, so wird der Pager als Hyperlink generiert. Achtung: nur einmal pro Seite verwenden]]></value>
+  </data>
+  <data name="TooltipTagList">
+    <value><![CDATA[Eingabe eines oder mehrerer Tagwörter zur Anzeigen-Einschränkung. 'UND'-Filter-Einschränkung lässt sich mittels Komma (,)-getrennter Tagwörter erreichen.]]></value>
+  </data>
+  <data name="TooltipUser">
+    <value><![CDATA[Eingabe einer (1) Benutzer-ID schränkt die Anzeige auf diesen Benutzer ein]]></value>
+  </data>
+</root>

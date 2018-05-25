@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleLogin">
+        <value><![CDATA[Login]]></value>
+    </data>
+    <data name="TooltipLogin">
+        <value><![CDATA[Login]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+</root>

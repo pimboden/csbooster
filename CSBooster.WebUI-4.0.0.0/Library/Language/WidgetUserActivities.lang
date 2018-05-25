@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleUserActivities">
+        <value><![CDATA[Benutzer-Aktivitäten]]></value>
+    </data>
+    <data name="TooltipUserActivities">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LableAddText">
+        <value><![CDATA[Ich sage...]]></value>
+    </data>
+    <data name="LableSplitterText0">
+        <value><![CDATA[Heute]]></value>
+    </data>
+    <data name="LableSplitterText1">
+        <value><![CDATA[Gestern]]></value>
+    </data>
+    <data name="LableSplitterText2">
+        <value><![CDATA[Vorgestern]]></value>
+    </data>
+    <data name="LableSplitterText3">
+        <value><![CDATA[Früher]]></value>
+    </data>
+    <data name="DateFormatString0">
+        <value><![CDATA[T]]></value>
+    </data>
+    <data name="DateFormatString1">
+        <value><![CDATA[t]]></value>
+    </data>
+    <data name="DateFormatString2">
+        <value><![CDATA[t]]></value>
+    </data>
+    <data name="DateFormatString3">
+        <value><![CDATA[g]]></value>
+    </data>
+
+</root>

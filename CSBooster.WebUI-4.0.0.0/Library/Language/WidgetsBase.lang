@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="RandomObject">
+    <value><![CDATA[Zufalls{0}]]></value>
+  </data>
+    <data name="Search">
+    <value><![CDATA[Suche]]></value>
+  </data>
+    <data name="SearchCommand">
+    <value><![CDATA[Suchen]]></value>
+  </data>
+    <data name="TitleAdminLinks">
+    <value><![CDATA[Admin-Links]]></value>
+  </data>
+    <data name="TitleBoard">
+    <value><![CDATA[Board-Links]]></value>
+  </data>
+    <data name="TitleComments">
+    <value><![CDATA[Kommentare]]></value>
+  </data>
+    <data name="TitleCommunityMembers">
+    <value><![CDATA[Community-Mitglieder]]></value>
+  </data>
+    <data name="TitleCommunityShortInfo">
+    <value><![CDATA[Community-Info]]></value>
+  </data>
+    <data name="TitleContextLinks">
+    <value><![CDATA[Links]]></value>
+  </data>
+    <data name="TitleEmbedCode">
+    <value><![CDATA[Embed-Code]]></value>
+  </data>
+    <data name="TitleForm">
+    <value><![CDATA[Formular]]></value>
+  </data>
+    <data name="TitleForum">
+    <value><![CDATA[Forum]]></value>
+  </data>
+    <data name="TitleForumTopic">
+    <value><![CDATA[Forum Diskussion]]></value>
+  </data>
+    <data name="TitleFunctionsFilter">
+    <value><![CDATA[Filtern]]></value>
+  </data>
+    <data name="TitleFunctionsSort">
+    <value><![CDATA[Sortieren]]></value>
+  </data>
+    <data name="TitleFunctionsUser">
+    <value><![CDATA[Benutzer-Funktionen]]></value>
+  </data>
+    <data name="TitleHtmlContent">
+    <value><![CDATA[HTML-Inhalt]]></value>
+  </data>
+    <data name="TitleIFrame">
+    <value><![CDATA[IFrame]]></value>
+  </data>
+    <data name="TitleInfo">
+    <value><![CDATA[Benutzer-Info]]></value>
+  </data>
+    <data name="TitleKyteVideo">
+    <value><![CDATA[Kyte-Video]]></value>
+  </data>
+    <data name="TitleLastVisitors">
+    <value><![CDATA[Letzte Besucher]]></value>
+  </data>
+    <data name="TitleLogin">
+    <value><![CDATA[Anmelden]]></value>
+  </data>
+    <data name="TitleMap">
+    <value><![CDATA[Karte]]></value>
+  </data>
+    <data name="TitleMultipleArticles">
+    <value><![CDATA[Artikel-Übersicht]]></value>
+  </data>
+    <data name="TitleMultipleAudios">
+    <value><![CDATA[Musik-Übersicht]]></value>
+  </data>
+    <data name="TitleMultipleDocuments">
+    <value><![CDATA[Dokumente-Übersicht]]></value>
+  </data>
+    <data name="TitleMultipleEvents">
+    <value><![CDATA[Event-Übersicht]]></value>
+  </data>
+    <data name="TitleMultipleFolders">
+    <value><![CDATA[Alben-Übersicht]]></value>
+  </data>
+    <data name="TitleMultipleNews">
+    <value><![CDATA[News-Übersicht]]></value>
+  </data>
+    <data name="TitleMultipleObjects">
+    <value><![CDATA[Inhalts-Übersicht]]></value>
+  </data>
+    <data name="TitleMultiplePictures">
+    <value><![CDATA[Bild-Übersicht]]></value>
+  </data>
+    <data name="TitleMultiplePinboardOffers">
+    <value><![CDATA[Angebots-Übersicht]]></value>
+  </data>
+    <data name="TitleMultiplePinboardSearches">
+    <value><![CDATA[Gesuchs-Übersicht]]></value>
+  </data>
+    <data name="TitleMultipleSlideshows">
+    <value><![CDATA[Bildgallerie-Übersicht]]></value>
+  </data>
+    <data name="TitleMultipleVideos">
+    <value><![CDATA[Video-Übersicht]]></value>
+  </data>
+    <data name="TitleMyCommunities">
+    <value><![CDATA[Meine Communities]]></value>
+  </data>
+    <data name="TitleMyFriends">
+    <value><![CDATA[Meine Freunde]]></value>
+  </data>
+    <data name="TitleMyMemberships">
+    <value><![CDATA[Meine Mitgliedschaften]]></value>
+  </data>
+    <data name="TitleNewestUser">
+    <value><![CDATA[Neueste Benutzer]]></value>
+  </data>
+    <data name="TitleObjectSiblings">
+    <value><![CDATA[Verwandte Objekte]]></value>
+  </data>
+    <data name="TitleOnlineUser">
+    <value><![CDATA[Benutzer Online]]></value>
+  </data>
+    <data name="TitlePermaLink">
+    <value><![CDATA[Permalink]]></value>
+  </data>
+    <data name="TitleRating">
+    <value><![CDATA[Bewertung]]></value>
+  </data>
+    <data name="TitleRss">
+    <value><![CDATA[RSS Feed]]></value>
+  </data>
+    <data name="TitleSearch">
+    <value><![CDATA[Suche]]></value>
+  </data>
+    <data name="TitleSearchResults">
+    <value><![CDATA[Such-Resultate]]></value>
+  </data>
+    <data name="TitleSingleObject">
+    <value><![CDATA[Detail-Ansicht]]></value>
+  </data>
+    <data name="TitleSiteTagCloud">
+    <value><![CDATA[Tagcloud]]></value>
+  </data>
+    <data name="TitleStatistics">
+    <value><![CDATA[Statistiken]]></value>
+  </data>
+    <data name="TitleTagRelatedObjets">
+    <value><![CDATA[Tag-verwandte Objekte]]></value>
+  </data>
+    <data name="TitleUploadControls">
+    <value><![CDATA[Hochladen]]></value>
+  </data>
+    <data name="TitleUserActivities">
+    <value><![CDATA[Benutzer-Aktivitäten]]></value>
+  </data>
+  <data name="TitleComments">
+    <value><![CDATA[Kommentare]]></value>
+  </data>
+    <data name="TitleUserShortInfo">
+    <value><![CDATA[Autor]]></value>
+  </data>
+    <data name="TitleWidgetDesign">
+    <value><![CDATA[Design]]></value>
+  </data>
+    <data name="TitleWidgetSettings">
+    <value><![CDATA[Einstellungen]]></value>
+  </data>
+    <data name="TitleWidgetSettingsExtended">
+    <value><![CDATA[Erweiterte Einstellungen]]></value>
+  </data>
+    <data name="TooltipAdminLinks">
+    <value><![CDATA[Admin-Links]]></value>
+  </data>
+    <data name="TooltipBoard">
+    <value><![CDATA[Board-Links]]></value>
+  </data>
+    <data name="TooltipComments">
+    <value><![CDATA[Kommentare]]></value>
+  </data>
+    <data name="TooltipCommunityMembers">
+    <value><![CDATA[Community-Mitglieder]]></value>
+  </data>
+    <data name="TooltipCommunityShortInfo">
+    <value><![CDATA[Community]]></value>
+  </data>
+    <data name="TooltipContextLinks">
+    <value><![CDATA[Links]]></value>
+  </data>
+    <data name="TooltipEmbedCode">
+    <value><![CDATA[Embed Code]]></value>
+  </data>
+    <data name="TooltipForm">
+    <value><![CDATA[Formular]]></value>
+  </data>
+    <data name="TooltipForum">
+    <value><![CDATA[Forum]]></value>
+  </data>
+    <data name="TooltipForumTopic">
+    <value><![CDATA[Forum Diskussion]]></value>
+  </data>
+    <data name="TooltipFunctionsFilter">
+    <value><![CDATA[Filtern]]></value>
+  </data>
+    <data name="TooltipFunctionsSort">
+    <value><![CDATA[Sortieren]]></value>
+  </data>
+    <data name="TooltipFunctionsUser">
+    <value><![CDATA[Benutzer-Funktionen]]></value>
+  </data>
+    <data name="TooltipHtmlContent">
+    <value><![CDATA[HTML-Inhalt]]></value>
+  </data>
+    <data name="TooltipIFrame">
+    <value><![CDATA[IFrame]]></value>
+  </data>
+    <data name="TooltipInfo">
+    <value><![CDATA[Benutzer-Info]]></value>
+  </data>
+    <data name="TooltipKyteVideo">
+    <value><![CDATA[Kyte Video]]></value>
+  </data>
+    <data name="TooltipLastVisitors">
+    <value><![CDATA[Letzte Besucher]]></value>
+  </data>
+    <data name="TooltipLogin">
+    <value><![CDATA[Anmelden]]></value>
+  </data>
+    <data name="TooltipMap">
+    <value><![CDATA[Karte]]></value>
+  </data>
+    <data name="TooltipMultipleArticles">
+    <value><![CDATA[Artikel-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultipleAudios">
+    <value><![CDATA[Musik-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultipleDocuments">
+    <value><![CDATA[Dokumenten-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultipleEvents">
+    <value><![CDATA[Event-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultipleFolders">
+    <value><![CDATA[Alben-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultipleNews">
+    <value><![CDATA[News-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultipleObjects">
+    <value><![CDATA[Inhalts-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultiplePictures">
+    <value><![CDATA[Bild-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultiplePinboardOffers">
+    <value><![CDATA[Angebots-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultiplePinboardSearches">
+    <value><![CDATA[Gesuchs-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultipleSlideshows">
+    <value><![CDATA[Bildgallerie-Übersicht]]></value>
+  </data>
+    <data name="TooltipMultipleVideos">
+    <value><![CDATA[Video-Übersicht]]></value>
+  </data>
+    <data name="TooltipMyCommunities">
+    <value><![CDATA[Meine Communities]]></value>
+  </data>
+    <data name="TooltipMyFriends">
+    <value><![CDATA[Meine Freunde]]></value>
+  </data>
+    <data name="TooltipMyMemberships">
+    <value><![CDATA[Meine Mitgliedschaften]]></value>
+  </data>
+    <data name="TooltipNewestUser">
+    <value><![CDATA[Neuste Benutzer]]></value>
+  </data>
+    <data name="TooltipObjectSiblings">
+    <value><![CDATA[Es werden Inhalte angezeigt, welche zur selben Community oder Benutzer gehören]]></value>
+  </data>
+    <data name="TooltipOnlineUser">
+    <value><![CDATA[Benutzer Online]]></value>
+  </data>
+    <data name="TooltipPermaLink">
+    <value><![CDATA[Permalink]]></value>
+  </data>
+    <data name="TooltipRating">
+    <value><![CDATA[Bewertung]]></value>
+  </data>
+    <data name="TooltipRss">
+    <value><![CDATA[RSS Feed]]></value>
+  </data>
+    <data name="TooltipSearch">
+    <value><![CDATA[Suche]]></value>
+  </data>
+    <data name="TooltipSearchResults">
+    <value><![CDATA[Such-Resultate]]></value>
+  </data>
+    <data name="TooltipSingleObject">
+    <value><![CDATA[Detail-Ansicht]]></value>
+  </data>
+    <data name="TooltipSiteTagCloud">
+    <value><![CDATA[Tagcloud]]></value>
+  </data>
+    <data name="TooltipStatistics">
+    <value><![CDATA[Statistiken]]></value>
+  </data>
+    <data name="TooltipTagRelatedObjets">
+    <value><![CDATA[Es werden Inhalte angezeigt, welche die selben Tags besitzen]]></value>
+  </data>
+    <data name="TooltipUploadControls">
+    <value><![CDATA[Hochladen]]></value>
+  </data>
+    <data name="TooltipUserActivities">
+    <value><![CDATA[Benutzer-Aktivitäten]]></value>
+  </data>
+  <data name="TooltipComments">
+    <value><![CDATA[Kommentare]]></value>
+  </data>
+    <data name="TooltipUserShortInfo">
+    <value><![CDATA[Autor]]></value>
+  </data>
+    <data name="WidgetTitle_73fabdde-85f7-11dc-8314-0800200c9a66">
+        <value><![CDATA[Über mich]]></value>
+    </data>
+    <data name="WidgetTitle_09058310-84f9-441b-93ea-d30971cc79e7">
+        <value><![CDATA[Meine Fotos]]></value>
+    </data>
+    <data name="WidgetTitle_d7f56433-7e19-4106-9708-20d8f889cda8">
+        <value><![CDATA[Meine Videos]]></value>
+    </data>
+</root>

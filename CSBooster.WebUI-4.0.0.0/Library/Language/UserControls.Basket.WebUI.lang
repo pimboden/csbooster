@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <data name="TitleResult">
+        <value><![CDATA[<h1><b>Herzlichen Dank für Ihre Bestellung !</b></h1><br/><H3>Folgende Daten wurden übermittelt. In wenigen Minuten erhalten Sie eine Bestätigung an die von Ihnen angegebene Email-Adresse.</h3><br/>]]></value>
+    </data>
+    <data name="LabelMwStText">
+        <value><![CDATA[Preise inkl. Mehrwertsteuer. <br/> Kein Rückgaberecht. Lieferung erfolgt mit Rechnung. <br/>Zahlbar innert 30 Tagen <br/>]]></value>
+    </data>
+    <data name="LabelAboJa">
+        <value><![CDATA["<b>Ja, ich bin Abonnent/in</b> und bezahle <b>CHF {0}</b> statt <b>CHF {1}</b>. Ich profitiere von einem Preisvorteil von <b>CHF {2}</b>]]></value>
+    </data>
+    <data name="LabelAboNein">
+        <value><![CDATA[<b>Ich bin Nichtabonnent/in</b> und bezahle den vollen Preis von <b>CHF {0}</b>]]></value>
+    </data>
+    <data name="LableAboNr">
+        <value><![CDATA[Abonummer]]></value>
+    </data>
+    <data name="MessageAboNr">
+        <value><![CDATA[Abonummer ist ein Pflichfeld]]></value>
+    </data>
+    <data name="CommandSendOrder">
+        <value><![CDATA[Bestellen]]></value>
+    </data>
+    <data name="MessageBasketEmpty">
+        <value><![CDATA[Warenkorb ist leer]]></value>
+    </data>
+    <data name="CommandBasketShow">
+        <value><![CDATA[Warenkorb anzeigen]]></value>
+    </data>
+    <data name="LabelBasketTotal">
+        <value><![CDATA["Total]]></value>
+    </data>
+    <data name="LabelBasketSubTotal">
+        <value><![CDATA["Zwischentotal]]></value>
+    </data>
+    <data name="LabelBasketMwSt">
+        <value><![CDATA[MwSt.]]></value>
+    </data>
+    <data name="LabelBasketShipping">
+        <value><![CDATA[Favoriten]]></value>
+    </data>
+    <data name="LabelBasketCount">
+        <value><![CDATA[Anzahl]]></value>
+    </data>
+    <data name="LabelBasketArticle">
+        <value><![CDATA[Artikel]]></value>
+    </data>
+    <data name="LabelBasketPrice">
+        <value><![CDATA[Preis]]></value>
+    </data>
+    
+</root>

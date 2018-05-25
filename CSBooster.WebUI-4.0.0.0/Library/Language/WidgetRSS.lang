@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleRss">
+        <value><![CDATA[RSS-Feed]]></value>
+    </data>
+    <data name="TooltipRss">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelURL">
+        <value><![CDATA[Feed-URL]]></value>
+    </data>
+    <data name="TooltipURL">
+        <value><![CDATA[die URL des gewünschten RSS-Feeds]]></value>
+    </data>
+    <data name="LabelCount">
+        <value><![CDATA[wieviele zeigen]]></value>
+    </data>
+    <data name="TooltipCount">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelAbstract">
+        <value><![CDATA[Beschrieb anzeigen]]></value>
+    </data>
+    <data name="TooltipAbstract">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelReload">
+        <value><![CDATA[Aktualisieren]]></value>
+    </data>
+    <data name="TooltipReload">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TextTimeSec0">
+        <value><![CDATA[nicht aktualisieren]]></value>
+    </data>
+    <data name="TextTimeSec5">
+        <value><![CDATA[alle 5 Sekunden]]></value>
+    </data>
+    <data name="TextTimeSec15">
+        <value><![CDATA[alle 15 Sekunden]]></value>
+    </data>
+    <data name="TextTimeSec30">
+        <value><![CDATA[alle 30 Sekunden]]></value>
+    </data>
+    <data name="TextTimeSec60">
+        <value><![CDATA[alle 1 Minute]]></value>
+    </data>
+    <data name="TextTimeSec600">
+        <value><![CDATA[alle 10 Minuten]]></value>
+    </data>
+    <data name="MessageFeedError">
+        <value><![CDATA[RSS-Feed kann nicht geladen werden!]]></value>
+    </data>
+
+</root>

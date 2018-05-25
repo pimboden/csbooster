@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleHTMLContent">
+        <value><![CDATA[HTML-Inhalt]]></value>
+    </data>
+    <data name="TooltipHTMLContent">
+        <value><![CDATA[HTML-Inhalt]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Inhalt]]></value>
+    </data>
+
+    <data name="LabelText">
+        <value><![CDATA[Text]]></value>
+    </data>
+    <data name="TooltipText">
+        <value><![CDATA[]]></value>
+    </data>
+
+</root>

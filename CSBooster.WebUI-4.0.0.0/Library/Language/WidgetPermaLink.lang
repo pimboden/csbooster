@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitlePermaLink">
+        <value><![CDATA[Teilen]]></value>
+    </data>
+    <data name="TooltipPermaLink">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+
+</root>

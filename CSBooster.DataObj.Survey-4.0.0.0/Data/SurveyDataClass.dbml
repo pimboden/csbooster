@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CSBooster.V20" Class="SurveyDataClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=4SAPPL02\SQL2005;Initial Catalog=CSBooster.V20;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CSBooster_V20ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.hitbl_Survey_Answer_Column_SAC" Member="hitbl_Survey_Answer_Column_SACs">
+    <Type Name="hitbl_Survey_Answer_Column_SAC">
+      <Column Name="SAC_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SQU_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="AnswerText" Type="System.String" DbType="NVarChar(512)" CanBeNull="true" />
+      <Column Name="AnswerWeight" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SortNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="hitbl_Survey_Question_SQU_hitbl_Survey_Answer_Column_SAC" Member="hitbl_Survey_Question_SQU" ThisKey="SQU_ID" OtherKey="SQU_ID" Type="hitbl_Survey_Question_SQU" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_Survey_Answer_Row_SAR" Member="hitbl_Survey_Answer_Row_SARs">
+    <Type Name="hitbl_Survey_Answer_Row_SAR">
+      <Column Name="SAR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SQU_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="AnswerText" Type="System.String" DbType="NVarChar(512)" CanBeNull="true" />
+      <Column Name="AnswerWeight" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SortNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="hitbl_Survey_Question_SQU_hitbl_Survey_Answer_Row_SAR" Member="hitbl_Survey_Question_SQU" ThisKey="SQU_ID" OtherKey="SQU_ID" Type="hitbl_Survey_Question_SQU" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_Survey_Page_SPG" Member="hitbl_Survey_Page_SPGs">
+    <Type Name="hitbl_Survey_Page_SPG">
+      <Column Name="SPG_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SortNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="hitbl_Survey_Page_SPG_hitbl_Survey_Question_SQU" Member="hitbl_Survey_Question_SQUs" ThisKey="SPG_ID" OtherKey="SPG_ID" Type="hitbl_Survey_Question_SQU" />
+      <Association Name="hiobj_Survey_hitbl_Survey_Page_SPG" Member="hiobj_Survey" ThisKey="OBJ_ID" OtherKey="OBJ_ID" Type="hiobj_Survey" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_Survey_Question_SQU" Member="hitbl_Survey_Question_SQUs">
+    <Type Name="hitbl_Survey_Question_SQU">
+      <Column Name="SQU_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SPG_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="QuestionType" Type="SurveyAnswersType" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuestionText" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="SortNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="hitbl_Survey_Question_SQU_hitbl_Survey_Answer_Column_SAC" Member="hitbl_Survey_Answer_Column_SACs" ThisKey="SQU_ID" OtherKey="SQU_ID" Type="hitbl_Survey_Answer_Column_SAC" />
+      <Association Name="hitbl_Survey_Question_SQU_hitbl_Survey_Answer_Row_SAR" Member="hitbl_Survey_Answer_Row_SARs" ThisKey="SQU_ID" OtherKey="SQU_ID" Type="hitbl_Survey_Answer_Row_SAR" />
+      <Association Name="hitbl_Survey_Page_SPG_hitbl_Survey_Question_SQU" Member="hitbl_Survey_Page_SPG" ThisKey="SPG_ID" OtherKey="SPG_ID" Type="hitbl_Survey_Page_SPG" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_Survey_TestResult_STR" Member="hitbl_Survey_TestResult_STRs">
+    <Type Name="hitbl_Survey_TestResult_STR">
+      <Column Name="STR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ResultText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ValueFrom" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ValueTo" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="hiobj_Survey_hitbl_Survey_TestResult_STR" Member="hiobj_Survey" ThisKey="OBJ_ID" OtherKey="OBJ_ID" Type="hiobj_Survey" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_Survey_User_ResultItem_SUI" Member="hitbl_Survey_User_ResultItem_SUIs">
+    <Type Name="hitbl_Survey_User_ResultItem_SUI">
+      <Column Name="SUI_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SUR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="SQU_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="QuestionText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Answer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AnswerWeight" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="hitbl_Survey_User_Result_SUR_hitbl_Survey_User_ResultItem_SUI" Member="hitbl_Survey_User_Result_SUR" ThisKey="SUR_ID" OtherKey="SUR_ID" Type="hitbl_Survey_User_Result_SUR" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hiobj_Survey" Member="hiobj_Surveys">
+    <Type Name="hiobj_Survey">
+      <Column Name="OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Header" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HeaderLinked" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Footer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FooterLinked" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PunkteGruen" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PunkteGelb" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PunkteRot" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SortNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsContest" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MailTo" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ShowForm" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="hiobj_Survey_hitbl_Survey_Page_SPG" Member="hitbl_Survey_Page_SPGs" ThisKey="OBJ_ID" OtherKey="OBJ_ID" Type="hitbl_Survey_Page_SPG" />
+      <Association Name="hiobj_Survey_hitbl_Survey_TestResult_STR" Member="hitbl_Survey_TestResult_STRs" ThisKey="OBJ_ID" OtherKey="OBJ_ID" Type="hitbl_Survey_TestResult_STR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hitbl_Survey_User_Result_SUR" Member="hitbl_Survey_User_Result_SURs">
+    <Type Name="hitbl_Survey_User_Result_SUR">
+      <Column Name="SUR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="USR_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Nickname" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Vorname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJ_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="TestTitle" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TestDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TotalTestResult" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TestResultText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Light" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="IsContest" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="hitbl_Survey_User_Result_SUR_hitbl_Survey_User_ResultItem_SUI" Member="hitbl_Survey_User_ResultItem_SUIs" ThisKey="SUR_ID" OtherKey="SUR_ID" Type="hitbl_Survey_User_ResultItem_SUI" />
+    </Type>
+  </Table>
+</Database>

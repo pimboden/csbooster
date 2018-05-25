@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleSearch">
+        <value><![CDATA[Suche]]></value>
+    </data>
+    <data name="TooltipSearch">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LableSearchSearch">
+        <value><![CDATA[Suchbegriff]]></value>
+    </data>
+    <data name="LableSearchNear">
+        <value><![CDATA[Umkreis]]></value>
+    </data>
+    <data name="LableSearchCountry">
+        <value><![CDATA[Land]]></value>
+    </data>
+    <data name="LableSearchCity">
+        <value><![CDATA[Ort]]></value>
+    </data>
+</root>

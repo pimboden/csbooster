@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleFunctionsSort">
+        <value><![CDATA[Sortieren]]></value>
+    </data>
+    <data name="TooltipFunctionsSort">
+        <value><![CDATA[Sortieren]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelSort">
+        <value><![CDATA[was zeigen]]></value>
+    </data>
+    <data name="WidgetFunctionsSort">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="CommandSetDefault">
+        <value><![CDATA[(zurücksetzen)]]></value>
+    </data>
+    <data name="CommandByTitle">
+        <value><![CDATA[nach Titel]]></value>
+    </data>
+    <data name="CommandByActivity">
+        <value><![CDATA[am aktivisten]]></value>
+    </data>
+    <data name="CommandByComments">
+        <value><![CDATA[am meisten kommentiert]]></value>
+    </data>
+    <data name="CommandByDate">
+        <value><![CDATA[am neusten]]></value>
+    </data>
+    <data name="CommandByLinks">
+        <value><![CDATA[am meisten verlinkt]]></value>
+    </data>
+    <data name="CommandByRatings">
+        <value><![CDATA[am besten bewertet]]></value>
+    </data>
+    <data name="CommandByRatingConsolidated">
+        <value><![CDATA[am besten gewichtet]]></value>
+    </data>
+    <data name="CommandByVisits">
+        <value><![CDATA[am meisten besucht]]></value>
+    </data>
+    <data name="CommandByMember">
+        <value><![CDATA[am meisten Mitglieder]]></value>
+    </data>
+</root>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleBoard">
+        <value><![CDATA[Dashboard Menu]]></value>
+    </data>
+    <data name="TooltipBoard">
+        <value><![CDATA[Dieses Widget steuert das Dashboard]]></value>
+    </data>
+    <data name="TitleWidgetSettings">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="LabelVisibility">
+        <value><![CDATA[was zeigen]]></value>
+    </data>
+    <data name="TooltipVisibility">
+        <value><![CDATA[Welche Bereiche sollen angezeigt werden]]></value>
+    </data>
+    <data name="LabelMessage">
+        <value><![CDATA[Nachrichten]]></value>
+    </data>
+    <data name="LabelFriends">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="LabelSurvey">
+        <value><![CDATA[Umfragen]]></value>
+    </data>
+    <data name="LabelComments">
+        <value><![CDATA[Kommentare]]></value>
+    </data>
+    <data name="LabelContents">
+        <value><![CDATA[Inhalte verwalten]]></value>
+    </data>
+    <data name="LabelMembership">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="LabelNotifications">
+        <value><![CDATA[Benachrichtigungen]]></value>
+    </data>
+    <data name="LabelActivity">
+        <value><![CDATA[Aktivitäten]]></value>
+    </data>
+    <data name="LabelFavorites">
+        <value><![CDATA[Favoriten]]></value>
+    </data>
+    <data name="LabelProperties">
+        <value><![CDATA[Profil-Einstellungen]]></value>
+    </data>
+    <data name="MySentMessages">
+        <value><![CDATA[Meine gesendeten Nachrichten]]></value>
+    </data>
+    <data name="MyFlaggedMessages">
+        <value><![CDATA[Meine markierten Nachrichten]]></value>
+    </data>
+    <data name="WriteMessage">
+        <value><![CDATA[Neue Nachricht verfassen]]></value>
+    </data>
+    <data name="ShowMyFriends">
+        <value><![CDATA[Meine Freunde anzeigen]]></value>
+    </data>
+    <data name="MyOpenFrienRequests">
+        <value><![CDATA[Meine offenen Anfragen]]></value>
+    </data>
+    <data name="CommandMyBlockedUsers">
+        <value><![CDATA[Gesperrte Benutzer]]></value>
+    </data>
+    <data name="ShowMyTest">
+        <value><![CDATA[Meine Umfragen anzeigen]]></value>
+    </data>
+    <data name="CommandMyCommentsReceived">
+        <value><![CDATA[Erhaltene Kommentare]]></value>
+    </data>
+    <data name="CommandMyCommentsPosted">
+        <value><![CDATA[Meine Kommentare]]></value>
+    </data>
+    <data name="MyMemberships">
+        <value><![CDATA[Meine Mitgliedschaften]]></value>
+    </data>
+    <data name="MyInvitations">
+        <value><![CDATA[Meine Einladungen]]></value>
+    </data>
+    <data name="ShowAlerts">
+        <value><![CDATA[Benachrichtigungen anzeigen]]></value>
+    </data>
+    <data name="CommandConfigurations">
+        <value><![CDATA[Profil-Einstellungen]]></value>
+    </data>
+    <data name="ShowActivities">
+        <value><![CDATA[Aktivitäten anzeigen]]></value>
+    </data>
+    <data name="CommandFavoritManage">
+        <value><![CDATA[Favoriten verwalten]]></value>
+    </data>
+    <data name="CommandProfile1">
+        <value><![CDATA[Mein Bild, meine Daten, usw.]]></value>
+    </data>
+    <data name="CommandMyInterests">
+        <value><![CDATA[Meine Interessen]]></value>
+    </data>
+    <data name="CommandProfile2">
+        <value><![CDATA[Passwort ändern, Profil löschen, usw.]]></value>
+    </data>
+    <data name="ReceivedMessagesNoUnread">
+        <value><![CDATA[Erhaltene Nachrichten]]></value>
+    </data>
+    <data name="ReceivedMessages1Unread">
+        <value><![CDATA[Erhaltene Nachrichten (1 neu)]]></value>
+    </data>
+    <data name="ReceivedMessagesXUnread">
+        <value><![CDATA[Erhaltene Nachrichten ({0} neu)]]></value>
+    </data>
+    <data name="FriendRequestNoUnread">
+        <value><![CDATA[Kontaktanfragen]]></value>
+    </data>
+    <data name="FriendRequest1Unread">
+        <value><![CDATA[Kontaktanfragen (1 neu)]]></value>
+    </data>
+    <data name="FriendRequestXUnread">
+        <value><![CDATA[Kontaktanfragen ({0} neu)]]></value>
+    </data>
+    <data name="NoContentYet">
+        <value><![CDATA[Kein Inhalt vorhanden]]></value>
+    </data>
+    <data name="TitleCreateCommunity">
+        <value><![CDATA[Community erstellen]]></value>
+    </data>
+    <data name="TitleCreatePage">
+        <value><![CDATA[Seite erstellen]]></value>
+    </data>
+    <data name="LabelManageMembers">
+        <value><![CDATA[Mitglieder verwalten]]></value>
+    </data>
+    <data name="LabelNewMsgToMembers">
+        <value><![CDATA[Neue Nachricht an alle Mitglieder]]></value>
+    </data>
+    <data name="LabelManage">
+        <value><![CDATA[Community verwalten]]></value>
+    </data>
+
+</root>

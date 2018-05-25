@@ -1,0 +1,5 @@
+﻿DROP FUNCTION GuidListSplit
+DROP FUNCTION IntListSplit
+DROP FUNCTION StringListSplit
+Drop FUNCTION hifu_CalcDistance
+DROP ASSEMBLY CLRFuncs

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <!--  IP-Range   go:  
+	http://www.google.com/support/googleanalytics/bin/answer.py?hl=en&answer=55572
+	or 
+	http://www.analyticsmarket.com/freetools/ipregex
+    
+    ip:     soll ein IP-Range gefitert werden
+    system: soll eine system-version gefitert werden
+    'ip' und 'system' können zusammen verwendet werden, sie sind UND verknüpft
+	-->
+    <exclude ip="" system="baidu.com" />
+    <!-- baidu.com -->
+    <exclude ip="" system="search.msn.com" />
+    <!-- search.msn.com -->
+    <exclude ip="" system="metadatalabs.com" />
+    <!-- metadatalabs.com -->
+    <exclude ip="" system="Googlebot" />
+    <!-- Googlebot -->
+    <exclude ip="" system="WDG_SiteValidator" />
+    <!-- SiteValidator -->
+    <exclude ip="" system="Yahoo" />
+    <!-- Yahoo -->
+    <exclude ip="" system="cuil.com" />
+    <!-- Cuil -->
+    <exclude ip="" system="YandexBot" />
+    <!-- YandexBot -->
+    <exclude ip="" system="DotBot" />
+    <!-- DotBot -->
+    <exclude ip="" system="NaverBot" />
+    <!-- NaverBot -->
+    <exclude ip="" system="robots" />
+    <!-- NHN Corp -->
+    <exclude ip="" system="Twitterbot" />
+    <!-- Twitterbot -->
+    <exclude ip="" system="spbot" />
+    <!-- spbot -->
+    <exclude ip="" system="bitlybot" />
+    <!-- bitlybot -->
+    <exclude ip="" system="aiHitBot" />
+    <!-- aiHitBot -->
+
+</root>

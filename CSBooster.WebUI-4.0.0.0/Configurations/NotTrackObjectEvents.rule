@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<exclude rule="*_NoTraking" roles="*" />
+	<!-- COMMENT THIS OUT FOR ANALYZING PURPOSES ONLY !-->
+	<exclude rule="*_LoadedFromCache" roles="*" />
+	<exclude rule="*_LoadedFromHTTPContext" roles="*" />
+	<exclude rule="*_LoadedFromDB" roles="*" />
+	<!-- -->
+</root>

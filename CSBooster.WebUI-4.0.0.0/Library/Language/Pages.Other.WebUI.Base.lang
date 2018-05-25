@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <data name="MessageNotActivated">
+        <value><![CDATA[Der Aktivierungsprozess konnte nicht durchgeführt werden.]]></value>
+    </data>
+    <data name="MessageActivated">
+        <value><![CDATA[Der Aktivierungscode wurde per Email zugesendet.]]></value>
+    </data>
+    <data name="LabelActivatCode">
+        <value><![CDATA[Aktivierungscode]]></value>
+    </data>
+    <data name="CommandActivat">
+        <value><![CDATA[Aktivieren]]></value>
+    </data>
+    <data name="MessageActivatCodeInvalid">
+        <value><![CDATA[<br/>Aktivierungscode ist ungültig]]></value>
+    </data>
+    <data name="MessageActivatUserInvalid">
+        <value><![CDATA[<br/>Der Benutzer wurde nicht gefunden]]></value>
+    </data>
+    <data name="MessageAdCampaignNotFound">
+        <value><![CDATA[Fehler: Ad-Campaign nicht gefunden!]]></value>
+    </data>
+</root>

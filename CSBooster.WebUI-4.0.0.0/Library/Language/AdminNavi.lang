@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <data name="NewMessage">
+        <value><![CDATA[Neue Nachricht]]></value>
+    </data>
+    <data name="Inbox">
+        <value><![CDATA[Eingang ({0} neue)]]></value>
+    </data>
+    <data name="Outbox">
+        <value><![CDATA[Ausgang]]></value>
+    </data>
+    <data name="Marked">
+        <value><![CDATA[Markierte]]></value>
+    </data>
+    <data name="Friends">
+        <value><![CDATA[Freunde]]></value>
+    </data>
+    <data name="MyMeYouRequests">
+        <value><![CDATA[Meine Anfragen]]></value>
+    </data>
+    <data name="MyYouMeRequests">
+        <value><![CDATA[Erhaltene Anfragen]]></value>
+    </data>
+    <data name="MyBlockedUsers">
+        <value><![CDATA[Gesperrte User]]></value>
+    </data>
+    <data name="AddFavorites">
+        <value><![CDATA[Favorit hinzufügen]]></value>
+    </data>
+    <data name="Configurations">
+        <value><![CDATA[Einstellungen]]></value>
+    </data>
+    <data name="MyCommentsPosted">
+        <value><![CDATA[Meine Kommentare]]></value>
+    </data>
+    <data name="MyCommentsReceived">
+        <value><![CDATA[Erhaltene Kommentare]]></value>
+    </data>
+    <data name="MyCommunityMembers">
+        <value><![CDATA[Mitgliedschaften]]></value>
+    </data>
+    <data name="Properties">
+        <value><![CDATA[Eigenschaften]]></value>
+    </data>
+    <data name="MyCommunityInvitations">
+        <value><![CDATA[Einladungen]]></value>
+    </data>
+    <data name="Interests">
+        <value><![CDATA[Interessen]]></value>
+    </data>
+    <data name="Messages">
+        <value><![CDATA[Nachrichten]]></value>
+    </data>
+    <data name="Classification">
+        <value><![CDATA[Klassifizierung]]></value>
+    </data>
+    <data name="GroupCreation">
+        <value><![CDATA[Gruppen gr&uuml;ndung]]></value>
+    </data>
+    <data name="MembershipAndOnwers">
+        <value><![CDATA[Mitglieder/Besitzer]]></value>
+    </data>
+</root>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="LabelMaxNumber">
+    <value><![CDATA[Anzahl Objekte]]></value>
+  </data>
+  <data name="LabelOrderBy">
+    <value><![CDATA[Sortierung]]></value>
+  </data>
+  <data name="LabelPager">
+    <value><![CDATA[Pager]]></value>
+  </data>
+  <data name="LabelPagerBottom">
+    <value><![CDATA[Pager unten anzeigen]]></value>
+  </data>
+  <data name="LabelPagerTop">
+    <value><![CDATA[Pager oben anzeigen]]></value>
+  </data>
+  <data name="TitleTagRelatedObjects">
+    <value><![CDATA[Tag-verwandte Objekte]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsAudio">
+    <value><![CDATA[Musik (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsBlog">
+    <value><![CDATA[Blog's (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsCommunity">
+    <value><![CDATA[Communities (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsContent">
+    <value><![CDATA[Inhalte (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsDocument">
+    <value><![CDATA[Dokumente (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsEvent">
+    <value><![CDATA[Events (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsFolder">
+    <value><![CDATA[Alben (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsForum">
+    <value><![CDATA[Foren (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsGeneric">
+    <value><![CDATA[Generische Inhalte (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsNews">
+    <value><![CDATA[News (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsOffer">
+    <value><![CDATA[Marktplatz Angebote (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsPicture">
+    <value><![CDATA[Fotos (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsPoll">
+    <value><![CDATA[Kurzumfragen (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsProduct">
+    <value><![CDATA[Produkte (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsRequest">
+    <value><![CDATA[Marktplatz Gesuche (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsSlideshow">
+    <value><![CDATA[Bildgallerien (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsSurvey">
+    <value><![CDATA[Umfragen (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsUser">
+    <value><![CDATA[Benutzer (Tagwort)]]></value>
+  </data>
+  <data name="TitleTagRelatedObjectsVideo">
+    <value><![CDATA[Videos (Tagwort)]]></value>
+  </data>
+  <data name="TitleWidgetSettings">
+    <value><![CDATA[Eigenschaften]]></value>
+  </data>
+  <data name="TooltipMaxNumber">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipObjectLists">
+    <value><![CDATA[Zeigt Inhalte an, welchen dieselben Tag-Words zugewiesen sind]]></value>
+  </data>
+  <data name="TooltipOrderBy">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipPager">
+    <value><![CDATA[]]></value>
+  </data>
+  <data name="TooltipTagRelatedObjects">
+    <value><![CDATA[Zeigt Inhalte an, welchen dieselben Tag-Words zugewiesen sind]]></value>
+  </data>
+</root>

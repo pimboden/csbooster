@@ -1,0 +1,56 @@
+/* ========================================================== */
+/*              sieme.net -  theme "NaviLeft"                 */
+/*            sample with vertical navigation				  */
+/*         (c) 2009 4 screen AG, CH-6004 lucerne              */
+/*                      www.4screen.com                       */
+/* ========================================================== */
+
+#ctl00_Cnt_TB_TBUP {
+    float: left;
+    width: 20%;
+    }
+#ctl00_Cnt_WCUP {
+    float: left;
+    width: 78%;
+    margin-left: 2%;
+    }
+.CTY_tabs {
+    float: none;
+    width: 100%;
+    }
+li.CTY_tab, li.CTY_newtab, li.CTY_privatetab {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: 0 0 2px 0;
+    padding: 0;
+    border: none;
+    }
+li.CTY_privatetab {
+    background-position: right;
+    }
+li.CTY_tab a, li.CTY_tab a:link, li.CTY_tab a:visited,
+li.CTY_newtab a, li.CTY_newtab a:link, li.CTY_newtab a:visited,
+li.CTY_privatetab a, li.CTY_privatetab a:link, li.CTY_privatetab a:visited {
+    width: 140px;
+    padding-left: 10px;
+    }
+li.CTY_newtab a, li.CTY_newtab a:link, li.CTY_newtab a:visited {
+    font-weight: normal;
+    color: #85C50F;
+    }
+li.CTY_tab a, li.CTY_tab a:link, li.CTY_tab a:visited {
+    display: block;
+    }
+li.CTY_tab a.CTY_tab_func, li.CTY_tab a.CTY_tab_func:link, li.CTY_tab a.CTY_tab_func:visited,
+li.CTY_newtab a.CTY_tab_func, li.CTY_newtab a.CTY_tab_func:link, li.CTY_newtab a.CTY_tab_func:visited,
+li.CTY_privatetab a.CTY_tab_func, li.CTY_privatetab a.CTY_tab_func:link, li.CTY_privatetab a.CTY_tab_func:visited {
+    width: 16px;
+    padding-left: 0;
+    }
+li.CTY_tab  input {
+    font-weight: bold;
+    margin: 2px 0 0 10px;
+    padding: 2px 0;
+    font-size: .9em;
+    }

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Community ID="bca490b6-573f-41e7-8ed7-d9738926d3d0" >
+		<Notification EventIdentifier="4" ForObjectType=",3,4,6,7," CarrierType="2" CarrierCollect="2"></Notification>
+	</Community>
+</root>

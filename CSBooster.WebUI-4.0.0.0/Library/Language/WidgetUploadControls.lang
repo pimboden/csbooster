@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleUploadControls">
+        <value><![CDATA[Hochladen]]></value>
+    </data>
+    <data name="TooltipUploadControls">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="LabelPage">
+      <value><![CDATA[Seiten erstellen]]></value>
+    </data>
+    <data name="LabelCommunity">
+      <value><![CDATA[Bereiche erstellen]]></value>
+    </data>
+    <data name="LabelContent">
+      <value><![CDATA[Inhalte erstellen]]></value>
+    </data>
+    <data name="MsgUploadToCommunity">
+      <value><![CDATA[Inhalt wird dieser <b>Community zugewiesen</b>.]]></value>
+    </data>
+    <data name="MsgUploadToProfil">
+      <value><![CDATA[Inhalte wird Ihrem <b>Profil zugewiesen</b>.]]></value>
+    </data>
+</root>

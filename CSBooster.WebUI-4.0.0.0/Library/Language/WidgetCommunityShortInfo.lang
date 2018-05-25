@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="TitleCommunityShortInfo">
+        <value><![CDATA[Community-Kurzinfo]]></value>
+    </data>
+    <data name="TooltipCommunityShortInfo">
+        <value><![CDATA[]]></value>
+    </data>
+    <data name="TitlePageShortInfo">
+        <value><![CDATA[Seiten-Kurzinfo]]></value>
+    </data>
+    <data name="TooltipPageShortInfo">
+        <value><![CDATA[]]></value>
+    </data>
+</root>

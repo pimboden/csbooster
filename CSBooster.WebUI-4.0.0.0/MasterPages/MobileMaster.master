@@ -1,0 +1,22 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="_4screen.CSB.WebUI.MasterPages.MobileMaster" Codebehind="MobileMaster.master.cs" %>
+<%@ Register Src="~/M/UserControls/Header.ascx" TagName="Header" TagPrefix="csb" %>
+<%@ Register Src="~/M/UserControls/Footer.ascx" TagName="Footer" TagPrefix="csb" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" enableviewstate="false">
+   <title></title>
+    <link href="/Library/Styles/MP.css" rel="stylesheet" type="text/css" />
+   <asp:Literal ID="litHeaders" runat="server" />
+</head>
+<body orient="landscape">
+   <form id="form1" runat="server">
+      <div class="header">
+         <csb:Header ID="PartnerHeader" runat="server" EnableViewState="false" />
+      </div>
+        <asp:ContentPlaceHolder ID="CpCnt" runat="server" EnableViewState="false" />
+      <div class="footer">
+         <csb:Footer ID="PartnerFooter" runat="server" EnableViewState="false" />
+      </div>
+   </form>
+</body>
+</html>
